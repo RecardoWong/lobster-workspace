@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-02-10T10:00:09.082498",
+  "version": "2.0",
+  "features": [
+    "safety_check",
+    "twitter_sentiment",
+    "win_probability"
+  ],
+  "buy_signals": [
+    {
+      "token": {
+        "address": "0x7704940339289980499",
+        "name": "SafeMoon",
+        "symbol": "SAFE",
+        "chain": "base",
+        "liquidity": 13077.954800708985
+      },
+      "win_probability": 0.92,
+      "expected_roi": 1.84,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 \u6240\u6709\u8005\u5df2\u653e\u5f03\u6743\u9650 | \ud83d\udd25\u591a\u4f4dKOL\u558a\u5355(14\u6b21) | \ud83d\udcac\u70ed\u5ea6\u4e0d\u9519(913)",
+      "confidence": "high",
+      "sentiment_analysis": "\ud83d\udcca Twitter\u60c5\u7eea: NEUTRAL (\u5206\u6570: +0.09)\n   24h\u8ba8\u8bba: 913\u6761 | \u72ec\u7acb\u7528\u6237: 614\n   \ud83d\udd25KOL\u558a\u5355: 14\u6b21\n   \u5173\u952e\u4e3b\u9898: \u89c2\u5bdf\u4e2d, \u89c2\u671b\u4e3a\u4e3b\n   \ud83d\udcac\u793e\u533a\u58f0\u97f3: \"$SAFE \u76ee\u524d\u6a2a\u76d8\uff0c\u7b49\u65b9\u5411\u660e\u786e\u4e86\u518d\u8fdb\u573a \u23f3\""
+    },
+    {
+      "token": {
+        "address": "0x7593898377865126229",
+        "name": "FlokiRocket",
+        "symbol": "FLOK",
+        "chain": "base",
+        "liquidity": 40808.10351871717
+      },
+      "win_probability": 0.98,
+      "expected_roi": 1.96,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 \u6240\u6709\u8005\u5df2\u653e\u5f03\u6743\u9650 | \u2728KOL\u96c6\u4e2d\u5173\u6ce8(7\u6b21) | \ud83d\udcac\u70ed\u5ea6\u4e0d\u9519(583) | \ud83d\udcca\u70ed\u641c29\u4f4d | \u2713 \u4e0a\u5347\u8d8b\u52bf",
+      "confidence": "high",
+      "sentiment_analysis": "\ud83d\udcca Twitter\u60c5\u7eea: NEUTRAL (\u5206\u6570: +0.15)\n   24h\u8ba8\u8bba: 583\u6761 | \u72ec\u7acb\u7528\u6237: 434\n   \ud83d\udd25KOL\u558a\u5355: 7\u6b21 | \u70ed\u641c\u6392\u540d: #29\n   \u5173\u952e\u4e3b\u9898: \u89c2\u5bdf\u4e2d, \u6a2a\u76d8\u6574\u7406\n   \ud83d\udcac\u793e\u533a\u58f0\u97f3: \"\u6b63\u5728\u89c2\u5bdf$FLOK\uff0c\u53d1\u5c04\u633a\u6709\u610f\u601d\u4f46\u8fd8\u9700\u8981\u65f6\u95f4\u9a8c\u8bc1 \ud83d\udc40\""
+    },
+    {
+      "token": {
+        "address": "0x9290746008196050103",
+        "name": "DogeAI",
+        "symbol": "DOGE",
+        "chain": "base",
+        "liquidity": 32981.38236221831
+      },
+      "win_probability": 0.89,
+      "expected_roi": 1.78,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 Honeypot\u98ce\u9669\u6781\u4f4e | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2728KOL\u96c6\u4e2d\u5173\u6ce8(7\u6b21) | \ud83d\ude80\u6781\u5ea6\u770b\u6da8\u60c5\u7eea(+0.59) | \ud83d\udd25\u6781\u9ad8\u8ba8\u8bba\u70ed\u5ea6(1981) | \u2717 \u4e0b\u964d\u8d8b\u52bf",
+      "confidence": "high",
+      "sentiment_analysis": "\ud83d\udcca Twitter\u60c5\u7eea: BULLISH (\u5206\u6570: +0.59)\n   24h\u8ba8\u8bba: 1981\u6761 | \u72ec\u7acb\u7528\u6237: 1330\n   \ud83d\udd25KOL\u558a\u5355: 7\u6b21\n   \u5173\u952e\u4e3b\u9898: \u5408\u7ea6\u5b89\u5168, \u521b\u65b0\u673a\u5236, \u6d41\u52a8\u6027\u5145\u8db3\n   \ud83d\udcac\u793e\u533a\u58f0\u97f3: \"\u521a\u521a\u68ad\u54c8\u4e86$DOGE\uff0c\u5f00\u53d1\u8005\u9760\u8c31\uff0c\u6d41\u52a8\u6027\u9501\u5b9a\uff0c\u51b2\uff01\ud83d\udc8e\""
+    },
+    {
+      "token": {
+        "address": "0x1660661184774965571",
+        "name": "MoonShot",
+        "symbol": "MOON",
+        "chain": "solana",
+        "liquidity": 41379.79619706177
+      },
+      "win_probability": 0.9,
+      "expected_roi": 1.8,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 Honeypot\u98ce\u9669\u6781\u4f4e | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 DEX\u4ea4\u6613\u91cf\u826f\u597d | \ud83d\udce2KOL\u63d0\u53ca(3\u6b21) | \ud83d\udd25\u6781\u9ad8\u8ba8\u8bba\u70ed\u5ea6(1606) | \u2717 \u4e0b\u964d\u8d8b\u52bf",
+      "confidence": "high",
+      "sentiment_analysis": "\ud83d\udcca Twitter\u60c5\u7eea: NEUTRAL (\u5206\u6570: +0.05)\n   24h\u8ba8\u8bba: 1606\u6761 | \u72ec\u7acb\u7528\u6237: 890\n   \ud83d\udd25KOL\u558a\u5355: 3\u6b21\n   \u5173\u952e\u4e3b\u9898: \u65b0\u5e01\u4e0a\u7ebf, \u89c2\u5bdf\u4e2d\n   \ud83d\udcac\u793e\u533a\u58f0\u97f3: \"$MOON \u4e0a\u70ed\u641c\u4e86\uff0c\u5148\u7814\u7a76\u4e00\u4e0b\u518d\u8bf4 \ud83e\udd14\""
+    },
+    {
+      "token": {
+        "address": "0x7306081678036203218",
+        "name": "SafeGalaxy",
+        "symbol": "SAFE",
+        "chain": "solana",
+        "liquidity": 49173.8437113149
+      },
+      "win_probability": 1.0,
+      "expected_roi": 2.0,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 \u65e0\u4ea4\u6613\u7a0e | \u2713 DEX\u4ea4\u6613\u91cf\u826f\u597d | \ud83d\udd25\u591a\u4f4dKOL\u558a\u5355(11\u6b21) | \ud83d\udcc8\u79ef\u6781\u60c5\u7eea(+0.29) | \u2713 \u4e0a\u5347\u8d8b\u52bf",
+      "confidence": "high",
+      "sentiment_analysis": "\ud83d\udcca Twitter\u60c5\u7eea: NEUTRAL (\u5206\u6570: +0.29)\n   24h\u8ba8\u8bba: 60\u6761 | \u72ec\u7acb\u7528\u6237: 20\n   \ud83d\udd25KOL\u558a\u5355: 11\u6b21\n   \u5173\u952e\u4e3b\u9898: \u89c2\u5bdf\u4e2d, \u65b0\u5e01\u4e0a\u7ebf\n   \ud83d\udcac\u793e\u533a\u58f0\u97f3: \"$SAFE \u76ee\u524d\u6a2a\u76d8\uff0c\u7b49\u65b9\u5411\u660e\u786e\u4e86\u518d\u8fdb\u573a \u23f3\""
+    },
+    {
+      "token": {
+        "address": "0x6991138048065678792",
+        "name": "ShibaMoon",
+        "symbol": "SHIB",
+        "chain": "solana",
+        "liquidity": 7792.914175234411
+      },
+      "win_probability": 1.0,
+      "expected_roi": 2.0,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 Honeypot\u98ce\u9669\u6781\u4f4e | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 \u65e0\u4ea4\u6613\u7a0e | \u2713 DEX\u4ea4\u6613\u91cf\u826f\u597d | \ud83d\udd25\u591a\u4f4dKOL\u558a\u5355(9\u6b21) | \ud83d\udcc8\u79ef\u6781\u60c5\u7eea(+0.29) | \ud83d\udd25\u6781\u9ad8\u8ba8\u8bba\u70ed\u5ea6(1493) | \ud83d\udcca\u70ed\u641c25\u4f4d",
+      "confidence": "high",
+      "sentiment_analysis": "\ud83d\udcca Twitter\u60c5\u7eea: NEUTRAL (\u5206\u6570: +0.29)\n   24h\u8ba8\u8bba: 1493\u6761 | \u72ec\u7acb\u7528\u6237: 715\n   \ud83d\udd25KOL\u558a\u5355: 9\u6b21 | \u70ed\u641c\u6392\u540d: #25\n   \u5173\u952e\u4e3b\u9898: \u89c2\u5bdf\u4e2d, \u6a2a\u76d8\u6574\u7406\n   \ud83d\udcac\u793e\u533a\u58f0\u97f3: \"\u6b63\u5728\u89c2\u5bdf$SHIB\uff0c\u53d1\u5c04\u633a\u6709\u610f\u601d\u4f46\u8fd8\u9700\u8981\u65f6\u95f4\u9a8c\u8bc1 \ud83d\udc40\""
+    },
+    {
+      "token": {
+        "address": "0x8695497312289698965",
+        "name": "ElonMusk",
+        "symbol": "ELON",
+        "chain": "solana",
+        "liquidity": 40204.756434478375
+      },
+      "win_probability": 1.0,
+      "expected_roi": 2.0,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 Honeypot\u98ce\u9669\u6781\u4f4e | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 \u6240\u6709\u8005\u5df2\u653e\u5f03\u6743\u9650 | \u2713 \u65e0\u4ea4\u6613\u7a0e | \u2713 DEX\u4ea4\u6613\u91cf\u826f\u597d | \u2728KOL\u96c6\u4e2d\u5173\u6ce8(5\u6b21) | \ud83d\udcc8\u79ef\u6781\u60c5\u7eea(+0.20) | \u2713 \u4e0a\u5347\u8d8b\u52bf",
+      "confidence": "high",
+      "sentiment_analysis": "\ud83d\udcca Twitter\u60c5\u7eea: NEUTRAL (\u5206\u6570: +0.20)\n   24h\u8ba8\u8bba: 277\u6761 | \u72ec\u7acb\u7528\u6237: 190\n   \ud83d\udd25KOL\u558a\u5355: 5\u6b21\n   \u5173\u952e\u4e3b\u9898: \u6a2a\u76d8\u6574\u7406, \u89c2\u671b\u4e3a\u4e3b\n   \ud83d\udcac\u793e\u533a\u58f0\u97f3: \"\u6b63\u5728\u89c2\u5bdf$ELON\uff0c\u53d1\u5c04\u633a\u6709\u610f\u601d\u4f46\u8fd8\u9700\u8981\u65f6\u95f4\u9a8c\u8bc1 \ud83d\udc40\""
+    }
+  ]
+}
