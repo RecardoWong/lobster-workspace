@@ -1,0 +1,67 @@
+<!-- 
+  最简单的Dashboard - 第一课
+  保存为 hello_dashboard.html，用浏览器打开
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的第一个Dashboard</title>
+    <style>
+        /* 样式：让页面好看 */
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .number {
+            font-size: 48px;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>🦞 我的监控面板</h1>
+    
+    <!-- 卡片1：显示数字 -->
+    <div class="card">
+        <h2>监控任务数量</h2>
+        <div class="number">4</div>
+        <p>个定时任务运行中</p>
+    </div>
+    
+    <!-- 卡片2：显示列表 -->
+    <div class="card">
+        <h2>任务列表</h2>
+        <ul>
+            <li>🪙 XXYY.io 扫描</li>
+            <li>🐦 Twitter 监控</li>
+            <li>📊 股票监控</li>
+            <li>🌅 早报生成</li>
+        </ul>
+    </div>
+    
+    <!-- 卡片3：显示状态 -->
+    <div class="card">
+        <h2>系统状态</h2>
+        <p>状态: <span style="color:green">✅ 正常</span></p>
+        <p>更新时间: <span id="time"></span></p>
+    </div>
+
+    <script>
+        // JavaScript：让时间自动更新
+        document.getElementById('time').innerText = new Date().toLocaleString();
+    </script>
+</body>
+</html>

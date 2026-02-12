@@ -23,32 +23,68 @@ class PowsGemCallsMonitor:
         """获取频道最新帖子（通过网页抓取）"""
         import urllib.request
         
-        try:
-            # 使用tg.iitty.cn或类似服务获取公开频道内容
-            url = "https://tg.iitty.cn/PowsGemCalls"
-            req = urllib.request.Request(url, headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-            })
-            
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                html = resp.read().decode('utf-8')
-                return self._parse_posts(html)
-        except Exception as e:
-            # 备用：使用r.jina.ai提取
+        # 尝试多个数据源
+        urls_to_try = [
+            # 1. 直接抓取 Telegram 公开频道
+            ("https://t.me/s/PowsGemCalls", "html"),
+            # 2. 备用：使用 r.jina.ai 提取
+            ("https://r.jina.ai/http://t.me/s/PowsGemCalls", "text"),
+        ]
+        
+        for url, content_type in urls_to_try:
             try:
-                url = "https://r.jina.ai/http://t.me/PowsGemCalls"
-                req = urllib.request.Request(url)
+                req = urllib.request.Request(url, headers={
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                })
+                
                 with urllib.request.urlopen(req, timeout=30) as resp:
-                    text = resp.read().decode('utf-8')
-                    return self._parse_simple(text)
-            except:
-                return []
+                    content = resp.read().decode('utf-8')
+                    if content_type == "html":
+                        return self._parse_html_posts(content)
+                    else:
+                        return self._parse_simple(content)
+            except Exception as e:
+                print(f"Failed to fetch from {url}: {e}")
+                continue
+        
+        return []
     
-    def _parse_posts(self, html: str) -> List[Dict]:
+    def _parse_html_posts(self, html: str) -> List[Dict]:
         """解析HTML提取帖子"""
         posts = []
-        # 简单提取文本内容
-        # 实际实现需要更复杂的HTML解析
+        
+        # Telegram 网页版的消息结构
+        # 尝试提取消息内容
+        import re
+        
+        # 查找消息文本
+        # Telegram 网页版的消息通常在特定class中
+        message_pattern = r'class="tgme_widget_message_text[^"]*"[^>]*>(.*?)</div>'
+        messages = re.findall(message_pattern, html, re.DOTALL)
+        
+        for msg_html in messages:
+            # 清理HTML标签
+            text = re.sub(r'<[^>]+>', '', msg_html)
+            text = text.replace('&quot;', '"').replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>')
+            text = text.strip()
+            
+            if text and len(text) > 10:
+                post = {
+                    "text": text,
+                    "contracts": [],
+                    "links": []
+                }
+                
+                # 提取合约地址
+                contract_pattern = r'0x[a-fA-F0-9]{40}'
+                post["contracts"] = re.findall(contract_pattern, text)
+                
+                # 提取链接
+                link_pattern = r'https?://[^\s<>"]+'
+                post["links"] = re.findall(link_pattern, text)
+                
+                posts.append(post)
+        
         return posts
     
     def _parse_simple(self, text: str) -> List[Dict]:

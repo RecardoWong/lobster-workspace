@@ -223,13 +223,20 @@ class TwitterPersonalAssistant:
                 if likes < 10:  # 低互动垃圾信息直接过滤
                     continue
             
-            # 5. 🚫 过滤空投相关内容 (用户要求屏蔽)
+            # 5. 🚫 严格过滤空投/airdrop相关内容 (用户明确要求屏蔽)
+            text_lower = text.lower()
             airdrop_keywords = [
-                'airdrop', '空投', 'claim', '领取', 'free tokens', '免费代币', 
-                'token drop', '代币空投', 'reward', 'rewards', '奖励',
-                'air drop', 'get free', 'claim now', 'limited time',
+                'airdrop', '空投', 'air drop', 'airdrops',
+                'claim', '领取', 'claiming', 'claimed',
+                'free tokens', '免费代币', 'free token', 
+                'token drop', '代币空投', 'token airdrop',
+                'reward', 'rewards', '奖励', 'airdrop alert',
+                'get free', 'claim now', 'limited time', 'free claim',
+                'drop is live', 'airdrop live', 'claim your', 
+                'eligible for', 'eligibility', '快照', 'snapshot',
             ]
-            if any(kw.lower() in text.lower() for kw in airdrop_keywords):
+            if any(kw in text_lower for kw in airdrop_keywords):
+                print(f"  [FILTERED] Airdrop content filtered: {text[:50]}...")
                 continue
             
             # 6. 🚫 过滤推广/广告 (用户要求)

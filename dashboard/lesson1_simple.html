@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的Dashboard</title>
+    <style>
+        body {
+            background-color: #0a0e27;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #4fc3f7;
+            text-align: center;
+        }
+        .card {
+            background-color: #151b3d;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px 0;
+        }
+        .number {
+            font-size: 48px;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🦞 我的监控面板</h1>
+    
+    <div class="card">
+        <h2>监控任务</h2>
+        <div class="number">4</div>
+        <p>个任务运行中</p>
+    </div>
+    
+    <div class="card">
+        <h2>任务列表</h2>
+        <ul>
+            <li>🪙 XXYY.io 扫描</li>
+            <li>🐦 Twitter 监控</li>
+            <li>📊 股票监控</li>
+        </ul>
+    </div>
+    
+    <div class="card">
+        <h2>系统状态</h2>
+        <p>状态: <span style="color: #4CAF50;">✅ 正常</span></p>
+        <p>时间: <span id="time">--</span></p>
+    </div>
+
+    <script>
+        document.getElementById('time').innerText = new Date().toLocaleString();
+    </script>
+</body>
+</html>

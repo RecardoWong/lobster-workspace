@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-🦞 龙虾Agent自主创造：智能早报生成器
+🦞 智能早报生成器 - Monty 投资组合风险分析版
 每天早上6点自动生成专业早报
 """
 
@@ -8,6 +8,7 @@ import json
 import os
 from datetime import datetime, timedelta
 from typing import Dict, List
+from monty_analyzer import analyze_portfolio
 
 class MorningBriefingGenerator:
     """自主创造：智能早报生成器"""
@@ -51,6 +52,19 @@ class MorningBriefingGenerator:
         ]
         return focus
     
+    def monty_portfolio_analysis(self) -> dict:
+        """使用 Monty 分析投资组合风险"""
+        # 模拟持仓数据（实际从数据库或API获取）
+        holdings = [
+            {'symbol': 'NVTS', 'shares': 100, 'price': 5.2, 'volatility': 0.75, 'sector': '半导体'},
+            {'symbol': 'INN', 'shares': 500, 'price': 35.5, 'volatility': 0.85, 'sector': '半导体'},
+            {'symbol': 'ON', 'shares': 200, 'price': 78.3, 'volatility': 0.65, 'sector': '半导体'},
+            {'symbol': 'TSLA', 'shares': 10, 'price': 185.0, 'volatility': 0.80, 'sector': '科技'},
+        ]
+        
+        result = analyze_portfolio(holdings)
+        return result.get('result', {}) if result.get('success') else {}
+    
     def generate_briefing(self) -> str:
         """自主生成早报"""
         now = datetime.now()
@@ -86,6 +100,26 @@ class MorningBriefingGenerator:
         for event in self.get_key_events():
             lines.append(f"  {event}")
         lines.append("")
+        
+        # Monty 投资组合风险分析
+        portfolio_result = self.monty_portfolio_analysis()
+        if portfolio_result:
+            lines.append("🤖 Monty AI 投资组合分析")
+            lines.append("-" * 40)
+            lines.append(f"💰 总市值: ${portfolio_result.get('total_value', 0):,.2f}")
+            lines.append(f"📊 平均波动率: {portfolio_result.get('avg_volatility', 0):.1%}")
+            lines.append(f"⚠️ 整体风险: {portfolio_result.get('overall_risk', '未知')}")
+            
+            risk_dist = portfolio_result.get('risk_distribution', {})
+            lines.append(f"📈 风险分布:")
+            for level, value in risk_dist.items():
+                lines.append(f"   {level}: ${value:,.2f}")
+            
+            sector_dist = portfolio_result.get('sector_distribution', {})
+            lines.append(f"🏭 行业分布:")
+            for sector, count in sector_dist.items():
+                lines.append(f"   {sector}: {count}只")
+            lines.append("")
         
         # 今日关注
         lines.append("👀 今日关注")
