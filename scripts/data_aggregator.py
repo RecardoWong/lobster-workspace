@@ -55,6 +55,20 @@ async def fetch_all_data():
     except Exception as e:
         print(f"❌ 股价抓取失败: {e}")
     
+    # 关键词检测
+    try:
+        print("\n🔍 检测Twitter关键词...")
+        result = subprocess.run(
+            ['python3', '/root/.openclaw/workspace/scripts/twitter_keyword_detector.py'],
+            capture_output=True, text=True, timeout=30
+        )
+        if result.returncode == 0:
+            print(result.stdout)
+        else:
+            print(f"⚠️ 关键词检测: {result.stderr[:100]}")
+    except Exception as e:
+        print(f"❌ 关键词检测失败: {e}")
+    
     # 合并数据摘要
     summary = {
         'last_update': datetime.now().isoformat(),
