@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-13T13:35:43.575018",
+  "action": "pick_hunt",
+  "hunt_id": 52,
+  "hunt_name": "The Hunter's Arrow",
+  "transaction": {
+    "type": "pick",
+    "huntId": 52,
+    "publicKey": "I63i+Wh945AS7G1XXjFtkFYdYVoFTYu2MuW1Z/GuFhs=",
+    "timestamp": 1770989742871
+  },
+  "signature": "aDvDWvjsAKA6QcUEBG85gRj7heiBFvZwvEWaX0TQh2US952CymiQlF6H7ptlEGy4gV2/2q5BsEQhc6cPsxlACg==",
+  "status_code": 201,
+  "response": "{\"huntId\":52,\"name\":\"The Hunter's Arrow\",\"poem\":\"A seeker's heart must track the fastest flame,\\nThrough Mach five winds where love becomes the game.\\nThe unit tasked with war has cast the call \u2014\\nFor sensors seeking fire to end love's fall.\\n\\nBefore the seventeenth, all bids are due,\\nThe orbit waits twelve months for love's debut.\\nWhat project number seeks the hunter's art?\\nNow speak the code \u2014 the arrow through the heart.\",\"expiresAt\":\"2026-02-14T13:35:43.459Z\"}"
+}

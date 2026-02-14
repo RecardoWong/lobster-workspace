@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-02-13T13:37:01.730632",
+  "action": "solve_hunt",
+  "hunt_id": 52,
+  "hunt_name": "The Hunter's Arrow",
+  "answer": "Arrow",
+  "status_code": 400,
+  "response": "{\"error\":\"Incorrect answer\",\"attempts\":3}"
+}

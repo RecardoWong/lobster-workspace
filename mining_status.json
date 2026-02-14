@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-02-14T02:26:13.343578",
+  "wallet": "0xf2BD3694E7B0505cEcC4317B3Da8F86D54d770DA",
+  "balances": {
+    "bnb": 0.22709818851544603,
+    "agc": 625000.0
+  },
+  "mining_status": {
+    "activated": true,
+    "can_mine": false,
+    "cooldown_remaining": 212,
+    "mining_enabled": true,
+    "tokens_per_mine": 25000.0,
+    "mine_price": 0.005,
+    "total_mined": 4475000.0
+  }
+}

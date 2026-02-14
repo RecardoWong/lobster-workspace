@@ -1,0 +1,27 @@
+2026-02-14 01:56:52,194 - INFO - ==================================================
+2026-02-14 01:56:52,195 - INFO - AgentCoin Mining Bot Started
+2026-02-14 01:56:52,195 - INFO - Wallet: 0xf2BD3694E7B0505cEcC4317B3Da8F86D54d770DA
+2026-02-14 01:56:52,195 - INFO - ==================================================
+2026-02-14 01:56:52,423 - INFO - Account loaded: 0xf2BD3694E7B0505cEcC4317B3Da8F86D54d770DA
+2026-02-14 01:56:52,483 - INFO - Current BNB Balance: 0.252178 BNB
+2026-02-14 01:56:52,711 - WARNING - Could not determine AGC balance - contract address may need updating
+2026-02-14 01:56:52,711 - INFO - Starting mining loop...
+2026-02-14 01:56:52,767 - INFO - Attempting to mine AGC...
+2026-02-14 01:56:52,835 - ERROR - Error in mining: 'SignedTransaction' object has no attribute 'rawTransaction'
+2026-02-14 01:56:52,835 - INFO - Waiting 60 seconds before next mining attempt...
+2026-02-14 01:59:03,330 - INFO - ============================================================
+2026-02-14 01:59:03,331 - INFO - AgentCoin Mining Monitor Started
+2026-02-14 01:59:03,331 - INFO - Wallet: 0xf2BD3694E7B0505cEcC4317B3Da8F86D54d770DA
+2026-02-14 01:59:03,331 - INFO - Mining Contract: 0x09D1A98772225b4b11c36607926dca916C436Fe3
+2026-02-14 01:59:03,331 - INFO - AGC Token: 0x72Af2068Cc5430388CD7653767A22d74134866Ea
+2026-02-14 01:59:03,331 - INFO - ============================================================
+2026-02-14 01:59:03,548 - INFO - Checking status...
+2026-02-14 01:59:05,206 - INFO - Status saved to mining_status.json
+2026-02-14 02:26:11,515 - INFO - ============================================================
+2026-02-14 02:26:11,516 - INFO - AgentCoin Mining Monitor Started
+2026-02-14 02:26:11,516 - INFO - Wallet: 0xf2BD3694E7B0505cEcC4317B3Da8F86D54d770DA
+2026-02-14 02:26:11,516 - INFO - Mining Contract: 0x09D1A98772225b4b11c36607926dca916C436Fe3
+2026-02-14 02:26:11,516 - INFO - AGC Token: 0x72Af2068Cc5430388CD7653767A22d74134866Ea
+2026-02-14 02:26:11,516 - INFO - ============================================================
+2026-02-14 02:26:11,732 - INFO - Checking status...
+2026-02-14 02:26:13,344 - INFO - Status saved to mining_status.json

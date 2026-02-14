@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-02-13T13:38:16.479379",
+  "action": "solve_hunt",
+  "hunt_id": 52,
+  "hunt_name": "The Hunter's Arrow",
+  "answer": "16",
+  "status_code": 423,
+  "response": "{\"error\":\"Locked out\",\"attempts\":6,\"lockedUntil\":\"2026-02-14T13:38:16.372Z\"}"
+}

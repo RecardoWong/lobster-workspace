@@ -397,20 +397,28 @@
                         <span style="font-size: 12px; color: #9ca3af;">14只标的</span>
                     </div>
                     <div class="card-body">
-                        <div class="main-stock">
-                            <div class="main-stock-header">
-                                <div class="main-stock-info">
-                                    <div class="main-stock-name">英诺赛科</div>
-                                    <div class="main-stock-code">02577.HK | GaN功率芯片</div>
-                                </div>
-                                <div class="main-stock-price">
-                                    <div class="main-stock-price-value">63.50</div>
-                                    <div class="main-stock-change up">+3.08%</div>
+                        <!-- 关注列表 -->
+                        <button class="expand-btn active" id="expandWatchlistBtn" onclick="toggleWatchlist()">
+                            <span>关注列表</span>
+                            <span class="expand-icon">▼</span>
+                        </button>
+                        
+                        <div class="suppliers-list show" id="watchlistList">
+                            <div class="main-stock" style="margin-bottom: 0;">
+                                <div class="main-stock-header">
+                                    <div class="main-stock-info">
+                                        <div class="main-stock-name">英诺赛科</div>
+                                        <div class="main-stock-code">02577.HK | GaN功率芯片</div>
+                                    </div>
+                                    <div class="main-stock-price">
+                                        <div class="main-stock-price-value">63.50</div>
+                                        <div class="main-stock-change up">+3.08%</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         
-                        <button class="expand-btn" id="expandBtn" onclick="toggleSuppliers()">
+                        <button class="expand-btn" id="expandBtn" onclick="toggleSuppliers()" style="margin-top: 12px;">
                             <span>查看上游供应商</span>
                             <span class="expand-icon">▼</span>
                         </button>
@@ -713,6 +721,22 @@
     </div>
     
     <script>
+        function toggleWatchlist() {
+            const btn = document.getElementById('expandWatchlistBtn');
+            const list = document.getElementById('watchlistList');
+            const text = btn.querySelector('span');
+            
+            if (list.classList.contains('show')) {
+                list.classList.remove('show');
+                btn.classList.remove('active');
+                text.textContent = '关注列表';
+            } else {
+                list.classList.add('show');
+                btn.classList.add('active');
+                text.textContent = '关注列表';
+            }
+        }
+        
         function toggleSuppliers() {
             const btn = document.getElementById('expandBtn');
             const list = document.getElementById('suppliersList');
@@ -803,6 +827,60 @@
         
         // 每30秒刷新一次
         setInterval(fetchMarketData, 30000);
+        
+        // 实时加载Twitter和智通财经数据
+        async function loadExternalData() {
+            try {
+                // 加载Twitter数据
+                const twitterResponse = await fetch('reports/twitter_undetected_latest.json?t=' + Date.now());
+                if (twitterResponse.ok) {
+                    const tweets = await twitterResponse.json();
+                    updateTwitterCard(tweets);
+                }
+                
+                // 加载智通财经数据
+                const zhitongResponse = await fetch('reports/zhitong_undetected_latest.json?t=' + Date.now());
+                if (zhitongResponse.ok) {
+                    const news = await zhitongResponse.json();
+                    updateNewsCard(news);
+                }
+            } catch (e) {
+                console.log('数据加载中...', e);
+            }
+        }
+        
+        function updateTwitterCard(tweets) {
+            const container = document.querySelector('.tweet-list');
+            if (!container || !tweets || tweets.length === 0) return;
+            
+            container.innerHTML = tweets.slice(0, 3).map(tweet => `
+                <div class="tweet-item">
+                    <div class="tweet-header">
+                        <span class="tweet-author">@${tweet.username}</span>
+                        <span class="tweet-time">${new Date(tweet.time).toLocaleTimeString('zh-CN', {hour: '2-digit', minute: '2-digit'})}</span>
+                    </div>
+                    <div class="tweet-text">${tweet.text}</div>
+                </div>
+            `).join('');
+        }
+        
+        function updateNewsCard(news) {
+            const container = document.querySelector('.news-list');
+            if (!container || !news || news.length === 0) return;
+            
+            container.innerHTML = news.slice(0, 3).map(item => `
+                <div class="news-item">
+                    <div class="news-title">${item.title}</div>
+                    <div class="news-meta">${item.source} · ${new Date(item.time).toLocaleTimeString('zh-CN', {hour: '2-digit', minute: '2-digit'})}</div>
+                </div>
+            `).join('');
+        }
+        
+        // 立即加载外部数据
+        loadExternalData();
+        
+        // 每30秒刷新一次外部数据
+        setInterval(loadExternalData, 30000);
     </script>
 </body>
 </html>
