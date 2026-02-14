@@ -2,7 +2,9 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <title>Twitter 重点监控 - Investment Dashboard</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -24,9 +26,20 @@
         .tweet-author-handle { color: #6b7280; font-size: 13px; }
         .tweet-time { font-size: 13px; color: #9ca3af; }
         .tweet-text { font-size: 15px; line-height: 1.6; color: #1a1a1a; margin-bottom: 12px; white-space: pre-wrap; }
-        .tweet-translation { font-size: 14px; line-height: 1.5; color: #374151; padding: 12px; background: #f0fdf4; border-radius: 8px; border-left: 3px solid #10b981; margin-bottom: 12px; }
-        .tweet-translation-label { font-size: 12px; color: #10b981; font-weight: 600; margin-bottom: 4px; }
+        .tweet-translation { font-size: 15px; line-height: 1.6; color: #1a1a1a; padding: 14px; background: #f0fdf4; border-radius: 10px; border-left: 4px solid #10b981; margin: 12px 0; }
+        .tweet-translation-label { font-size: 13px; color: #059669; font-weight: 700; margin-bottom: 6px; display: block; }
         .update-time { text-align: center; padding: 20px; color: #9ca3af; font-size: 13px; }
+        
+        /* iPhone优化 */
+        @media (max-width: 768px) {
+            .header { padding: 12px 16px; }
+            .header-title { font-size: 17px; }
+            .back-btn { padding: 6px 12px; font-size: 13px; }
+            .container { margin: 16px auto; padding: 0 12px; }
+            .tweet-card { padding: 16px; margin-bottom: 12px; border-radius: 10px; }
+            .tweet-text { font-size: 16px; line-height: 1.7; }
+            .tweet-translation { font-size: 16px; padding: 12px; margin: 10px 0; }
+        }
     </style>
 </head>
 <body>
