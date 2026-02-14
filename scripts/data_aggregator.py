@@ -41,6 +41,20 @@ async def fetch_all_data():
     except Exception as e:
         print(f"❌ 智通财经失败: {e}")
     
+    # 抓取英诺赛科股价（雪球+东方财富自动切换）
+    try:
+        print("\n📊 抓取英诺赛科股价（雪球/东方财富自动切换）...")
+        result = subprocess.run(
+            ['python3', '/root/.openclaw/workspace/fetch_innoscience_auto.py'],
+            capture_output=True, text=True, timeout=30
+        )
+        if result.returncode == 0:
+            print("✅ 股价数据抓取成功")
+        else:
+            print(f"⚠️ 股价抓取失败")
+    except Exception as e:
+        print(f"❌ 股价抓取失败: {e}")
+    
     # 合并数据摘要
     summary = {
         'last_update': datetime.now().isoformat(),

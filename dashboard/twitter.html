@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter 重点监控 - Investment Dashboard</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; background: #f5f5f5; color: #1a1a1a; }
+        .header { background: #fff; padding: 16px 24px; border-bottom: 1px solid #e5e7eb; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .header-left { display: flex; align-items: center; gap: 16px; }
+        .back-btn { padding: 8px 16px; background: #f3f4f6; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; color: #374151; text-decoration: none; }
+        .back-btn:hover { background: #e5e7eb; }
+        .header-title { font-size: 20px; font-weight: 600; }
+        .header-meta { font-size: 13px; color: #6b7280; }
+        .container { max-width: 800px; margin: 24px auto; padding: 0 16px; }
+        .tweet-card { background: #fff; border-radius: 12px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: all 0.2s; }
+        .tweet-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        .tweet-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+        .tweet-author { display: flex; align-items: center; gap: 10px; }
+        .tweet-avatar { width: 40px; height: 40px; border-radius: 50%; background: #3b82f6; display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; }
+        .tweet-author-info { display: flex; flex-direction: column; }
+        .tweet-author-name { font-weight: 600; color: #1a1a1a; font-size: 15px; }
+        .tweet-author-handle { color: #6b7280; font-size: 13px; }
+        .tweet-time { font-size: 13px; color: #9ca3af; }
+        .tweet-text { font-size: 15px; line-height: 1.6; color: #1a1a1a; margin-bottom: 12px; white-space: pre-wrap; }
+        .retweet-badge { display: inline-block; background: #10b981; color: white; font-size: 11px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+        .update-time { text-align: center; padding: 20px; color: #9ca3af; font-size: 13px; }
+        .empty-state { text-align: center; padding: 60px 20px; color: #6b7280; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <a href="index.html" class="back-btn">← 返回总览</a>
+            <div>
+                <div class="header-title">🐦 Twitter 重点监控</div>
+                <div class="header-meta">实时监控关注账号动态</div>
+            </div>
+        </div>
+        <button class="back-btn" onclick="location.reload()">刷新</button>
+    </div>
+    
+    <div class="container">
+        <div class="tweet-card" onclick="window.open('https://twitter.com/elonmusk/status/2021673886157607383', '_blank')" style="cursor: pointer;">
+            
+            <div class="tweet-header">
+                <div class="tweet-author">
+                    <div class="tweet-avatar">E</div>
+                    <div class="tweet-author-info">
+                        <div class="tweet-author-name">Elon Musk</div>
+                        <div class="tweet-author-handle">@elonmusk</div>
+                    </div>
+                </div>
+                <div class="tweet-time">2026-02-14 12:10</div>
+            </div>
+            <div class="tweet-text">xAI was reorganized a few days ago to improve speed of execution. As a company grows, especially as quickly as xAI, the structure must evolve just like any living organism.
+
+This unfortunately required parting ways with some people. We wish them well in future endeavors.
+
+We are</div>
+        </div>
+        <div class="tweet-card" onclick="window.open('https://twitter.com/elonmusk/status/1519480761749016577', '_blank')" style="cursor: pointer;">
+            
+            <div class="tweet-header">
+                <div class="tweet-author">
+                    <div class="tweet-avatar">E</div>
+                    <div class="tweet-author-info">
+                        <div class="tweet-author-name">Elon Musk</div>
+                        <div class="tweet-author-handle">@elonmusk</div>
+                    </div>
+                </div>
+                <div class="tweet-time">2026-02-14 12:10</div>
+            </div>
+            <div class="tweet-text">Since xAI was formed just 30 months ago, the small and talented team has made remarkable progress.
+
+The future has never looked more exciting!</div>
+        </div>
+        <div class="tweet-card" onclick="window.open('https://twitter.com/elonmusk/status/1812258574049157405', '_blank')" style="cursor: pointer;">
+            
+            <div class="tweet-header">
+                <div class="tweet-author">
+                    <div class="tweet-avatar">E</div>
+                    <div class="tweet-author-info">
+                        <div class="tweet-author-name">Elon Musk</div>
+                        <div class="tweet-author-handle">@elonmusk</div>
+                    </div>
+                </div>
+                <div class="tweet-time">2026-02-14 12:10</div>
+            </div>
+            <div class="tweet-text">Next I’m buying Coca-Cola to put the cocaine back in</div>
+        </div>
+        <div class="tweet-card" onclick="window.open('https://twitter.com/jdhasoptions/status/1908368122840523049', '_blank')" style="cursor: pointer;">
+            
+            <div class="tweet-header">
+                <div class="tweet-author">
+                    <div class="tweet-avatar">J</div>
+                    <div class="tweet-author-info">
+                        <div class="tweet-author-name">JD</div>
+                        <div class="tweet-author-handle">@jdhasoptions</div>
+                    </div>
+                </div>
+                <div class="tweet-time">2026-02-14 12:10</div>
+            </div>
+            <div class="tweet-text">speed的情商是非常高的，还有很强的临场应变能力，他的成功绝对不是偶然</div>
+        </div>
+        <div class="tweet-card" onclick="window.open('https://twitter.com/jdhasoptions/status/1982812463318888483', '_blank')" style="cursor: pointer;">
+            
+            <div class="tweet-header">
+                <div class="tweet-author">
+                    <div class="tweet-avatar">J</div>
+                    <div class="tweet-author-info">
+                        <div class="tweet-author-name">JD</div>
+                        <div class="tweet-author-handle">@jdhasoptions</div>
+                    </div>
+                </div>
+                <div class="tweet-time">2026-02-14 12:10</div>
+            </div>
+            <div class="tweet-text">几个板块我喜欢的票
+无人机：KTOS，AVAV，ONDS
+存储：SNDK
+机器人：SYM
+核电：LEU，UUUU
+稀土：CRML
+电池：BE
+储能：EOSE
+数据中心：iren，cifr
+fintech：hood
+半导体：AMD，INTC</div>
+        </div>
+        <div class="tweet-card" onclick="window.open('https://twitter.com/jdhasoptions/status/1946063576097325308', '_blank')" style="cursor: pointer;">
+            
+            <div class="tweet-header">
+                <div class="tweet-author">
+                    <div class="tweet-avatar">J</div>
+                    <div class="tweet-author-info">
+                        <div class="tweet-author-name">JD</div>
+                        <div class="tweet-author-handle">@jdhasoptions</div>
+                    </div>
+                </div>
+                <div class="tweet-time">2026-02-14 12:10</div>
+            </div>
+            <div class="tweet-text">现在我炒股就按第一性原理来
+比如技术面，你就记住：
+高点连线是压力，低点连线是支撑
+然后把几个关键的ma，ema，vwap
+还有几个重要形态cup with handle，engulfing line，bull flag记一记
+很多看似高深莫测的指标，本质还是最上面
+这句话</div>
+        </div>
+        <div class="update-time">数据更新时间: 2026-02-14 12:10:25 | 每5分钟自动更新</div>
+    </div>
+</body>
+</html>
