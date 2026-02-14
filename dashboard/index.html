@@ -3,222 +3,806 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🦞 Lobster Dashboard</title>
+    <title>投资监控仪表板 | 一键</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #0a0e27;
-            color: #fff;
-            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: #f5f7fa;
+            color: #1a1a1a;
+            line-height: 1.6;
         }
-        .header {
-            text-align: center;
-            padding: 30px 0;
-            border-bottom: 2px solid #1e3a5f;
-            margin-bottom: 30px;
+        .layout { display: flex; min-height: 100vh; }
+        .sidebar {
+            width: 280px;
+            background: #fff;
+            border-right: 1px solid #e5e7eb;
+            padding: 24px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
         }
-        .header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e5e7eb;
         }
-        .header .time {
-            color: #888;
-            font-size: 0.9em;
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
         }
-        .grid {
+        .logo-text { font-size: 18px; font-weight: 700; color: #1a1a1a; }
+        .logo-sub { font-size: 12px; color: #9ca3af; }
+        .overview-section { margin-bottom: 28px; }
+        .section-title {
+            font-size: 11px;
+            font-weight: 600;
+            color: #9ca3af;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+        .overview-card {
+            background: #f9fafb;
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 12px;
+        }
+        .overview-label { font-size: 13px; color: #6b7280; margin-bottom: 4px; }
+        .overview-value { font-size: 24px; font-weight: 700; color: #1a1a1a; }
+        .overview-change { font-size: 12px; margin-top: 4px; }
+        .overview-change.up { color: #16a34a; }
+        .overview-change.down { color: #dc2626; }
+        .status-list { display: flex; flex-direction: column; gap: 8px; }
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .status-item:hover { background: #f3f4f6; }
+        .status-item.active { background: #eff6ff; }
+        .status-icon {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+        .status-icon.ok { background: #22c55e; box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2); }
+        .status-icon.warning { background: #f59e0b; box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.2); }
+        .status-name { flex: 1; font-size: 14px; color: #374151; }
+        .status-badge {
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #e5e7eb;
+            color: #6b7280;
+        }
+        .main {
+            flex: 1;
+            margin-left: 280px;
+            padding: 24px;
+        }
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        .page-title { font-size: 24px; font-weight: 600; color: #1a1a1a; }
+        .page-meta { color: #6b7280; font-size: 14px; }
+        .refresh-btn {
+            padding: 8px 16px;
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .refresh-btn:hover { background: #f9fafb; border-color: #d1d5db; }
+        .cards-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 20px;
-            max-width: 1400px;
-            margin: 0 auto;
+            margin-bottom: 24px;
         }
         .card {
-            background: #151b3d;
+            background: #fff;
             border-radius: 12px;
-            padding: 20px;
-            border: 1px solid #1e3a5f;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
         }
-        .card h2 {
-            color: #4fc3f7;
-            margin-bottom: 15px;
-            font-size: 1.2em;
+        .card-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1a1a1a;
             display: flex;
             align-items: center;
             gap: 8px;
         }
-        .status {
-            display: inline-block;
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            margin-right: 5px;
+        .card-body { padding: 20px; }
+        
+        /* 主角股票 - 紧凑版 */
+        .main-stock {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.08), rgba(139, 92, 246, 0.08));
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 10px;
+            padding: 14px 16px;
+            margin-bottom: 12px;
         }
-        .status.ok { background: #4caf50; }
-        .status.error { background: #f44336; }
-        .status.pending { background: #ff9800; }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 0.85em;
+        .main-stock-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
-        th, td {
-            padding: 10px 8px;
-            text-align: left;
-            border-bottom: 1px solid #1e3a5f;
+        .main-stock-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
         }
-        th {
-            color: #888;
-            font-weight: 500;
-        }
-        tr:hover {
-            background: #1a2342;
-        }
-        .tag {
+        .main-stock-info { flex: 1; min-width: 0; }
+        .main-stock-name { font-size: 15px; font-weight: 500; color: #1a1a1a; }
+        .main-stock-code { font-size: 12px; color: #6b7280; margin-top: 1px; }
+        .main-stock-price { text-align: right; flex-shrink: 0; }
+        .main-stock-price-value { font-size: 24px; font-weight: 700; color: #1a1a1a; line-height: 1; }
+        .main-stock-change {
             display: inline-block;
             padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.75em;
-            background: #1e3a5f;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 2px;
         }
-        .tag.success { background: #2e7d32; }
-        .tag.error { background: #c62828; }
-        .scan-preview {
-            background: #0d1229;
-            padding: 15px;
-            border-radius: 8px;
-            font-family: 'Consolas', monospace;
-            font-size: 0.85em;
-            white-space: pre-wrap;
-            max-height: 300px;
-            overflow-y: auto;
-            color: #a0a0a0;
-        }
-        .stats {
+        .main-stock-change.up { background: #dcfce7; color: #166534; }
+        .main-stock-change.down { background: #fee2e2; color: #991b1b; }
+        .main-stock-business { font-size: 12px; color: #6b7280; margin-top: 6px; }
+        
+        /* 展开按钮 */
+        .expand-btn {
+            width: 100%;
+            padding: 12px;
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #374151;
+            cursor: pointer;
             display: flex;
-            gap: 20px;
-            margin-top: 15px;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.2s;
         }
-        .stat {
+        .expand-btn:hover { background: #f3f4f6; border-color: #d1d5db; }
+        .expand-btn.active { background: #eff6ff; border-color: #3b82f6; color: #3b82f6; }
+        .expand-icon { transition: transform 0.3s; }
+        .expand-btn.active .expand-icon { transform: rotate(180deg); }
+        
+        /* 供应商列表 */
+        .suppliers-list {
+            display: none;
+            margin-top: 16px;
+            animation: slideDown 0.3s ease;
+        }
+        .suppliers-list.show { display: block; }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .supplier-category {
+            font-size: 12px;
+            color: #6b7280;
+            font-weight: 600;
+            margin-bottom: 12px;
+            padding-left: 4px;
+        }
+        .supplier-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            background: #f9fafb;
+            border-radius: 10px;
+            margin-bottom: 8px;
+            transition: all 0.2s;
+        }
+        .supplier-item:hover { background: #f3f4f6; }
+        .supplier-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+        .supplier-icon.up { background: #dcfce7; }
+        .supplier-icon.down { background: #fee2e2; }
+        .supplier-info { flex: 1; min-width: 0; }
+        .supplier-name { font-size: 14px; font-weight: 600; color: #1a1a1a; }
+        .supplier-business { font-size: 12px; color: #6b7280; }
+        .supplier-price { text-align: right; }
+        .supplier-price-value { font-size: 16px; font-weight: 700; color: #1a1a1a; }
+        .supplier-change {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+        .supplier-change.up { background: #dcfce7; color: #166534; }
+        .supplier-change.down { background: #fee2e2; color: #991b1b; }
+        .update-time {
+            font-size: 12px;
+            color: #9ca3af;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #e5e7eb;
             text-align: center;
         }
-        .stat-value {
-            font-size: 2em;
-            font-weight: bold;
-            color: #4fc3f7;
-        }
-        .stat-label {
-            color: #888;
-            font-size: 0.85em;
-        }
-        .refresh {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #4fc3f7;
-            color: #0a0e27;
-            border: none;
-            padding: 12px 24px;
+        
+        .tweet-item { padding: 14px 0; border-bottom: 1px solid #f3f4f6; }
+        .tweet-item:last-child { border-bottom: none; }
+        .tweet-header { display: flex; justify-content: space-between; margin-bottom: 6px; }
+        .tweet-author { font-weight: 600; color: #3b82f6; font-size: 14px; }
+        .tweet-time { font-size: 12px; color: #9ca3af; }
+        .tweet-text { font-size: 14px; color: #4b5563; line-height: 1.6; }
+        .alert-item {
+            padding: 14px;
+            background: #fef2f2;
             border-radius: 8px;
-            cursor: pointer;
-            font-weight: bold;
+            border-left: 3px solid #ef4444;
+            margin-bottom: 12px;
         }
-        .refresh:hover {
-            background: #29b6f6;
+        .alert-item:last-child { margin-bottom: 0; }
+        .alert-title { font-weight: 600; color: #dc2626; font-size: 14px; margin-bottom: 4px; }
+        .alert-desc { font-size: 13px; color: #7f1d1d; }
+        .news-item { padding: 12px 0; border-bottom: 1px solid #f3f4f6; }
+        .news-item:last-child { border-bottom: none; }
+        .news-title { font-size: 14px; color: #1a1a1a; margin-bottom: 4px; }
+        .news-meta { font-size: 12px; color: #9ca3af; }
+        .task-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 0;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .task-item:last-child { border-bottom: none; }
+        .task-dot { width: 8px; height: 8px; border-radius: 50%; }
+        .task-dot.done { background: #22c55e; }
+        .task-dot.pending { background: #f59e0b; }
+        .task-name { flex: 1; font-size: 14px; color: #374151; }
+        .task-time { font-size: 12px; color: #9ca3af; }
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: #9ca3af;
+            font-size: 13px;
+            border-top: 1px solid #e5e7eb;
+            margin-top: 24px;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>🦞 Lobster Dashboard</h1>
-        <div class="time">更新时间: 2026-02-12 13:27:46</div>
-    </div>
-    
-    <div class="grid">
-        <!-- 定时任务状态 -->
-        <div class="card">
-            <h2>⏰ 定时任务状态</h2>
-            <table>
-                <tr>
-                    <th>任务</th>
-                    <th>状态</th>
-                    <th>下次运行</th>
-                    <th>上次状态</th>
-                </tr>
-
-            </table>
-        </div>
-        
-        <!-- 监控统计 -->
-        <div class="card">
-            <h2>📊 监控统计</h2>
-            <div class="stats">
-                <div class="stat">
-                    <div class="stat-value">4</div>
-                    <div class="stat-label">定时任务</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-value">🧠</div>
-                    <div class="stat-label">Monty AI</div>
-                </div>
-                <div class="stat">
-                    <div class="stat-value">✅</div>
-                    <div class="stat-label">运行中</div>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">📊</div>
+                <div>
+                    <div class="logo-text">投资监控</div>
+                    <div class="logo-sub">Dashboard v3.5</div>
                 </div>
             </div>
-            <div style="margin-top: 20px;">
-                <p>🪙 XXYY.io: 每30分钟 (MC≥$35K)</p>
-                <p>🐦 TwitterAPI.io: 每8小时</p>
-                <p>📊 英诺赛科: 每天09:15</p>
-                <p>🌅 美股简报: 每天06:00</p>
+            <div class="overview-section">
+                <div class="section-title">核心数据</div>
+                <div class="overview-card">
+                    <div class="overview-label">纳斯达克指数</div>
+                    <div class="overview-value" id="nasdaqValue">22,547</div>
+                    <div class="overview-change down" id="nasdaqChange">-0.22% ↓</div>
+                </div>
+                <div class="overview-card">
+                    <div class="overview-label">恒生科技指数</div>
+                    <div class="overview-value" id="hstechValue">5,360</div>
+                    <div class="overview-change down" id="hstechChange">-0.90% ↓</div>
+                </div>
+                <div class="overview-card">
+                    <div class="overview-label">比特币</div>
+                    <div class="overview-value" id="btcValue">69,062</div>
+                    <div class="overview-change up" id="btcChange">--</div>
+                </div>
             </div>
-        </div>
+            <div class="overview-section">
+                <div class="section-title">系统状态</div>
+                <div class="status-list">
+                    <div class="status-item active">
+                        <div class="status-icon ok"></div>
+                        <div class="status-name">股价监控</div>
+                        <div class="status-badge">正常</div>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-icon ok"></div>
+                        <div class="status-name">Twitter监控</div>
+                        <div class="status-badge">正常</div>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-icon ok"></div>
+                        <div class="status-name">智通财经</div>
+                        <div class="status-badge">正常</div>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-icon warning"></div>
+                        <div class="status-name">预警系统</div>
+                        <div class="status-badge">3个预警</div>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-icon ok"></div>
+                        <div class="status-name">Dashboard</div>
+                        <div class="status-badge">运行中</div>
+                    </div>
+                </div>
+            </div>
+            <div class="overview-section">
+                <div class="section-title">监控统计</div>
+                <div class="overview-card">
+                    <div class="overview-label">今日任务</div>
+                    <div class="overview-value" style="font-size: 20px;">8个运行中</div>
+                </div>
+                <div class="overview-card">
+                    <div class="overview-label">数据更新</div>
+                    <div class="overview-value" style="font-size: 20px;">每5分钟</div>
+                </div>
+            </div>
+        </aside>
         
-        <!-- 最新扫描结果 -->
-        <div class="card" style="grid-column: 1 / -1;">
-            <h2>🪙 最新XXYY.io扫描</h2>
-            <p style="color: #888; margin-bottom: 10px;">扫描时间: 20260212_1321</p>
-            <div class="scan-preview">🪙 XXYY.io Meme扫描 | Monty AI分析
-⏰ 2026-02-12 13:21
-📊 无达标代币
-
-本次扫描 9 个代币，
-没有 MC ≥ $35K 的代币。
-
-最高MC: $24.1K</div>
-        </div>
-        
-        <!-- Monty AI状态 -->
-        <div class="card">
-            <h2>🧠 Monty AI 状态</h2>
-            <p>✅ 正常运行</p>
-            <p style="margin-top: 10px; color: #888;">已集成功能:</p>
-            <ul style="margin-left: 20px; color: #a0a0a0;">
-                <li>Meme币分析 (0.4ms)</li>
-                <li>情绪分析 (0.1ms)</li>
-                <li>异常检测 (0.5ms)</li>
-                <li>投资组合分析 (0.4ms)</li>
-            </ul>
-        </div>
-        
-        <!-- 快速链接 -->
-        <div class="card">
-            <h2>🔗 快速链接</h2>
-            <p><a href="https://github.com/RecardoWong/lobster-workspace" style="color: #4fc3f7;">GitHub仓库</a></p>
-            <p style="margin-top: 10px;"><a href="https://clawhub.com" style="color: #4fc3f7;">ClawHub技能市场</a></p>
-            <p style="margin-top: 10px;"><a href="https://moltbook.com" style="color: #4fc3f7;">Moltbook AI社交</a></p>
-        </div>
+        <main class="main">
+            <div class="topbar">
+                <div>
+                    <div class="page-title">总览</div>
+                    <div class="page-meta">老板：一键 | 实时数据监控</div>
+                </div>
+                <button class="refresh-btn" onclick="location.reload()">刷新数据</button>
+            </div>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">📈 股价监控</div>
+                        <span style="font-size: 12px; color: #9ca3af;">14只标的</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="main-stock">
+                            <div class="main-stock-header">
+                                <div class="main-stock-info">
+                                    <div class="main-stock-name">英诺赛科</div>
+                                    <div class="main-stock-code">02577.HK | GaN功率芯片</div>
+                                </div>
+                                <div class="main-stock-price">
+                                    <div class="main-stock-price-value">63.50</div>
+                                    <div class="main-stock-change up">+3.08%</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="expand-btn" id="expandBtn" onclick="toggleSuppliers()">
+                            <span>查看上游供应商</span>
+                            <span class="expand-icon">▼</span>
+                        </button>
+                        
+                        <div class="suppliers-list" id="suppliersList">
+                            <div class="supplier-category">上游供应商（7只）</div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon up">📈</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">三安光电</div>
+                                    <div class="supplier-business">GaN衬底/外延</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">15.91</div>
+                                    <div class="supplier-change up">+1.27%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon down">📉</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">中国铝业</div>
+                                    <div class="supplier-business">金属镓原材料</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">12.69</div>
+                                    <div class="supplier-change down">-3.94%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon up">📈</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">北方华创</div>
+                                    <div class="supplier-business">MOCVD设备</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">486.12</div>
+                                    <div class="supplier-change up">+2.33%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon down">📉</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">南大光电</div>
+                                    <div class="supplier-business">特气MO源</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">53.90</div>
+                                    <div class="supplier-change down">-0.35%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon down">📉</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">蓝晓科技</div>
+                                    <div class="supplier-business">镓提取树脂</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">68.88</div>
+                                    <div class="supplier-change down">-1.73%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon down">📉</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">中微公司</div>
+                                    <div class="supplier-business">MOCVD设备</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">344.50</div>
+                                    <div class="supplier-change down">-0.14%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon down">📉</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">华润微</div>
+                                    <div class="supplier-business">功率半导体</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">59.77</div>
+                                    <div class="supplier-change down">-3.92%</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="expand-btn" id="expandCompetitorsBtn" onclick="toggleCompetitors()" style="margin-top: 12px;">
+                            <span>查看竞争对手</span>
+                            <span class="expand-icon">▼</span>
+                        </button>
+                        
+                        <div class="suppliers-list" id="competitorsList">
+                            <div class="supplier-category">竞争对手（美股 GaN/功率半导体）</div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon down">🇺🇸</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">Navitas Semiconductor</div>
+                                    <div class="supplier-business">GaN功率芯片 | NVTS</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">8.30</div>
+                                    <div class="supplier-change down">-0.84%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon up">🇩🇪</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">Infineon</div>
+                                    <div class="supplier-business">功率半导体龙头 | IFNNY</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">51.51</div>
+                                    <div class="supplier-change up">+1.50%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon" style="background: #f3f4f6;">🇨🇭</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">STMicroelectronics</div>
+                                    <div class="supplier-business">意法半导体 | STM</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">33.61</div>
+                                    <div class="supplier-change" style="background: #f3f4f6; color: #6b7280;">0.00%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon up">🇺🇸</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">Power Integrations</div>
+                                    <div class="supplier-business">电源芯片 | POWI</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">47.21</div>
+                                    <div class="supplier-change up">+1.11%</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon" style="background: #f3f4f6;">🇺🇸</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">Transphorm</div>
+                                    <div class="supplier-business">GaN功率芯片 | TGAN</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">--</div>
+                                    <div class="supplier-change" style="background: #f3f4f6; color: #6b7280;">待接入</div>
+                                </div>
+                            </div>
+                            
+                            <div class="supplier-item">
+                                <div class="supplier-icon" style="background: #f3f4f6;">🇯🇵</div>
+                                <div class="supplier-info">
+                                    <div class="supplier-name">Rohm Semiconductor</div>
+                                    <div class="supplier-business">SiC/GaN功率 | ROHCY</div>
+                                </div>
+                                <div class="supplier-price">
+                                    <div class="supplier-price-value">16.60</div>
+                                    <div class="supplier-change" style="background: #f3f4f6; color: #6b7280;">0.00%</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- 核心原材料价格 -->
+                        <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #e5e7eb;">
+                            <div style="font-size: 12px; color: #6b7280; font-weight: 600; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">核心原材料价格</div>
+                            <div style="display: flex; gap: 12px;">
+                                <div style="flex: 1; background: #f9fafb; border-radius: 8px; padding: 12px;">
+                                    <div style="font-size: 12px; color: #6b7280; margin-bottom: 4px;">金属镓 (99.99%)</div>
+                                    <div style="font-size: 18px; font-weight: 700; color: #1a1a1a;">2,450</div>
+                                    <div style="font-size: 11px; color: #9ca3af; margin-top: 2px;">元/公斤</div>
+                                </div>
+                                <div style="flex: 1; background: #f9fafb; border-radius: 8px; padding: 12px;">
+                                    <div style="font-size: 12px; color: #6b7280; margin-bottom: 4px;">高纯镓 (99.999%)</div>
+                                    <div style="font-size: 18px; font-weight: 700; color: #1a1a1a;">2,850</div>
+                                    <div style="font-size: 11px; color: #9ca3af; margin-top: 2px;">元/公斤</div>
+                                </div>
+                            </div>
+                            <div style="font-size: 11px; color: #9ca3af; margin-top: 8px; text-align: right;">数据来源: 上海有色网 | 每日更新</div>
+                        </div>
+                        
+                        <div class="update-time">
+                            股价更新时间: 2026-02-14 08:22:34 | 上涨3只 | 下跌5只
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🐦 Twitter 重点动态</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tweet-item">
+                            <div class="tweet-header">
+                                <span class="tweet-author">@elonmusk</span>
+                                <span class="tweet-time">2小时前</span>
+                            </div>
+                            <div class="tweet-text">SpaceX sent astronauts into space. Starlink now at 10 million active users.</div>
+                        </div>
+                        <div class="tweet-item">
+                            <div class="tweet-header">
+                                <span class="tweet-author">@jdhasoptions</span>
+                                <span class="tweet-time">4小时前</span>
+                            </div>
+                            <div class="tweet-text">ADBE和CRM都有大额看空put，这俩还都是$IGV成分股 关注软件股走势</div>
+                        </div>
+                        <div class="tweet-item">
+                            <div class="tweet-header">
+                                <span class="tweet-author">@xiaomucrypto</span>
+                                <span class="tweet-time">6小时前</span>
+                            </div>
+                            <div class="tweet-text">英伟达准备降低HBM4技术规格，存储板块波动加剧，三星良率问题值得关注</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">🚨 预警提醒</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="alert-item">
+                            <div class="alert-title">SNDK 黄昏之星形态</div>
+                            <div class="alert-desc">存储龙头走出顶部反转形态，建议减仓锁定利润</div>
+                        </div>
+                        <div class="alert-item">
+                            <div class="alert-title">中国铝业暴跌 -3.94%</div>
+                            <div class="alert-desc">上游供应商异常波动，关注金属镓价格走势</div>
+                        </div>
+                        <div class="alert-item">
+                            <div class="alert-title">RSI 超买预警</div>
+                            <div class="alert-desc">英诺赛科RSI=72.3，接近短期高点需谨慎</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">📰 财经要闻</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="news-item">
+                            <div class="news-title">存储概念股普跌，闪迪(SNDK.US)跌6%</div>
+                            <div class="news-meta">2小时前 · 美股动态 · 半导体</div>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-title">应用材料(AMAT.US)业绩超预期，盘前大涨11%</div>
+                            <div class="news-meta">4小时前 · 半导体 · 财报</div>
+                        </div>
+                        <div class="news-item">
+                            <div class="news-title">马斯克银行团队研究SpaceX与xAI合并融资</div>
+                            <div class="news-meta">6小时前 · 科技 · SpaceX</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <div class="card-title">📋 任务追踪</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="task-item">
+                            <div class="task-dot done"></div>
+                            <div class="task-name">英诺赛科股价监控</div>
+                            <div class="task-time">09:15 ✓</div>
+                        </div>
+                        <div class="task-item">
+                            <div class="task-dot done"></div>
+                            <div class="task-name">Twitter动态推送</div>
+                            <div class="task-time">10:00 ✓</div>
+                        </div>
+                        <div class="task-item">
+                            <div class="task-dot pending"></div>
+                            <div class="task-name">智通财经监控</div>
+                            <div class="task-time">12:00 ⏳</div>
+                        </div>
+                        <div class="task-item">
+                            <div class="task-dot pending"></div>
+                            <div class="task-name">Dashboard自动优化</div>
+                            <div class="task-time">每小时 ⏳</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                Dashboard v3.5 | 24小时监控 | 每5分钟自动刷新 | 腾讯云新加坡
+            </div>
+        </main>
     </div>
-    
-    <button class="refresh" onclick="location.reload()">🔄 刷新</button>
     
     <script>
-        // 自动刷新 (每60秒)
-        setTimeout(() => location.reload(), 60000);
+        function toggleSuppliers() {
+            const btn = document.getElementById('expandBtn');
+            const list = document.getElementById('suppliersList');
+            const text = btn.querySelector('span');
+            
+            if (list.classList.contains('show')) {
+                list.classList.remove('show');
+                btn.classList.remove('active');
+                text.textContent = '查看上游供应商';
+            } else {
+                list.classList.add('show');
+                btn.classList.add('active');
+                text.textContent = '收起上游供应商';
+            }
+        }
+        
+        function toggleCompetitors() {
+            const btn = document.getElementById('expandCompetitorsBtn');
+            const list = document.getElementById('competitorsList');
+            const text = btn.querySelector('span');
+            
+            if (list.classList.contains('show')) {
+                list.classList.remove('show');
+                btn.classList.remove('active');
+                text.textContent = '查看竞争对手';
+            } else {
+                list.classList.add('show');
+                btn.classList.add('active');
+                text.textContent = '收起竞争对手';
+            }
+        }
+        
+        // 实时获取核心数据
+        async function fetchMarketData() {
+            try {
+                // 纳斯达克和恒生科技（腾讯财经）
+                const response = await fetch('http://qt.gtimg.cn/q=usIXIC,hkHSTECH');
+                const text = await response.text();
+                
+                // 解析纳斯达克
+                const nasdaqMatch = text.match(/v_usIXIC="[^"]+"/);
+                if (nasdaqMatch) {
+                    const fields = nasdaqMatch[0].split('~');
+                    if (fields.length > 5) {
+                        const price = parseFloat(fields[3]).toFixed(0);
+                        const change = parseFloat(fields[32]).toFixed(2);
+                        document.getElementById('nasdaqValue').textContent = parseInt(price).toLocaleString();
+                        const changeEl = document.getElementById('nasdaqChange');
+                        changeEl.textContent = (change >= 0 ? '+' : '') + change + '% ' + (change >= 0 ? '↑' : '↓');
+                        changeEl.className = 'overview-change ' + (change >= 0 ? 'up' : 'down');
+                    }
+                }
+                
+                // 解析恒生科技
+                const hstechMatch = text.match(/v_hkHSTECH="[^"]+"/);
+                if (hstechMatch) {
+                    const fields = hstechMatch[0].split('~');
+                    if (fields.length > 5) {
+                        const price = parseFloat(fields[3]).toFixed(0);
+                        const change = parseFloat(fields[32]).toFixed(2);
+                        document.getElementById('hstechValue').textContent = parseInt(price).toLocaleString();
+                        const changeEl = document.getElementById('hstechChange');
+                        changeEl.textContent = (change >= 0 ? '+' : '') + change + '% ' + (change >= 0 ? '↑' : '↓');
+                        changeEl.className = 'overview-change ' + (change >= 0 ? 'up' : 'down');
+                    }
+                }
+            } catch (e) {
+                console.log('Market data fetch failed:', e);
+            }
+            
+            // 比特币（币安API）
+            try {
+                const btcResponse = await fetch('https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT');
+                const btcData = await btcResponse.json();
+                const btcPrice = parseFloat(btcData.lastPrice).toFixed(0);
+                const btcChange = parseFloat(btcData.priceChangePercent).toFixed(2);
+                document.getElementById('btcValue').textContent = parseInt(btcPrice).toLocaleString();
+                const btcChangeEl = document.getElementById('btcChange');
+                btcChangeEl.textContent = (btcChange >= 0 ? '+' : '') + btcChange + '% ' + (btcChange >= 0 ? '↑' : '↓');
+                btcChangeEl.className = 'overview-change ' + (btcChange >= 0 ? 'up' : 'down');
+            } catch (e) {
+                console.log('BTC data fetch failed:', e);
+            }
+        }
+        
+        // 页面加载时获取数据
+        fetchMarketData();
+        
+        // 每30秒刷新一次
+        setInterval(fetchMarketData, 30000);
     </script>
 </body>
 </html>
