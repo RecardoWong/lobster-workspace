@@ -24,9 +24,9 @@
         .tweet-author-handle { color: #6b7280; font-size: 13px; }
         .tweet-time { font-size: 13px; color: #9ca3af; }
         .tweet-text { font-size: 15px; line-height: 1.6; color: #1a1a1a; margin-bottom: 12px; white-space: pre-wrap; }
-        .retweet-badge { display: inline-block; background: #10b981; color: white; font-size: 11px; padding: 2px 8px; border-radius: 4px; margin-bottom: 8px; }
+        .tweet-translation { font-size: 14px; line-height: 1.5; color: #374151; padding: 12px; background: #f0fdf4; border-radius: 8px; border-left: 3px solid #10b981; margin-bottom: 12px; }
+        .tweet-translation-label { font-size: 12px; color: #10b981; font-weight: 600; margin-bottom: 4px; }
         .update-time { text-align: center; padding: 20px; color: #9ca3af; font-size: 13px; }
-        .empty-state { text-align: center; padding: 60px 20px; color: #6b7280; }
     </style>
 </head>
 <body>
@@ -35,7 +35,7 @@
             <a href="index.html" class="back-btn">← 返回总览</a>
             <div>
                 <div class="header-title">🐦 Twitter 重点监控</div>
-                <div class="header-meta">实时监控关注账号动态</div>
+                <div class="header-meta">实时监控关注账号动态（含翻译）</div>
             </div>
         </div>
         <button class="back-btn" onclick="location.reload()">刷新</button>
@@ -43,7 +43,6 @@
     
     <div class="container">
         <div class="tweet-card" onclick="window.open('https://twitter.com/elonmusk/status/2021673886157607383', '_blank')" style="cursor: pointer;">
-            
             <div class="tweet-header">
                 <div class="tweet-author">
                     <div class="tweet-avatar">E</div>
@@ -52,16 +51,19 @@
                         <div class="tweet-author-handle">@elonmusk</div>
                     </div>
                 </div>
-                <div class="tweet-time">2026-02-14 12:10</div>
+                <div class="tweet-time">2026-02-14 12:35</div>
             </div>
             <div class="tweet-text">xAI was reorganized a few days ago to improve speed of execution. As a company grows, especially as quickly as xAI, the structure must evolve just like any living organism.
 
-This unfortunately required parting ways with some people. We wish them well in future endeavors.
+This unfortunately required parting ways with some people. We wish them well in future endeavors.</div>
+            <div class="tweet-translation">
+                <div class="tweet-translation-label">🌐 中文翻译 (Chinese Translation)</div>
+                xAI几天前进行了重组以提高执行速度。随着公司发展，尤其是像xAI这样快速发展的公司，组织结构必须像任何生物一样进化。
 
-We are</div>
+不幸的是，这需要与一些人分道扬镳。我们祝愿他们未来一切顺利。
+            </div>
         </div>
         <div class="tweet-card" onclick="window.open('https://twitter.com/elonmusk/status/1519480761749016577', '_blank')" style="cursor: pointer;">
-            
             <div class="tweet-header">
                 <div class="tweet-author">
                     <div class="tweet-avatar">E</div>
@@ -70,14 +72,19 @@ We are</div>
                         <div class="tweet-author-handle">@elonmusk</div>
                     </div>
                 </div>
-                <div class="tweet-time">2026-02-14 12:10</div>
+                <div class="tweet-time">2026-02-14 12:35</div>
             </div>
             <div class="tweet-text">Since xAI was formed just 30 months ago, the small and talented team has made remarkable progress.
 
 The future has never looked more exciting!</div>
+            <div class="tweet-translation">
+                <div class="tweet-translation-label">🌐 中文翻译 (Chinese Translation)</div>
+                自从xAI成立仅30个月以来，这个小而优秀的团队取得了显著的进步。
+
+未来从未如此令人兴奋！
+            </div>
         </div>
         <div class="tweet-card" onclick="window.open('https://twitter.com/elonmusk/status/1812258574049157405', '_blank')" style="cursor: pointer;">
-            
             <div class="tweet-header">
                 <div class="tweet-author">
                     <div class="tweet-avatar">E</div>
@@ -86,12 +93,15 @@ The future has never looked more exciting!</div>
                         <div class="tweet-author-handle">@elonmusk</div>
                     </div>
                 </div>
-                <div class="tweet-time">2026-02-14 12:10</div>
+                <div class="tweet-time">2026-02-14 12:35</div>
             </div>
-            <div class="tweet-text">Next I’m buying Coca-Cola to put the cocaine back in</div>
+            <div class="tweet-text">Next I'm buying Coca-Cola to put the cocaine back in</div>
+            <div class="tweet-translation">
+                <div class="tweet-translation-label">🌐 中文翻译 (Chinese Translation)</div>
+                接下来我要收购可口可乐，把可卡因加回去（玩笑）
+            </div>
         </div>
         <div class="tweet-card" onclick="window.open('https://twitter.com/jdhasoptions/status/1908368122840523049', '_blank')" style="cursor: pointer;">
-            
             <div class="tweet-header">
                 <div class="tweet-author">
                     <div class="tweet-avatar">J</div>
@@ -100,12 +110,15 @@ The future has never looked more exciting!</div>
                         <div class="tweet-author-handle">@jdhasoptions</div>
                     </div>
                 </div>
-                <div class="tweet-time">2026-02-14 12:10</div>
+                <div class="tweet-time">2026-02-14 12:35</div>
             </div>
             <div class="tweet-text">speed的情商是非常高的，还有很强的临场应变能力，他的成功绝对不是偶然</div>
+            <div class="tweet-translation">
+                <div class="tweet-translation-label">🌐 英文翻译 (English Translation)</div>
+                Speed (IShowSpeed) has very high emotional intelligence and strong improvisational skills. His success is definitely not accidental.
+            </div>
         </div>
         <div class="tweet-card" onclick="window.open('https://twitter.com/jdhasoptions/status/1982812463318888483', '_blank')" style="cursor: pointer;">
-            
             <div class="tweet-header">
                 <div class="tweet-author">
                     <div class="tweet-avatar">J</div>
@@ -114,7 +127,7 @@ The future has never looked more exciting!</div>
                         <div class="tweet-author-handle">@jdhasoptions</div>
                     </div>
                 </div>
-                <div class="tweet-time">2026-02-14 12:10</div>
+                <div class="tweet-time">2026-02-14 12:35</div>
             </div>
             <div class="tweet-text">几个板块我喜欢的票
 无人机：KTOS，AVAV，ONDS
@@ -127,9 +140,22 @@ The future has never looked more exciting!</div>
 数据中心：iren，cifr
 fintech：hood
 半导体：AMD，INTC</div>
+            <div class="tweet-translation">
+                <div class="tweet-translation-label">🌐 英文翻译 (English Translation)</div>
+                Some stocks I like in various sectors:
+Drones: KTOS, AVAV, ONDS
+Storage: SNDK
+Robotics: SYM
+Nuclear: LEU, UUUU
+Rare Earth: CRML
+Battery: BE
+Energy Storage: EOSE
+Data Center: IREN, CIFR
+Fintech: HOOD
+Semiconductors: AMD, INTC
+            </div>
         </div>
         <div class="tweet-card" onclick="window.open('https://twitter.com/jdhasoptions/status/1946063576097325308', '_blank')" style="cursor: pointer;">
-            
             <div class="tweet-header">
                 <div class="tweet-author">
                     <div class="tweet-avatar">J</div>
@@ -138,7 +164,7 @@ fintech：hood
                         <div class="tweet-author-handle">@jdhasoptions</div>
                     </div>
                 </div>
-                <div class="tweet-time">2026-02-14 12:10</div>
+                <div class="tweet-time">2026-02-14 12:35</div>
             </div>
             <div class="tweet-text">现在我炒股就按第一性原理来
 比如技术面，你就记住：
@@ -147,8 +173,17 @@ fintech：hood
 还有几个重要形态cup with handle，engulfing line，bull flag记一记
 很多看似高深莫测的指标，本质还是最上面
 这句话</div>
+            <div class="tweet-translation">
+                <div class="tweet-translation-label">🌐 英文翻译 (English Translation)</div>
+                Now I trade stocks based on first principles.
+For technical analysis, remember:
+Connect highs for resistance, connect lows for support.
+Then memorize key MA, EMA, VWAP,
+and important patterns: cup with handle, engulfing line, bull flag.
+Many seemingly complex indicators are essentially derived from these basics.
+            </div>
         </div>
-        <div class="update-time">数据更新时间: 2026-02-14 12:10:25 | 每5分钟自动更新</div>
+        <div class="update-time">数据更新时间: 2026-02-14 12:38:43 | 每5分钟自动更新</div>
     </div>
 </body>
 </html>
