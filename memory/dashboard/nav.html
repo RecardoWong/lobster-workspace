@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>导航中心 | 一键的投资监控</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255,255,255,0.95);
+            border-radius: 24px;
+            padding: 40px;
+            max-width: 560px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .avatar {
+            width: 72px;
+            height: 72px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border-radius: 50%;
+            margin: 0 auto 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+        }
+        .title { font-size: 26px; font-weight: 700; color: #1a1a1a; margin-bottom: 6px; }
+        .subtitle { font-size: 15px; color: #6b7280; }
+        
+        .section-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: #9ca3af;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            padding-left: 4px;
+        }
+        
+        .nav-grid {
+            display: grid;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .nav-card {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px 18px;
+            background: #f9fafb;
+            border-radius: 14px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.2s;
+            border: 1px solid transparent;
+        }
+        .nav-card:hover {
+            background: #fff;
+            border-color: #e5e7eb;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+            transform: translateY(-1px);
+        }
+        .nav-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            flex-shrink: 0;
+        }
+        .nav-icon.blue { background: linear-gradient(135deg, #3b82f6, #60a5fa); }
+        .nav-icon.green { background: linear-gradient(135deg, #22c55e, #4ade80); }
+        .nav-icon.purple { background: linear-gradient(135deg, #8b5cf6, #a78bfa); }
+        .nav-icon.orange { background: linear-gradient(135deg, #f59e0b, #fbbf24); }
+        
+        .nav-content { flex: 1; }
+        .nav-title { font-size: 16px; font-weight: 600; color: #1a1a1a; margin-bottom: 2px; }
+        .nav-desc { font-size: 13px; color: #6b7280; }
+        .nav-arrow { font-size: 18px; color: #d1d5db; }
+        
+        .doc-section {
+            background: #f0fdf4;
+            border-radius: 14px;
+            padding: 16px;
+            border: 1px solid #bbf7d0;
+        }
+        .doc-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .doc-title { font-size: 14px; font-weight: 600; color: #166534; }
+        .doc-badge {
+            font-size: 11px;
+            color: #22c55e;
+            background: #fff;
+            padding: 3px 10px;
+            border-radius: 20px;
+        }
+        .doc-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+        }
+        .doc-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            padding: 14px 8px;
+            background: #fff;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #374151;
+            transition: all 0.15s;
+        }
+        .doc-item:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transform: translateY(-1px);
+        }
+        .doc-item-icon { font-size: 22px; }
+        .doc-item-name { font-size: 12px; font-weight: 500; }
+        
+        .footer {
+            text-align: center;
+            margin-top: 28px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 13px;
+        }
+        
+        @media (max-width: 480px) {
+            .container { padding: 28px 20px; }
+            .doc-grid { grid-template-columns: 1fr; }
+            .doc-item { flex-direction: row; justify-content: center; gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="avatar">📊</div>
+            <div class="title">一键的投资监控</div>
+            <div class="subtitle">Dashboard v4.0 | 好运来博士</div>
+        </div>
+        
+        <div class="section-title">主要入口</div>
+        <div class="nav-grid">
+            <a href="/index.html" class="nav-card">
+                <div class="nav-icon blue">📈</div>
+                <div class="nav-content">
+                    <div class="nav-title">投资监控 Dashboard</div>
+                    <div class="nav-desc">股价、新闻、Twitter动态实时监控</div>
+                </div>
+                <div class="nav-arrow">→</div>
+            </a>
+            
+            <a href="/study-notes.html" class="nav-card">
+                <div class="nav-icon green">📝</div>
+                <div class="nav-content">
+                    <div class="nav-title">学习笔记</div>
+                    <div class="nav-desc">GaN博士自动学习系统 | Day 1/14</div>
+                </div>
+                <div class="nav-arrow">→</div>
+            </a>
+            
+            <a href="/gan-study.html" class="nav-card">
+                <div class="nav-icon purple">🎓</div>
+                <div class="nav-content">
+                    <div class="nav-title">学习框架</div>
+                    <div class="nav-desc">14天GaN博士培养计划课程表</div>
+                </div>
+                <div class="nav-arrow">→</div>
+            </a>
+            
+            <a href="/index_v2.html" class="nav-card">
+                <div class="nav-icon orange">📊</div>
+                <div class="nav-content">
+                    <div class="nav-title">投资分析</div>
+                    <div class="nav-desc">技术面 · 基本面 · 研报</div>
+                </div>
+                <div class="nav-arrow">→</div>
+            </a>
+        </div>
+        
+        <div class="section-title">学习文档</div>
+        <div class="doc-section">
+            <div class="doc-header">
+                <span class="doc-title">📚 学习文档中心</span>
+                <span class="doc-badge">老板抽查专用</span>
+            </div>
+            <div class="doc-grid">
+                <a href="/memory/study/day_01.md" class="doc-item">
+                    <span class="doc-item-icon">📄</span>
+                    <span class="doc-item-name">每日笔记</span>
+                </a>
+                <a href="/memory/study/weekly_report.md" class="doc-item">
+                    <span class="doc-item-icon">📊</span>
+                    <span class="doc-item-name">技术周报</span>
+                </a>
+                <a href="/memory/reports/innoscience_analysis.md" class="doc-item">
+                    <span class="doc-item-icon">📈</span>
+                    <span class="doc-item-name">投资分析</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🦞 好运来博士正在学习中... | 每晚23:00自动更新</p>
+            <p style="margin-top: 6px;">腾讯云新加坡 | 43.160.229.161</p>
+        </div>
+    </div>
+</body>
+</html>

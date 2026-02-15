@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>投资监控仪表板 | 一键</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: #f5f7fa;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        .layout { display: flex; min-height: 100vh; }
+        .sidebar {
+            width: 280px;
+            background: #fff;
+            border-right: 1px solid #e5e7eb;
+            padding: 24px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        .logo-text { font-size: 18px; font-weight: 700; color: #1a1a1a; }
+        .logo-sub { font-size: 12px; color: #9ca3af; }
+        .overview-section { margin-bottom: 28px; }
+        .section-title {
+            font-size: 11px;
+            font-weight: 600;
+            color: #9ca3af;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+        .overview-card {
+            background: #f9fafb;
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 12px;
+        }
+        .overview-label { font-size: 13px; color: #6b7280; margin-bottom: 4px; }
+        .overview-value { font-size: 24px; font-weight: 700; color: #1a1a1a; }
+        .overview-change { font-size: 12px; margin-top: 4px; }
+        .overview-change.up { color: #16a34a; }
+        .overview-change.down { color: #dc2626; }
+        .status-list { display: flex; flex-direction: column; gap: 8px; }
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .status-item:hover { background: #f3f4f6; }
+        .status-item.active { background: #eff6ff; }
+        .status-icon {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+        .status-icon.ok { background: #22c55e; box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2); }
+        .status-icon.warning { background: #f59e0b; box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.2); }
+        .status-name { flex: 1; font-size: 14px; color: #374151; }
+        .status-badge {
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #e5e7eb;
+            color: #6b7280;
+        }
+        .main {
+            flex: 1;
+            margin-left: 280px;
+            padding: 24px;
+        }
+        
+        /* 顶部导航标签 */
+        .top-nav {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 0;
+        }
+        .nav-tab {
+            padding: 12px 24px;
+            font-size: 15px;
+            font-weight: 500;
+            color: #6b7280;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            transition: all 0.2s;
+            background: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        .nav-tab:hover { color: #3b82f6; }
+        .nav-tab.active {
+            color: #3b82f6;
+            border-bottom-color: #3b82f6;
+            font-weight: 600;
+        }
+        .nav-tab .subtitle {
+            font-size: 12px;
+            color: #9ca3af;
+            font-weight: 400;
+            margin-left: 4px;
+        }
+        
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        .page-title { font-size: 24px; font-weight: 600; color: #1a1a1a; }
+        .page-meta { color: #6b7280; font-size: 14px; }
+        .refresh-btn {
+            padding: 8px 16px;
+            background: #fff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .refresh-btn:hover { background: #f9fafb; border-color: #d1d5db; }
+        
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        
+        .cards-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 24px;
+            align-items: start;
+        }
+        .column-2 {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        @media (max-width: 1200px) {
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+            .column-2 {
+                gap: 20px;
+            }
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .card-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1a1a1a;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .card-body { padding: 20px; }
+        
+        /* 主角股票 */
+        .main-stock {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.08), rgba(139, 92, 246, 0.08));
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 10px;
+            padding: 14px 16px;
+            margin-bottom: 12px;
+        }
+        .main-stock-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .main-stock-info { flex: 1; min-width: 0; }
+        .main-stock-name { font-size: 15px; font-weight: 500; color: #1a1a1a; }
+        .main-stock-code { font-size: 12px; color: #6b7280; margin-top: 1px; }
+        .main-stock-price { text-align: right; flex-shrink: 0; }
+        .main-stock-price-value { font-size: 24px; font-weight: 700; color: #1a1a1a; line-height: 1; }
+        .main-stock-change {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+        .main-stock-change.up { background: #dcfce7; color: #166534; }
+        .main-stock-change.down { background: #fee2e2; color: #991b1b; }
+        
+        /* 价格标签 */
+        .price-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+        .price-tag {
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .price-tag.support { background: #dcfce7; color: #166534; }
+        .price-tag.resistance { background: #fee2e2; color: #991b1b; }
+        .price-tag.target { background: #eff6ff; color: #3b82f6; }
+        
+        /* 分析卡片 */
+        .analysis-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+        @media (max-width: 1200px) {
+            .analysis-grid { grid-template-columns: 1fr; }
+        }
+        .analysis-card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .analysis-item {
+            padding: 12px;
+            background: #f9fafb;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .analysis-label {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 4px;
+        }
+        .analysis-value {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1a1a1a;
+        }
+        
+        /* 多空对比 */
+        .bull-bear-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+        @media (max-width: 768px) {
+            .bull-bear-grid { grid-template-columns: 1fr; }
+        }
+        .bull-card {
+            background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+            border: 1px solid #86efac;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .bear-card {
+            background: linear-gradient(135deg, #fef2f2, #fee2e2);
+            border: 1px solid #fca5a5;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .bull-title { color: #166534; font-weight: 600; margin-bottom: 12px; }
+        .bear-title { color: #991b1b; font-weight: 600; margin-bottom: 12px; }
+        
+        /* 报告列表 */
+        .report-item {
+            padding: 16px;
+            background: #f9fafb;
+            border-radius: 10px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .report-item:hover { background: #eff6ff; }
+        .report-title { font-size: 15px; font-weight: 600; color: #1a1a1a; margin-bottom: 6px; }
+        .report-meta { font-size: 12px; color: #6b7280; }
+        .report-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            margin-right: 6px;
+        }
+        .report-tag.daily { background: #dbeafe; color: #1e40af; }
+        .report-tag.weekly { background: #fce7f3; color: #9d174d; }
+        .report-tag.deep { background: #f3e8ff; color: #6b21a8; }
+        
+        /* 供应商列表 */
+        .supplier-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px;
+            background: #f9fafb;
+            border-radius: 10px;
+            margin-bottom: 8px;
+        }
+        .supplier-icon { width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; }
+        .supplier-icon.up { background: #dcfce7; }
+        .supplier-icon.down { background: #fee2e2; }
+        .supplier-info { flex: 1; }
+        .supplier-name { font-size: 14px; font-weight: 600; }
+        .supplier-business { font-size: 12px; color: #6b7280; }
+        .supplier-price { text-align: right; }
+        .supplier-change { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; }
+        .supplier-change.up { background: #dcfce7; color: #166534; }
+        .supplier-change.down { background: #fee2e2; color: #991b1b; }
+        
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: #9ca3af;
+            font-size: 13px;
+            border-top: 1px solid #e5e7eb;
+            margin-top: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">📊</div>
+                <div>
+                    <div class="logo-text">投资监控</div>
+                    <div class="logo-sub">Dashboard v4.0</div>
+                </div>
+            </div>
+            <div class="overview-section">
+                <div class="section-title">核心数据</div>
+                <div class="overview-card">
+                    <div class="overview-label">纳斯达克指数</div>
+                    <div class="overview-value">22,547</div>
+                    <div class="overview-change down">-0.22% ↓</div>
+                </div>
+                <div class="overview-card">
+                    <div class="overview-label">恒生科技指数</div>
+                    <div class="overview-value">5,360</div>
+                    <div class="overview-change down">-0.90% ↓</div>
+                </div>
+                <div class="overview-card">
+                    <div class="overview-label">英诺赛科</div>
+                    <div class="overview-value">63.50</div>
+                    <div class="overview-change up">+3.08% ↑</div>
+                </div>
+            </div>
+            <div class="overview-section">
+                <div class="section-title">系统状态</div>
+                <div class="status-list">
+                    <div class="status-item active">
+                        <div class="status-icon ok"></div>
+                        <div class="status-name">股价监控</div>
+                        <div class="status-badge">正常</div>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-icon ok"></div>
+                        <div class="status-name">Twitter监控</div>
+                        <div class="status-badge">正常</div>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-icon warning"></div>
+                        <div class="status-name">预警系统</div>
+                        <div class="status-badge">3个预警</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+        <main class="main">
+            <!-- 顶部导航标签 -->
+            <div class="top-nav">
+                <button class="nav-tab active" onclick="switchTab('overview')">
+                    总览
+                    <div class="subtitle">实时数据监控</div>
+                </button>
+                <button class="nav-tab" onclick="switchTab('analysis')">
+                    投资分析
+                    <div class="subtitle">技术面 · 基本面 · 研报</div>
+                </button>
+                <button class="nav-tab" onclick="switchTab('reports')">
+                    投资报告
+                    <div class="subtitle">日报 · 整合分析 · 深度研究</div>
+                </button>
+            </div>
+            
+            <!-- 总览标签页 -->
+            <div id="overview" class="tab-content active">
+                <div class="topbar">
+                    <div>
+                        <div class="page-title">总览</div>
+                        <div class="page-meta">老板：一键 | 实时数据监控</div>
+                    </div>
+                    <button class="refresh-btn" onclick="location.reload()">刷新数据</button>
+                </div>
+                
+                <div class="cards-grid">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">📈 股价监控</div>
+                            <span style="font-size: 12px; color: #9ca3af;">14只标的</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="main-stock">
+                                <div class="main-stock-header">
+                                    <div class="main-stock-info">
+                                        <div class="main-stock-name">英诺赛科</div>
+                                        <div class="main-stock-code">02577.HK | GaN功率芯片</div>
+                                    </div>
+                                    <div class="main-stock-price">
+                                        <div class="main-stock-price-value">63.50</div>
+                                        <div class="main-stock-change up">+3.08%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div style="margin-top: 16px;">
+                                <div style="font-size: 12px; color: #6b7280; font-weight: 600; margin-bottom: 12px;">上游供应商（7只）</div>
+                                <div class="supplier-item">
+                                    <div class="supplier-icon up">📈</div>
+                                    <div class="supplier-info">
+                                        <div class="supplier-name">三安光电</div>
+                                        <div class="supplier-business">GaN衬底/外延</div>
+                                    </div>
+                                    <div class="supplier-price">
+                                        <div style="font-weight: 700;">15.91</div>
+                                        <div class="supplier-change up">+1.27%</div>
+                                    </div>
+                                </div>
+                                <div class="supplier-item">
+                                    <div class="supplier-icon down">📉</div>
+                                    <div class="supplier-info">
+                                        <div class="supplier-name">中国铝业</div>
+                                        <div class="supplier-business">金属镓原材料</div>
+                                    </div>
+                                    <div class="supplier-price">
+                                        <div style="font-weight: 700;">12.69</div>
+                                        <div class="supplier-change down">-3.94%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid #e5e7eb;">
+                                <div style="font-size: 12px; color: #6b7280; font-weight: 600; margin-bottom: 12px;">🚨 预警提醒</div>
+                                <div style="padding: 10px; background: #fff7ed; border-left: 3px solid #f97316; border-radius: 6px;">
+                                    <div style="font-size: 13px; font-weight: 600; color: #c2410c;">RSI 超买预警</div>
+                                    <div style="font-size: 12px; color: #9a3412; margin-top: 2px;">英诺赛科RSI=72.3，接近短期高点需谨慎</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="column-2">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title">📰 财经要闻</div>
+                            </div>
+                            <div class="card-body">
+                                <div style="padding: 12px; background: #f9fafb; border-radius: 8px; margin-bottom: 10px;">
+                                    <div style="display: flex; gap: 8px; margin-bottom: 6px;">
+                                        <span style="background: #10b981; color: white; font-size: 10px; padding: 2px 6px; border-radius: 4px;">最新</span>
+                                        <span style="font-size: 12px; color: #9ca3af;">刚刚</span>
+                                    </div>
+                                    <div style="font-size: 14px; color: #1a1a1a; font-weight: 500;">港股午评：恒指跌0.5% 半导体板块逆势上涨</div>
+                                </div>
+                                <div style="padding: 12px; background: #f9fafb; border-radius: 8px;">
+                                    <div style="display: flex; gap: 8px; margin-bottom: 6px;">
+                                        <span style="background: #f59e0b; color: white; font-size: 10px; padding: 2px 6px; border-radius: 4px;">市场</span>
+                                        <span style="font-size: 12px; color: #9ca3af;">1小时前</span>
+                                    </div>
+                                    <div style="font-size: 14px; color: #1a1a1a; font-weight: 500;">英诺赛科涨超5% 氮化镓市场需求持续增长</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">🐦 Twitter 动态</div>
+                        </div>
+                        <div class="card-body">
+                            <div style="padding: 12px; background: #f9fafb; border-radius: 8px; margin-bottom: 12px;">
+                                <div style="font-size: 13px; font-weight: 600; color: #3b82f6; margin-bottom: 6px;">@elonmusk</div>
+                                <div style="font-size: 13px; color: #1a1a1a; line-height: 1.4;">xAI was reorganized a few days ago to improve speed of execution...</div>
+                            </div>
+                            <div style="padding: 12px; background: #f9fafb; border-radius: 8px;">
+                                <div style="font-size: 13px; font-weight: 600; color: #3b82f6; margin-bottom: 6px;">@jdhasoptions</div>
+                                <div style="font-size: 13px; color: #1a1a1a; line-height: 1.4;">speed的情商是非常高的，还有很强的临场应变能力...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 投资分析标签页 -->
+            <div id="analysis" class="tab-content">
+                <div class="topbar">
+                    <div>
+                        <div class="page-title">投资分析</div>
+                        <div class="page-meta">技术面 · 基本面 · 研报</div>
+                    </div>
+                </div>
+                
+                <div class="analysis-grid">
+                    <!-- 技术面分析 -->
+                    <div class="analysis-card">
+                        <div class="card-header">
+                            <div class="card-title">📊 技术面分析</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="analysis-item">
+                                <div class="analysis-label">当前价格</div>
+                                <div class="analysis-value">63.50 HKD</div>
+                            </div>
+                            <div class="analysis-item">
+                                <div class="analysis-label">RSI (14日)</div>
+                                <div class="analysis-value" style="color: #f59e0b;">72.3</div>
+                            </div>
+                            <div style="margin-top: 16px;">
+                                <div style="font-size: 12px; color: #6b7280; margin-bottom: 8px;">关键价位</div>
+                                <div class="price-tags">
+                                    <span class="price-tag support">53-54 支撑</span>
+                                    <span class="price-tag target">76 抢跑</span>
+                                    <span class="price-tag target">82 确认</span>
+                                    <span class="price-tag resistance">90 清仓</span>
+                                </div>
+                            </div>
+                            <div style="margin-top: 16px; padding: 12px; background: #fefce8; border-radius: 8px;">
+                                <div style="font-size: 13px; color: #854d0e; font-weight: 500;">⚠️ 技术信号</div>
+                                <div style="font-size: 12px; color: #a16207; margin-top: 4px;">RSI进入超买区，短期或有回调压力</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 基本面分析 -->
+                    <div class="analysis-card">
+                        <div class="card-header">
+                            <div class="card-title">🏢 基本面分析</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="analysis-item">
+                                <div class="analysis-label">谷歌订单</div>
+                                <div style="font-size: 14px; color: #166534; font-weight: 600;">✅ 已官宣，开始出货</div>
+                            </div>
+                            <div class="analysis-item">
+                                <div class="analysis-label">英伟达认证</div>
+                                <div style="font-size: 14px; color: #3b82f6; font-weight: 600;">🔄 2026年量产</div>
+                            </div>
+                            <div class="analysis-item">
+                                <div class="analysis-label">2025上半年毛利率</div>
+                                <div style="font-size: 14px; color: #16a34a; font-weight: 600;">✅ 已转正</div>
+                            </div>
+                            <div class="analysis-item">
+                                <div class="analysis-label">累计出货量</div>
+                                <div class="analysis-value">20亿颗</div>
+                            </div>
+                            <div style="margin-top: 12px; padding: 10px; background: #eff6ff; border-radius: 8px;">
+                                <div style="font-size: 12px; color: #1e40af;">核心客户：英伟达、谷歌、意法半导体</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 研报摘要 -->
+                    <div class="analysis-card">
+                        <div class="card-header">
+                            <div class="card-title">📑 研报摘要</div>
+                        </div>
+                        <div class="card-body">
+                            <div style="margin-bottom: 16px;">
+                                <div style="font-size: 13px; color: #6b7280; margin-bottom: 8px;">估值区间</div>
+                                <div style="display: flex; gap: 8px;">
+                                    <div style="flex: 1; padding: 10px; background: #f9fafb; border-radius: 8px; text-align: center;">
+                                        <div style="font-size: 12px; color: #6b7280;">合理</div>
+                                        <div style="font-size: 16px; font-weight: 700; color: #1a1a1a;">60-70</div>
+                                    </div>
+                                    <div style="flex: 1; padding: 10px; background: #f9fafb; border-radius: 8px; text-align: center;">
+                                        <div style="font-size: 12px; color: #6b7280;">乐观</div>
+                                        <div style="font-size: 16px; font-weight: 700; color: #16a34a;">80-90</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="font-size: 13px; color: #1a1a1a; line-height: 1.6;">
+                                <strong>投资逻辑：</strong>AI算力基建卖铲人 + 国产替代 + 规模效应
+                            </div>
+                            <div style="margin-top: 12px; font-size: 12px; color: #6b7280;">
+                                <a href="#" style="color: #3b82f6; text-decoration: none;">查看完整估值框架 →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 多空对比 -->
+                <div class="bull-bear-grid">
+                    <div class="bull-card">
+                        <div class="bull-title">📈 看多逻辑</div>
+                        <ul style="font-size: 14px; color: #166534; line-height: 1.8; padding-left: 20px;">
+                            <li>谷歌订单已官宣，开始批量出货</li>
+                            <li>英伟达认证，2026年量产放量</li>
+                            <li>毛利率2025上半年转正</li>
+                            <li>出货量全球第一（42%市占率）</li>
+                            <li>港股AI第一股，估值溢价</li>
+                        </ul>
+                    </div>
+                    <div class="bear-card">
+                        <div class="bear-title">📉 看空风险</div>
+                        <ul style="font-size: 14px; color: #991b1b; line-height: 1.8; padding-left: 20px;">
+                            <li>估值错配：IDM对标Fabless估值欺诈</li>
+                            <li>消费电子价格战惨烈</li>
+                            <li>车规认证周期长（18-24个月）</li>
+                            <li>尚未盈利，2026年盈亏平衡存疑</li>
+                            <li>SiC在高压场景的竞争</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 投资报告标签页 -->
+            <div id="reports" class="tab-content">
+                <div class="topbar">
+                    <div>
+                        <div class="page-title">投资报告</div>
+                        <div class="page-meta">日报 · 整合分析 · 深度研究</div>
+                    </div>
+                </div>
+                
+                <div class="cards-grid">
+                    <!-- 日报 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">📅 日报</div>
+                            <span style="font-size: 12px; color: #9ca3af;">今日市场动态</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="report-item">
+                                <div class="report-title">📊 2026-02-15 市场日报</div>
+                                <div class="report-meta">
+                                    <span class="report-tag daily">日报</span>
+                                    纳斯达克 -0.22% | 恒指 -0.90% | 英诺赛科 +3.08%
+                                </div>
+                            </div>
+                            <div class="report-item">
+                                <div class="report-title">🪙 加密货币监控日报</div>
+                                <div class="report-meta">
+                                    <span class="report-tag daily">日报</span>
+                                    BTC 69,062 | 监控4条链新币发射
+                                </div>
+                            </div>
+                            <div class="report-item">
+                                <div class="report-title">🐦 Twitter重点监控汇总</div>
+                                <div class="report-meta">
+                                    <span class="report-tag daily">日报</span>
+                                    Elon Musk: xAI重组 | JD: Speed情商高
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 整合分析 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">🔗 整合分析</div>
+                            <span style="font-size: 12px; color: #9ca3af;">多源数据汇总</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="report-item">
+                                <div class="report-title">📈 英诺赛科上下游产业链分析</div>
+                                <div class="report-meta">
+                                    <span class="report-tag weekly">周报</span>
+                                    上游7只 | 竞争对手6只 | 原材料价格监控
+                                </div>
+                            </div>
+                            <div class="report-item">
+                                <div class="report-title">🐦 Twitter情绪分析报告</div>
+                                <div class="report-meta">
+                                    <span class="report-tag weekly">周报</span>
+                                    4个账号监控 | 科技/AI/宏观/期权
+                                </div>
+                            </div>
+                            <div class="report-item">
+                                <div class="report-title">🇭🇰 港股资金流向分析</div>
+                                <div class="report-meta">
+                                    <span class="report-tag weekly">周报</span>
+                                    南向资金 | 港股通 | 机构动向
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 深度研究 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">🔍 深度研究</div>
+                            <span style="font-size: 12px; color: #9ca3af;">个股深度追踪</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="report-item">
+                                <div class="report-title">🏢 英诺赛科深度追踪档案</div>
+                                <div class="report-meta">
+                                    <span class="report-tag deep">深度</span>
+                                    GaN功率半导体 | 02577.HK
+                                </div>
+                            </div>
+                            <div class="report-item">
+                                <div class="report-title">📊 英诺赛科估值分析框架</div>
+                                <div class="report-meta">
+                                    <span class="report-tag deep">深度</span>
+                                    多空观点对比 | 操作策略 | 关键验证点
+                                </div>
+                            </div>
+                            <div class="report-item">
+                                <div class="report-title">🤖 AI算力产业链研究</div>
+                                <div class="report-meta">
+                                    <span class="report-tag deep">深度</span>
+                                    数据中心 | GaN需求 | 竞争格局
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                Dashboard v4.0 | 24小时监控 | 每5分钟自动刷新 | 腾讯云新加坡
+            </div>
+        </main>
+    </div>
+    
+    <script>
+        function switchTab(tabName) {
+            // 隐藏所有标签内容
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // 移除所有导航按钮的激活状态
+            document.querySelectorAll('.nav-tab').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // 显示选中的标签内容
+            document.getElementById(tabName).classList.add('active');
+            
+            // 激活对应的导航按钮
+            event.target.closest('.nav-tab').classList.add('active');
+        }
+    </script>
+</body>
+</html>

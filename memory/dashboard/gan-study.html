@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GaN博士学习计划 | 投资监控</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: #f5f7fa;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        .layout { display: flex; min-height: 100vh; }
+        
+        /* 侧边栏 - 与主页一致 */
+        .sidebar {
+            width: 280px;
+            background: #fff;
+            border-right: 1px solid #e5e7eb;
+            padding: 24px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        .logo-text { font-size: 18px; font-weight: 700; color: #1a1a1a; }
+        .logo-sub { font-size: 12px; color: #9ca3af; }
+        
+        .section-title {
+            font-size: 11px;
+            font-weight: 600;
+            color: #9ca3af;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+        }
+        
+        .progress-card {
+            background: #f9fafb;
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 12px;
+        }
+        .progress-label { font-size: 13px; color: #6b7280; margin-bottom: 4px; }
+        .progress-value { font-size: 24px; font-weight: 700; color: #1a1a1a; }
+        .progress-bar {
+            background: #e5e7eb;
+            border-radius: 4px;
+            height: 6px;
+            margin-top: 8px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            height: 100%;
+            border-radius: 4px;
+            width: 5%;
+            transition: width 0.3s;
+        }
+        
+        .nav-list { display: flex; flex-direction: column; gap: 8px; }
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+            text-decoration: none;
+            color: inherit;
+        }
+        .nav-item:hover { background: #f3f4f6; }
+        .nav-item.active { background: #eff6ff; }
+        .nav-icon { width: 8px; height: 8px; border-radius: 50%; }
+        .nav-icon.blue { background: #3b82f6; }
+        .nav-icon.green { background: #22c55e; }
+        .nav-icon.orange { background: #f59e0b; }
+        .nav-name { flex: 1; font-size: 14px; color: #374151; }
+        
+        /* 主内容区 */
+        .main {
+            flex: 1;
+            margin-left: 280px;
+            padding: 24px;
+        }
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        .page-title { font-size: 24px; font-weight: 600; color: #1a1a1a; }
+        .page-meta { color: #6b7280; font-size: 14px; }
+        
+        /* 卡片样式 - 与主页一致 */
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .card-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1a1a1a;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .card-body { padding: 20px; }
+        
+        /* 学习周卡片 */
+        .week-badge {
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        .badge-active { background: #dcfce7; color: #166534; }
+        .badge-pending { background: #fef3c7; color: #92400e; }
+        .badge-done { background: #dbeafe; color: #1e40af; }
+        
+        /* 主题网格 */
+        .topic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .topic-card {
+            background: #f9fafb;
+            border-radius: 10px;
+            padding: 16px;
+            border: 1px solid #e5e7eb;
+        }
+        .topic-title { 
+            font-size: 14px; 
+            color: #3b82f6; 
+            margin-bottom: 12px; 
+            font-weight: 600; 
+        }
+        .topic-list { list-style: none; }
+        .topic-list li {
+            padding: 6px 0;
+            padding-left: 16px;
+            position: relative;
+            font-size: 13px;
+            color: #4b5563;
+        }
+        .topic-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #8b5cf6;
+        }
+        
+        /* 日程表 */
+        .schedule-item {
+            display: flex;
+            gap: 16px;
+            padding: 12px 0;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .schedule-item:last-child { border-bottom: none; }
+        .day-badge {
+            background: #eff6ff;
+            color: #3b82f6;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            min-width: 60px;
+            text-align: center;
+        }
+        .schedule-content { flex: 1; font-size: 14px; color: #374151; }
+        .duration { color: #9ca3af; font-size: 13px; }
+        
+        /* 产出项 */
+        .output-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 12px;
+        }
+        .output-item {
+            background: #f9fafb;
+            padding: 14px;
+            border-radius: 8px;
+            border-left: 3px solid #3b82f6;
+        }
+        .output-item.done { border-left-color: #22c55e; }
+        .output-item.pending { border-left-color: #f59e0b; }
+        .output-name { font-size: 14px; color: #1a1a1a; margin-bottom: 4px; }
+        .output-date { font-size: 12px; color: #9ca3af; }
+        
+        /* 标准网格 */
+        .standard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+        }
+        .standard-card {
+            background: #f9fafb;
+            border-radius: 10px;
+            padding: 16px;
+        }
+        .standard-title { 
+            font-size: 14px; 
+            font-weight: 600; 
+            color: #1a1a1a; 
+            margin-bottom: 12px; 
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: #9ca3af;
+            font-size: 13px;
+            border-top: 1px solid #e5e7eb;
+            margin-top: 24px;
+        }
+        
+        @media (max-width: 768px) {
+            .sidebar { display: none; }
+            .main { margin-left: 0; }
+            .topic-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <!-- 侧边栏 -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">🎓</div>
+                <div>
+                    <div class="logo-text">学习计划</div>
+                    <div class="logo-sub">GaN博士培养</div>
+                </div>
+            </div>
+            
+            <div class="section-title">学习进度</div>
+            <div class="progress-card">
+                <div class="progress-label">总体进度</div>
+                <div class="progress-value">5%</div>
+                <div class="progress-bar"><div class="progress-fill"></div></div>
+            </div>
+            <div class="progress-card">
+                <div class="progress-label">当前阶段</div>
+                <div class="progress-value" style="font-size: 18px;">Day 1/14</div>
+            </div>
+            
+            <div class="section-title" style="margin-top: 24px;">导航</div>
+            <div class="nav-list">
+                <a href="/" class="nav-item">
+                    <div class="nav-icon blue"></div>
+                    <div class="nav-name">← 返回Dashboard</div>
+                </a>
+                <div class="nav-item active">
+                    <div class="nav-icon green"></div>
+                    <div class="nav-name">学习计划</div>
+                </div>
+                <a href="/index_v2.html" class="nav-item">
+                    <div class="nav-icon orange"></div>
+                    <div class="nav-name">投资分析 →</div>
+                </a>
+            </div>
+        </aside>
+        
+        <!-- 主内容 -->
+        <main class="main">
+            <div class="topbar">
+                <div>
+                    <div class="page-title">GaN博士学习计划</div>
+                    <div class="page-meta">氮化镓功率半导体 | 2026-02-15 ~ 2026-03-01</div>
+                </div>
+            </div>
+            
+            <!-- Week 1 -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">📚 Level 1-2: 器件物理与工艺基础</div>
+                    <span class="week-badge badge-active">进行中</span>
+                </div>
+                <div class="card-body">
+                    <div class="topic-grid">
+                        <div class="topic-card">
+                            <div class="topic-title">1.1 材料物理基础</div>
+                            <ul class="topic-list">
+                                <li>宽禁带半导体: GaN(3.4eV) vs Si vs SiC</li>
+                                <li>极化效应: 自发极化(SP) + 压电极化(PE)</li>
+                                <li>2DEG形成机制: AlGaN/GaN异质结能带工程</li>
+                                <li>载流子输运: 饱和速度、迁移率、击穿场强</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="topic-card">
+                            <div class="topic-title">1.2 器件结构</div>
+                            <ul class="topic-list">
+                                <li>p-GaN Gate HEMT: 常关型(normally-off)</li>
+                                <li>MIS-HEMT: 绝缘栅结构与界面态</li>
+                                <li>Cascode结构: GaN+Si MOSFET级联</li>
+                                <li>电流崩塌(Current Collapse): 表面态陷阱</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="topic-card">
+                            <div class="topic-title">1.3 失效机理</div>
+                            <ul class="topic-list">
+                                <li>动态Rds(on): 陷阱效应与恢复时间</li>
+                                <li>栅极退化: 电压过冲与TDDB</li>
+                                <li>体二极管特性: 反向恢复与Qrr</li>
+                                <li>热管理: 结温计算与散热设计</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="topic-card">
+                            <div class="topic-title">1.4 MOCVD工艺</div>
+                            <ul class="topic-list">
+                                <li>MOCVD设备: TMGa、TMAl、NH3流量控制</li>
+                                <li>衬底选择: Si vs SiC vs Sapphire</li>
+                                <li>外延结构: Buffer层、Channel层优化</li>
+                                <li>位错密度控制: 对可靠性的定量影响</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="topic-card">
+                            <div class="topic-title">1.5 器件制造</div>
+                            <ul class="topic-list">
+                                <li>隔离工艺: 台面隔离(Mesa Isolation)</li>
+                                <li>欧姆接触: Ti/Al/Ni/Au金属堆叠</li>
+                                <li>栅极工艺: p-GaN刻蚀与金属沉积</li>
+                                <li>钝化保护: SiN钝化层与场板设计</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="topic-card">
+                            <div class="topic-title">1.6 封装技术</div>
+                            <ul class="topic-list">
+                                <li>打线封装: Wire Bond、寄生电感问题</li>
+                                <li>铜夹片封装: Clip Bond、双面散热</li>
+                                <li>嵌入式封装: GaN IC + Driver集成</li>
+                                <li>热阻Rth(jc)计算与热设计</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Week 1 Schedule -->
+                    <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
+                        <div class="section-title">第一周日程安排</div>
+                        <div class="schedule-item">
+                            <div class="day-badge">Day 1</div>
+                            <div class="schedule-content">GaN材料基础: 宽禁带、极化效应、2DEG形成</div>
+                            <div class="duration">4h</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="day-badge">Day 2</div>
+                            <div class="schedule-content">器件结构: p-GaN gate vs MIS gate对比、电流崩塌</div>
+                            <div class="duration">4h</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="day-badge">Day 3</div>
+                            <div class="schedule-content">MOCVD工艺: 外延生长参数、位错密度控制</div>
+                            <div class="duration">4h</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="day-badge">Day 4</div>
+                            <div class="schedule-content">动态电阻: 陷阱效应、测试方法、退化机理</div>
+                            <div class="duration">4h</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="day-badge">Day 5</div>
+                            <div class="schedule-content">可靠性: HTOL测试、栅极退化、AEC-Q101</div>
+                            <div class="duration">4h</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="day-badge">Day 6</div>
+                            <div class="schedule-content">封装技术: 铜夹片、热管理、寄生电感</div>
+                            <div class="duration">4h</div>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="day-badge">Day 7</div>
+                            <div class="schedule-content">周总结: 整理笔记，输出《GaN器件技术入门》</div>
+                            <div class="duration">4h</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Week 2 -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">📚 Level 3-4: 应用架构与产业分析</div>
+                    <span class="week-badge badge-pending">待开始</span>
+                </div>
+                <div class="card-body">
+                    <div class="topic-grid">
+                        <div class="topic-card">
+                            <div class="topic-title">2.1 数据中心电源架构</div>
+                            <ul class="topic-list">
+                                <li>48V母线架构: 传统12V演进、ORV3标准</li>
+                                <li>PSU效率等级: 钛金(96%) vs 白金(94%)</li>
+                                <li>功率密度演进: 30W/in³ → 100W/in³</li>
+                                <li>英诺赛科方案: 650V/1200V在AI服务器</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="topic-card">
+                            <div class="topic-title">2.2 电源拓扑详解</div>
+                            <ul class="topic-list">
+                                <li>LLC谐振: ZVS软开关、高频化优势</li>
+                                <li>相移全桥PSFB: 占空比丢失问题</li>
+                                <li>双有源桥DAB: 双向变换、同步整流</li>
+                                <li>图腾柱PFC: 连续导通模式、高效率</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="topic-card">
+                            <div class="topic-title">2.3 车载应用与认证</div>
+                            <ul class="topic-list">
+                                <li>OBC车载充电: 6.6kW/11kW/22kW</li>
+                                <li>DC-DC变换: 高压→低压隔离</li>
+                                <li>AEC-Q101: 温度循环、HTRB、HAST测试</li>
+                                <li>功能安全: ISO 26262、ASIL等级</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="topic-card">
+                            <div class="topic-title">2.4 全球竞争格局</div>
+                            <ul class="topic-list">
+                                <li>英诺赛科: 8英寸Si衬底、成本领先</li>
+                                <li>英飞凌CoolGaN: 品牌强、8英寸刚起步</li>
+                                <li>纳微(NVTS): GaNFast集成、产能受限</li>
+                                <li>台积电: 已退出(价格战信号)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="topic-card">
+                            <div class="topic-title">2.5 产业链深度分析</div>
+                            <ul class="topic-list">
+                                <li>上游: Ga衬底(中国铝业)、MO源(南大光电)</li>
+                                <li>中游: MOCVD设备(北方华创/Aixtron)</li>
+                                <li>下游: 消费电子、数据中心、新能源汽车</li>
+                                <li>关键节点识别与投资逻辑</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="topic-card">
+                            <div class="topic-title">2.6 投资框架搭建</div>
+                            <ul class="topic-list">
+                                <li>成长性指标: 营收增速、出货量增速</li>
+                                <li>盈利能力: 毛利率、净利率、毛利率转正</li>
+                                <li>技术实力: 专利数、客户质量(英伟达+谷歌)</li>
+                                <li>估值方法: PS、EV/EBITDA、DCF基础</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 学习产出 -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">📝 学习产出计划</div>
+                </div>
+                <div class="card-body">
+                    <div class="output-grid">
+                        <div class="output-item pending">
+                            <div class="output-name">《GaN器件物理入门》技术笔记</div>
+                            <div class="output-date">截止日期: Week 1 Day 7</div>
+                        </div>
+                        <div class="output-item pending">
+                            <div class="output-name">英诺赛科vs竞品参数对比表</div>
+                            <div class="output-date">截止日期: Week 1 Day 7</div>
+                        </div>
+                        
+                        <div class="output-item pending">
+                            <div class="output-name">《数据中心电源架构分析》</div>
+                            <div class="output-date">截止日期: Week 2 Day 14</div>
+                        </div>
+                        
+                        <div class="output-item pending">
+                            <div class="output-name">产业链投资地图</div>
+                            <div class="output-date">截止日期: Week 2 Day 14</div>
+                        </div>
+                        
+                        <div class="output-item pending">
+                            <div class="output-name">《GaN功率半导体:从入门到精通》</div>
+                            <div class="output-date">截止日期: Day 14</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 验收标准 -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">🎯 结业验收标准</div>
+                </div>
+                <div class="card-body">
+                    <p style="color: #6b7280; margin-bottom: 16px;">两周后我应该能独立回答以下问题:</p>
+                    
+                    <div class="standard-grid">
+                        <div class="standard-card">
+                            <div class="standard-title">技术问题</div>
+                            <ul class="topic-list">
+                                <li>为什么GaN比Si更适合高频应用?</li>
+                                <li>2DEG形成的物理机制是什么?</li>
+                                <li>动态导通电阻退化的根本原因?</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="standard-card">
+                            <div class="standard-title">工艺问题</div>
+                            <ul class="topic-list">
+                                <li>MOCVD外延中V/III比如何影响晶体质量?</li>
+                                <li>位错密度对器件可靠性的定量影响?</li>
+                                <li>p-GaN gate vs MIS gate的取舍依据?</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="standard-card">
+                            <div class="standard-title">应用问题</div>
+                            <ul class="topic-list">
+                                <li>800V母线架构下为何选GaN而非SiC?</li>
+                                <li>LLC谐振的ZVS实现条件是什么?</li>
+                                <li>AEC-Q101车规认证的关键测试项?</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="standard-card">
+                            <div class="standard-title">投资问题</div>
+                            <ul class="topic-list">
+                                <li>英诺赛科的核心竞争优势是什么?</li>
+                                <li>主要风险点在哪里(毛利率/客户集中)?</li>
+                                <li>合理估值区间如何确定?</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <p>🎓 好运来博士培养计划 | Dashboard v4.0</p>
+                <p style="margin-top: 8px;">腾讯云新加坡 | 2026-02-15</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>投资监控 - Mobile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'PingFang SC', sans-serif;
+            background: #f2f2f7;
+            color: #1c1c1e;
+            line-height: 1.5;
+            padding-bottom: 100px;
+        }
+        
+        /* iOS风格头部 */
+        .header {
+            background: rgba(255,255,255,0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            padding: 12px 16px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 0.5px solid rgba(0,0,0,0.1);
+        }
+        .header-title {
+            font-size: 17px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .header-time {
+            font-size: 12px;
+            color: #8e8e93;
+            text-align: center;
+            margin-top: 2px;
+        }
+        
+        /* 卡片容器 */
+        .container {
+            padding: 12px;
+        }
+        
+        /* iOS风格卡片 */
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+        }
+        .card-header {
+            padding: 12px 16px;
+            border-bottom: 0.5px solid #e5e5ea;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1c1c1e;
+        }
+        .card-badge {
+            font-size: 12px;
+            color: #8e8e93;
+            background: #f2f2f7;
+            padding: 3px 8px;
+            border-radius: 10px;
+        }
+        .card-body {
+            padding: 12px 16px;
+        }
+        
+        /* 主股票展示 */
+        .main-stock {
+            background: linear-gradient(135deg, #007AFF, #5856D6);
+            border-radius: 16px;
+            padding: 20px;
+            color: white;
+            margin-bottom: 16px;
+        }
+        .main-stock-name {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .main-stock-code {
+            font-size: 13px;
+            opacity: 0.8;
+            margin-bottom: 12px;
+        }
+        .main-stock-price {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+        .price-value {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        .price-change {
+            font-size: 15px;
+            font-weight: 600;
+            background: rgba(255,255,255,0.2);
+            padding: 4px 10px;
+            border-radius: 12px;
+        }
+        
+        /* 预警提醒 */
+        .alert-item {
+            padding: 12px 0;
+            border-bottom: 0.5px solid #e5e5ea;
+        }
+        .alert-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .alert-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #ff3b30;
+            margin-bottom: 4px;
+        }
+        .alert-desc {
+            font-size: 13px;
+            color: #8e8e93;
+        }
+        
+        /* 新闻列表 */
+        .news-item {
+            padding: 12px 0;
+            border-bottom: 0.5px solid #e5e5ea;
+        }
+        .news-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .news-title {
+            font-size: 15px;
+            color: #1c1c1e;
+            line-height: 1.4;
+            margin-bottom: 6px;
+        }
+        .news-meta {
+            font-size: 12px;
+            color: #8e8e93;
+        }
+        .news-tag {
+            display: inline-block;
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-right: 6px;
+            font-weight: 500;
+        }
+        .tag-latest {
+            background: #34c759;
+            color: white;
+        }
+        .tag-news {
+            background: #ff9500;
+            color: white;
+        }
+        .tag-announce {
+            background: #007aff;
+            color: white;
+        }
+        
+        /* Twitter卡片 */
+        .tweet-item {
+            padding: 12px 0;
+            border-bottom: 0.5px solid #e5e5ea;
+        }
+        .tweet-item:last-child {
+            border-bottom: none;
+        }
+        .tweet-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .tweet-author {
+            font-size: 14px;
+            font-weight: 600;
+            color: #007aff;
+        }
+        .tweet-time {
+            font-size: 12px;
+            color: #8e8e93;
+        }
+        .tweet-text {
+            font-size: 14px;
+            color: #1c1c1e;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .tweet-translation {
+            font-size: 13px;
+            color: #8e8e93;
+            padding: 8px 12px;
+            background: #f2f2f7;
+            border-radius: 8px;
+            border-left: 3px solid #34c759;
+        }
+        
+        /* 底部导航 */
+        .tab-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255,255,255,0.9);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-top: 0.5px solid #e5e5ea;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0 24px;
+            z-index: 100;
+        }
+        .tab-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 16px;
+            text-decoration: none;
+            color: #8e8e93;
+        }
+        .tab-item.active {
+            color: #007aff;
+        }
+        .tab-icon {
+            font-size: 24px;
+        }
+        .tab-label {
+            font-size: 10px;
+        }
+        
+        /* 快速操作按钮 */
+        .quick-actions {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            padding: 4px 4px 8px;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+        .quick-actions::-webkit-scrollbar {
+            display: none;
+        }
+        .action-btn {
+            flex-shrink: 0;
+            padding: 10px 16px;
+            background: #fff;
+            border-radius: 20px;
+            font-size: 14px;
+            color: #007aff;
+            text-decoration: none;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+            border: 0.5px solid #e5e5ea;
+        }
+        
+        /* 简洁列表 */
+        .list-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 0;
+            border-bottom: 0.5px solid #e5e5ea;
+        }
+        .list-item:last-child {
+            border-bottom: none;
+        }
+        .list-label {
+            font-size: 15px;
+            color: #1c1c1e;
+        }
+        .list-value {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1c1c1e;
+        }
+        .list-value.up {
+            color: #34c759;
+        }
+        .list-value.down {
+            color: #ff3b30;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-title">投资监控</div>
+        <div class="header-time">02月14日 12:33更新</div>
+    </div>
+    
+    <div class="container">
+        <!-- 快速操作 -->
+        <div class="quick-actions">
+            <a href="https://xueqiu.com/S/02577" class="action-btn">📊 雪球</a>
+            <a href="http://stock.finance.sina.com.cn/hkstock/news/02577.html" class="action-btn">📰 新浪财经</a>
+            <a href="https://www.hkexnews.hk" class="action-btn">📋 港交所</a>
+            <a href="twitter.html" class="action-btn">🐦 Twitter</a>
+        </div>
+        
+        <!-- 主股票 -->
+        <div class="main-stock">
+            <div class="main-stock-name">英诺赛科</div>
+            <div class="main-stock-code">02577.HK · GaN功率芯片</div>
+            <div class="main-stock-price">
+                <span class="price-value">63.5</span>
+                <span class="price-change">+3.08%</span>
+            </div>
+        </div>
+        
+        <!-- 上游供应商 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">上游供应商</span>
+                <span class="card-badge">7只</span>
+            </div>
+            <div class="card-body">
+                <div class="list-item">
+                    <span class="list-label">三安光电</span>
+                    <span class="list-value up">15.91 +1.27%</span>
+                </div>
+                <div class="list-item">
+                    <span class="list-label">中国铝业</span>
+                    <span class="list-value down">12.69 -3.94%</span>
+                </div>
+                <div class="list-item">
+                    <span class="list-label">北方华创</span>
+                    <span class="list-value up">486.12 +2.33%</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 预警提醒 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">🚨 预警提醒</span>
+                <span class="card-badge" style="background: #ff3b30; color: white;">3条</span>
+            </div>
+            <div class="card-body">
+                <div class="alert-item">
+                    <div class="alert-title">SNDK 黄昏之星形态</div>
+                    <div class="alert-desc">存储龙头走出顶部反转形态</div>
+                </div>
+                <div class="alert-item">
+                    <div class="alert-title">中国铝业暴跌 -3.94%</div>
+                    <div class="alert-desc">上游供应商异常波动</div>
+                </div>
+                <div class="alert-item">
+                    <div class="alert-title">RSI 超买预警</div>
+                    <div class="alert-desc">英诺赛科RSI=72.3，接近高点</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 公司公告与市场要闻 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">📋 公告与要闻</span>
+            </div>
+            <div class="card-body">
+                <div class="news-item">
+                    <div class="news-title">
+                        <span class="news-tag tag-latest">最新</span>
+                        港股午评：恒指跌0.5% 半导体板块逆势上涨
+                    </div>
+                    <div class="news-meta">刚刚 · 新浪财经</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">
+                        <span class="news-tag tag-news">市场</span>
+                        英诺赛科涨超5% 氮化镓需求增长
+                    </div>
+                    <div class="news-meta">1小时前 · 和讯港股</div>
+                </div>
+                <div class="news-item">
+                    <div class="news-title">
+                        <span class="news-tag tag-announce">公告</span>
+                        完成配售合共2070万股新H股
+                    </div>
+                    <div class="news-meta">2025-10-17 · 港交所</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Twitter动态 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">🐦 Twitter动态</span>
+                <a href="twitter.html" style="font-size: 13px; color: #007aff; text-decoration: none;">全部 →</a>
+            </div>
+            <div class="card-body">
+                <div class="tweet-item" onclick="window.open('https://twitter.com/jdhasoptions/status/1908368122840523049', '_blank')">
+                    <div class="tweet-header">
+                        <span class="tweet-author">@jdhasoptions</span>
+                        <span class="tweet-time">12:30</span>
+                    </div>
+                    <div class="tweet-text">speed的情商是非常高的，还有很强的临场应变能力，他的成功绝对不是偶然</div>
+                    <div class="tweet-translation">🌐 Speed情商非常高，临场应变能力也很强。</div>
+                </div>
+                <div class="tweet-item" onclick="window.open('https://twitter.com/jdhasoptions/status/1982812463318888483', '_blank')">
+                    <div class="tweet-header">
+                        <span class="tweet-author">@jdhasoptions</span>
+                        <span class="tweet-time">12:30</span>
+                    </div>
+                    <div class="tweet-text">几个板块我喜欢的票
+无人机：KTOS，AVAV，ONDS
+存储：SNDK
+机器人：SYM
+核电：LEU，UUUU
+稀土：CRML
+电池：BE
+储能：EOSE
+数据中心：iren，cifr
+fintec...</div>
+                </div>
+                <div class="tweet-item" onclick="window.open('https://twitter.com/jdhasoptions/status/1946063576097325308', '_blank')">
+                    <div class="tweet-header">
+                        <span class="tweet-author">@jdhasoptions</span>
+                        <span class="tweet-time">12:30</span>
+                    </div>
+                    <div class="tweet-text">现在我炒股就按第一性原理来
+比如技术面，你就记住：
+高点连线是压力，低点连线是支撑
+然后把几个关键的ma，ema，vwap
+还有几个重要形态cup with handle，engulfing line...</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- 底部导航 -->
+    <div class="tab-bar">
+        <a href="index.html" class="tab-item active">
+            <span class="tab-icon">📊</span>
+            <span class="tab-label">总览</span>
+        </a>
+        <a href="twitter.html" class="tab-item">
+            <span class="tab-icon">🐦</span>
+            <span class="tab-label">Twitter</span>
+        </a>
+    </div>
+</body>
+</html>
