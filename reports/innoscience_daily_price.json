@@ -1,0 +1,93 @@
+{
+  "timestamp": "2026-02-14T09:15:03.501751",
+  "stocks": {
+    "hk02577": {
+      "name": "英诺赛科",
+      "code": "hk02577",
+      "price": 63.5,
+      "prev_close": 61.6,
+      "change_value": 1.9,
+      "change_pct": 3.08,
+      "volume": "8256731.0",
+      "business": "",
+      "update_time": "2026/02/13 16:08:11"
+    },
+    "sh600703": {
+      "name": "三安光电",
+      "code": "sh600703",
+      "price": 15.91,
+      "prev_close": 15.71,
+      "change_value": 0.2,
+      "change_pct": 1.27,
+      "volume": "1143238",
+      "business": "GaN衬底/外延",
+      "update_time": "20260213161402"
+    },
+    "sh601600": {
+      "name": "中国铝业",
+      "code": "sh601600",
+      "price": 12.69,
+      "prev_close": 13.21,
+      "change_value": -0.52,
+      "change_pct": -3.94,
+      "volume": "2591904",
+      "business": "金属镓原材料",
+      "update_time": "20260213161405"
+    },
+    "sz002371": {
+      "name": "北方华创",
+      "code": "sz002371",
+      "price": 486.12,
+      "prev_close": 475.05,
+      "change_value": 11.07,
+      "change_pct": 2.33,
+      "volume": "110623",
+      "business": "MOCVD设备",
+      "update_time": "20260213161448"
+    },
+    "sz300346": {
+      "name": "南大光电",
+      "code": "sz300346",
+      "price": 53.9,
+      "prev_close": 54.09,
+      "change_value": -0.19,
+      "change_pct": -0.35,
+      "volume": "307960",
+      "business": "特气MO源",
+      "update_time": "20260213161448"
+    },
+    "sz300487": {
+      "name": "蓝晓科技",
+      "code": "sz300487",
+      "price": 68.88,
+      "prev_close": 70.09,
+      "change_value": -1.21,
+      "change_pct": -1.73,
+      "volume": "33131",
+      "business": "镓提取树脂",
+      "update_time": "20260213161421"
+    },
+    "sh688012": {
+      "name": "中微公司",
+      "code": "sh688012",
+      "price": 344.5,
+      "prev_close": 345.0,
+      "change_value": -0.5,
+      "change_pct": -0.14,
+      "volume": "8011492",
+      "business": "MOCVD设备",
+      "update_time": "20260213161435"
+    },
+    "sh688396": {
+      "name": "华润微",
+      "code": "sh688396",
+      "price": 59.77,
+      "prev_close": 62.21,
+      "change_value": -2.44,
+      "change_pct": -3.92,
+      "volume": "14852802",
+      "business": "功率半导体",
+      "update_time": "20260213161451"
+    }
+  }
+}

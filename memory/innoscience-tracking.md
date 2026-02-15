@@ -184,7 +184,10 @@
 | 类型 | 股东 | 减持股数 | 减持金额 | 成本估算 | 动机分析 |
 |------|------|---------|---------|---------|---------|
 | **战略投资方** | SK China | 3244万股 | **17.45亿港元** | 45-55港元 | 🔸 平手离场/微利撤退<br>🔸 SK集团全球回笼资金投HBM<br>🔸 **非看空，是资金调配** |
-| **员工持股** | Suzhou Innocore<br>Shanghai Inno Youpeng<br>InnoScience(Suzhou) | 合计375万股 | 合计~1.25亿 | 接近0元 | 🔸 正常ESOP减持<br>🔸 改善生活（买房换车）<n>🔸 对股价冲击小 |
+<<<<<<< HEAD
+| **员工持股** | Suzhou Innocore<br>Shanghai Inno Youpeng<br>InnoScience(Suzhou) | 合计375万股 | 合计~1.25亿 | 接近0元 | 🔸 正常ESOP减持<br>🔸 改善生活（买房换车）<br>🔸 对股价冲击小 |
+=======
+| **员工持股** | Suzhou Innocore<br>Shanghai Inno Youpeng<br>InnoScience(Suzhou) | 合计375万股 | 合计~1.25亿 | 接近0元 | 🔸 正常ESOP减持<br>🔸 改善生活（买房换车）<br>🔸 对股价冲击小 |
 | **早期风投** | CMB International | 306万股 | ~2.5亿 | 10-20港元 | 🔸 **获利3-5倍了结**<br>🔸 给LP交成绩单<br>🔸 基金经理必须动作 |
 
 **关键洞察** 💡:

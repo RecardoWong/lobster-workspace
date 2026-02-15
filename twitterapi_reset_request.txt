@@ -1,0 +1,54 @@
+Subject: Request to Reset/Regenerate API Key
+
+Dear TwitterAPI.io Support Team,
+
+I hope this message finds you well. I am writing to request assistance with my API key.
+
+**Account Information:**
+- User ID: 411806873538985984
+- Current API Key: new1_47751911508746daafaf9194b664aaed
+- Account Email: [your-email@example.com]
+
+**Issue Description:**
+My current API key appears to have access issues from my server environment (IP-related restrictions). Despite having sufficient credits (999,427), I am encountering HTTP 403 errors when making requests from my server.
+
+**Request:**
+Could you please help me with one of the following solutions:
+
+1. **Reset/Regenerate a new API Key** - Generate a fresh API key for my account
+2. **Whitelist my server IP** - Add IP 43.129.179.224 to your whitelist
+3. **Provide alternative access method** - Suggest a way to bypass the IP restriction
+
+**My Use Case:**
+I am using the API for legitimate Twitter data monitoring (Elon Musk tweets, market sentiment analysis) for personal trading research. The service was working well initially, but I started encountering 403 errors recently.
+
+**Account Status:**
+- Credit Balance: 999,427 credits
+- Recent Recharge: $10 - 1,000,000 credits
+- Account Status: Active and in good standing
+
+I would greatly appreciate your assistance in resolving this issue. Please let me know if you need any additional information.
+
+Thank you for your support!
+
+Best regards,
+RecardoWong
+[Your Email]
+[Date: 2026-02-11]
+
+---
+**Alternative - Simple Version:**
+
+Subject: API Key Reset Request
+
+Hi Support,
+
+Could you please reset or regenerate a new API key for my account?
+
+User ID: 411806873538985984
+Current Key: new1_47751911508746daafaf9194b664aaed
+
+I am experiencing 403 errors from my server and would like to try a fresh API key.
+
+Thanks!
+RecardoWong

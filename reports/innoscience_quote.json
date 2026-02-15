@@ -1,0 +1,20 @@
+{
+  "symbol": "02577",
+  "name": "英诺赛科",
+  "data": {
+    "source": "xueqiu",
+    "name": "英诺赛科",
+    "current": 63.5,
+    "percent": 3.08,
+    "change": 1.9,
+    "volume": 8256731,
+    "amount": 518189802.3,
+    "market_cap": 58108891465.5,
+    "high": 64.1,
+    "low": 60.3,
+    "open": 60.6,
+    "last_close": 61.6,
+    "update_time": "2026-02-14T12:41:23.414755"
+  },
+  "fetch_time": "2026-02-14T12:41:23.415063"
+}

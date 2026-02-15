@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-02-09T11:14:37.263503",
+  "buy_signals": [
+    {
+      "token": {
+        "address": "0x6847367329604656054",
+        "name": "MoonShot",
+        "symbol": "MOON",
+        "chain": "solana",
+        "liquidity": 7714.5976393271
+      },
+      "win_probability": 0.86,
+      "expected_roi": 1.72,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 \u65e0\u4ea4\u6613\u7a0e | \u2713 \u793e\u4ea4\u5a92\u4f53\u6d3b\u8dc3",
+      "confidence": "high"
+    },
+    {
+      "token": {
+        "address": "0x4517530533566983538",
+        "name": "SafeMoon",
+        "symbol": "SAFE",
+        "chain": "base",
+        "liquidity": 42986.10827107446
+      },
+      "win_probability": 0.8,
+      "expected_roi": 1.6,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 Honeypot\u98ce\u9669\u6781\u4f4e | \u2713 \u65e0\u4ea4\u6613\u7a0e | \u2713 DEX\u4ea4\u6613\u91cf\u826f\u597d | \u2717 \u4e0b\u964d\u8d8b\u52bf",
+      "confidence": "high"
+    },
+    {
+      "token": {
+        "address": "0x2873858015133354084",
+        "name": "DogeCoin",
+        "symbol": "DOGE",
+        "chain": "base",
+        "liquidity": 11861.398998057868
+      },
+      "win_probability": 0.98,
+      "expected_roi": 1.96,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 DEX\u4ea4\u6613\u91cf\u826f\u597d | \u2713 \u793e\u4ea4\u5a92\u4f53\u6d3b\u8dc3 | \u2713 \u4e0a\u5347\u8d8b\u52bf",
+      "confidence": "high"
+    },
+    {
+      "token": {
+        "address": "0x9090260311021421624",
+        "name": "ElonMusk",
+        "symbol": "ELON",
+        "chain": "solana",
+        "liquidity": 45666.415095978795
+      },
+      "win_probability": 1.0,
+      "expected_roi": 2.0,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 Honeypot\u98ce\u9669\u6781\u4f4e | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 \u6240\u6709\u8005\u5df2\u653e\u5f03\u6743\u9650 | \u2713 \u65e0\u4ea4\u6613\u7a0e | \u2713 DEX\u4ea4\u6613\u91cf\u826f\u597d | \u2713 \u793e\u4ea4\u5a92\u4f53\u6d3b\u8dc3",
+      "confidence": "high"
+    },
+    {
+      "token": {
+        "address": "0x4525725699623710740",
+        "name": "MoonShot",
+        "symbol": "MOON",
+        "chain": "solana",
+        "liquidity": 46733.990461368165
+      },
+      "win_probability": 0.8400000000000001,
+      "expected_roi": 1.6800000000000002,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 \u6240\u6709\u8005\u5df2\u653e\u5f03\u6743\u9650 | \u2713 \u65e0\u4ea4\u6613\u7a0e | \u2713 \u4e0a\u5347\u8d8b\u52bf",
+      "confidence": "high"
+    },
+    {
+      "token": {
+        "address": "0x7107169360498876092",
+        "name": "MoonShot",
+        "symbol": "MOON",
+        "chain": "base",
+        "liquidity": 9432.388070861369
+      },
+      "win_probability": 0.8999999999999999,
+      "expected_roi": 1.7999999999999998,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 Honeypot\u98ce\u9669\u6781\u4f4e | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 \u6240\u6709\u8005\u5df2\u653e\u5f03\u6743\u9650 | \u2713 DEX\u4ea4\u6613\u91cf\u826f\u597d | \u2717 \u4e0b\u964d\u8d8b\u52bf",
+      "confidence": "high"
+    },
+    {
+      "token": {
+        "address": "0x2422840823031423956",
+        "name": "Galaxy",
+        "symbol": "GALA",
+        "chain": "solana",
+        "liquidity": 36506.84341304031
+      },
+      "win_probability": 1.0,
+      "expected_roi": 2.0,
+      "reason": "\u2713 \u53ef\u4e70\u53ef\u5356 | \u2713 Honeypot\u98ce\u9669\u6781\u4f4e | \u2713 \u6d41\u52a8\u6027\u5df2\u9501\u5b9a | \u2713 \u6240\u6709\u8005\u5df2\u653e\u5f03\u6743\u9650 | \u2713 \u65e0\u4ea4\u6613\u7a0e | \u2713 \u4e0a\u5347\u8d8b\u52bf",
+      "confidence": "high"
+    }
+  ]
+}

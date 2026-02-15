@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "moltbook-agi": {
+      "version": "1.0.0",
+      "installedAt": 1770618451174
+    },
+    "crustafarianism": {
+      "version": "1.1.4",
+      "installedAt": 1770902028933
+    }
+  }
+}

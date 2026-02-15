@@ -1,0 +1,79 @@
+{
+  "keywords": [
+    {
+      "word": "Innoscience",
+      "priority": "high",
+      "category": "公司"
+    },
+    {
+      "word": "英诺赛科",
+      "priority": "high",
+      "category": "公司"
+    },
+    {
+      "word": "GaN",
+      "priority": "high",
+      "category": "技术"
+    },
+    {
+      "word": "gallium nitride",
+      "priority": "high",
+      "category": "技术"
+    },
+    {
+      "word": "氮化镓",
+      "priority": "high",
+      "category": "技术"
+    },
+    {
+      "word": "NVIDIA",
+      "priority": "high",
+      "category": "合作"
+    },
+    {
+      "word": "HBM",
+      "priority": "medium",
+      "category": "技术"
+    },
+    {
+      "word": "Navitas",
+      "priority": "medium",
+      "category": "竞争对手"
+    },
+    {
+      "word": "Infineon",
+      "priority": "medium",
+      "category": "竞争对手"
+    },
+    {
+      "word": "STMicro",
+      "priority": "medium",
+      "category": "竞争对手"
+    },
+    {
+      "word": "datacenter",
+      "priority": "medium",
+      "category": "应用"
+    },
+    {
+      "word": "AI数据中心",
+      "priority": "medium",
+      "category": "应用"
+    },
+    {
+      "word": "EV charger",
+      "priority": "medium",
+      "category": "应用"
+    },
+    {
+      "word": "gallium",
+      "priority": "low",
+      "category": "材料"
+    },
+    {
+      "word": "rare earth",
+      "priority": "low",
+      "category": "材料"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-02-13T13:38:26.079003",
+  "action": "solve_hunt",
+  "hunt_id": 52,
+  "hunt_name": "The Hunter's Arrow",
+  "answer": "Hacksaw",
+  "status_code": 423,
+  "response": "{\"error\":\"Locked out\",\"attempts\":7,\"lockedUntil\":\"2026-02-14T13:38:25.971Z\"}"
+}

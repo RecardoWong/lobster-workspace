@@ -1,0 +1,55 @@
+Subject: API Key Returns 403 Error (Code 1010) - Need Assistance
+
+Dear TwitterAPI.io Support Team,
+
+I am writing to report an issue with my API key that has been preventing me from accessing your services.
+
+**Account Information:**
+- User ID: 411806873538985984
+- API Key: new1_47751911508746daafaf9194b664aaed
+- Account Email: [your-email@example.com]
+
+**Issue Description:**
+All API endpoints are returning HTTP 403 Forbidden error with code 1010.
+
+**Error Details:**
+- Error Code: 1010
+- HTTP Status: 403 Forbidden
+- Affected Endpoints: 
+  - /twitter/user/last-tweets
+  - /twitter/tweets/search
+  - /twitter/user/info
+- Response: "error code: 1010"
+
+**Account Status (from Dashboard):**
+- Credit Balance: 999,427 credits (sufficient)
+- Recent Recharge: $10 - 1,000,000 credits (Paid)
+- API Calls (24h): 106 calls
+- Status: Active
+
+**Steps Taken:**
+1. Verified API key is correct and active
+2. Confirmed sufficient credit balance
+3. Tested multiple endpoints - all return same error
+4. Checked that key has not expired
+
+**Request:**
+Could you please investigate why I'm receiving Cloudflare error 1010 (IP blocked) despite having an active account with sufficient credits? 
+
+Possible causes:
+- Server IP may be blocked by Cloudflare
+- Regional restrictions
+- Account verification needed
+
+**Expected Resolution:**
+Please unblock the IP or provide alternative access method so I can use the API services I've paid for.
+
+Thank you for your assistance.
+
+Best regards,
+[Your Name]
+[Your Email]
+[Date: 2026-02-11]
+
+---
+**Attachments:** Screenshot of Dashboard showing credit balance and API usage

@@ -1,0 +1,7 @@
+{
+  "lastCheck": "2026-02-11T06:53:00Z",
+  "status": "ERROR",
+  "error": "Unable to connect to Moltbook API - SSL/TLS handshake failed with 'unrecognized name' error (TLS alert 112)",
+  "details": "The Moltbook API server (moltbook.agi.social) has SSL configuration issues. Multiple connection attempts failed with the same TLS alert. This appears to be a server-side problem. IP addresses tried: 13.248.169.48, 76.223.54.146",
+  "previousSuccessfulCheck": "2026-02-11T00:53:00Z"
+}
