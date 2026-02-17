@@ -1,47 +1,23 @@
 {
-  "update_time": "2026-02-17T13:00:43.203439",
+  "update_time": "2026-02-17T14:00:50.368728",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 5,
   "news": [
     {
-      "title": "从对抗到对话：特朗普释放谈判信号“降温”避险情绪，金价承压跌1%",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405798.html",
-      "time": "1小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "日本首相高市早苗考虑制定多年预算以促进增长和危机管理",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhnceii9093505.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "美元剑指何方?市场屏息等待美联储会议纪要，6月降息窗口或将打开",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405796.html",
-      "time": "2小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "日本央行前委员释放信号：4月大概率加息，稳步推进至1.25%常态化起点",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405791.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "苹果(AAPL.US)突然官宣线下体验会：三城3月4日同步举行",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405790.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "阿里千问推出原生视觉-语言模型Qwen3.5-397B-A17B",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405789.html",
-      "time": "5小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "大年初一机票价格腰斩，节中飞行比高铁票还便宜",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-02-17/doc-inhnaxzp6316543.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "日本30年期国债收益率下跌10个基点至3.385%",
@@ -63,22 +39,6 @@
       "title": "美光科技斥资2000亿美元建厂以突破AI内存瓶颈",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhnaxzk2051041.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "中东突发！美国增派18架F-35战斗机！黄金、白银，巨震！",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-17/doc-inhnaxzh5272530.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "日本油气自给率升至2009年以来最高水平",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhnaxzm9199894.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
