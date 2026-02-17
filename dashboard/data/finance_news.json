@@ -1,47 +1,31 @@
 {
-  "update_time": "2026-02-18T03:00:17.732759",
+  "update_time": "2026-02-18T04:00:33.456393",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 5,
   "news": [
     {
-      "title": "古尔斯比“放鸽”：若通胀回归2% 美联储今年仍有降息空间",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405819.html",
-      "time": "1小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "Strategy继续买入比特币 但更多购买资金来自优先股发行",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnenaq4618846.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "英伟达(NVDA.US)财报在即 花旗给出偏乐观前瞻判断 AI推理路线图或成新催化剂",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405818.html",
-      "time": "2小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "自动驾驶领衔 巴克莱预计物理AI有望成长为万亿美元市场",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnenav5614580.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "股价回调不合理！知名科技分析师Dan Ives力挺苹果(AAPL.US) 维持“跑赢大盘”评级",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405816.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "传统服务成“AI风暴”避风港：黑石(BX.US)拟25亿美元收购家庭服务提供商 Champions Group",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405814.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "好莱坞并购变数再起：派拉蒙天舞(PSKY.US)提价至每股31美元，华纳兄弟(WBD.US)重启七日谈判窗口",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405813.html",
-      "time": "5小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "美联储理事巴尔：“一段时间内”维持利率不变可能是适宜之举",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnenaq4617849.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "苹果加快研发人工智能眼镜、吊坠及带摄像头的AirPods耳机",
@@ -55,30 +39,6 @@
       "title": "Anthropic发布新AI模型 强化电脑操作与编程能力",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefuu1511413.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美联储巴尔：通胀前景仍存风险，一段时间内恐不会降息",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefuu1499477.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "报道：苹果加速推进AI眼镜、智能吊坠与摄像头版AirPods研发",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefus4721847.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "民调居首的英国改革党公布“影子内阁” 拟由前保守党要员Jenrick任财相",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefuu1498958.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
