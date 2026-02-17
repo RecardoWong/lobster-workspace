@@ -1,8 +1,64 @@
 {
-  "update_time": "2026-02-17T15:00:27.210369",
+  "update_time": "2026-02-17T16:00:16.062469",
   "source_count": 3,
-  "total_count": 5,
+  "total_count": 9,
   "news": [
+    {
+      "title": "CPI余波未了!美债收益率直逼4%关口，市场屏息以待就业数据验证降息路径",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405805.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "2月16日全社会跨区域人员流动量完成19411.2万人次",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405803.html",
+      "time": "2小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "1.3万亿美元的“AI幻灭”：微软(MSFT.US)、亚马逊(AMZN.US)领跌，投资者不再为愿景买单",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405802.html",
+      "time": "3小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "中物联：2025年全国社会物流总额368.2万亿元 同比增长5.1%",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405799.html",
+      "time": "4小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "从对抗到对话：特朗普释放谈判信号“降温”避险情绪，金价承压跌1%",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405798.html",
+      "time": "5小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "风险偏好暴击黄金！但别急着追空，美联储纪要才是终极大考！",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-02-17/doc-inhnceim6217112.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "日本债市延续涨势 高市胜选以来的首次常规性国债标售需求上升",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhnceih1966042.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
     {
       "title": "丹麦银行：预计美联储下一次降息将在6月",
       "source": "新浪财经",
@@ -15,30 +71,6 @@
       "title": "日本2029财年国债发行规模可能比2026财年激增28%",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhnceih1961254.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "路透调查：英国央行料于3月降息 后续降息时机不明",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-17/doc-inhnceih1959132.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "报告：美国市政债券正在回暖",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-17/doc-inhnceie5181652.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "软银与Ampere Computing联合测试使用CPU运行小型人工智能模型",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhnceie5181347.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
