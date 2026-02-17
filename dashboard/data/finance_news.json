@@ -1,0 +1,55 @@
+{
+  "update_time": "2026-02-17T11:30:00.000000",
+  "source_count": 3,
+  "total_count": 6,
+  "news": [
+    {
+      "title": "英诺赛科港股上市首日涨超20%，市值突破300亿港元",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1234567.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "氮化镓芯片需求激增，英诺赛科产能持续扩张",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2025-02-17/doc-1234567.shtml",
+      "time": "2小时前",
+      "tag": "行业",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美股科技股回调，纳斯达克指数跌0.5%，英伟达领跌",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/1234567",
+      "time": "3小时前",
+      "tag": "美股",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "台积电2nm制程试产成功，英伟达或成首批大客户",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1234568.html",
+      "time": "4小时前",
+      "tag": "芯片",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "比特币突破70000美元，加密货币市场全面回暖",
+      "source": "财联社",
+      "url": "https://www.cls.cn/detail/1234568",
+      "time": "5小时前",
+      "tag": "crypto",
+      "tagColor": "#f59e0b"
+    },
+    {
+      "title": "港股恒生科技指数涨0.13%，半导体板块领涨",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2025-02-17/doc-1234568.shtml",
+      "time": "6小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    }
+  ]
+}
