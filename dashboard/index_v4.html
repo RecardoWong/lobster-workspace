@@ -386,41 +386,85 @@
             `).join('');
         }
         
-        // 模拟 Twitter 数据
-        function getTwitterData() {
-            return [
-                {
-                    author: 'Elon Musk',
-                    handle: '@elonmusk',
-                    time: '2小时前',
-                    text: 'Cybercab production will start in April 🚗⚡',
-                    translate: 'Cybercab 将于4月开始生产'
-                },
-                {
-                    author: 'jdhasoptions',
-                    handle: '@jdhasoptions',
-                    time: '3小时前',
-                    text: '大盘好弱，看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹...',
-                    translate: '大盘弱势，短期看涨期权主要在博弈IGV成分股反弹'
-                }
-            ];
+        // 加载 Twitter 数据
+        async function loadTwitterData() {
+            try {
+                const response = await fetch('data/twitter_data.json?t=' + Date.now());
+                const data = await response.json();
+                return data;
+            } catch (e) {
+                console.error('加载 Twitter 数据失败:', e);
+                return null;
+            }
         }
         
         // 渲染 Twitter
-        function renderTwitter() {
-            const tweets = getTwitterData();
+        async function renderTwitter() {
+            const data = await loadTwitterData();
             const container = document.getElementById('twitterContainer');
-            container.innerHTML = tweets.map(t => `
-                <div class="tweet-item">
-                    <div class="tweet-author">
-                        <span class="tweet-author-name">${t.author}</span>
-                        <span class="tweet-author-handle">${t.handle}</span>
-                        <span class="tweet-time">${t.time}</span>
+            
+            if (!data || !data.tweets) {
+                container.innerHTML = '<div style="text-align: center; padding: 40px; color: #9ca3af;">暂无数据</div>';
+                return;
+            }
+            
+            // 合并所有推文并按时间排序
+            let allTweets = [];
+            const accountNames = {
+                'elonmusk': 'Elon Musk',
+                'jdhasoptions': 'jdhasoptions',
+                'xiaomucrypto': 'xiaomucrypto',
+                'aistocksavvy': 'AI Stock Savvy'
+            };
+            
+            for (const [account, tweets] of Object.entries(data.tweets)) {
+                tweets.forEach(t => {
+                    allTweets.push({
+                        ...t,
+                        accountName: accountNames[account] || account,
+                        accountHandle: '@' + account
+                    });
+                });
+            }
+            
+            // 按时间排序（最新的在前）
+            allTweets.sort((a, b) => new Date(b.time) - new Date(a.time));
+            
+            // 显示前6条
+            const recentTweets = allTweets.slice(0, 6);
+            
+            container.innerHTML = recentTweets.map(t => {
+                const timeAgo = getTimeAgo(t.time);
+                return `
+                    <div class="tweet-item">
+                        <div class="tweet-author">
+                            <span class="tweet-author-name">${t.accountName}</span>
+                            <span class="tweet-author-handle">${t.accountHandle}</span>
+                            <span class="tweet-time">${timeAgo}</span>
+                        </div>
+                        <div class="tweet-text">${escapeHtml(t.text)}</div>
                     </div>
-                    <div class="tweet-text">${t.text}</div>
-                    <div class="tweet-translate">${t.translate}</div>
-                </div>
-            `).join('');
+                `;
+            }).join('');
+        }
+        
+        // 计算时间差
+        function getTimeAgo(dateString) {
+            const date = new Date(dateString);
+            const now = new Date();
+            const diff = Math.floor((now - date) / 1000);
+            
+            if (diff < 60) return '刚刚';
+            if (diff < 3600) return Math.floor(diff / 60) + '分钟前';
+            if (diff < 86400) return Math.floor(diff / 3600) + '小时前';
+            return Math.floor(diff / 86400) + '天前';
+        }
+        
+        // HTML 转义
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
         }
         
         // 模拟加密货币数据

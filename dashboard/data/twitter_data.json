@@ -1,0 +1,127 @@
+{
+  "update_time": "2026-02-17T11:13:20.909315",
+  "tweets": {
+    "elonmusk": [
+      {
+        "author": "elonmusk",
+        "text": "Cybercab, which has no pedals or steering wheel, starts production in April",
+        "time": "2026-02-16T14:49:48.000Z",
+        "fetched_at": "2026-02-17T08:24:27.847449"
+      },
+      {
+        "author": "elonmusk",
+        "text": "If you’re in Korea and want to work on chip design, fabrication or AI software, join Tesla!",
+        "time": "2026-02-16T21:53:35.000Z",
+        "fetched_at": "2026-02-17T08:24:27.911867"
+      },
+      {
+        "author": "elonmusk",
+        "text": "Model S & X are great cars!\n\nOrder yours before we sunset the program in a few months. \n\n\nhttp://\nTesla.com",
+        "time": "2026-02-16T21:29:15.000Z",
+        "fetched_at": "2026-02-17T08:24:28.246133"
+      },
+      {
+        "author": "elonmusk",
+        "text": "Important read",
+        "time": "2026-02-16T20:27:35.000Z",
+        "fetched_at": "2026-02-17T08:24:28.354900"
+      }
+    ],
+    "jdhasoptions": [
+      {
+        "author": "jdhasoptions",
+        "text": "大盘好弱\n看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹，比如$S，$ORCL，$NOW。这个conviction不是很强tbh，很明显有赌的成分\n还有一个whale roll 1300万美元左右的call，bullish call spread。理论上巨鲸是看涨的，但上次这个巨鲸roll call是1/29，刚好是这只股票股价短期高点",
+        "time": "2026-02-13T21:00:42.000Z",
+        "fetched_at": "2026-02-17T08:24:38.767787"
+      },
+      {
+        "author": "jdhasoptions",
+        "text": "ADBE和CRM都有大额看空put\n这俩还都是$IGV成分股",
+        "time": "2026-02-12T18:47:28.000Z",
+        "fetched_at": "2026-02-17T08:24:38.813013"
+      },
+      {
+        "author": "jdhasoptions",
+        "text": "$igv要是反弹到这里就结束也太幽默了",
+        "time": "2026-02-12T16:00:33.000Z",
+        "fetched_at": "2026-02-17T08:24:38.850833"
+      },
+      {
+        "author": "jdhasoptions",
+        "text": "捞一下，今天vrt大涨\n这个list的含金量也被验证了",
+        "time": "2026-02-11T14:19:56.000Z",
+        "fetched_at": "2026-02-17T08:24:38.874227"
+      },
+      {
+        "author": "jdhasoptions",
+        "text": "等三天我看情况抄底\n不赌财报的习惯救了我",
+        "time": "2026-02-11T05:38:22.000Z",
+        "fetched_at": "2026-02-17T08:24:38.908086"
+      }
+    ],
+    "xiaomucrypto": [
+      {
+        "author": "xiaomucrypto",
+        "text": "目前能买到包含海力士和三星股票的etf有\n1.a股的中韩半导体etf\n2.美股的FLXK\n3.港股的俩倍做多海力士/三星.\n不推荐的是第三个，前俩个有正股不怕横盘磨损.当然也可以都买，成年人不做选择.",
+        "time": "2026-01-27T04:45:58.000Z",
+        "fetched_at": "2026-02-17T08:24:49.649544"
+      },
+      {
+        "author": "xiaomucrypto",
+        "text": "存储是指数级的需求，产量却是线性的.\n每个人电脑可以有一块gpu，但是时间长了存的小电影照片多了你可能得再买一个硬盘，\nai就是把人很多年的时间压缩到几天，它化身agent龙虾无眠无休的在制造数据.",
+        "time": "2026-02-16T10:27:11.000Z",
+        "fetched_at": "2026-02-17T08:24:49.674799"
+      },
+      {
+        "author": "xiaomucrypto",
+        "text": "我汇总整理了一下各个模型现在的input和output价格，minimax定价很低，但deepseek和grok定价更低，数据排名却很差.\n说明minimax m2.5只少从开发者实践后用量上看，很可能强于grok4.1和ds v3.2.\n国内最赚钱的模型还是kimi2.5 ，output定价最高2.2u.",
+        "time": "2026-02-16T04:30:02.000Z",
+        "fetched_at": "2026-02-17T08:24:49.709335"
+      },
+      {
+        "author": "xiaomucrypto",
+        "text": "除了单日霸榜，MiniMAx凭借编程能力，完成了周数据的霸榜.按照目前速度，最终会到2.6T以上，相当于Kimi2.5的俩倍.",
+        "time": "2026-02-16T03:31:11.000Z",
+        "fetched_at": "2026-02-17T08:24:49.736128"
+      },
+      {
+        "author": "xiaomucrypto",
+        "text": "早起梦见拿爆米花机爆btc\n祝大家新年快乐万事大吉财运亨通！",
+        "time": "2026-02-16T02:38:50.000Z",
+        "fetched_at": "2026-02-17T08:24:49.762416"
+      }
+    ],
+    "aistocksavvy": [
+      {
+        "author": "aistocksavvy",
+        "text": " Companies Reporting Earnings Next Week\n\n$FLR $ETOR $BLDR $MDT $TOL $CDNS $EQT $NNE $PANW $KVUE $SEDG $GLBE $ADI $GRMN $WIND $FIG $CVNA $CAR $BKNG $DASH $OXY $NICE $DE $LMND $KLAR $WMT $ETSY $W $INDI $FIVN $NEM $OPEN $FIX $DBX $SFM $AKAM $BABA",
+        "time": "2026-02-13T21:42:23.000Z",
+        "fetched_at": "2026-02-17T08:25:00.269876"
+      },
+      {
+        "author": "aistocksavvy",
+        "text": " 𝐉𝐔𝐒𝐓 𝐈𝐍: SpaceX, xAI Enter Pentagon Contest for Autonomous Drone Tech - Bloomberg\n\n$TSLA $RKLB $AVAV $RTX $KTOS $RCAT $ONDS\n\n 𝐊𝐞𝐲 𝐇𝐢𝐠𝐡𝐥𝐢𝐠𝐡𝐭𝐬:\n\n➤  SpaceX and 𝐱𝐀𝐈 competing in secretive 𝐏𝐞𝐧𝐭𝐚𝐠𝐨𝐧 drone program.\n\n➤  Contest focuses on",
+        "time": "2026-02-16T18:43:39.000Z",
+        "fetched_at": "2026-02-17T08:25:00.293915"
+      },
+      {
+        "author": "aistocksavvy",
+        "text": " 𝐀𝐍𝐀𝐋𝐘𝐒𝐓 𝐀𝐋𝐄𝐑𝐓: Goldman Sachs’ Alexander Duval Raises Price Target on $NBIS 𝐍𝐞𝐛𝐢𝐮𝐬 to $𝟏𝟔𝟎 from $155 — Increase of 𝟑%, Maintains Buy Rating",
+        "time": "2026-02-16T17:15:27.000Z",
+        "fetched_at": "2026-02-17T08:25:00.327749"
+      },
+      {
+        "author": "aistocksavvy",
+        "text": "Elon: Cybercab production will start in April - $TSLA",
+        "time": "2026-02-16T15:33:48.000Z",
+        "fetched_at": "2026-02-17T08:25:00.354789"
+      },
+      {
+        "author": "aistocksavvy",
+        "text": " 𝐉𝐔𝐒𝐓 𝐈𝐍: Hapag-Lloyd to Acquire $ZIM ZIM in $𝟒.𝟐𝐁 All-Cash Deal\n\n 𝐊𝐞𝐲 𝐇𝐢𝐠𝐡𝐥𝐢𝐠𝐡𝐭𝐬:\n\n➤  Hapag-Lloyd to acquire 𝐙𝐈𝐌 for $𝟑𝟓.𝟎𝟎 per share in cash.\n\n➤  Transaction values ZIM at approximately $𝟒.𝟐𝐁 equity value.\n\n➤  Offer represents 𝟓𝟖%",
+        "time": "2026-02-16T14:28:47.000Z",
+        "fetched_at": "2026-02-17T08:25:00.400176"
+      }
+    ]
+  }
+}

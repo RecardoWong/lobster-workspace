@@ -1,0 +1,76 @@
+{
+  "update_time": "2026-02-17T11:13:20.909315",
+  "tweets": {
+    "elonmusk": [
+      {
+        "author": "elonmusk",
+        "name": "Elon Musk",
+        "text": "Cybercab, which has no pedals or steering wheel, starts production in April",
+        "translate": "Cybercab（无人驾驶出租车，无踏板和方向盘）将于4月开始生产",
+        "time": "2026-02-16T14:49:48.000Z",
+        "time_ago": "21小时前",
+        "url": "https://x.com/elonmusk/status/1891583694309711879"
+      },
+      {
+        "author": "elonmusk",
+        "name": "Elon Musk",
+        "text": "If you're in Korea and want to work on chip design, fabrication or AI software, join Tesla!",
+        "translate": "如果你在韩国，想从事芯片设计、制造或AI软件工作，加入特斯拉！",
+        "time": "2026-02-16T21:53:35.000Z",
+        "time_ago": "14小时前",
+        "url": "https://x.com/elonmusk/status/1891691975484276736"
+      },
+      {
+        "author": "elonmusk",
+        "name": "Elon Musk",
+        "text": "Model S & X are great cars! Order yours before we sunset the program in a few months.",
+        "translate": "Model S和X是好车！在几个月后停产前赶紧下单。",
+        "time": "2026-02-16T21:29:15.000Z",
+        "time_ago": "14小时前",
+        "url": "https://x.com/elonmusk/status/1891685863524311040"
+      }
+    ],
+    "jdhasoptions": [
+      {
+        "author": "jdhasoptions",
+        "name": "jdhasoptions",
+        "text": "大盘好弱，看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹，比如$S，$ORCL，$NOW。这个conviction不是很强tbh，很明显有赌的成分",
+        "translate": "大盘很弱，看到的一些7天甚至0天到期看涨期权主要是在博弈IGV成分股的短期反弹，比如S、ORCL、NOW。这个信念不是很强，很明显有赌的成分",
+        "time": "2026-02-13T21:00:42.000Z",
+        "time_ago": "3天前",
+        "url": "https://x.com/jdhasoptions/status/1890610617945387008"
+      },
+      {
+        "author": "jdhasoptions",
+        "name": "jdhasoptions",
+        "text": "ADBE和CRM都有大额看空put，这俩还都是$IGV成分股",
+        "translate": "ADBE和CRM都有大额看跌期权，两者都是IGV成分股",
+        "time": "2026-02-12T18:47:28.000Z",
+        "time_ago": "4天前",
+        "url": "https://x.com/jdhasoptions/status/1890215142485106688"
+      }
+    ],
+    "xiaomucrypto": [
+      {
+        "author": "xiaomucrypto",
+        "name": "xiaomucrypto",
+        "text": "存储是指数级的需求，产量却是线性的。每个人电脑可以有一块gpu，但是时间长了存的小电影照片多了你可能得再买一个硬盘，ai就是把人很多年的时间压缩到几天，它化身agent龙虾无眠无休的在制造数据。",
+        "translate": "存储是指数级需求，产量却是线性的。每人电脑可有一块GPU，但时间长了存储满了得再买硬盘。AI就是把人多年时间压缩到几天，化身代理无眠无休制造数据。",
+        "time": "2026-02-16T10:27:11.000Z",
+        "time_ago": "1天前",
+        "url": "https://x.com/xiaomucrypto/status/1891427310035918848"
+      }
+    ],
+    "aistocksavvy": [
+      {
+        "author": "aistocksavvy",
+        "name": "AI Stock Savvy",
+        "text": "Elon: Cybercab production will start in April - $TSLA",
+        "translate": "Elon：Cybercab将于4月开始生产 - 特斯拉",
+        "time": "2026-02-16T15:33:48.000Z",
+        "time_ago": "20小时前",
+        "url": "https://x.com/aistocksavvy/status/1891547036612608000"
+      }
+    ]
+  }
+}

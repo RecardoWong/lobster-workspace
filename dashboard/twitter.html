@@ -20,7 +20,11 @@
         .tweet-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
         .tweet-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
         .tweet-author { display: flex; align-items: center; gap: 10px; }
-        .tweet-avatar { width: 40px; height: 40px; border-radius: 50%; background: #3b82f6; display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; }
+        .tweet-avatar { width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; }
+        .tweet-avatar.elonmusk { background: #1d9bf0; }
+        .tweet-avatar.jdhasoptions { background: #10b981; }
+        .tweet-avatar.xiaomucrypto { background: #f59e0b; }
+        .tweet-avatar.aistocksavvy { background: #8b5cf6; }
         .tweet-author-info { display: flex; flex-direction: column; }
         .tweet-author-name { font-weight: 600; color: #1a1a1a; font-size: 15px; }
         .tweet-author-handle { color: #6b7280; font-size: 13px; }
@@ -29,6 +33,10 @@
         .tweet-translation { font-size: 15px; line-height: 1.6; color: #1a1a1a; padding: 14px; background: #f0fdf4; border-radius: 10px; border-left: 4px solid #10b981; margin: 12px 0; }
         .tweet-translation-label { font-size: 13px; color: #059669; font-weight: 700; margin-bottom: 6px; display: block; }
         .update-time { text-align: center; padding: 20px; color: #9ca3af; font-size: 13px; }
+        .loading { text-align: center; padding: 60px 20px; color: #9ca3af; }
+        .loading-spinner { width: 40px; height: 40px; border: 3px solid #e5e7eb; border-top-color: #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 16px; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .error { text-align: center; padding: 40px 20px; color: #dc2626; background: #fef2f2; border-radius: 12px; margin: 20px; }
         
         /* iPhone优化 */
         @media (max-width: 768px) {
@@ -51,152 +59,185 @@
                 <div class="header-meta">实时监控关注账号动态（含翻译）</div>
             </div>
         </div>
-        <button class="back-btn" onclick="location.reload()">刷新</button>
+        <button class="back-btn" onclick="loadTweets()">🔄 刷新</button>
     </div>
     
-    <div class="container">
-        <div class="tweet-card" onclick="window.open('https://twitter.com/elonmusk/status/2021673886157607383', '_blank')" style="cursor: pointer;">
-            <div class="tweet-header">
-                <div class="tweet-author">
-                    <div class="tweet-avatar">E</div>
-                    <div class="tweet-author-info">
-                        <div class="tweet-author-name">Elon Musk</div>
-                        <div class="tweet-author-handle">@elonmusk</div>
-                    </div>
-                </div>
-                <div class="tweet-time">2026-02-14 12:35</div>
-            </div>
-            <div class="tweet-text">xAI was reorganized a few days ago to improve speed of execution. As a company grows, especially as quickly as xAI, the structure must evolve just like any living organism.
-
-This unfortunately required parting ways with some people. We wish them well in future endeavors.</div>
-            <div class="tweet-translation">
-                <div class="tweet-translation-label">🌐 中文翻译 (Chinese Translation)</div>
-                xAI几天前进行了重组以提高执行速度。随着公司发展，尤其是像xAI这样快速发展的公司，组织结构必须像任何生物一样进化。
-
-不幸的是，这需要与一些人分道扬镳。我们祝愿他们未来一切顺利。
-            </div>
+    <div class="container" id="tweetContainer">
+        <div class="loading">
+            <div class="loading-spinner"></div>
+            <div>正在加载推文...</div>
         </div>
-        <div class="tweet-card" onclick="window.open('https://twitter.com/elonmusk/status/1519480761749016577', '_blank')" style="cursor: pointer;">
-            <div class="tweet-header">
-                <div class="tweet-author">
-                    <div class="tweet-avatar">E</div>
-                    <div class="tweet-author-info">
-                        <div class="tweet-author-name">Elon Musk</div>
-                        <div class="tweet-author-handle">@elonmusk</div>
-                    </div>
-                </div>
-                <div class="tweet-time">2026-02-14 12:35</div>
-            </div>
-            <div class="tweet-text">Since xAI was formed just 30 months ago, the small and talented team has made remarkable progress.
-
-The future has never looked more exciting!</div>
-            <div class="tweet-translation">
-                <div class="tweet-translation-label">🌐 中文翻译 (Chinese Translation)</div>
-                自从xAI成立仅30个月以来，这个小而优秀的团队取得了显著的进步。
-
-未来从未如此令人兴奋！
-            </div>
-        </div>
-        <div class="tweet-card" onclick="window.open('https://twitter.com/elonmusk/status/1812258574049157405', '_blank')" style="cursor: pointer;">
-            <div class="tweet-header">
-                <div class="tweet-author">
-                    <div class="tweet-avatar">E</div>
-                    <div class="tweet-author-info">
-                        <div class="tweet-author-name">Elon Musk</div>
-                        <div class="tweet-author-handle">@elonmusk</div>
-                    </div>
-                </div>
-                <div class="tweet-time">2026-02-14 12:35</div>
-            </div>
-            <div class="tweet-text">Next I'm buying Coca-Cola to put the cocaine back in</div>
-            <div class="tweet-translation">
-                <div class="tweet-translation-label">🌐 中文翻译 (Chinese Translation)</div>
-                接下来我要收购可口可乐，把可卡因加回去（玩笑）
-            </div>
-        </div>
-        <div class="tweet-card" onclick="window.open('https://twitter.com/jdhasoptions/status/1908368122840523049', '_blank')" style="cursor: pointer;">
-            <div class="tweet-header">
-                <div class="tweet-author">
-                    <div class="tweet-avatar">J</div>
-                    <div class="tweet-author-info">
-                        <div class="tweet-author-name">JD</div>
-                        <div class="tweet-author-handle">@jdhasoptions</div>
-                    </div>
-                </div>
-                <div class="tweet-time">2026-02-14 12:35</div>
-            </div>
-            <div class="tweet-text">speed的情商是非常高的，还有很强的临场应变能力，他的成功绝对不是偶然</div>
-            <div class="tweet-translation">
-                <div class="tweet-translation-label">🌐 英文翻译 (English Translation)</div>
-                Speed (IShowSpeed) has very high emotional intelligence and strong improvisational skills. His success is definitely not accidental.
-            </div>
-        </div>
-        <div class="tweet-card" onclick="window.open('https://twitter.com/jdhasoptions/status/1982812463318888483', '_blank')" style="cursor: pointer;">
-            <div class="tweet-header">
-                <div class="tweet-author">
-                    <div class="tweet-avatar">J</div>
-                    <div class="tweet-author-info">
-                        <div class="tweet-author-name">JD</div>
-                        <div class="tweet-author-handle">@jdhasoptions</div>
-                    </div>
-                </div>
-                <div class="tweet-time">2026-02-14 12:35</div>
-            </div>
-            <div class="tweet-text">几个板块我喜欢的票
-无人机：KTOS，AVAV，ONDS
-存储：SNDK
-机器人：SYM
-核电：LEU，UUUU
-稀土：CRML
-电池：BE
-储能：EOSE
-数据中心：iren，cifr
-fintech：hood
-半导体：AMD，INTC</div>
-            <div class="tweet-translation">
-                <div class="tweet-translation-label">🌐 英文翻译 (English Translation)</div>
-                Some stocks I like in various sectors:
-Drones: KTOS, AVAV, ONDS
-Storage: SNDK
-Robotics: SYM
-Nuclear: LEU, UUUU
-Rare Earth: CRML
-Battery: BE
-Energy Storage: EOSE
-Data Center: IREN, CIFR
-Fintech: HOOD
-Semiconductors: AMD, INTC
-            </div>
-        </div>
-        <div class="tweet-card" onclick="window.open('https://twitter.com/jdhasoptions/status/1946063576097325308', '_blank')" style="cursor: pointer;">
-            <div class="tweet-header">
-                <div class="tweet-author">
-                    <div class="tweet-avatar">J</div>
-                    <div class="tweet-author-info">
-                        <div class="tweet-author-name">JD</div>
-                        <div class="tweet-author-handle">@jdhasoptions</div>
-                    </div>
-                </div>
-                <div class="tweet-time">2026-02-14 12:35</div>
-            </div>
-            <div class="tweet-text">现在我炒股就按第一性原理来
-比如技术面，你就记住：
-高点连线是压力，低点连线是支撑
-然后把几个关键的ma，ema，vwap
-还有几个重要形态cup with handle，engulfing line，bull flag记一记
-很多看似高深莫测的指标，本质还是最上面
-这句话</div>
-            <div class="tweet-translation">
-                <div class="tweet-translation-label">🌐 英文翻译 (English Translation)</div>
-                Now I trade stocks based on first principles.
-For technical analysis, remember:
-Connect highs for resistance, connect lows for support.
-Then memorize key MA, EMA, VWAP,
-and important patterns: cup with handle, engulfing line, bull flag.
-Many seemingly complex indicators are essentially derived from these basics.
-            </div>
-        </div>
-        <div class="update-time">数据更新时间: 2026-02-14 12:38:43 | 每5分钟自动更新</div>
     </div>
+    <div class="update-time" id="updateTime"></div>
+
+    <script>
+        // 账号信息配置
+        const ACCOUNT_INFO = {
+            'elonmusk': { name: 'Elon Musk', handle: '@elonmusk', avatarClass: 'elonmusk' },
+            'jdhasoptions': { name: 'JD', handle: '@jdhasoptions', avatarClass: 'jdhasoptions' },
+            'xiaomucrypto': { name: 'xiaomucrypto', handle: '@xiaomucrypto', avatarClass: 'xiaomucrypto' },
+            'aistocksavvy': { name: 'AI Stock Savvy', handle: '@aistocksavvy', avatarClass: 'aistocksavvy' }
+        };
+
+        // 翻译数据（临时方案，后续可从翻译API获取）
+        const TRANSLATIONS = {
+            'elonmusk': {
+                'Cybercab, which has no pedals or steering wheel, starts production in April': 'Cybercab 无人驾驶出租车（无踏板无方向盘）将于4月开始生产',
+                'If you\'re in Korea and want to work on chip design, fabrication or AI software, join Tesla!': '如果你在韩国，想从事芯片设计、制造或AI软件工作，加入特斯拉吧！',
+                'Model S & X are great cars!\n\nOrder yours before we sunset the program in a few months.': 'Model S & X 是很棒的车！\n\n在我们几个月后停产之前订购吧。',
+                'Important read': '重要阅读'
+            },
+            'jdhasoptions': {
+                '大盘好弱\n看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹，比如$S，$ORCL，$NOW。这个conviction不是很强tbh，很明显有赌的成分\n还有一个whale roll 1300万美元左右的call，bullish call spread。理论上巨鲸是看涨的，但上次这个巨鲸roll call是1/29，刚好是这只股票股价短期高点': 'The market is very weak. Some 7d or even 0dte calls I see are mainly betting on short-term rebounds in $IGV stocks like $S, $ORCL, $NOW. The conviction isn\'t very strong tbh, clearly gambling. There\'s also a whale rolling ~$13M calls, bullish call spread. Theoretically the whale is bullish, but last time this whale rolled calls was 1/29, exactly at the stock\'s short-term high.',
+                'ADBE和CRM都有大额看空put\n这俩还都是$IGV成分股': 'Both ADBE and CRM have large bearish puts. Both are $IGV constituents.',
+                '$igv要是反弹到这里就结束也太幽默了': 'Would be hilarious if $IGV rebound ends here.',
+                '捞一下，今天vrt大涨\n这个list的含金量也被验证了': 'Bringing this up, VRT surged today. The quality of this list has been proven.',
+                '等三天我看情况抄底\n不赌财报的习惯救了我': 'Waiting three days to see if I bottom-fish. The habit of not betting on earnings saved me.'
+            },
+            'xiaomucrypto': {
+                '目前能买到包含海力士和三星股票的etf有\n1.a股的中韩半导体etf\n2.美股的FLXK\n3.港股的俩倍做多海力士/三星.\n不推荐的是第三个，前俩个有正股不怕横盘磨损.当然也可以都买，成年人不做选择.': 'ETFs that include Hynix and Samsung stocks: 1. China-Korea Semiconductor ETF (A-shares) 2. FLXK (US stocks) 3. 2x Long Hynix/Samsung (HK stocks). Not recommending the third one, the first two have underlying stocks so no decay. Of course you can buy all, adults don\'t choose.',
+                '存储是指数级的需求，产量却是线性的.\n每个人电脑可以有一块gpu，但是时间长了存的小电影照片多了你可能得再买一个硬盘，\nai就是把人很多年的时间压缩到几天，它化身agent龙虾无眠无休的在制造数据.': 'Storage demand is exponential, but production is linear. Everyone can have one GPU in their computer, but over time as you store more videos and photos you need another hard drive. AI compresses years of human time into days, it becomes an agent lobster creating data 24/7.',
+                '我汇总整理了一下各个模型现在的input和output价格，minimax定价很低，但deepseek和grok定价更低，数据排名却很差.\n说明minimax m2.5只少从开发者实践后用量上看，很可能强于grok4.1和ds v3.2.\n国内最赚钱的模型还是kimi2.5 ，output定价最高2.2u.': 'I compiled input/output prices for various models. MiniMax pricing is low, but DeepSeek and Grok are even lower with poor rankings. This suggests MiniMax M2.5 is likely stronger than Grok 4.1 and DS V3.2 based on developer usage. The most profitable domestic model is still Kimi 2.5 with highest output pricing at 2.2u.',
+                '除了单日霸榜，MiniMAx凭借编程能力，完成了周数据的霸榜.按照目前速度，最终会到2.6T以上，相当于Kimi2.5的俩倍.': 'Besides topping daily charts, MiniMax dominated weekly data with its coding capabilities. At current pace, it will reach 2.6T+, equivalent to 2x Kimi 2.5.',
+                '早起梦见拿爆米花机爆btc\n祝大家新年快乐万事大吉财运亨通！': 'Dreamed of popping BTC in a popcorn machine this morning. Happy New Year everyone, wishing you prosperity and wealth!'
+            },
+            'aistocksavvy': {
+                ' Companies Reporting Earnings Next Week\n\n$FLR $ETOR $BLDR $MDT $TOL $CDNS $EQT $NNE $PANW $KVUE $SEDG $GLBE $ADI $GRMN $WIND $FIG $CVNA $CAR $BKNG $DASH $OXY $NICE $DE $LMND $KLAR $WMT $ETSY $W $INDI $FIVN $NEM $OPEN $FIX $DBX $SFM $AKAM $BABA': '下周财报公司列表',
+                ' 𝐉𝐔𝐒𝐓 𝐈𝐍: SpaceX, xAI Enter Pentagon Contest for Autonomous Drone Tech - Bloomberg\n\n$TSLA $RKLB $AVAV $RTX $KTOS $RCAT $ONDS\n\n 𝐊𝐞𝐲 𝐇𝐢𝐠𝐡𝐥𝐢𝐠𝐡𝐭𝐬:\n\n➤  SpaceX and 𝐱𝐀𝐈 competing in secretive 𝐏𝐞𝐧𝐭𝐚𝐠𝐨𝐧 drone program.\n\n➤  Contest focuses on': '突发：SpaceX、xAI 参与五角大楼自主无人机技术竞赛 - 彭博社',
+                ' 𝐀𝐍𝐀𝐋𝐘𝐒𝐓 𝐀𝐋𝐄𝐑𝐓: Goldman Sachs\' Alexander Duval Raises Price Target on $NBIS 𝐍𝐞𝐛𝐢𝐮𝐬 to $𝟏𝟔𝟎 from $155 — Increase of 𝟑%, Maintains Buy Rating': '分析师预警：高盛将 $NBIS Nebius 目标价从$155上调至$160，维持买入评级',
+                'Elon: Cybercab production will start in April - $TSLA': '马斯克：Cybercab 生产将于4月开始',
+                ' 𝐉𝐔𝐒𝐓 𝐈𝐍: Hapag-Lloyd to Acquire $ZIM ZIM in $𝟒.𝟐𝐁 All-Cash Deal\n\n 𝐊𝐞𝐲 𝐇𝐢𝐠𝐡𝐥𝐢𝐠𝐡𝐭𝐬:\n\n➤  Hapag-Lloyd to acquire 𝐙𝐈𝐌 for $𝟑𝟓.𝟎𝟎 per share in cash.\n\n➤  Transaction values ZIM at approximately $𝟒.𝟐𝐁 equity value.\n\n➤  Offer represents 𝟓𝟖%': '突发：赫伯罗特以42亿美元全现金收购 $ZIM'
+            }
+        };
+
+        // 格式化时间
+        function formatTime(timeStr) {
+            const date = new Date(timeStr);
+            const now = new Date();
+            const diff = now - date;
+            const minutes = Math.floor(diff / 60000);
+            const hours = Math.floor(diff / 3600000);
+            const days = Math.floor(diff / 86400000);
+            
+            if (minutes < 60) return `${minutes}分钟前`;
+            if (hours < 24) return `${hours}小时前`;
+            if (days < 7) return `${days}天前`;
+            return date.toLocaleDateString('zh-CN');
+        }
+
+        // 获取翻译
+        function getTranslation(author, text) {
+            const authorTranslations = TRANSLATIONS[author];
+            if (authorTranslations && authorTranslations[text]) {
+                return authorTranslations[text];
+            }
+            // 如果文本包含换行，尝试匹配第一行
+            const firstLine = text.split('\n')[0];
+            if (authorTranslations && authorTranslations[firstLine]) {
+                return authorTranslations[firstLine];
+            }
+            return null;
+        }
+
+        // 创建推文卡片
+        function createTweetCard(tweet) {
+            const info = ACCOUNT_INFO[tweet.author] || { name: tweet.author, handle: '@' + tweet.author, avatarClass: tweet.author };
+            const translation = getTranslation(tweet.author, tweet.text);
+            const timeAgo = formatTime(tweet.time);
+            
+            let translationHtml = '';
+            if (translation) {
+                translationHtml = `
+                    <div class="tweet-translation">
+                        <div class="tweet-translation-label">🌐 翻译</div>
+                        ${escapeHtml(translation)}
+                    </div>
+                `;
+            }
+            
+            return `
+                <div class="tweet-card">
+                    <div class="tweet-header">
+                        <div class="tweet-author">
+                            <div class="tweet-avatar ${info.avatarClass}">${info.name[0]}</div>
+                            <div class="tweet-author-info">
+                                <div class="tweet-author-name">${info.name}</div>
+                                <div class="tweet-author-handle">${info.handle}</div>
+                            </div>
+                        </div>
+                        <div class="tweet-time">${timeAgo}</div>
+                    </div>
+                    <div class="tweet-text">${escapeHtml(tweet.text)}</div>
+                    ${translationHtml}
+                </div>
+            `;
+        }
+
+        // HTML转义
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // 加载推文
+        async function loadTweets() {
+            const container = document.getElementById('tweetContainer');
+            const updateTimeEl = document.getElementById('updateTime');
+            
+            container.innerHTML = `
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <div>正在加载推文...</div>
+                </div>
+            `;
+            
+            try {
+                // 添加时间戳防止缓存
+                const response = await fetch('data/twitter_data.json?t=' + Date.now());
+                if (!response.ok) throw new Error('加载失败');
+                
+                const data = await response.json();
+                
+                if (!data.tweets || Object.keys(data.tweets).length === 0) {
+                    container.innerHTML = '<div class="error">暂无推文数据</div>';
+                    return;
+                }
+                
+                // 合并所有推文并按时间排序
+                let allTweets = [];
+                for (const [account, tweets] of Object.entries(data.tweets)) {
+                    tweets.forEach(tweet => {
+                        allTweets.push({
+                            ...tweet,
+                            author: account
+                        });
+                    });
+                }
+                
+                // 按时间倒序排列
+                allTweets.sort((a, b) => new Date(b.time) - new Date(a.time));
+                
+                // 渲染推文
+                container.innerHTML = allTweets.map(createTweetCard).join('');
+                
+                // 更新更新时间
+                const updateTime = data.update_time ? new Date(data.update_time) : new Date();
+                updateTimeEl.textContent = `数据更新时间: ${updateTime.toLocaleString('zh-CN')} | 每2小时自动更新`;
+                
+            } catch (error) {
+                console.error('加载推文失败:', error);
+                container.innerHTML = `
+                    <div class="error">
+                        <div>加载推文失败: ${error.message}</div>
+                        <div style="margin-top: 10px; font-size: 13px;">请检查网络连接或稍后再试</div>
+                    </div>
+                `;
+            }
+        }
+
+        // 页面加载时自动加载
+        document.addEventListener('DOMContentLoaded', loadTweets);
+    </script>
 </body>
 </html>

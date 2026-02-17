@@ -285,13 +285,13 @@
                     </div>
                 </div>
                 
-                <!-- 加密货币 -->
+                <!-- 财经要闻 -->
                 <div class="card">
                     <div class="card-header">
-                        <div class="card-title">🪙 Base 链新币监控</div>
-                        <span style="font-size: 12px; color: #9ca3af;">最近发射</span>
+                        <div class="card-title">📰 财经要闻</div>
+                        <span style="font-size: 12px; color: #9ca3af;">实时</span>
                     </div>
-                    <div class="card-body" id="cryptoContainer">
+                    <div class="card-body" id="newsContainer">
                         <div style="text-align: center; padding: 40px; color: #9ca3af;">
                             加载中...
                         </div>
@@ -386,67 +386,152 @@
             `).join('');
         }
         
-        // 模拟 Twitter 数据
-        function getTwitterData() {
-            return [
-                {
-                    author: 'Elon Musk',
-                    handle: '@elonmusk',
-                    time: '2小时前',
-                    text: 'Cybercab production will start in April 🚗⚡',
-                    translate: 'Cybercab 将于4月开始生产'
-                },
-                {
-                    author: 'jdhasoptions',
-                    handle: '@jdhasoptions',
-                    time: '3小时前',
-                    text: '大盘好弱，看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹...',
-                    translate: '大盘弱势，短期看涨期权主要在博弈IGV成分股反弹'
-                }
-            ];
+        // 加载 Twitter 数据（带中文翻译）
+        async function loadTwitterData() {
+            try {
+                const nocache = new Date().getTime();
+                const response = await fetch('data/twitter_translated.json?_=' + nocache, {
+                    cache: 'no-store',
+                    headers: { 'Cache-Control': 'no-cache' }
+                });
+                const data = await response.json();
+                console.log('Twitter 数据加载成功:', data.update_time);
+                return data;
+            } catch (e) {
+                console.error('加载 Twitter 数据失败:', e);
+                return null;
+            }
         }
         
         // 渲染 Twitter
-        function renderTwitter() {
-            const tweets = getTwitterData();
+        async function renderTwitter() {
+            const data = await loadTwitterData();
             const container = document.getElementById('twitterContainer');
-            container.innerHTML = tweets.map(t => `
-                <div class="tweet-item">
-                    <div class="tweet-author">
-                        <span class="tweet-author-name">${t.author}</span>
-                        <span class="tweet-author-handle">${t.handle}</span>
-                        <span class="tweet-time">${t.time}</span>
-                    </div>
-                    <div class="tweet-text">${t.text}</div>
-                    <div class="tweet-translate">${t.translate}</div>
-                </div>
-            `).join('');
+            
+            if (!data || !data.tweets) {
+                container.innerHTML = '<div style="text-align: center; padding: 40px; color: #9ca3af;">暂无数据</div>';
+                return;
+            }
+            
+            // 合并所有推文并按时间排序
+            let allTweets = [];
+            
+            for (const [account, tweets] of Object.entries(data.tweets)) {
+                tweets.forEach(t => {
+                    allTweets.push(t);
+                });
+            }
+            
+            // 按时间排序（最新的在前）
+            allTweets.sort((a, b) => new Date(b.time) - new Date(a.time));
+            
+            // 显示前6条
+            const recentTweets = allTweets.slice(0, 6);
+            
+            container.innerHTML = recentTweets.map(t => {
+                return `
+                    <a href="${t.url || '#' }" target="_blank" style="text-decoration: none; color: inherit; display: block;" class="tweet-link">
+                        <div class="tweet-item" style="cursor: pointer; transition: background 0.2s;">
+                            <div class="tweet-author">
+                                <span class="tweet-author-name">${t.name || t.author}</span>
+                                <span class="tweet-author-handle">@${t.author}</span>
+                                <span class="tweet-time">${t.time_ago || getTimeAgo(t.time)}</span>
+                            </div>
+                            <div class="tweet-text">${escapeHtml(t.text)}</div>
+                            ${t.translate ? `<div class="tweet-translate">
+                                <span style="color: #3b82f6; font-size: 11px;">[中文翻译]</span> ${escapeHtml(t.translate)}
+                            </div>` : ''}
+                            <div style="margin-top: 8px; font-size: 11px; color: #9ca3af; text-align: right;">
+                                🔗 点击查看原推文 →
+                            </div>
+                        </div>
+                    </a>
+                `;
+            }).join('');
+            
+            // 添加悬停效果
+            document.querySelectorAll('.tweet-link').forEach(link => {
+                link.addEventListener('mouseenter', function() {
+                    this.querySelector('.tweet-item').style.background = '#f8fafc';
+                });
+                link.addEventListener('mouseleave', function() {
+                    this.querySelector('.tweet-item').style.background = 'transparent';
+                });
+            });
         }
         
-        // 模拟加密货币数据
-        function getCryptoData() {
+        // 计算时间差
+        function getTimeAgo(dateString) {
+            const date = new Date(dateString);
+            const now = new Date();
+            const diff = Math.floor((now - date) / 1000);
+            
+            if (diff < 60) return '刚刚';
+            if (diff < 3600) return Math.floor(diff / 60) + '分钟前';
+            if (diff < 86400) return Math.floor(diff / 3600) + '小时前';
+            return Math.floor(diff / 86400) + '天前';
+        }
+        
+        // HTML 转义
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        // 加载财经要闻数据
+        async function loadFinanceNews() {
+            try {
+                const nocache = new Date().getTime();
+                const response = await fetch('data/finance_news.json?_=' + nocache, {
+                    cache: 'no-store',
+                    headers: { 'Cache-Control': 'no-cache' }
+                });
+                const data = await response.json();
+                console.log('财经要闻加载成功:', data.update_time);
+                return data.news || [];
+            } catch (e) {
+                console.error('加载财经要闻失败:', e);
+                return getDefaultNews();
+            }
+        }
+        
+        // 默认财经要闻
+        function getDefaultNews() {
             return [
-                { name: 'Clanker Token', symbol: 'CLANK', price: '$0.0001', change: '+15%', age: '2小时前' },
-                { name: 'Base Meme', symbol: 'BASEM', price: '$0.00005', change: '-5%', age: '5小时前' }
+                { title: '英诺赛科港股上市首日涨超20%', source: '智通财经', url: '#', time: '1小时前', tag: '港股', tagColor: '#3b82f6' },
+                { title: '氮化镓芯片需求激增', source: '新浪财经', url: '#', time: '2小时前', tag: '行业', tagColor: '#10b981' },
+                { title: '美股科技股回调，纳指跌0.5%', source: '财联社', url: '#', time: '3小时前', tag: '美股', tagColor: '#ef4444' },
+                { title: '台积电2nm制程试产成功', source: '智通财经', url: '#', time: '4小时前', tag: '芯片', tagColor: '#8b5cf6' },
+                { title: '比特币突破70000美元', source: '财联社', url: '#', time: '5小时前', tag: 'crypto', tagColor: '#f59e0b' }
             ];
         }
         
-        // 渲染加密货币
-        function renderCrypto() {
-            const cryptos = getCryptoData();
-            const container = document.getElementById('cryptoContainer');
-            container.innerHTML = cryptos.map(c => `
-                <div class="stock-item">
-                    <div>
-                        <div class="stock-name">${c.name}</div>
-                        <div class="stock-code">${c.symbol} | ${c.age}</div>
+        // 渲染财经要闻
+        async function renderNews() {
+            const news = await loadFinanceNews();
+            const container = document.getElementById('newsContainer');
+            
+            container.innerHTML = news.map(item => `
+                <a href="${item.url}" target="_blank" style="text-decoration: none; color: inherit; display: block; margin-bottom: 12px; padding: 12px; border-radius: 8px; transition: background 0.2s;" class="news-link">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
+                        <span style="font-size: 12px; color: ${item.tagColor}; background: ${item.tagColor}15; padding: 2px 8px; border-radius: 4px; font-weight: 500;">${item.tag}</span>
+                        <span style="font-size: 11px; color: #9ca3af;">${item.time}</span>
                     </div>
-                    <div class="stock-price">
-                        <div class="stock-price-value">${c.price}</div>
-                        <div class="stock-change ${c.change.includes('+') ? 'up' : 'down'}">${c.change}</div>
-                    </div>
-                </div>
+                    <div style="font-size: 14px; font-weight: 500; color: #1a1a1a; line-height: 1.5; margin-bottom: 4px;">${item.title}</div>
+                    <div style="font-size: 12px; color: #6b7280;">${item.source} · 🔗 点击阅读</div>
+                </a>
             `).join('');
+            
+            // 添加悬停效果
+            document.querySelectorAll('.news-link').forEach(link => {
+                link.addEventListener('mouseenter', function() {
+                    this.style.background = '#f8fafc';
+                });
+                link.addEventListener('mouseleave', function() {
+                    this.style.background = 'transparent';
+                });
+            });
         }
         
         // 刷新数据
@@ -469,8 +554,8 @@
             // 更新Twitter
             renderTwitter();
             
-            // 更新加密货币
-            renderCrypto();
+            // 更新财经要闻
+            renderNews();
             
             // 更新BTC
             const btc = await fetchBTC();
