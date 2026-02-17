@@ -1,44 +1,84 @@
 {
-  "update_time": "2026-02-17T20:00:47.837628",
+  "update_time": "2026-02-17T21:00:30.737797",
   "source_count": 3,
-  "total_count": 5,
+  "total_count": 10,
   "news": [
     {
-      "title": "高盛、纳斯达克CEO将出席特朗普两儿子主办的加密货币“论坛”",
+      "title": "美股前瞻 | 三大股指期货齐跌 黄金跌破4900 美伊开启第二轮核谈判",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405812.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "美元指数连续两日收高：美联储降息预期遭质疑，对冲基金削减空头头寸",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405811.html",
+      "time": "2小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "创新药出海刷新纪录！开年BD总额超300亿美元 “中国研发效率”备受看好",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405810.html",
+      "time": "3小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "就业数据疲软重燃降息预期：货币市场定价英国央行将在年内两次降息",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405809.html",
+      "time": "4小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "日本大选后首次日债拍卖平稳落地：日本国债延续升势，超长期债领涨",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405807.html",
+      "time": "5小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "美银调查显示AI泡沫成首要尾部风险 资本支出过热担忧创纪录",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncqwy5009454.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvew4894220.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "沃什或许希望美联储缩减资产负债表，但这一目标难以实现",
+      "title": "NAPA母公司Genuine Parts计划分拆为两家公司",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncqxf6030531.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvfc5917202.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "通用磨坊下调年度销售和利润预期",
+      "title": "今年美国五大云巨头已在美发行450亿美元债券",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncqwy5005036.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvez8813790.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "尼日利亚与肯尼亚引领非洲风潮：用中国电动汽车散件组装电动货车",
+      "title": "麦迪逊大道陷入危机，中西部广告公司迎来机遇",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncqxc8927251.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvey1669582.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美元连续第二日小幅走高 外汇交易员押注美联储降息幅度料有限",
+      "title": "丹纳赫以100亿美元协议收购Masimo",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-17/doc-inhncqwy5000542.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvew4889886.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
