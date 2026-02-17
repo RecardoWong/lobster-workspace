@@ -12,7 +12,7 @@ from datetime import datetime
 API_KEY = "new1_47751911508746daafaf9194b664aaed"
 BASE_URL = "https://api.twitterapi.io/twitter"
 
-DATA_FILE = '/root/.openclaw/workspace/lobster-workspace/dashboard/data/twitter_data.json'
+DATA_FILE = '/root/.openclaw/workspace/dashboard/data/twitter_data.json'
 LOG_FILE = '/root/.openclaw/workspace/lobster-workspace/logs/twitter_monitor.log'
 
 # 监控账号

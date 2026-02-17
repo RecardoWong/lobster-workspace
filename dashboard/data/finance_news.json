@@ -1,13 +1,29 @@
 {
-  "update_time": "2026-02-17T23:00:29.377672",
+  "update_time": "2026-02-18T00:00:18.667016",
   "source_count": 3,
   "total_count": 10,
   "news": [
     {
+      "title": "古尔斯比“放鸽”：若通胀回归2% 美联储今年仍有降息空间",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405819.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "英伟达(NVDA.US)财报在即 花旗给出偏乐观前瞻判断 AI推理路线图或成新催化剂",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405818.html",
+      "time": "2小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
       "title": "股价回调不合理！知名科技分析师Dan Ives力挺苹果(AAPL.US) 维持“跑赢大盘”评级",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405816.html",
-      "time": "1小时前",
+      "time": "3小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -15,7 +31,7 @@
       "title": "传统服务成“AI风暴”避风港：黑石(BX.US)拟25亿美元收购家庭服务提供商 Champions Group",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405814.html",
-      "time": "2小时前",
+      "time": "4小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -23,62 +39,46 @@
       "title": "好莱坞并购变数再起：派拉蒙天舞(PSKY.US)提价至每股31美元，华纳兄弟(WBD.US)重启七日谈判窗口",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405813.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "美股前瞻 | 三大股指期货齐跌 黄金跌破4900 美伊开启第二轮核谈判",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405812.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "美元指数连续两日收高：美联储降息预期遭质疑，对冲基金削减空头头寸",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405811.html",
       "time": "5小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
     {
-      "title": "欧洲石油股下跌 有迹象显示美伊谈判取得进展",
+      "title": "必和必拓向铜业务倾斜，推动盈利构成变化",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-17/doc-inhncznw1572538.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncznx8728400.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Masimo周二早盘大涨34%",
+      "title": "英伟达业绩公布在即，市场观点分歧",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncznu4795201.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncznu4809760.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "奈飞授予华纳兄弟探索7天豁免权，允许重启与派拉蒙收购谈判",
+      "title": "欧盟就人工智能生成图像问题对马斯克的X平台展开调查",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncznz5816409.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncznz5830009.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美伊举行谈判之际，伊朗部分关闭霍尔木兹海峡",
+      "title": "超大规模企业人工智能资本支出提振芯片代工龙头",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncznw1571068.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncznz5829787.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美联储古尔斯比：未来降息取决于通胀进展",
+      "title": "人工智能暴跌引发软件板块全面重估",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncznz5815475.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncznw1586352.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
