@@ -1,84 +1,44 @@
 {
-  "update_time": "2026-02-17T21:00:30.737797",
+  "update_time": "2026-02-17T22:00:23.942566",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 5,
   "news": [
     {
-      "title": "美股前瞻 | 三大股指期货齐跌 黄金跌破4900 美伊开启第二轮核谈判",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405812.html",
-      "time": "1小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "美元指数连续两日收高：美联储降息预期遭质疑，对冲基金削减空头头寸",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405811.html",
-      "time": "2小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "创新药出海刷新纪录！开年BD总额超300亿美元 “中国研发效率”备受看好",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405810.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "就业数据疲软重燃降息预期：货币市场定价英国央行将在年内两次降息",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405809.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "日本大选后首次日债拍卖平稳落地：日本国债延续升势，超长期债领涨",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405807.html",
-      "time": "5小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "美银调查显示AI泡沫成首要尾部风险 资本支出过热担忧创纪录",
+      "title": "盘前：纳指期货跌1.0% 科技股引领抛盘",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvew4894220.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvfc5930595.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "NAPA母公司Genuine Parts计划分拆为两家公司",
+      "title": "欧盟内部阻力升温 对俄最新制裁方案或被削弱",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvfc5917202.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-17/doc-inhncvez8823549.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "今年美国五大云巨头已在美发行450亿美元债券",
+      "title": "英国1月失业率创五年新高 报告公布后英镑汇率走低",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvez8813790.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvey1677537.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "麦迪逊大道陷入危机，中西部广告公司迎来机遇",
+      "title": "明尼阿波利斯枪击案前 美移民及海关执法局已知晓武力使用量激增",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvey1669582.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-17/doc-inhncvey1676966.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "丹纳赫以100亿美元协议收购Masimo",
+      "title": "个股选股者迎来高光时刻：市场在AI恐慌中乱跌，专业投资人出手抄底",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvew4889886.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-17/doc-inhncvez8821566.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
