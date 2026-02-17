@@ -1,84 +1,44 @@
 {
-  "update_time": "2026-02-18T05:00:13.970061",
+  "update_time": "2026-02-18T06:00:23.853564",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 5,
   "news": [
     {
-      "title": "古尔斯比“放鸽”：若通胀回归2% 美联储今年仍有降息空间",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405819.html",
-      "time": "1小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "英伟达(NVDA.US)财报在即 花旗给出偏乐观前瞻判断 AI推理路线图或成新催化剂",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405818.html",
-      "time": "2小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "股价回调不合理！知名科技分析师Dan Ives力挺苹果(AAPL.US) 维持“跑赢大盘”评级",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405816.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "传统服务成“AI风暴”避风港：黑石(BX.US)拟25亿美元收购家庭服务提供商 Champions Group",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405814.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "好莱坞并购变数再起：派拉蒙天舞(PSKY.US)提价至每股31美元，华纳兄弟(WBD.US)重启七日谈判窗口",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405813.html",
-      "time": "5小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "美银：基金经理大举增持股票，触发\"卖出\"信号",
+      "title": "2月18日美股成交额前20：英伟达与Meta达成长期芯片供应协议",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnenav5622961.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhneskt5499661.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "投资者Jenny Harrington表示：股息股是对抗AI威胁的良好对冲工具",
+      "title": "2月18日外盘头条：美伊核谈判达成总体共识 美布两油承压 苹果三款AI穿戴设备曝光 Meta扩大与英伟达的合作",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnenat8520586.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhneskt5499331.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "纽约市长拟二十余年来首次提高房产税 计划上调幅度为9.5%",
+      "title": "Meta扩大与英伟达的合作，将在数据中心建设中采用数百万颗AI芯片",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnenaq4629503.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnenat8524812.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "周二油价下跌，伊朗称与美国核谈取得进展",
+      "title": "2月18日热门中概股涨跌不一 华住酒店集团涨2.84%，腾讯音乐跌3.19%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnenat8518447.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnenaq4639273.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "旧金山联储行长表示应密切关注AI影响经济的信号",
+      "title": "美国副总统万斯：特朗普在伊朗问题上有很多选项",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnenaq4627047.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnenat8523042.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
