@@ -1,84 +1,44 @@
 {
-  "update_time": "2026-02-18T01:00:28.983118",
+  "update_time": "2026-02-18T02:00:23.625906",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 5,
   "news": [
     {
-      "title": "古尔斯比“放鸽”：若通胀回归2% 美联储今年仍有降息空间",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405819.html",
-      "time": "1小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "加拿大总理：加入金穹的谈判进展顺利",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefux5717007.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "英伟达(NVDA.US)财报在即 花旗给出偏乐观前瞻判断 AI推理路线图或成新催化剂",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405818.html",
-      "time": "2小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "午盘：美股基本持平 软件股继续下滑",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefuu1479670.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "股价回调不合理！知名科技分析师Dan Ives力挺苹果(AAPL.US) 维持“跑赢大盘”评级",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405816.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "福特公布低成本纯电平台新细节：首款车型为中型电动皮卡",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhncznz5845278.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "传统服务成“AI风暴”避风港：黑石(BX.US)拟25亿美元收购家庭服务提供商 Champions Group",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405814.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "好莱坞并购变数再起：派拉蒙天舞(PSKY.US)提价至每股31美元，华纳兄弟(WBD.US)重启七日谈判窗口",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405813.html",
-      "time": "5小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "看多软件股的人仍在做出致命误判",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhncznz5844218.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "美伊在大规模军事部署背景下举行核谈判",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhncznz5843243.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "Gemini交易所宣布高管离职，距IPO仅数月",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhncznx8739047.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "华尔街监管机构呼吁缩减高管薪酬披露范围",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhncznu4824136.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "伊朗将在未来两周内向美国提交详细方案",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhncznx8738477.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "帕兰提尔将总部迁至迈阿密 科技企业加速布局佛州",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhncznx8738349.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"

@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-13T13:36:52.611013",
+  "timestamp": "2026-02-17T18:00:02.718076",
   "action": "solve_hunt",
   "hunt_id": 52,
   "hunt_name": "The Hunter's Arrow",
   "answer": "183",
-  "status_code": 400,
-  "response": "{\"error\":\"Incorrect answer\",\"attempts\":1}"
+  "status_code": 409,
+  "response": "{\"error\":\"Hunt already claimed\"}"
 }
