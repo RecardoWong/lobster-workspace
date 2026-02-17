@@ -1,44 +1,84 @@
 {
-  "update_time": "2026-02-18T02:00:23.625906",
+  "update_time": "2026-02-18T03:00:17.732759",
   "source_count": 3,
-  "total_count": 5,
+  "total_count": 10,
   "news": [
     {
-      "title": "加拿大总理：加入金穹的谈判进展顺利",
+      "title": "古尔斯比“放鸽”：若通胀回归2% 美联储今年仍有降息空间",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405819.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "英伟达(NVDA.US)财报在即 花旗给出偏乐观前瞻判断 AI推理路线图或成新催化剂",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405818.html",
+      "time": "2小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "股价回调不合理！知名科技分析师Dan Ives力挺苹果(AAPL.US) 维持“跑赢大盘”评级",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405816.html",
+      "time": "3小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "传统服务成“AI风暴”避风港：黑石(BX.US)拟25亿美元收购家庭服务提供商 Champions Group",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405814.html",
+      "time": "4小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "好莱坞并购变数再起：派拉蒙天舞(PSKY.US)提价至每股31美元，华纳兄弟(WBD.US)重启七日谈判窗口",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405813.html",
+      "time": "5小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "苹果加快研发人工智能眼镜、吊坠及带摄像头的AirPods耳机",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefux5717007.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefuu1512155.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "午盘：美股基本持平 软件股继续下滑",
+      "title": "Anthropic发布新AI模型 强化电脑操作与编程能力",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefuu1479670.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefuu1511413.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "福特公布低成本纯电平台新细节：首款车型为中型电动皮卡",
+      "title": "美联储巴尔：通胀前景仍存风险，一段时间内恐不会降息",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhncznz5845278.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefuu1499477.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "看多软件股的人仍在做出致命误判",
+      "title": "报道：苹果加速推进AI眼镜、智能吊坠与摄像头版AirPods研发",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhncznz5844218.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefus4721847.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美伊在大规模军事部署背景下举行核谈判",
+      "title": "民调居首的英国改革党公布“影子内阁” 拟由前保守党要员Jenrick任财相",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhncznz5843243.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnefuu1498958.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
