@@ -1,13 +1,21 @@
 {
-  "update_time": "2026-02-18T08:33:54.062394",
+  "update_time": "2026-02-18T09:00:27.751064",
   "source_count": 3,
-  "total_count": 5,
+  "total_count": 10,
   "news": [
+    {
+      "title": "增长前景及政治背景助力 美元连跌四月后或迎来反弹",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405832.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
     {
       "title": "Palo Alto(PANW.US)盘后大跌!Q2业绩超预期 但Q3及全年盈利指引令人失望",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405829.html",
-      "time": "1小时前",
+      "time": "2小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -15,7 +23,7 @@
       "title": "巴克莱：2035年AI机器人或成万亿美元赛道 中国占据主导地位",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405824.html",
-      "time": "2小时前",
+      "time": "3小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -23,7 +31,7 @@
       "title": "“木头姐”伍德神话褪色？ARKK五年回撤超50% 资产规模大幅缩水",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405823.html",
-      "time": "3小时前",
+      "time": "4小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -31,17 +39,49 @@
       "title": "旧金山联储主席戴利：AI技术变革或在不推高通胀下提振经济 美联储需提前捕捉信号",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405822.html",
-      "time": "4小时前",
+      "time": "5小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
     {
-      "title": "智通ADR统计 | 2月18日",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405827.html",
-      "time": "5小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "国际货币基金组织敦促日本避免下调消费税 否则恐加剧财政风险",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnewsn1205779.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "农历新年交投清淡 金价两日下跌后企稳",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnewsk4428472.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "闪迪股价下跌 西部数据计划出售持股",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnewsk4426394.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "IMF敦促日本继续加息 避免进一步放松财政政策",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnewsr5403126.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "澳大利亚薪资增速居高不下 加剧澳联储抗通胀挑战",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnewsk4424551.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
