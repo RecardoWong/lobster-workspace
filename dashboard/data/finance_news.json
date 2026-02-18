@@ -1,13 +1,37 @@
 {
-  "update_time": "2026-02-18T10:00:14.723014",
+  "update_time": "2026-02-18T11:00:31.127069",
   "source_count": 3,
   "total_count": 10,
   "news": [
     {
+      "title": "苹果(AAPL.US)被曝：“AI三件套”要来了",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405836.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "IMF敦促日本：应避免削减消费税 以免加剧财政风险",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405834.html",
+      "time": "2小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
       "title": "增长前景及政治背景助力 美元连跌四月后或迎来反弹",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405832.html",
-      "time": "1小时前",
+      "time": "3小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "2026春节档总票房破16亿",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405830.html",
+      "time": "4小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -15,70 +39,46 @@
       "title": "Palo Alto(PANW.US)盘后大跌!Q2业绩超预期 但Q3及全年盈利指引令人失望",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405829.html",
-      "time": "2小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "巴克莱：2035年AI机器人或成万亿美元赛道 中国占据主导地位",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405824.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "“木头姐”伍德神话褪色？ARKK五年回撤超50% 资产规模大幅缩水",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405823.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "旧金山联储主席戴利：AI技术变革或在不推高通胀下提振经济 美联储需提前捕捉信号",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405822.html",
       "time": "5小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
     {
-      "title": "摩根大通任命奥唐纳为北美杠杆融资部主管",
+      "title": "日本经济产业大臣：日立、软银等有意参与在美投资项目",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnewsn1223980.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnfayk1108720.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "GMO转向泰国股票、在MSCI发出预警后减持印尼股票",
+      "title": "YouTube：故障正在影响其用户",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnewsp8320345.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfayh4326758.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "超过32万美国用户的YouTube出现故障",
+      "title": "美股铁杆空头认为OpenAI、SpaceX等巨头IPO今年可能拖累股市",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/tech/2026-02-18/doc-inhnewsp8319716.shtml",
+      "url": "https://finance.sina.com.cn/tob/2026-02-18/doc-inhnfaym8199571.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "日本数据：2月制造业信心指数回升，但非制造业信心下降",
+      "title": "日经225指数涨1% 受益于日本5500亿美元对美投资计划的科技股领涨",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnewsp8319040.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnfayh4320901.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "威灵顿投资管理：10年期美债逼近4%折射出市场对AI的担忧",
+      "title": "Rivian股价创史上最佳单日表现 有分析师却建议卖出",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnewsp8318576.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnewsn1225910.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
