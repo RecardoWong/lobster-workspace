@@ -1,84 +1,44 @@
 {
-  "update_time": "2026-02-18T12:00:15.736427",
+  "update_time": "2026-02-18T13:00:27.550598",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 5,
   "news": [
     {
-      "title": "AI芯片需求抵消对美汽车出口疲软 日本1月出口增速创三年来最快",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405837.html",
-      "time": "1小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "苹果(AAPL.US)被曝：“AI三件套”要来了",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405836.html",
-      "time": "2小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "眼科疾病疗法开发商EIR Biopharma IPO定价4-5美元/股 拟筹资1700万美元",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405835.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "IMF敦促日本：应避免削减消费税 以免加剧财政风险",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405834.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "增长前景及政治背景助力 美元连跌四月后或迎来反弹",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405832.html",
-      "time": "5小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "YouTube在短暂的流媒体中断后恢复服务",
+      "title": "内华达州起诉阻止Kalshi在该州运营预测市场",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfayp5316197.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfihi8107828.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国再次威胁退出国际能源署 除非该机构淡化气候倡议",
+      "title": "突然宣布：超1万亿利好",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnfayp5312552.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnfihm5206307.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "日本经济产业大臣：日立、软银等有意参与在美投资项目",
+      "title": "特朗普称日本建造的天然气电厂将成为美国最大",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnfayk1108720.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfihi8101414.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "YouTube：故障正在影响其用户",
+      "title": "美国铝业公司非法砍伐澳大利亚本土森林 被迫支付3800万美元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfayh4326758.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfayk1135281.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美股铁杆空头认为OpenAI、SpaceX等巨头IPO今年可能拖累股市",
+      "title": "高通将向印度人工智能战略基金投资至多1.5亿美元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/tob/2026-02-18/doc-inhnfaym8199571.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfayk1134580.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
