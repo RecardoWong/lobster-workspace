@@ -1,13 +1,29 @@
 {
-  "update_time": "2026-02-18T23:00:08.088693",
+  "update_time": "2026-02-19T00:00:31.903604",
   "source_count": 3,
   "total_count": 10,
   "news": [
     {
+      "title": "Palantir(PLTR.US)与Rackspace(RXT.US)达成战略合作 后者股价暴涨超216%",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405868.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "亚马逊(AMZN.US)、谷歌(GOOGL.US)、微软(MSFT.US)成最大赢家？Anthropic至2029年或支付超800亿美元云费用",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405867.html",
+      "time": "2小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
       "title": "美国2025年商业投资强劲收官 12月核心耐用品订单超预期增长0.6%",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405862.html",
-      "time": "1小时前",
+      "time": "3小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -15,7 +31,7 @@
       "title": "工业+AI双轮驱动，亚德诺(ADI.US)Q1财报创纪录，Q2指引远超预期",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405860.html",
-      "time": "2小时前",
+      "time": "4小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -23,62 +39,46 @@
       "title": "加速布局电池金属产业链！力拓(RIO.US)取得加拿大锂业公司 Nemaska 控股权",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405859.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "美股前瞻 | 三大股指期货齐涨，美联储会议纪要今晚公布",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405857.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "加码自动驾驶基建布局，优步(UBER.US)斥资1亿美元自建快充站",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405858.html",
       "time": "5小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
     {
-      "title": "拜耳提出72.5亿美元的农达和解协议",
+      "title": "特斯拉更改营销用语 避免加州驾照吊销处罚",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnhenk1957230.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnhkuh1838378.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "扎克伯格将在洛杉矶的一场陪审团审判中作证",
+      "title": "比特币跌破7万美元关口受关注",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnhenh4854388.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnhkuh1837541.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "快讯：现货白银日内涨幅达5%，报77.26美元/盎司",
+      "title": "苹果与纳斯达克走势脱钩，成为规避AI引发市场波动的避风港",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/nmetal/gjshz/2026-02-18/doc-inhnhene7767270.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnhene7781355.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "春节假期尚未过半，腾讯、字节、阿里三大巨头AI应用战绩如何？",
+      "title": "美国商品期货交易委员会主张对预测市场的监管权",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-02-18/doc-inhnhenh4854795.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnhenh4866125.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "高盛：移民减少正在降低美国劳动力增长",
+      "title": "电动车\"寒冬\"使需求降温",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnhenh4853979.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnhene7780690.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
