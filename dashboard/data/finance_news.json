@@ -1,87 +1,47 @@
 {
-  "update_time": "2026-02-18T07:00:24.032423",
+  "update_time": "2026-02-18T08:33:54.062394",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 5,
   "news": [
     {
-      "title": "古尔斯比“放鸽”：若通胀回归2% 美联储今年仍有降息空间",
+      "title": "Palo Alto(PANW.US)盘后大跌!Q2业绩超预期 但Q3及全年盈利指引令人失望",
       "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405819.html",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405829.html",
       "time": "1小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
     {
-      "title": "英伟达(NVDA.US)财报在即 花旗给出偏乐观前瞻判断 AI推理路线图或成新催化剂",
+      "title": "巴克莱：2035年AI机器人或成万亿美元赛道 中国占据主导地位",
       "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405818.html",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405824.html",
       "time": "2小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
     {
-      "title": "股价回调不合理！知名科技分析师Dan Ives力挺苹果(AAPL.US) 维持“跑赢大盘”评级",
+      "title": "“木头姐”伍德神话褪色？ARKK五年回撤超50% 资产规模大幅缩水",
       "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405816.html",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405823.html",
       "time": "3小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
     {
-      "title": "传统服务成“AI风暴”避风港：黑石(BX.US)拟25亿美元收购家庭服务提供商 Champions Group",
+      "title": "旧金山联储主席戴利：AI技术变革或在不推高通胀下提振经济 美联储需提前捕捉信号",
       "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405814.html",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405822.html",
       "time": "4小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
     {
-      "title": "好莱坞并购变数再起：派拉蒙天舞(PSKY.US)提价至每股31美元，华纳兄弟(WBD.US)重启七日谈判窗口",
+      "title": "智通ADR统计 | 2月18日",
       "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405813.html",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405827.html",
       "time": "5小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
-    },
-    {
-      "title": "2月18日隔夜要闻：美股小幅收高 国际金银大幅下跌 乌美俄三方会谈18日继续 亚马逊终结9连跌",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhneskr8407178.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "Alphabet宣布：谷歌I/O开发者大会将于5月19日至20日举办",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhneskq1303288.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美国股市：标普500指数震荡中微幅收涨 人工智能之忧萦绕华尔街",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhneskn4525798.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "巴菲特任内最后操作：伯克希尔减持苹果股票，建仓《纽约时报》",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhneskn4525393.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "黄金重挫近3%，白银暴跌超5%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhneskq1298679.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
     }
   ]
 }
