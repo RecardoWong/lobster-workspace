@@ -1,13 +1,21 @@
 {
-  "update_time": "2026-02-19T02:00:23.095768",
+  "update_time": "2026-02-19T03:00:20.272388",
   "source_count": 3,
   "total_count": 10,
   "news": [
     {
+      "title": "大摩称亚马逊(AMZN.US)是“最被低估生成式人工智能赢家” 维持“增持”评级",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405870.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
       "title": "Palantir(PLTR.US)与Rackspace(RXT.US)达成战略合作 后者股价暴涨超216%",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405868.html",
-      "time": "1小时前",
+      "time": "2小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -15,7 +23,7 @@
       "title": "亚马逊(AMZN.US)、谷歌(GOOGL.US)、微软(MSFT.US)成最大赢家？Anthropic至2029年或支付超800亿美元云费用",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405867.html",
-      "time": "2小时前",
+      "time": "3小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -23,7 +31,7 @@
       "title": "美国2025年商业投资强劲收官 12月核心耐用品订单超预期增长0.6%",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405862.html",
-      "time": "3小时前",
+      "time": "4小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -31,54 +39,46 @@
       "title": "工业+AI双轮驱动，亚德诺(ADI.US)Q1财报创纪录，Q2指引远超预期",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405860.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "加速布局电池金属产业链！力拓(RIO.US)取得加拿大锂业公司 Nemaska 控股权",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405859.html",
       "time": "5小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
     {
+      "title": "高盛CEO承认持有比特币 尽管长期对加密货币持怀疑态度",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-19/doc-inhnhqzy7574719.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "哈塞特抨击纽约联储关于关税损害美企的研究 称相关人员应受处分",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-19/doc-inhnhraa4633436.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "李飞飞的人工智能初创公司World Labs融资10亿美元",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-19/doc-inhnhkuh1865648.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "谷歌与苹果加码生成式人工智能 进军音乐创作领域",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-19/doc-inhnhkuh1865344.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
       "title": "欧洲股市升至纪录新高 受强劲的财报提振",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/world/2026-02-19/doc-inhnhktz0912318.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "欧洲债市：德国国债和英国国债基本持稳 曲线趋平",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-19/doc-inhnhktz0910370.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "谷歌推出499美元Pixel 10a 在iPhone 17e发布前登场",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-19/doc-inhnhkua7678650.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美国FDA同意审核新款流感疫苗，莫德纳股价大涨超6%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhkue4750722.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "午盘：美股维持涨势 市场关注联储会议纪要",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhkua7674030.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
