@@ -1,6 +1,47 @@
 {
-  "update_time": "2026-02-18T20:00:30.521328",
+  "update_time": "2026-02-18T21:00:28.686455",
   "source_count": 3,
-  "total_count": 0,
-  "news": []
+  "total_count": 5,
+  "news": [
+    {
+      "title": "美国国债延续跌势 市场静待经济数据与美联储纪要",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfyen2056815.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "巴菲特CEO任内收官之作：伯克希尔减持亚马逊股份 押注纽约时报公司",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfyen2054819.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "俄外长称俄罗斯与古巴合作不威胁美国 敦促美方勿对古巴实施海上封锁",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfyen2054575.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "日内瓦会谈结束 泽连斯基称俄方拖延谈判进程",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfyef1086971.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "欧洲国防股上涨 受美伊谈判不确定性影响",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfyen2053273.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    }
+  ]
 }
