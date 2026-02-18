@@ -1,13 +1,21 @@
 {
-  "update_time": "2026-02-18T18:00:18.184080",
+  "update_time": "2026-02-18T19:00:20.789282",
   "source_count": 3,
   "total_count": 10,
   "news": [
     {
+      "title": "通胀降至近一年新低，英国央行3月降息大门正式开启？",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405851.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
       "title": "中国电动汽车零售商奥创控股(ANE.US)IPO规模上调380% 拟募资3000万美元",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405850.html",
-      "time": "1小时前",
+      "time": "2小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -15,7 +23,7 @@
       "title": "创纪录铜价难抵煤炭颓势，嘉能可(GLNCY.US)全年利润同比下滑6%",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405849.html",
-      "time": "2小时前",
+      "time": "3小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -23,7 +31,7 @@
       "title": "AI芯片设计浪潮催化业绩爆发：铿腾电子(CDNS.US)Q4超预期，AI驱动IP业务暴涨25%",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405847.html",
-      "time": "3小时前",
+      "time": "4小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
@@ -31,54 +39,46 @@
       "title": "收购失败后彻底退出：英伟达(NVDA.US)英伟达清空Arm持股 投资版图转向AI计算生态",
       "source": "智通财经",
       "url": "https://www.zhitongcaijing.com/content/detail/1405846.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "“AI交易”成亮点！段永平Q4美股持仓：英伟达持仓激增，建仓CoreWeave、Credo及Tempus AI，减持苹果",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405845.html",
       "time": "5小时前",
       "tag": "港股",
       "tagColor": "#3b82f6"
     },
     {
-      "title": "扎克伯格将出庭作证 社交媒体成瘾审判推进中",
+      "title": "欧洲天然气价格延续跌势 进口帮助满足需求",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnftwk7946471.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnftwi1185800.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "加密货币交易所Gemini三名高管离职",
+      "title": "报道：日本2029财年国债利息支出将达21万亿日元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnftwn5037126.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnftwk7961815.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "ServiceNow CEO停止出售股票，试图安抚对AI感到恐慌的投资者",
+      "title": "美联储会议纪要即将公布 黄金白银收复失地",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnftwi1167771.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnftwn5049863.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "一家投资公司如何利用AI削减软件成本",
+      "title": "巴菲特旗下公司投资《纽约时报》 距其清仓报业资产已有6年",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnftwq2136555.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnftwq2150814.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "英国通胀降至10个月低点 为英国央行进一步降息提供依据",
+      "title": "NASA修复燃料泄漏后重启载人登月发射演练 最早3月升空",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnftwi1164174.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnftwi1173262.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
