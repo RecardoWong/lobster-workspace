@@ -226,3 +226,15 @@
 💾 已保存: /root/.openclaw/workspace/lobster-workspace/dashboard/data/finance_news.json
 
 ✅ 财经新闻聚合完成!
+
+🚀 开始抓取财经新闻... 2026-02-18 07:00
+============================================================
+✅ 智通财经: 5 条
+✅ 新浪财经: 5 条
+❌ 财联社获取失败: Expecting value: line 1 column 1 (char 0)
+
+📊 总计: 10 条不重复新闻
+
+💾 已保存: /root/.openclaw/workspace/lobster-workspace/dashboard/data/finance_news.json
+
+✅ 财经新闻聚合完成!
