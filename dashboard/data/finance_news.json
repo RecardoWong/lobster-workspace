@@ -1,8 +1,72 @@
 {
-  "update_time": "2026-02-18T14:00:21.145053",
+  "update_time": "2026-02-18T15:00:10.198342",
   "source_count": 3,
-  "total_count": 5,
+  "total_count": 10,
   "news": [
+    {
+      "title": "交通运输部：2月17日社会跨区域人员流动量22418.2万人次 环比增长15.5%",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405844.html",
+      "time": "1小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "巴菲特交棒前最后一份13F：伯克希尔Q4减持苹果、美银，猛砍亚马逊持仓，建仓纽约时报",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405842.html",
+      "time": "2小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "新股前瞻｜维达力科技赴港的背后：一面七成依赖大客户，一面卡位AI新硬件",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405840.html",
+      "time": "3小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "AI芯片需求抵消对美汽车出口疲软 日本1月出口增速创三年来最快",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405837.html",
+      "time": "4小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "苹果(AAPL.US)被曝：“AI三件套”要来了",
+      "source": "智通财经",
+      "url": "https://www.zhitongcaijing.com/content/detail/1405836.html",
+      "time": "5小时前",
+      "tag": "港股",
+      "tagColor": "#3b82f6"
+    },
+    {
+      "title": "高市早苗正式连任日本首相 料加速推进预算审议",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfpqi5112359.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "高市早苗当选日本新任首相",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-02-18/doc-inhnfpqi5112119.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "高市早苗基本确定当选日本新任首相",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-18/doc-inhnfihm5230799.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
     {
       "title": "买中国机器狗冒充自研，被抓包了！",
       "source": "新浪财经",
@@ -15,30 +79,6 @@
       "title": "Brevan Howard的加密货币基金2025年下跌30%",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfihi8117000.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "黑石、EQT和CVC对大众Everllence部门提出收购要约",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfihi8116078.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "意大利埃尼集团计划重返油气交易业务",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfihe4242118.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "欧洲央行行长拉加德将在8年任期结束前离职",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-18/doc-inhnfihm5216007.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
