@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-02-20T05:00:35.159493",
+  "update_time": "2026-02-20T05:30:29.685756",
   "source_count": 3,
   "total_count": 7,
   "news": [
@@ -28,6 +28,14 @@
       "tagColor": "#8b5cf6"
     },
     {
+      "title": "2月20日收盘：美股收跌道指跌超260点 私人信贷与中东局势拖累市场",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkyhu9803342.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
       "title": "外国去年净买入的美国股票翻逾一倍",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkyia0649906.shtml",
@@ -47,14 +55,6 @@
       "title": "油价因美伊冲突担忧延续涨势",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkyhu9793131.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "摩根大通欧洲分行虚报资本要求 被欧洲央行罚款1220万欧元",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkyhw6570125.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"

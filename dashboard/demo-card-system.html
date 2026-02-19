@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Card System Demo</title>
+    <style>
+        /* ========== 基础样式（已有，不要修改） ========== */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: #f5f7fa;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        
+        /* 三栏布局容器 */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr 1.2fr;
+            gap: 16px;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        @media (max-width: 1200px) {
+            .cards-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 768px) {
+            .cards-grid { grid-template-columns: 1fr; }
+        }
+        
+        /* 卡片基础样式 */
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 20px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+        
+        .card-subtitle {
+            font-size: 12px;
+            color: #9ca3af;
+        }
+        
+        .card-body {
+            padding: 16px 20px;
+        }
+        
+        /* ========== 上游供应商卡片（已有） ========== */
+        .supplier-list {}
+        .supplier-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .supplier-item:last-child { border-bottom: none; }
+        
+        /* ========== Twitter卡片（已有） ========== */
+        .tweet-list {}
+        .tweet-item {
+            padding: 12px;
+            background: #f8fafc;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 3px solid #3b82f6;
+        }
+        
+        /* ========== 【新增】财经要报卡片样式 ========== */
+        /* 完全独立的样式，不会影响其他卡片 */
+        
+        .bulletin-list {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+        
+        .bulletin-item {
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border-left: 3px solid;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .bulletin-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .bulletin-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .bulletin-tag {
+            font-size: 11px;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        
+        .bulletin-time {
+            font-size: 11px;
+            color: #9ca3af;
+        }
+        
+        .bulletin-title {
+            font-size: 13px;
+            font-weight: 500;
+            color: #1a1a1a;
+            line-height: 1.5;
+            margin-bottom: 6px;
+        }
+        
+        .bulletin-source {
+            font-size: 11px;
+            color: #6b7280;
+        }
+        
+        /* 查看更多按钮 */
+        .view-more-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 12px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            margin-top: 12px;
+            transition: opacity 0.2s;
+        }
+        
+        .view-more-btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <!-- ============================================ -->
+    <!-- 三栏布局容器 -->
+    <!-- ============================================ -->
+    <div class="cards-grid">
+        
+        <!-- ========== 第一栏：上游供应商（已有） ========== -->
+        <div class="card" data-card-id="suppliers">
+            <div class="card-header">
+                <div class="card-title">📈 上游供应商</div>
+                <span class="card-subtitle">实时</span>
+            </div>
+            <div class="card-body">
+                <div class="supplier-list">
+                    <div class="supplier-item">
+                        <div>
+                            <div style="font-weight: 600;">英诺赛科</div>
+                            <div style="font-size: 11px; color: #6b7280;">02577.HK | GaN功率芯片</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: 16px; font-weight: 700;">62.80</div>
+                            <div style="font-size: 12px; color: #ef4444;">-1.10%</div>
+                        </div>
+                    </div>
+                    <div class="supplier-item">
+                        <div>
+                            <div style="font-weight: 600;">三安光电</div>
+                            <div style="font-size: 11px; color: #6b7280;">600703 | GaN衬底/外延</div>
+                        </div>
+                        <div style="text-align: right;">
+                            <div style="font-size: 16px; font-weight: 700;">15.91</div>
+                            <div style="font-size: 12px; color: #10b981;">+1.27%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ========== 第二栏：Twitter（已有） ========== -->
+        <div class="card" data-card-id="twitter">
+            <div class="card-header">
+                <div class="card-title">🐦 Twitter 重点动态</div>
+                <span class="card-subtitle">更新于: 2026-02-19 23:00</span>
+            </div>
+            <div class="card-body">
+                <div class="tweet-list">
+                    <div class="tweet-item">
+                        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+                            <span style="background: #3b82f6; color: white; font-size: 10px; padding: 2px 6px; border-radius: 4px;">#1</span>
+                            <span style="font-weight: 600; font-size: 13px;">Elon Musk</span>
+                            <span style="font-size: 12px; color: #6b7280;">@elonmusk</span>
+                            <span style="margin-left: auto; font-size: 11px; color: #ef4444;">刚刚</span>
+                        </div>
+                        <div style="font-size: 13px; color: #374151;">http://Grokipedia.com</div>
+                        <div style="font-size: 12px; color: #6b7280; margin-top: 6px; padding-top: 6px; border-top: 1px dashed #e5e7eb;">[中文翻译] http://Grokipedia.com</div>
+                    </div>
+                </div>
+                
+                <a href="tweets.html" class="view-more-btn">查看更多推文 →</a>
+            </div>
+        </div>
+        
+        <!-- ============================================ -->
+        <!-- 【新增】第三栏：财经要报（完全独立） -->
+        <!-- 复制这段代码即可添加第三个卡片 -->
+        <!-- ============================================ -->
+        <div class="card" data-card-id="finance-bulletin">
+            <!-- 卡片头部 -->
+            <div class="card-header">
+                <div class="card-title">📊 财经要报</div>
+                <span class="card-subtitle">AI·数据中心·GaN</span>
+            </div>
+            <!-- 卡片内容 -->
+            <div class="card-body">
+                <!-- 动态内容容器 -->
+                <div class="bulletin-list" id="financeBulletinList">
+                    <!-- 内容由JavaScript填充 -->
+                </div>
+                
+                <!-- 查看更多按钮 -->
+                <a href="news.html" class="view-more-btn">查看更多财经资讯 →</a>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <!-- ============================================ -->
+    <!-- 【新增】财经要报卡片的JavaScript（完全独立） -->
+    <!-- ============================================ -->
+    <script>
+        /**
+         * 财经要报卡片模块
+         * 完全独立，不影响其他卡片
+         */
+        const FinanceBulletinCard = {
+            // 配置
+            config: {
+                containerId: 'financeBulletinList',
+                updateInterval: 30 * 60 * 1000, // 30分钟
+            },
+            
+            // 示例数据 - 可替换为API调用
+            data: [
+                {
+                    tag: 'AI数据中心',
+                    tagColor: '#8b5cf6',
+                    time: '刚刚',
+                    title: '英伟达Blackwell GPU产能紧张，AI数据中心订单排到2026年',
+                    source: '行业动态'
+                },
+                {
+                    tag: 'GaN需求',
+                    tagColor: '#ec4899',
+                    time: '1小时前',
+                    title: '微软投资$80亿建AI数据中心，GaN功率器件需求大增',
+                    source: '华尔街见闻'
+                },
+                {
+                    tag: 'GaN龙头',
+                    tagColor: '#f59e0b',
+                    time: '2小时前',
+                    title: '英诺赛科：GaN功率芯片出货量突破5亿颗',
+                    source: '公司公告'
+                },
+                {
+                    tag: '政策利好',
+                    tagColor: '#10b981',
+                    time: '3小时前',
+                    title: '工信部推动全国算力网络建设，GaN成数据中心标配',
+                    source: '政策'
+                },
+                {
+                    tag: '上游供应',
+                    tagColor: '#3b82f6',
+                    time: '4小时前',
+                    title: '三安光电GaN产线满产，受益AI数据中心建设',
+                    source: '供应链'
+                }
+            ],
+            
+            // 初始化
+            init() {
+                this.render();
+                this.startAutoUpdate();
+                console.log('✅ 财经要报卡片已初始化');
+            },
+            
+            // 渲染
+            render() {
+                const container = document.getElementById(this.config.containerId);
+                if (!container) {
+                    console.error('❌ 找不到财经要报容器');
+                    return;
+                }
+                
+                container.innerHTML = this.data.map(item => `
+                    <div class="bulletin-item" 
+                         style="border-left-color: ${item.tagColor}; 
+                                background: linear-gradient(135deg, ${item.tagColor}10, ${item.tagColor}05);">
+                        
+                        <div class="bulletin-header">
+                            <span class="bulletin-tag" style="color: ${item.tagColor}; background: ${item.tagColor}15;">${item.tag}</span>
+                            <span class="bulletin-time">${item.time}</span>
+                        </div>
+                        
+                        <div class="bulletin-title">${item.title}</div>
+                        
+                        <div class="bulletin-source">来源: ${item.source}</div>
+                    </div>
+                `).join('');
+            },
+            
+            // 从API获取数据（预留接口）
+            async fetchData() {
+                try {
+                    // 这里替换为实际API调用
+                    // const response = await fetch('/api/finance-news');
+                    // const data = await response.json();
+                    // this.data = data;
+                    // this.render();
+                    
+                    console.log('🔄 财经要报数据已更新');
+                } catch (e) {
+                    console.error('❌ 获取财经要报数据失败:', e);
+                }
+            },
+            
+            // 启动自动更新
+            startAutoUpdate() {
+                setInterval(() => {
+                    this.fetchData();
+                }, this.config.updateInterval);
+            }
+        };
+        
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            FinanceBulletinCard.init();
+        });
+    </script>
+</body>
+</html>
