@@ -1,9 +1,121 @@
 {
-  "update_time": "2026-02-19T09:58:45.231717",
+  "update_time": "2026-02-19T10:21:39.138905",
   "tweets": {
-    "elonmusk": [],
-    "jdhasoptions": [],
-    "xiaomucrypto": [],
-    "aistocksavvy": []
+    "elonmusk": [
+      {
+        "author": "elonmusk",
+        "name": "Elon Musk",
+        "text": "Grok 4.20 is BASED. \n\nThe only AI that doesn’t equivocate when asked if America is on stolen land.\n\nThe others are weak sauce.",
+        "translate": "Grok 4.20是基于。 \n\n当被问及美国是否在偷来的土地上时，唯一不会模棱两可的人工智能。\n\n其他的都是软酱。",
+        "time": "2026-02-17T22:00:17.000Z",
+        "time_ago": "1天前",
+        "url": "https://x.com/elonmusk"
+      },
+      {
+        "author": "elonmusk",
+        "name": "Elon Musk",
+        "text": "The Meaning of Life",
+        "translate": "生命的意义",
+        "time": "2026-02-18T19:48:45.000Z",
+        "time_ago": "6小时前",
+        "url": "https://x.com/elonmusk"
+      },
+      {
+        "author": "elonmusk",
+        "name": "Elon Musk",
+        "text": "Do you really think grok 4.20 is good? I've been testing it , Visual ability is flawed. I was looking at logic tests, and I'm not able to create diffi...",
+        "translate": "你真的认为Grok 4.20是好的吗？我一直在测试，视觉能力是有缺陷的。我一直在研究逻辑测试，但我无法创造出足够的难度。然而，用定理证明者证明定理非常困难；有太多的语法错误。",
+        "time": "2026-02-18T16:51:50.000Z",
+        "time_ago": "9小时前",
+        "url": "https://x.com/elonmusk"
+      }
+    ],
+    "jdhasoptions": [
+      {
+        "author": "jdhasoptions",
+        "name": "jdhasoptions",
+        "text": "大盘好弱\n看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹，比如$S，$ORCL，$NOW。这个conviction不是很强tbh，很明显有赌的成分\n还有一个whale roll 1300万美元左右的call，bullish call spread。理论上巨鲸是看涨的，但上次这...",
+        "translate": "大盘好弱\n看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹，比如$S，$ORCL，$NOW。这个conviction不是很强tbh，很明显有赌的成分\n还有一个whale roll 1300万美元左右的call，bullish call spread。理论上巨鲸是看涨的，但上次这个巨鲸roll call是1/29，刚好是这只股票股价短期高点",
+        "time": "2026-02-13T21:00:42.000Z",
+        "time_ago": "5天前",
+        "url": "https://x.com/jdhasoptions"
+      },
+      {
+        "author": "jdhasoptions",
+        "name": "jdhasoptions",
+        "text": "ADBE和CRM都有大额看空put\n这俩还都是$IGV成分股",
+        "translate": "ADBE和CRM都有大额看空put\n这俩还都是$IGV成分股",
+        "time": "2026-02-12T18:47:28.000Z",
+        "time_ago": "6天前",
+        "url": "https://x.com/jdhasoptions"
+      },
+      {
+        "author": "jdhasoptions",
+        "name": "jdhasoptions",
+        "text": "$igv要是反弹到这里就结束也太幽默了",
+        "translate": "$igv要是反弹到这里就结束也太幽默了",
+        "time": "2026-02-12T16:00:33.000Z",
+        "time_ago": "6天前",
+        "url": "https://x.com/jdhasoptions"
+      }
+    ],
+    "xiaomucrypto": [
+      {
+        "author": "xiaomucrypto",
+        "name": "xiaomucrypto",
+        "text": "目前能买到包含海力士和三星股票的etf有\n1.a股的中韩半导体etf\n2.美股的FLXK\n3.港股的俩倍做多海力士/三星.\n不推荐的是第三个，前俩个有正股不怕横盘磨损.当然也可以都买，成年人不做选择.",
+        "translate": "目前能买到包含海力士和三星股票的etf有\n1.a股的中韩半导体etf\n2.美股的FLXK\n3.港股的俩倍做多海力士/三星.\n不推荐的是第三个，前俩个有正股不怕横盘磨损.当然也可以都买，成年人不做选择.",
+        "time": "2026-01-27T04:45:58.000Z",
+        "time_ago": "22天前",
+        "url": "https://x.com/xiaomucrypto"
+      },
+      {
+        "author": "xiaomucrypto",
+        "name": "xiaomucrypto",
+        "text": "谷歌gemini嵌入音乐模型Lyria",
+        "translate": "谷歌gemini嵌入音乐模型Lyria",
+        "time": "2026-02-18T16:20:56.000Z",
+        "time_ago": "10小时前",
+        "url": "https://x.com/xiaomucrypto"
+      },
+      {
+        "author": "xiaomucrypto",
+        "name": "xiaomucrypto",
+        "text": "现阶段我对26年整年的操作思路是\n1.持仓韩国指数EWY，FLXY.捏住不动，兼顾防守和进攻.\n2.用期权每周对高波动的存储股闪迪SNDK作\n负10%-负5%区间价格的卖put，在每周五剩残值得的时候清掉，同时周五继续卖出-10%左右的单周put看跌期权，反复重复。\n3.a股捏住中韩半导体不动。",
+        "translate": "现阶段我对26年整年的操作思路是\n1.持仓韩国指数EWY，FLXY.捏住不动，兼顾防守和进攻.\n2.用期权每周对高波动的存储股闪迪SNDK作\n负10%-负5%区间价格的卖put，在每周五剩残值得的时候清掉，同时周五继续卖出-10%左右的单周put看跌期权，反复重复。\n3.a股捏住中韩半导体不动。",
+        "time": "2026-02-18T15:53:06.000Z",
+        "time_ago": "10小时前",
+        "url": "https://x.com/xiaomucrypto"
+      }
+    ],
+    "aistocksavvy": [
+      {
+        "author": "aistocksavvy",
+        "name": "AI Stock Savvy",
+        "text": " Companies Reporting Earnings Next Week\n\n$FLR $ETOR $BLDR $MDT $TOL $CDNS $EQT $NNE $PANW $KVUE $SEDG $GLBE $ADI $GRMN $WIND $FIG $CVNA $CAR $BKNG $DA...",
+        "translate": "下周报告收入的公司\n\n$ FLR $ ETOR $ BLDR $ MDT $ TOL $ CDNS $ EQT $ NNE $ PANW $ kVue $ SEDG $ GLBE $ ADI $ GRMN $ WIND $ FIG $ CVNA $ CAR $ BKNG $ DASH $ OXY $ NICE $ DE $ LMND $ KLAR $ WMT $ ETSY $ W $ INDI $ FIVN $ NEM $ OPEN $ FIX $ DBX $ SFM $ AKAM $ BABA",
+        "time": "2026-02-13T21:42:23.000Z",
+        "time_ago": "5天前",
+        "url": "https://x.com/aistocksavvy"
+      },
+      {
+        "author": "aistocksavvy",
+        "name": "AI Stock Savvy",
+        "text": " After-market buzz!\n\n$FIG $ETSY $HLF $RELY $EBAY $NXDR $OXY $OMC $DASH $LYV $TAP $CAR $CVNA",
+        "translate": "盘后热点",
+        "time": "2026-02-18T21:49:09.000Z",
+        "time_ago": "4小时前",
+        "url": "https://x.com/aistocksavvy"
+      },
+      {
+        "author": "aistocksavvy",
+        "name": "AI Stock Savvy",
+        "text": " After-Market Earnings Recap\n\n$WH $NDSN $OXY $CAKE $EBAY $NXDR $CAR $BKNG $RELY $FIG $DASH $CVNA",
+        "translate": "盘后财报回顾",
+        "time": "2026-02-18T21:33:39.000Z",
+        "time_ago": "4小时前",
+        "url": "https://x.com/aistocksavvy"
+      }
+    ]
   }
 }

@@ -1,84 +1,44 @@
 {
-  "update_time": "2026-02-19T09:13:08.710961",
+  "update_time": "2026-02-19T10:00:42.252259",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 5,
   "news": [
     {
-      "title": "城堡证券：美股散户疯狂“抄底”软件股，“扫货”资金量创历史新高",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405883.html",
-      "time": "1小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "“卖出美国”论调遭打脸：2025年外资对美长期金融资产配置增至1.55万亿美元",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405881.html",
-      "time": "2小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "谷歌(GOOGL.US)再掀AI战火：Gemini上线音乐模型 一句话即可生成歌曲",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405880.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "上游增产抵御价跌、中游强劲增长 西方石油(OXY.US)Q4盈利超预期",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405879.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "美联储会议纪要暴巨大分歧：一些官员支持进一步降息，一些暗示加息可能",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405878.html",
-      "time": "5小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "澳大利亚失业率保持低位 进一步支持澳央行鹰派立场",
+      "title": "科技股重回正轨，连续第二天提振美国股市",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhzry1544886.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnifxu4327779.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国加州起诉特朗普非法终止国会批准的12亿美元资金",
+      "title": "美联储会议纪要显示降息意愿不高",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhzru7420836.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnifxw1425833.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "老铺黄金官宣：即将调价！",
+      "title": "韩国去年航空运输量首次突破100万架次",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-02-19/doc-inhnhzru7410544.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnifxu4319257.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中方在联合国严正警告日本",
+      "title": "韩国央行警告市场波动加剧，承诺将加强对风险因素监控",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-19/doc-inhnhzrw4430423.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnifxr0521249.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "一场大战，又骤然逼近了",
+      "title": "英国据悉将要求科技公司48小时内删除未经同意发布的私密图片",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-19/doc-inhnhzrw4427942.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnifxu4317808.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
