@@ -10,6 +10,7 @@ import asyncio
 import subprocess
 import urllib.request
 import urllib.parse
+import re
 from datetime import datetime, timezone, timedelta
 
 def translate_text(text):
@@ -136,24 +137,75 @@ async def fetch_tweets():
     return all_tweets
 
 def save_and_deploy(tweets_data):
-    """保存并部署"""
+    """保存 JSON 并更新 HTML 静态嵌入"""
+    now = datetime.now()
     output = {
-        'update_time': datetime.now().isoformat(),
+        'update_time': now.isoformat(),
         'tweets': tweets_data
     }
     
+    # 保存 JSON
     os.makedirs(os.path.dirname(DASHBOARD_DATA), exist_ok=True)
     with open(DASHBOARD_DATA, 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
+    print(f"✅ JSON 已保存")
     
-    print(f"✅ 已保存")
+    # 生成 HTML 嵌入内容
+    html_content = generate_twitter_html(tweets_data, now)
+    
+    # 更新 Dashboard HTML
+    update_dashboard_html(html_content, now)
     
     # 部署到服务器
     print("🚀 部署到服务器...")
+    deploy_dashboard()
+
+def generate_twitter_html(tweets_data, now):
+    """生成 Twitter HTML 嵌入内容"""
+    html_parts = []
+    
+    for username, tweets in tweets_data.items():
+        for tweet in tweets:
+            # 转义 HTML 特殊字符
+            text = tweet['text'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
+            translate = tweet['translate'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
+            
+            html_parts.append(f'''\n<a href="{tweet['url']}" target="_blank" style="text-decoration: none; color: inherit; display: block; margin-bottom: 12px; padding: 12px; border-radius: 8px; transition: background 0.2s;" class="tweet-link">\n<div class="tweet-item" style="cursor: pointer;">\n<div class="tweet-author"><span class="tweet-author-name">{tweet['name']}</span><span class="tweet-author-handle">@{tweet['author']}</span><span class="tweet-time">{tweet['time_ago']}</span></div>\n<div class="tweet-text">{text}</div>\n<div class="tweet-translate"><span style="color: #3b82f6; font-size: 11px;">[中文翻译]</span> {translate}</div>\n<div style="margin-top: 8px; font-size: 11px; color: #9ca3af; text-align: right;">🔗 点击查看原推文 →</div>\n</div>\n</a>''')
+    
+    return '\n'.join(html_parts)
+
+def update_dashboard_html(twitter_html, now):
+    """更新 Dashboard HTML 文件"""
+    html_path = '/root/.openclaw/workspace/lobster-workspace/dashboard/index.html'
+    
+    with open(html_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # 更新时间标签
+    time_str = now.strftime('%Y-%m-%d %H:%M')
+    content = re.sub(
+        r'(<span[^>]*id="twitterUpdateTime"[^>]*>)更新于: [^<]+</span>',
+        f'\\g<1>更新于: {time_str}</span>',
+        content
+    )
+    
+    # 更新 Twitter 内容区域 (在 id="twitterContainer" 的 div 中)
+    pattern = r'(<div class="card-body" id="twitterContainer">)[\s\S]*?(</div>\s*<div class="card"[^>]*>|</div>\s*</main>)'
+    replacement = f'\\g<1>{twitter_html}\\g<2>'
+    content = re.sub(pattern, replacement, content, count=1)
+    
+    with open(html_path, 'w', encoding='utf-8') as f:
+        f.write(content)
+    
+    print(f"✅ HTML 已更新 ({time_str})")
+
+def deploy_dashboard():
+    """部署 Dashboard"""
     deploy_cmd = """
-    cd /root/.openclaw/workspace/lobster-workspace && 
-    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no dashboard/data/twitter_translated.json ubuntu@43.160.229.161:/home/ubuntu/ 2>/dev/null &&
-    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/twitter_translated.json /var/www/html/data/ && sudo chown www-data:www-data /var/www/html/data/twitter_translated.json' 2>/dev/null
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ 2>/dev/null &&
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no data/twitter_translated.json ubuntu@43.160.229.161:/home/ubuntu/ 2>/dev/null &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo cp /home/ubuntu/twitter_translated.json /var/www/html/data/ && sudo chown www-data:www-data /var/www/html/index.html /var/www/html/data/twitter_translated.json' 2>/dev/null
     """
     
     try:
@@ -161,7 +213,7 @@ def save_and_deploy(tweets_data):
         if result.returncode == 0:
             print("✅ 部署成功!")
         else:
-            print(f"⚠️ 部署问题")
+            print(f"⚠️ 部署警告")
     except Exception as e:
         print(f"❌ 部署失败: {e}")
 
