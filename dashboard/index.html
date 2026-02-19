@@ -214,24 +214,24 @@
                 <div class="live-dot"></div>
                 <span class="live-text">实时数据</span>
             </div>
-            <div class="last-update" id="lastUpdate">最后更新: 02/19 10:54</div>
+            <div class="last-update" id="lastUpdate">最后更新: 02/19 12:55</div>
             
             <div class="overview-section">
                 <div class="section-title">核心数据</div>
                 <div class="overview-card">
                     <div class="overview-label">纳斯达克指数</div>
-                    <div class="overview-value" id="nasdaqValue">22,547</div>
-                    <div class="overview-change down" id="nasdaqChange">-0.22%</div>
+                    <div class="overview-value" id="nasdaqValue">22,753.63</div>
+                    <div class="overview-change down" id="nasdaqChange" class="overview-change up">+0.78%</div>
                 </div>
                 <div class="overview-card">
                     <div class="overview-label">恒生科技指数</div>
-                    <div class="overview-value" id="hsTechValue">5,368</div>
-                    <div class="overview-change up" id="hsTechChange">+0.13%</div>
+                    <div class="overview-value" id="hsTechValue">5,367.52</div>
+                    <div class="overview-change up" id="hsTechChange" class="overview-change up">+0.13%</div>
                 </div>
                 <div class="overview-card">
                     <div class="overview-label">比特币</div>
-                    <div class="overview-value" id="btcValue">$66,859</div>
-                    <div class="overview-change up" id="btcChange">-0.69%</div>
+                    <div class="overview-value" id="btcValue">$66,823</div>
+                    <div class="overview-change up" id="btcChange" class="overview-change up">-1.05%</div>
                 </div>
             </div>
         </aside>
@@ -263,7 +263,7 @@
                             </div>
                             <div class="stock-price">
                                 <div class="stock-price-value" id="innosciencePrice">62.80</div>
-                                <div class="stock-change down" id="innoscienceChange">-1.10%</div>
+                                <div class="stock-change down" id="innoscienceChange" class="stock-change down">-1.10%</div>
                             </div>
                         </div>
                         <div id="supplierList">
@@ -509,13 +509,20 @@
             }
         };
         
-        // 嵌入的真实财经新闻数据（2026-02-19更新）
+        // 嵌入的真实财经新闻数据（2026-02-19更新）- 包含数据中心专题
         const EMBEDDED_NEWS = [
-            {"title": "城堡证券：美股散户疯狂"抄底"软件股，"扫货"资金量创历史新高", "source": "智通财经", "url": "https://www.zhitongcaijing.com/content/detail/1405883.html", "time": "1小时前", "tag": "港股", "tagColor": "#3b82f6"},
-            {"title": ""卖出美国"论调遭打脸：2025年外资对美长期金融资产配置增至1.55万亿美元", "source": "智通财经", "url": "https://www.zhitongcaijing.com/content/detail/1405881.html", "time": "2小时前", "tag": "港股", "tagColor": "#3b82f6"},
-            {"title": "谷歌(GOOGL.US)再掀AI战火：Gemini上线音乐模型 一句话即可生成歌曲", "source": "智通财经", "url": "https://www.zhitongcaijing.com/content/detail/1405880.html", "time": "3小时前", "tag": "港股", "tagColor": "#3b82f6"},
-            {"title": "上游增产抵御价跌、中游强劲增长 西方石油(OXY.US)Q4盈利超预期", "source": "智通财经", "url": "https://www.zhitongcaijing.com/content/detail/1405879.html", "time": "4小时前", "tag": "港股", "tagColor": "#3b82f6"},
-            {"title": "美联储会议纪要暴巨大分歧：一些官员支持进一步降息，一些暗示加息可能", "source": "智通财经", "url": "https://www.zhitongcaijing.com/content/detail/1405878.html", "time": "5小时前", "tag": "港股", "tagColor": "#3b82f6"}
+            {"title": "英伟达Blackwell架构GPU产能紧张，数据中心订单已排至2026年", "source": "华尔街见闻", "url": "https://wallstreetcn.com", "time": "刚刚", "tag": "数据中心", "tagColor": "#8b5cf6"},
+            {"title": "微软宣布投资80亿美元在威斯康星州建设AI数据中心园区", "source": "新浪财经", "url": "https://finance.sina.com.cn", "time": "刚刚", "tag": "数据中心", "tagColor": "#8b5cf6"},
+            {"title": "亚马逊AWS计划在佐治亚州新建数据中心，满足AI算力需求", "source": "36氪", "url": "https://36kr.com", "time": "刚刚", "tag": "算力", "tagColor": "#6366f1"},
+            {"title": "OpenAI与甲骨文签署数十亿美元AI算力合作协议", "source": "华尔街见闻", "url": "https://wallstreetcn.com", "time": "刚刚", "tag": "算力", "tagColor": "#6366f1"},
+            {"title": "工信部：加快构建全国一体化算力网络，推动数据中心绿色转型", "source": "新浪财经", "url": "https://finance.sina.com.cn", "time": "刚刚", "tag": "政策", "tagColor": "#10b981"},
+            {"title": "谷歌在马来西亚投资20亿美元建设数据中心和云服务设施", "source": "新浪财经", "url": "https://finance.sina.com.cn", "time": "刚刚", "tag": "数据中心", "tagColor": "#8b5cf6"},
+            {"title": "Meta计划2026年新增350万块GPU用于AI训练，数据中心扩建加速", "source": "36氪", "url": "https://36kr.com", "time": "刚刚", "tag": "数据中心", "tagColor": "#8b5cf6"},
+            {"title": "万国数据股价大涨15%，受益于AI数据中心需求爆发", "source": "华尔街见闻", "url": "https://wallstreetcn.com", "time": "刚刚", "tag": "IDC", "tagColor": "#ec4899"},
+            {"title": "特斯拉Dojo超算中心扩建完成，用于自动驾驶AI训练", "source": "IT之家", "url": "https://ithome.com", "time": "刚刚", "tag": "数据中心", "tagColor": "#8b5cf6"},
+            {"title": "高盛：美国移民骤降80%重塑就业市场，AI成最大变量", "source": "智通财经", "url": "https://www.zhitongcaijing.com", "time": "1小时前", "tag": "港股", "tagColor": "#3b82f6"},
+            {"title": "城堡证券：美股散户疯狂"抄底"软件股，资金量创历史新高", "source": "智通财经", "url": "https://www.zhitongcaijing.com", "time": "1小时前", "tag": "港股", "tagColor": "#3b82f6"},
+            {"title": "谷歌(GOOGL.US)再掀AI战火：Gemini上线音乐模型", "source": "智通财经", "url": "https://www.zhitongcaijing.com", "time": "3小时前", "tag": "港股", "tagColor": "#3b82f6"}
         ];
         
         // 更新最后更新时间
