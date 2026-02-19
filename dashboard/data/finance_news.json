@@ -1,84 +1,44 @@
 {
-  "update_time": "2026-02-19T06:00:20.398190",
+  "update_time": "2026-02-19T07:00:15.063166",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 5,
   "news": [
     {
-      "title": "大摩称亚马逊(AMZN.US)是“最被低估生成式人工智能赢家” 维持“增持”评级",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405870.html",
-      "time": "1小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "特朗普援引国防生产法 保障磷与除草剂的国内供应",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhzrw4414001.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "Palantir(PLTR.US)与Rackspace(RXT.US)达成战略合作 后者股价暴涨超216%",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405868.html",
-      "time": "2小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "日本迎来大选后首次超长期国债拍卖考验 交易员严阵以待",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhviy4543941.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "亚马逊(AMZN.US)、谷歌(GOOGL.US)、微软(MSFT.US)成最大赢家？Anthropic至2029年或支付超800亿美元云费用",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405867.html",
-      "time": "3小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "2月19日隔夜要闻：美股收高 油价黄金上涨 美国将从叙利亚撤出所有部队 法国国家银行账户档案系统遭非法访问",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhvka1642818.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "美国2025年商业投资强劲收官 12月核心耐用品订单超预期增长0.6%",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405862.html",
-      "time": "4小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
-    },
-    {
-      "title": "工业+AI双轮驱动，亚德诺(ADI.US)Q1财报创纪录，Q2指引远超预期",
-      "source": "智通财经",
-      "url": "https://www.zhitongcaijing.com/content/detail/1405860.html",
-      "time": "5小时前",
-      "tag": "港股",
-      "tagColor": "#3b82f6"
+      "title": "对冲基金AlphaQuest连续三年亏损后关闭 向投资者返还资金",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhviw7501481.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "2月19日美股成交额前20：谷歌进军AI音乐创作领域",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhvka1638658.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美联储会议纪要透出鹰派气味 一些官员考虑潜在加息可能性",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhvka1637815.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "加密借贷公司Ledn在ABS市场发行比特币支持债券",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhviw7495062.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美国股市：科技股引领大盘反弹 数据显示经济表现坚挺",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhviv0716983.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美国债市：国债下跌 20年期国债标售遇疲软需求",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnhviw7493495.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
