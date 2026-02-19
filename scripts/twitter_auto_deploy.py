@@ -161,16 +161,47 @@ def save_and_deploy(tweets_data):
     deploy_dashboard()
 
 def generate_twitter_html(tweets_data, now):
-    """生成 Twitter HTML 嵌入内容"""
-    html_parts = []
-    
+    """生成 Twitter HTML 嵌入内容 - 只显示前5条+查看更多"""
+    # 合并所有推文
+    all_tweets = []
     for username, tweets in tweets_data.items():
         for tweet in tweets:
-            # 转义 HTML 特殊字符
-            text = tweet['text'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
-            translate = tweet['translate'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
-            
-            html_parts.append(f'''\n<a href="{tweet['url']}" target="_blank" style="text-decoration: none; color: inherit; display: block; margin-bottom: 12px; padding: 12px; border-radius: 8px; transition: background 0.2s;" class="tweet-link">\n<div class="tweet-item" style="cursor: pointer;">\n<div class="tweet-author"><span class="tweet-author-name">{tweet['name']}</span><span class="tweet-author-handle">@{tweet['author']}</span><span class="tweet-time">{tweet['time_ago']}</span></div>\n<div class="tweet-text">{text}</div>\n<div class="tweet-translate"><span style="color: #3b82f6; font-size: 11px;">[中文翻译]</span> {translate}</div>\n<div style="margin-top: 8px; font-size: 11px; color: #9ca3af; text-align: right;">🔗 点击查看原推文 →</div>\n</div>\n</a>''')
+            tweet['_author'] = username
+            all_tweets.append(tweet)
+    
+    # 按时间排序（最新的在前）
+    all_tweets.sort(key=lambda x: x.get('time', ''), reverse=True)
+    
+    # 只取前5条
+    top5 = all_tweets[:5]
+    
+    html_parts = []
+    for i, tweet in enumerate(top5, 1):
+        # 转义 HTML 特殊字符
+        text = tweet['text'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
+        translate = tweet['translate'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
+        
+        html_parts.append(f"""
+<a href="{tweet['url']}" target="_blank" style="text-decoration: none; color: inherit; display: block; margin-bottom: 12px; padding: 12px; border-radius: 8px; transition: background 0.2s; border-left: 3px solid #3b82f6;" class="tweet-link">
+<div class="tweet-item" style="cursor: pointer;">
+<div class="tweet-author">
+<span style="background: #3b82f6; color: white; font-size: 11px; padding: 2px 6px; border-radius: 4px; margin-right: 6px;">#{i}</span>
+<span class="tweet-author-name">{tweet['name']}</span>
+<span class="tweet-author-handle">@{tweet['author']}</span>
+<span class="tweet-time" style="color: #ef4444; font-weight: 500;">{tweet['time_ago']}</span>
+</div>
+<div class="tweet-text">{text}</div>
+<div class="tweet-translate"><span style="color: #3b82f6; font-size: 11px;">[中文翻译]</span> {translate}</div>
+<div style="margin-top: 8px; font-size: 11px; color: #9ca3af; text-align: right;">🔗 点击查看原推文 →</div>
+</div>
+</a>""")
+    
+    # 添加"查看更多"按钮
+    more_link = """
+<a href="tweets.html" style="display: block; text-align: center; padding: 12px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 500; margin-top: 8px; transition: opacity 0.2s;">
+    查看更多推文 →
+</a>"""
+    html_parts.append(more_link)
     
     return '\n'.join(html_parts)
 
