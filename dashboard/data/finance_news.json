@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-19T23:30:15.771989",
+  "update_time": "2026-02-20T00:30:24.188278",
   "source_count": 3,
-  "total_count": 9,
+  "total_count": 10,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -20,6 +20,22 @@
       "tagColor": "#8b5cf6"
     },
     {
+      "title": "亚马逊AWS计划在佐治亚州新建多个数据中心园区",
+      "source": "行业动态",
+      "url": "#",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "特朗普：预计“十天左右”知道能否与伊朗达成协议",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765876",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
       "title": "美角色转变重塑油价格局，中下行缩表趋势或将延续，财政回笼无碍国内资金宽松---0219宏观脱水",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3765875",
@@ -36,41 +52,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "中美AI赛道比拼：算力之外，数据才是终极变量【王紫敬大师课3.1】",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3755752",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "欧洲头部AI公司首席执行官警告 AI由少数企业主导恐致市场滥用",
+      "title": "约翰迪尔股价大涨9.6%，农机巨头预计农业经济回暖",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnkpth0850252.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkpsy9983420.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国12月领先经济指数下跌0.2% 与预期相符",
+      "title": "Meta CEO扎克伯格在社交媒体成瘾案庭审中出庭作证",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnkpth0849954.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkpta6758266.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "扎克伯格称曾与苹果CEO讨论青少年福祉问题",
+      "title": "维萨达成收购协议，买下Prisma与Newpay，扩大在阿根廷业务布局",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnkpth0849822.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkpsy9979328.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美战争部长在密苏里州盛赞\"自由兵工厂\"",
+      "title": "美伊紧张局势升级 油价飙升1.6%、金价突破5000美元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnkpth0849615.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkpsy9978484.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
