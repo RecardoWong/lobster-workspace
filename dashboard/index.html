@@ -214,7 +214,7 @@
                 <div class="live-dot"></div>
                 <span class="live-text">实时数据</span>
             </div>
-            <div class="last-update" id="lastUpdate">最后更新: 02/19 17:20</div>
+            <div class="last-update" id="lastUpdate">最后更新: 02/19 17:55</div>
             
             <div class="overview-section">
                 <div class="section-title">核心数据</div>
@@ -230,7 +230,7 @@
                 </div>
                 <div class="overview-card">
                     <div class="overview-label">比特币</div>
-                    <div class="overview-value" id="btcValue">$67,020</div>
+                    <div class="overview-value" id="btcValue">$66,855</div>
                     <div class="overview-change up" id="btcChange" class="overview-change up">-1.05%</div>
                 </div>
             </div>
@@ -252,7 +252,7 @@
                 <!-- 股价监控 -->
                 <div class="card">
                     <div class="card-header">
-                        <div class="card-title">📈 英诺赛科及上游供应商</div>
+                        <div class="card-title">📈 上游供应商</div>
                         <span style="font-size: 12px; color: #9ca3af;">实时</span>
                     </div>
                     <div class="card-body" id="stockContainer">
@@ -407,7 +407,7 @@
                 <div class="card">
                     <div class="card-header">
                         <div class="card-title">🐦 Twitter 重点动态</div>
-                        <span style="font-size: 12px; color: #9ca3af;" id="twitterUpdateTime">更新于: 2026-02-19 17:21</span>
+                        <span style="font-size: 12px; color: #9ca3af;" id="twitterUpdateTime">更新于: 2026-02-19 17:52</span>
                     </div>
                     <div class="card-body" id="twitterContainer">
 <a href="https://x.com/elonmusk/status/2024412105307542019" target="_blank" style="text-decoration: none; color: inherit; display: block; margin-bottom: 12px; padding: 12px; border-radius: 8px; transition: background 0.2s;" class="tweet-link">
@@ -512,7 +512,7 @@ Even in high school, it was hard getting 10 guys together if we had to fight ano
 
 <a href="https://x.com/xiaomucrypto/status/2024329684486672753" target="_blank" style="text-decoration: none; color: inherit; display: block; margin-bottom: 12px; padding: 12px; border-radius: 8px; transition: background 0.2s;" class="tweet-link">
 <div class="tweet-item" style="cursor: pointer;">
-<div class="tweet-author"><span class="tweet-author-name">xiaomucrypto</span><span class="tweet-author-handle">@xiaomucrypto</span><span class="tweet-time">5小时前</span></div>
+<div class="tweet-author"><span class="tweet-author-name">xiaomucrypto</span><span class="tweet-author-handle">@xiaomucrypto</span><span class="tweet-time">6小时前</span></div>
 <div class="tweet-text">4月之前，资金在存储股都是躺赢。
 全球市场找不到比这更确定的事情。
 因为他们的业绩指引显示下个季度利润全部再翻一倍以上。
@@ -548,7 +548,7 @@ $ FLR $ ETOR $ BLDR $ MDT $ TOL $ CDNS $ EQT $ NNE $ PANW $ kVue $ SEDG $ GLBE $
 
 <a href="https://x.com/aistocksavvy/status/2024309365134569717" target="_blank" style="text-decoration: none; color: inherit; display: block; margin-bottom: 12px; padding: 12px; border-radius: 8px; transition: background 0.2s;" class="tweet-link">
 <div class="tweet-item" style="cursor: pointer;">
-<div class="tweet-author"><span class="tweet-author-name">AI Stock Savvy</span><span class="tweet-author-handle">@aistocksavvy</span><span class="tweet-time">6小时前</span></div>
+<div class="tweet-author"><span class="tweet-author-name">AI Stock Savvy</span><span class="tweet-author-handle">@aistocksavvy</span><span class="tweet-time">7小时前</span></div>
 <div class="tweet-text"> 𝐉𝐔𝐒𝐓 𝐈𝐍: OpenAI Funding Round Poised to Top $𝟏𝟎𝟎𝐁, Valuation Near $𝟖𝟓𝟎𝐁 - Bloomberg - $MSFT $NVDA $AMZN $GOOGL 
 
  𝐊𝐞𝐲 𝐇𝐢𝐠𝐡𝐥𝐢𝐠𝐡𝐭𝐬:
@@ -789,33 +789,24 @@ $ FLR $ ETOR $ BLDR $ MDT $ TOL $ CDNS $ EQT $ NNE $ PANW $ kVue $ SEDG $ GLBE $
             
             for (const [account, tweets] of Object.entries(data.tweets)) {
                 tweets.forEach(t => {
-                    // 添加原始时间戳用于排序
-                    t._sortTime = new Date(t.time).getTime();
                     allTweets.push(t);
                 });
             }
             
-            // 严格按时间倒序排列（最新的在最前面）
-            allTweets.sort((a, b) => b._sortTime - a._sortTime);
+            // 按时间排序（最新的在前）
+            allTweets.sort((a, b) => new Date(b.time) - new Date(a.time));
             
             // 显示前6条
             const recentTweets = allTweets.slice(0, 6);
             
-            // 重新计算时间显示
-            recentTweets.forEach((t, index) => {
-                t._displayTime = getTimeAgo(t.time);
-                t._index = index + 1;
-            });
-            
             container.innerHTML = recentTweets.map(t => {
                 return `
                     <a href="${t.url || '#' }" target="_blank" style="text-decoration: none; color: inherit; display: block;" class="tweet-link">
-                        <div class="tweet-item" style="cursor: pointer; transition: background 0.2s; border-left: 3px solid #3b82f6; padding-left: 12px;">
+                        <div class="tweet-item" style="cursor: pointer; transition: background 0.2s;">
                             <div class="tweet-author">
-                                <span style="background: #3b82f6; color: white; font-size: 11px; padding: 2px 6px; border-radius: 4px; margin-right: 6px;">#${t._index}</span>
                                 <span class="tweet-author-name">${t.name || t.author}</span>
                                 <span class="tweet-author-handle">@${t.author}</span>
-                                <span class="tweet-time" style="color: #ef4444; font-weight: 500;">${t._displayTime}</span>
+                                <span class="tweet-time">${t.time_ago || getTimeAgo(t.time)}</span>
                             </div>
                             <div class="tweet-text">${escapeHtml(t.text)}</div>
                             ${t.translate ? `<div class="tweet-translate">
