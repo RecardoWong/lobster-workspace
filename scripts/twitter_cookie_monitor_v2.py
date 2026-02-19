@@ -67,6 +67,20 @@ async def fetch_user_tweets(username, name):
                     time_elem = await tweet.query_selector('time')
                     time_str = await time_elem.get_attribute('datetime') if time_elem else ''
                     
+                    # 获取推文ID和URL
+                    tweet_id = ''
+                    tweet_url = f'https://x.com/{username}'
+                    
+                    # 尝试从time元素的父链接获取推文ID
+                    if time_elem:
+                        try:
+                            parent_link = await time_elem.evaluate('el => el.closest("a")?.getAttribute("href")')
+                            if parent_link and '/status/' in parent_link:
+                                tweet_id = parent_link.split('/status/')[-1].split('?')[0]
+                                tweet_url = f'https://x.com/{username}/status/{tweet_id}'
+                        except:
+                            pass
+                    
                     # 作者
                     author_elem = await tweet.query_selector('[data-testid="User-Names"]')
                     author = await author_elem.inner_text() if author_elem else username
@@ -76,9 +90,12 @@ async def fetch_user_tweets(username, name):
                             'author': author.split('\n')[0] if '\n' in author else author,
                             'text': text[:300],  # 限制长度
                             'time': time_str,
+                            'id': tweet_id,
+                            'url': tweet_url,
                             'fetched_at': datetime.now().isoformat()
                         })
                         print(f"   {i}. {text[:60]}...")
+                        print(f"      🔗 {tweet_url}")
                         
                 except Exception as e:
                     continue
