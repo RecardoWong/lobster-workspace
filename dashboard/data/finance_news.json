@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-20T02:30:10.616499",
+  "update_time": "2026-02-20T03:30:17.709353",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 6,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -28,60 +28,28 @@
       "tagColor": "#8b5cf6"
     },
     {
+      "title": "美国12月贸易逆差扩大，去年全年录得1960年以来最大逆差之一",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765879",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "巴菲特退休前为数不多的加仓又又“爆雷”  4000亿美元现金很快就要派上用场了！？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765878",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
       "title": "十天内对伊朗动手？特朗普：美伊必须达成有意义协议，否则发生“糟糕的事”",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3765876",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
-    },
-    {
-      "title": "美角色转变重塑油价格局，中下行缩表趋势或将延续，财政回笼无碍国内资金宽松---0219宏观脱水",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765875",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美股三大指数高开后悉数转跌，明星科技股普跌，黄金站上5000美元",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765856",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普称伊朗若不达成协议就会发生非常糟糕的事",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnktza3656723.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "特朗普会见印尼总统普拉博沃签经济安全协议",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnktze0757255.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "特朗普称“和平委员会”获170亿美元加沙援助承诺 多国拟派员参与稳定部队",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnktyw9887790.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "纽约叫停无人驾驶出租车扩张计划",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnktyy6664862.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
     }
   ]
 }
