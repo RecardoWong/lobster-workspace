@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-20T04:30:20.267680",
+  "update_time": "2026-02-20T05:00:35.159493",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 7,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -28,28 +28,20 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "美国12月贸易逆差扩大，去年全年录得1960年以来最大逆差之一",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765879",
+      "title": "外国去年净买入的美国股票翻逾一倍",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkyia0649906.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "巴菲特退休前为数不多的加仓又又“爆雷”  4000亿美元现金很快就要派上用场了！？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765878",
+      "title": "英国前王子安德鲁获释 早前因涉嫌不当行为被捕",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkyhu9798595.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "十天内对伊朗动手？特朗普：美伊必须达成有意义协议，否则发生“糟糕的事”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765876",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "油价因美伊冲突担忧延续涨势",
@@ -63,22 +55,6 @@
       "title": "摩根大通欧洲分行虚报资本要求 被欧洲央行罚款1220万欧元",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkyhw6570125.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "米兰：不再认为美联储今年应像之前预期大幅降息",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkyhw6569753.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "特朗普给伊朗10-15天时间达成协议",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnkyhy3543454.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
