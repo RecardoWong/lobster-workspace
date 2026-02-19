@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-02-19T18:30:28.627332",
+  "update_time": "2026-02-19T19:30:12.042402",
   "source_count": 3,
   "total_count": 10,
   "news": [
@@ -28,6 +28,22 @@
       "tagColor": "#8b5cf6"
     },
     {
+      "title": "科技股拖累美股期指转跌，特斯拉盘前领跌Mag7，地缘局势升温推高金银油，黄金站上5000美元",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765856",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "三星电子股价飙至历史新高！报道：公司HBM4芯片拟大幅提价30%",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765873",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
       "title": "外资扫货日股，单周净买入规模创2014年以来之最！",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3765872",
@@ -36,49 +52,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "科技股推动美股期指上扬，盘前存储芯片、白银股走高，地缘局势升温推高金银油，黄金站上5000美元",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765856",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "鹰派预期升温！多数经济学家预测日央行将提前加息",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765871",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "拉加德提前离任传闻引争议：欧洲央行独立性面临考验",
+      "title": "特斯拉盘前领跌科技七巨头 美股反弹势头减弱",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnkccn1041651.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnkcch6937555.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美伊紧张局势引发液化天然气运输担忧，欧洲天然气价格飙升",
+      "title": "发动机供应成瓶颈 空中客车实现交付目标面临挑战",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnkcck3936651.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnkcck3950019.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "雀巢将在重组中剥离冰淇淋业务",
+      "title": "谷歌将帮助新加坡冬海集团打造AI购物智能体",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhniwvk7052999.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnkcch6937158.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "利润指标未达标、业绩展望模糊，Carvana盘前下跌超15%",
+      "title": "印度首富承诺最高投资1100亿美元建AI基础设施 多巨头相继加码押注",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhniwvk7052799.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-19/doc-inhnkcch6936805.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
