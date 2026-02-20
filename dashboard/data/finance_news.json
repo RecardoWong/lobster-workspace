@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-20T10:30:34.496726",
+  "update_time": "2026-02-20T11:30:11.216562",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 10,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -28,33 +28,57 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "石油股早盘涨幅居前 中国石油及中海油服均涨逾4%",
+      "title": "一文读懂2026年至今的全球市场：什么在涨？美股为何不行？这种趋势会持续吗？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765893",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "小核酸起风了：龙头登陆资本市场，国产供应链受益资本开支提速",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3763097",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "巴菲特退休前为数不多的加仓又又“爆雷”  4000亿美元现金很快就要派上用场了！？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765878",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "电力设备股早盘走高 上海电气涨超7%哈尔滨电气涨超4%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-20/doc-inhnmreu0318971.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-20/doc-inhnmreu0330001.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中国中铁早盘逆势涨超5% 机构看好其矿产资源板块新增量",
+      "title": "明略科技-W早盘涨超5% 获纳入恒生综合指数成份股",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-20/doc-inhnmreu0318549.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-20/doc-inhnmren9476871.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "英伟达与OpenAI接近达成300亿美元投资协议，取代去年宣布的1000亿美元交易",
+      "title": "速腾聚创盘中涨超11% 第4季度首次单季实现盈利",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnmreu0316406.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-20/doc-inhnmres3227089.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美联储“不急于降息”，流动性预期生变，铜的“金融属性”还撑得住吗？",
+      "title": "摩根大通称特朗普50亿美元诉讼错误地将CEO戴蒙列为被告",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/2026-02-20/doc-inhnmreu0313202.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnmres3224088.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
