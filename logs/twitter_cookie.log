@@ -2846,3 +2846,36 @@ A...
 
 ✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260220_2200.json
 ============================================================
+🐦 Twitter Cookie 监控 - 2026-02-20 23:00
+============================================================
+
+📱 抓取 @elonmusk (Elon Musk)...
+   找到 7 条推文
+   1. Understand the Universe...
+      🔗 https://x.com/elonmusk/status/2024794566482858164
+   2. .
+@elonmusk
+ explains 
+@grok
+’s mission: “Understand the Uni...
+      🔗 https://x.com/elonmusk/status/2024834198838694252
+   4. A peaceful moment in the snow with the largest trees in the ...
+      🔗 https://x.com/elonmusk/status/2024840209305674161
+   5. Oh no! Elon Musk's X is brainwashing users into conservative...
+      🔗 https://x.com/elonmusk/status/2024585157114556451
+   ✅ 已保存到 /tmp/twitter_monitor/elonmusk_20260220_2300.json
+
+📱 抓取 @jdhasoptions (jdhasoptions)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/jdhasoptions_20260220_2300.json
+
+📱 抓取 @xiaomucrypto (xiaomucrypto)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/xiaomucrypto_20260220_2300.json
+
+📱 抓取 @aistocksavvy (AI Stock Savvy)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/aistocksavvy_20260220_2300.json
+
+✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260220_2300.json
+============================================================

@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-20T22:30:23.443792",
+  "update_time": "2026-02-20T23:30:12.123501",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 10,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -28,33 +28,57 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "肯尼迪为特朗普草甘膦行政令辩护 中期选举临近 “让美国再次健康”",
+      "title": "GDP不及预期、通胀压力升，美股周五低开，但特朗普关税遭推翻刺激三大指数转涨，黄金站上5060美元，白银突破81美元",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765902",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "特朗普关税被美国最高法院驳回",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765909",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美国2月标普全球制造业PMI初值 51.2，前值 52.4",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765908",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "星巴克需要你在下午买一杯冰萃饮品",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnssf9823202.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnsse2734735.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "现在谁还在笑？中国人形机器人一年内：从全网群嘲的摔倒，变身功夫空翻",
+      "title": "美国牛肉行业向消费者喊话：习惯高价吧",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnsse2720176.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnssa5720174.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美股盘前下跌 美国第四季度GDP增长远不及预期",
+      "title": "美国各州检察长被视为WBD出售案中的变数",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnssa5709858.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnssf9835157.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "更多品牌接入亚马逊物流网络，Bath & Body Works开始在亚马逊平台销售",
+      "title": "WBD内部人士支持转向Netflix交易",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnssa5709562.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnssf9834963.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
