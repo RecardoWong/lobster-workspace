@@ -1,0 +1,27 @@
+[2026-02-10 08:00:00] INFO: Starting Twitter monitor script
+[2026-02-10 08:00:05] INFO: Connecting to Twitter API
+[2026-02-10 08:00:10] INFO: Fetching tweets from @elonmusk
+[2026-02-10 08:00:15] INFO: Got 12 tweets
+[2026-02-10 08:00:20] INFO: Translating tweets using MyMemory API
+[2026-02-10 08:00:30] ERROR: Translation API quota exceeded (429 Too Many Requests)
+[2026-02-10 08:00:35] WARN: Falling back to truncated display
+[2026-02-10 08:00:40] INFO: Generating HTML file
+[2026-02-10 08:00:45] INFO: HTML updated successfully
+[2026-02-10 08:00:50] ERROR: SCP deployment failed - connection timeout
+[2026-02-10 08:00:55] INFO: Retrying deployment (attempt 2/3)
+[2026-02-10 08:01:10] INFO: Deployment successful!
+[2026-02-10 08:01:15] INFO: Total tweets processed: 12
+[2026-02-10 08:01:20] INFO: Script completed in 80 seconds
+[2026-02-10 09:00:00] INFO: Starting Twitter monitor script
+[2026-02-10 09:00:10] INFO: Fetching tweets from @elonmusk
+[2026-02-10 09:00:15] INFO: Got 5 tweets
+[2026-02-10 09:00:20] INFO: Translation completed
+[2026-02-10 09:00:30] INFO: HTML updated
+[2026-02-10 09:00:35] INFO: Deployment successful!
+[2026-02-11 08:00:00] INFO: Starting Twitter monitor script
+[2026-02-11 08:00:10] CRITICAL: Twitter API rate limit exceeded
+[2026-02-11 08:00:15] ERROR: Cannot fetch tweets, waiting for next cycle
+[2026-02-11 08:00:20] INFO: Script failed, will retry in 1 hour
+[2026-02-11 09:00:00] INFO: Starting Twitter monitor script (retry)
+[2026-02-11 09:00:10] INFO: Successfully connected to Twitter
+[2026-02-11 09:00:20] INFO: Got 8 tweets, deployed successfully
