@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-20T23:30:12.123501",
+  "update_time": "2026-02-21T00:30:18.135887",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 7,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -28,57 +28,33 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "GDP不及预期、通胀压力升，美股周五低开，但特朗普关税遭推翻刺激三大指数转涨，黄金站上5060美元，白银突破81美元",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765902",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普关税被美国最高法院驳回",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765909",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美国2月标普全球制造业PMI初值 51.2，前值 52.4",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765908",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "星巴克需要你在下午买一杯冰萃饮品",
+      "title": "经济数据拖累美股低开 特朗普关税被推翻后三大股指转涨",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnsse2734735.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnnwyc9718256.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国牛肉行业向消费者喊话：习惯高价吧",
+      "title": "特朗普考虑对伊朗实施初步有限打击，迫使其签署核协议",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnssa5720174.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnnwxw8824220.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国各州检察长被视为WBD出售案中的变数",
+      "title": "特朗普称正考虑对伊朗实施有限军事打击",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnssf9835157.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnnwyc9716403.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "WBD内部人士支持转向Netflix交易",
+      "title": "美国法官维持对特斯拉2.43亿美元判决，涉自动驾驶系统致命车祸",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnnssf9834963.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnnwyc9712372.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
