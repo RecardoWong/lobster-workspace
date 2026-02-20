@@ -2721,3 +2721,60 @@ $FLR $ETOR $BLDR $M...
 
 ✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260220_1900.json
 ============================================================
+🐦 Twitter Cookie 监控 - 2026-02-20 20:00
+============================================================
+
+📱 抓取 @elonmusk (Elon Musk)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/elonmusk_20260220_2000.json
+
+📱 抓取 @jdhasoptions (jdhasoptions)...
+   找到 5 条推文
+   1. 感觉有人在押注打仗了
+$xle和vix都有大额看涨
+几个国防股，$lmt，$noc也有看涨期权...
+      🔗 https://x.com/jdhasoptions/status/2024532737491947991
+   3. 大盘好弱
+看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹，比如$S，$ORCL，$NOW。这个c...
+      🔗 https://x.com/jdhasoptions/status/2022415661130195218
+   4. ADBE和CRM都有大额看空put
+这俩还都是$IGV成分股...
+      🔗 https://x.com/jdhasoptions/status/2022019742819922136
+   5. $igv要是反弹到这里就结束也太幽默了...
+      🔗 https://x.com/jdhasoptions/status/2021977734327812191
+   ✅ 已保存到 /tmp/twitter_monitor/jdhasoptions_20260220_2000.json
+
+📱 抓取 @xiaomucrypto (xiaomucrypto)...
+   找到 4 条推文
+   1. 目前能买到包含海力士和三星股票的etf有
+1.a股的中韩半导体etf
+2.美股的FLXK
+3.港股的俩倍做多海力士/三星...
+      🔗 https://x.com/xiaomucrypto/status/2016009765944754560
+   2. 存储海力士的兄弟们再熬俩月，4.月24号-4.28号海力士发q1....
+      🔗 https://x.com/xiaomucrypto/status/2024743364881764514
+   3. 海力士价值回归刚刚开始今天收盘涨6.15%，不敢想象4月份一季度报出来会多燃，市盈率打到3。...
+      🔗 https://x.com/xiaomucrypto/status/2024739876994973779
+   4. 一骑绝尘，MiniMax M2.5周数据居然到了丧心病狂的3.24T，
+简直疯了.后面几个加起来都没它多。定价也不算最便...
+      🔗 https://x.com/xiaomucrypto/status/2024657819350552840
+   ✅ 已保存到 /tmp/twitter_monitor/xiaomucrypto_20260220_2000.json
+
+📱 抓取 @aistocksavvy (AI Stock Savvy)...
+   找到 4 条推文
+   1.  Companies Reporting Earnings Next Week
+
+$FLR $ETOR $BLDR $M...
+      🔗 https://x.com/aistocksavvy/status/2022426149960454565
+   2. $OPEN | Opendoor Earnings Call Summary
+
+𝐂𝐄𝐎
+
+➤ “We did what ...
+      🔗 https://x.com/aistocksavvy/status/2024689576401404407
+   4. Seems like you have bug in earning report. It's EPS missed n...
+      🔗 https://x.com/aistocksavvy/status/2024688147242586325
+   ✅ 已保存到 /tmp/twitter_monitor/aistocksavvy_20260220_2000.json
+
+✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260220_2000.json
+============================================================
