@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-20T09:30:09.231122",
+  "update_time": "2026-02-20T10:30:34.496726",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 7,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -28,57 +28,33 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "港股马年首个交易日：恒生指数开盘跌0.18%，恒生科技指数低开近0.7%",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765892",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "“关税战”元年效果不显！美国去年进口、商品贸易逆差双双创新高",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765889",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "沃尔玛四季度财报超预期但盈利指引不及预期，CEO称“美国低收入家庭只能勉强维持生计”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765888",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美国原油库存大幅下降",
+      "title": "石油股早盘涨幅居前 中国石油及中海油服均涨逾4%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnmkws6366646.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-20/doc-inhnmreu0318971.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "快讯：恒指低开0.18% 科指跌0.69% 科网股普跌 石油股普涨 阿里巴巴跌超3%",
+      "title": "中国中铁早盘逆势涨超5% 机构看好其矿产资源板块新增量",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-20/doc-inhnmkws6365743.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-20/doc-inhnmreu0318549.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "受金价飙升影响，纽蒙特矿业第四季度销售额攀升",
+      "title": "英伟达与OpenAI接近达成300亿美元投资协议，取代去年宣布的1000亿美元交易",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnmkws6364070.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnmreu0316406.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国与印尼敲定贸易协议 美国将降低印尼商品关税",
+      "title": "美联储“不急于降息”，流动性预期生变，铜的“金融属性”还撑得住吗？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-20/doc-inhnmkwu3324825.shtml",
+      "url": "https://finance.sina.com.cn/money/future/2026-02-20/doc-inhnmreu0313202.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
