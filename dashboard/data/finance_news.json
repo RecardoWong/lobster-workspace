@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-21T04:30:15.880172",
+  "update_time": "2026-02-21T05:30:07.561723",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 9,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -20,12 +20,20 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "亚马逊AWS计划在佐治亚州新建多个数据中心园区",
-      "source": "行业动态",
-      "url": "#",
+      "title": "进军硬件赛道！OpenAI酝酿AI音箱、眼镜与智能灯，最早2027年发货",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765914",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "别为美最高法推翻特朗普关税高兴太早？华尔街预计市场反应或昙花一现",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765913",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
       "title": "最高法裁决后特朗普动用替补工具，加征10%全球关税，放话关税会比之前“高得多”",
@@ -36,49 +44,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "最高法院裁决并未“击溃”关税，一文看清特朗普多种可选工具及优缺点",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765911",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "达利欧家办重仓黄金！彻底退出桥水后首曝美股持仓，规模升至5亿美元",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765910",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "贝尔德上调特斯拉评级至\"跑赢大盘\"",
+      "title": "2月21日热门中概股涨跌不一 台积电涨2.85%，B站跌2.13%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnpipw2393472.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnpipw2398768.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "BMO资本下调联合包裹评级",
+      "title": "加州州长纽森呼吁特朗普连本带利向企业和家庭退还关税",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnpipu5386354.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnpipx9500415.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "花旗下调英特尔评级至卖出",
+      "title": "达拉斯联储行长：美联储将密切关注关税退款的影响",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnpips8608859.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnpipx9500275.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普回击最高法院判决 将对全球征10%关税并发起更多贸易调查",
+      "title": "2月21日收盘：美股周五收高 特朗普全球关税被驳回",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnpipu5385981.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnpipx9499077.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
