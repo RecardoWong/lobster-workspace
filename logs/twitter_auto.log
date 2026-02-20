@@ -383,3 +383,25 @@
 ✅ 总计: 12 条推文
 ============================================================
 
+
+============================================================
+🐦 Twitter 自动更新 - 09:00
+============================================================
+🐦 读取 Twitter 数据...
+  翻译API失败: HTTP Error 429: Too Many Requests
+  翻译API失败: HTTP Error 429: Too Many Requests
+  翻译API失败: HTTP Error 429: Too Many Requests
+  ✅ Elon Musk: 3 条 (elonmusk_20260220_0800.json)
+  ✅ jdhasoptions: 3 条 (jdhasoptions_20260220_0800.json)
+  ✅ xiaomucrypto: 3 条 (xiaomucrypto_20260220_0800.json)
+  翻译API失败: HTTP Error 429: Too Many Requests
+  翻译API失败: HTTP Error 429: Too Many Requests
+  翻译API失败: HTTP Error 429: Too Many Requests
+  ✅ AI Stock Savvy: 3 条 (aistocksavvy_20260220_0800.json)
+✅ JSON 已保存
+✅ HTML 已更新 (2026-02-20 09:00)
+🚀 部署到服务器...
+✅ 部署成功!
+✅ 总计: 12 条推文
+============================================================
+
