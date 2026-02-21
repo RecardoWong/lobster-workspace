@@ -118,16 +118,17 @@ def aggregate():
             if news['tag'] in ['数据中心', '算力', 'IDC']:
                 dc_count += 1
     
-    # 如果数据中心新闻太少，补充一些
-    if dc_count < 3:
-        dc_extras = [
-            {'title': '英伟达Q4数据中心收入破纪录，AI算力需求持续爆发', 'source': '行业动态', 'url': '#', 'time': '刚刚', 'tag': '数据中心', 'tagColor': '#8b5cf6'},
-            {'title': '微软将投资80亿美元在威斯康星州建设AI数据中心', 'source': '行业动态', 'url': '#', 'time': '刚刚', 'tag': '数据中心', 'tagColor': '#8b5cf6'},
-            {'title': '亚马逊AWS计划在佐治亚州新建多个数据中心园区', 'source': '行业动态', 'url': '#', 'time': '刚刚', 'tag': '数据中心', 'tagColor': '#8b5cf6'},
-        ]
-        unique = dc_extras[:3-dc_count] + unique
+    # 过滤：只保留有真实URL链接的新闻（没有链接=假新闻）
+    valid_news = []
+    for news in unique:
+        url = news.get('url', '')
+        # 必须是非空的、不是#占位符的、以http开头的真实链接
+        if url and url != '#' and url.startswith('http'):
+            valid_news.append(news)
+        else:
+            print(f'⚠️ 过滤掉无来源的新闻: {news.get("title", "")[:30]}...')
     
-    final_news = unique[:12]
+    final_news = valid_news[:12]
     
     output = {
         'update_time': datetime.now().isoformat(),

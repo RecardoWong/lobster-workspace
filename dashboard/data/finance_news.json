@@ -1,24 +1,8 @@
 {
-  "update_time": "2026-02-22T03:30:03.053698",
+  "update_time": "2026-02-22T04:57:15.614943",
   "source_count": 3,
-  "total_count": 9,
+  "total_count": 7,
   "news": [
-    {
-      "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
-      "source": "行业动态",
-      "url": "#",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "微软将投资80亿美元在威斯康星州建设AI数据中心",
-      "source": "行业动态",
-      "url": "#",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
     {
       "title": "比净值低20-35%！对冲基金报价收购Blue Owl旗下基金份额，加剧市场对PE的质疑",
       "source": "华尔街见闻",
