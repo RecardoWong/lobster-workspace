@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-21T17:41:02.792821",
+  "update_time": "2026-02-21T18:30:20.601640",
   "source_count": 3,
-  "total_count": 10,
+  "total_count": 9,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -20,9 +20,9 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "亚马逊AWS计划在佐治亚州新建多个数据中心园区",
-      "source": "行业动态",
-      "url": "#",
+      "title": "如果OpenAI估值8300亿美元，那谷歌该值多少？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765938",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
@@ -39,14 +39,6 @@
       "title": "高院否决、特朗普再加！美国关税税率现在变成什么样了？",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3765933",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美高院推翻“对等关税”，接下来会发生什么？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765935",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
