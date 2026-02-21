@@ -61,6 +61,16 @@ def update_dashboard():
         content
     )
     
+    # 更新侧边栏比特币价格（查找包含"比特币"的div块中的价格）
+    # 匹配侧边栏中比特币的价格区域
+    btc_sidebar_pattern = r'(<div style="font-size: 12px; color: #94a3b8;">比特币</div>\s*<div style="font-size: 20px; font-weight: 700;">)\$[^<]+(</div>)'
+    content = re.sub(btc_sidebar_pattern, rf'\1${btc["price"]:,.0f}\2', content)
+    
+    # 更新侧边栏比特币涨跌幅
+    btc_change_color = '#10b981' if btc['change'] >= 0 else '#ef4444'
+    btc_change_pattern = r'(<div style="font-size: 12px; color: #94a3b8;">比特币</div>\s*<div style="font-size: 20px; font-weight: 700;">[^<]+</div>\s*<div style="font-size: 12px; color: )[^;]+(;">)[^<]+(</div>)'
+    content = re.sub(btc_change_pattern, rf'\g<1>{btc_change_color}\2{change_sign}{btc["change"]:.2f}%\3', content)
+    
     # 更新最后更新时间
     now = datetime.now().strftime('%m/%d %H:%M')
     content = re.sub(
