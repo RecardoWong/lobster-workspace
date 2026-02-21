@@ -21,7 +21,7 @@ def load_json(filename):
         return None
 
 def generate_tweet_html(tweets_data, limit=5):
-    """生成推文 HTML"""
+    """生成推文 HTML - 带点击链接"""
     if not tweets_data or 'tweets' not in tweets_data:
         return "<p style='color: #6b7280; text-align: center;'>暂无数据</p>"
     
@@ -49,7 +49,9 @@ def generate_tweet_html(tweets_data, limit=5):
         # 处理时间显示
         time_color = '#ef4444' if tweet['time'] in ['刚刚', '1小时前', '2小时前'] else '#9ca3af'
         
-        html_parts.append(f'''<div class="tweet-item">
+        # 包装成可点击的链接
+        html_parts.append(f'''<a href="{tweet['url']}" target="_blank" style="text-decoration: none; color: inherit; display: block;">
+                    <div class="tweet-item" style="cursor: pointer; transition: background 0.2s;">
                         <div class="tweet-author">
                             <span style="background: #3b82f6; color: white; font-size: 10px; padding: 2px 6px; border-radius: 4px;">#{i}</span>
                             <span style="font-weight: 600;">{tweet['author']}</span>
@@ -58,7 +60,9 @@ def generate_tweet_html(tweets_data, limit=5):
                         </div>
                         <div class="tweet-text">{text}</div>
                         <div class="tweet-translate">[中文翻译] {translate}</div>
-                    </div>''')
+                        <div style="margin-top: 6px; font-size: 11px; color: #3b82f6; text-align: right;">🔗 点击查看原推文</div>
+                    </div>
+                    </a>''')
     
     return '\n'.join(html_parts)
 
