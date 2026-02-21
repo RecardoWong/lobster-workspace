@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-22T00:30:27.598843",
+  "update_time": "2026-02-22T01:30:13.317874",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 9,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -20,12 +20,28 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "亚马逊AWS计划在佐治亚州新建多个数据中心园区",
-      "source": "行业动态",
-      "url": "#",
+      "title": "比净值低20-35%！对冲基金报价收购Blue Owl旗下基金份额，加剧市场对PE的质疑",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765939",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "如果OpenAI估值8300亿美元，那谷歌该值多少？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765938",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "美国贸易代表办公室：新301条款调查将覆盖大多数主要贸易伙伴",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765937",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
       "title": "特朗普：将把全球关税税率从10%上调至15%",
