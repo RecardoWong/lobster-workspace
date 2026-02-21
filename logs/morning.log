@@ -22,3 +22,9 @@ Traceback (most recent call last):
   File "/root/.openclaw/workspace/lobster-workspace/monty_analyzer.py", line 7, in <module>
     import pydantic_monty
 ModuleNotFoundError: No module named 'pydantic_monty'
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/lobster-workspace/lobster_morning_briefing.py", line 11, in <module>
+    from monty_analyzer import analyze_portfolio
+  File "/root/.openclaw/workspace/lobster-workspace/monty_analyzer.py", line 7, in <module>
+    import pydantic_monty
+ModuleNotFoundError: No module named 'pydantic_monty'
