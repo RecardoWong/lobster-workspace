@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-21T15:30:33.887575",
+  "update_time": "2026-02-21T16:30:25.457946",
   "source_count": 3,
-  "total_count": 6,
+  "total_count": 7,
   "news": [
     {
       "title": "英伟达Q4数据中心收入破纪录，AI算力需求持续爆发",
@@ -28,28 +28,36 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "高盛：黄金波动性大幅走高，央行购金力度将暂时放缓",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765934",
+      "title": "免签红利持续释放 上海口岸出入境客流尽显新春热度",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/jjxw/2026-02-21/doc-inhnqetn2004920.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "SK海力士高盛电话会：所有客户需求都无法满足，今年存储价格持续上涨  ",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765932",
+      "title": "马斯克称特斯拉FSD语音控制功能即将推出",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnqetn1999365.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "俄罗斯央行1月卖出30万盎司黄金储备，价值达14亿美元",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765931",
+      "title": "马斯克称其一生纳税可能超5000亿美元，风投大佬：实际数字可能接近5万亿",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnpymr9207821.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "韩国政府承诺全力应对美国关税不确定性",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-21/doc-inhnpucq5184630.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
