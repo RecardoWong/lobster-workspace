@@ -29,12 +29,36 @@ AUTH_TOKEN = os.getenv('TWITTER_AUTH_TOKEN', '5da5c73c3286e0c825c5a337eb60ffaf93
 CT0 = os.getenv('TWITTER_CT0', 'bb867bfa8ae5a410dec9e6537f8aa4f183c43b65c641f9b293a171e8eb8b1b9df359891c89b0e181f4c21bb6e292f422075b77ac3f51a0915fc5e82e2c69c9c5100c14355137082faa36804f10f18ebd')
 
 def translate_text(text):
-    """简单翻译：英文→中文"""
+    """翻译文本：英文→中文，使用MyMemory免费API"""
     if not text:
         return ""
+    
+    # 如果已经有中文，直接返回
     if any('\u4e00' <= char <= '\u9fff' for char in text[:100]):
         return text
-    return text[:200] + "..." if len(text) > 200 else text
+    
+    # 使用MyMemory免费翻译API
+    try:
+        import urllib.request
+        import urllib.parse
+        
+        # MyMemory免费API
+        encoded_text = urllib.parse.quote(text[:500])
+        url = f"https://api.mymemory.translated.net/get?q={encoded_text}&langpair=en|zh"
+        
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=10) as response:
+            result = json.loads(response.read().decode('utf-8'))
+            translated = result.get('responseData', {}).get('translatedText', '')
+            
+            # 检查翻译质量（如果返回的是原文或错误，返回简化版）
+            if translated and translated.lower() != text.lower()[:100]:
+                return translated[:200] + "..." if len(translated) > 200 else translated
+    except Exception as e:
+        print(f"  翻译API失败: {e}")
+    
+    # 回退：返回原文+提示
+    return text[:150] + "...[待翻译]" if len(text) > 150 else text + "[待翻译]"
 
 def get_time_ago(time_str):
     """计算相对时间"""
