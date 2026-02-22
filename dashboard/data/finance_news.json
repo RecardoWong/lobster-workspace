@@ -1,8 +1,32 @@
 {
-  "update_time": "2026-02-22T19:30:41.851971",
+  "update_time": "2026-02-22T20:30:38.571034",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
+    {
+      "title": "智谱发布GLM-5技术细节：工程级智能，适配国产算力",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765961",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "无视海外“AI恐慌”，中国市场狂炒AI赢家",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765955",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "春节期间，国内外都发生了什么？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765956",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "澳大利亚政府称面对“不合理”关税，将权衡所有应对方案",
       "source": "新浪财经",
