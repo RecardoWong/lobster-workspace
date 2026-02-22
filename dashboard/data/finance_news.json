@@ -1,63 +1,6 @@
 {
-  "update_time": "2026-02-22T22:30:17.209657",
+  "update_time": "2026-02-22T23:30:35.638358",
   "source_count": 3,
-  "total_count": 7,
-  "news": [
-    {
-      "title": "智谱发布GLM-5技术细节：工程级智能，适配国产算力",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765961",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "无视海外“AI恐慌”，中国市场狂炒AI赢家",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765955",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "春节期间，国内外都发生了什么？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765956",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "日本执政党税制负责人称美国关税局势 “一团糟”",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-22/doc-inhntewa0628954.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "澳大利亚政府称面对“不合理”关税，将权衡所有应对方案",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-22/doc-inhnspym8033380.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "“前方无厕所、无烤肠、无茶叶蛋，各位回家吧”",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-02-22/doc-inhnsisn1051813.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "协合新能源附属拟购买约5661万美元储能设备",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-22/doc-inhnsish7198894.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    }
-  ]
+  "total_count": 0,
+  "news": []
 }
