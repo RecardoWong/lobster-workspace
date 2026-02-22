@@ -14,7 +14,7 @@ import re
 from datetime import datetime, timezone, timedelta
 
 def translate_text(text):
-    """翻译文本 - 使用 MyMemory API (免费)"""
+    """翻译文本 - 使用本地 Ollama"""
     if not text:
         return ""
     
@@ -22,33 +22,29 @@ def translate_text(text):
     if any('\u4e00' <= char <= '\u9fff' for char in text[:50]):
         return text
     
-    # 预定义翻译（常用短语）
-    translations = {
-        "Cybercab, which has no pedals or steering wheel, starts production in April": "Cybercab无人驾驶出租车将于4月投产",
-        "The Meaning of Life": "生命的意义",
-        "After-market buzz": "盘后热点",
-        "After-Market Earnings Recap": "盘后财报回顾",
-    }
-    
-    # 检查预定义
-    for key, value in translations.items():
-        if key.lower() in text.lower() or text.lower() in key.lower():
-            return value
-    
-    # 使用 MyMemory API 翻译
+    # 使用 Ollama 本地翻译
     try:
-        encoded_text = urllib.parse.quote(text[:300])
-        url = f"https://api.mymemory.translated.net/get?q={encoded_text}&langpair=en|zh-CN"
+        import urllib.request
+        prompt = f"Translate to Chinese (only output translation, no explanation): \"{text[:500]}\""
+        data = json.dumps({
+            "model": "qwen2.5:0.5b",
+            "prompt": prompt,
+            "stream": False
+        }).encode('utf-8')
         
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req, timeout=10) as response:
-            data = json.loads(response.read().decode('utf-8'))
-            if data.get('responseStatus') == 200:
-                translated = data.get('responseData', {}).get('translatedText', '')
-                if translated and translated != text:
-                    return translated
+        req = urllib.request.Request(
+            'http://127.0.0.1:11434/api/generate',
+            data=data,
+            headers={'Content-Type': 'application/json'}
+        )
+        
+        with urllib.request.urlopen(req, timeout=30) as response:
+            result = json.loads(response.read().decode('utf-8'))
+            translated = result.get('response', '').strip().strip('"').strip("'")
+            if translated and translated != text:
+                return translated
     except Exception as e:
-        print(f"  翻译API失败: {e}")
+        print(f"  Ollama翻译失败: {e}")
     
     # 回退：返回原文摘要
     return text[:100] + "..." if len(text) > 100 else text
