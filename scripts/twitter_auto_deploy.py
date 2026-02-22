@@ -217,8 +217,9 @@ def update_dashboard_html(twitter_html, now):
     )
     
     # 更新 Twitter 内容区域 (在 id="twitterContainer" 的 div 中)
-    pattern = r'(<div[^>]*id="twitterContainer"[^>]*>)[\s\S]*?(</div>\s*</div>\s*<!-- 第三列)'
-    replacement = f'\\g<1>{twitter_html}\\n                        \\g<2>'
+    # 新的HTML结构：直接替换 twitterContainer 中的所有内容直到 </div>
+    pattern = r'(<div class="card-body" id="twitterContainer">)[\s\S]*?(</div>\s*</div>\s*<!-- 第三栏)'
+    replacement = f'\\g<1>{twitter_html}\\n            </div>\\n            <!-- 第三栏'
     content = re.sub(pattern, replacement, content, count=1)
     
     with open(html_path, 'w', encoding='utf-8') as f:
