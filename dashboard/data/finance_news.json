@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-02-22T12:30:25.083507",
+  "update_time": "2026-02-22T13:30:06.091669",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "欢迎来到AI智能体新时代：未来不是“为人创造”，而是“为AI服务”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765948",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "资产大幅巨震，市场分歧时刻，听大咖闭门分享资产风向标",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3763862",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "SK会长崔泰源警告：AI正在吞噬一切，今年千亿美元利润或瞬间变巨亏",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "大摩评价MiniMax“全球顶尖基座模型稀缺资产”，高估值核心逻辑在于“技术决定天花板、全球化决定估值”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765947",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "下周重磅日程：英伟达财报、特朗普国情咨文、美伊博弈、德总理访华",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765944",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "九毛九于2月20日斥资200.06万港元回购88万股",
+      "title": "协合新能源附属拟购买约5661万美元储能设备",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-22/doc-inhnsisp8124107.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-22/doc-inhnsish7198894.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "北森控股于2月20日斥资57.19万港元回购10万股",
+      "title": "汇聚科技完成配售1.08亿股配售股份 净筹约16.35亿港元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-22/doc-inhnsisn1022097.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-22/doc-inhnsisp8138955.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "恒宇集团：上市地位将于2月26日起被取消",
+      "title": "亿腾嘉和于2月20日斥资4.41万港元回购1.4万股",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-22/doc-inhnsisn1021945.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-22/doc-inhnsisn1036788.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "名创优品于2月20日斥资199.59万港元回购5.26万股",
+      "title": "仁恒实业控股：文元辞任执行董事",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-22/doc-inhnsisn1021750.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-22/doc-inhnsisn1036599.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
