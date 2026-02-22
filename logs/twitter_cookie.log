@@ -5386,3 +5386,36 @@ $FRPT $DPZ $HIMS $K...
 
 ✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260222_1000.json
 ============================================================
+🐦 Twitter Cookie 监控 - 2026-02-22 11:00
+============================================================
+
+📱 抓取 @elonmusk (Elon Musk)...
+   找到 5 条推文
+   1. From this goal of Grok, all things flow:
+
+Rigorous truth-see...
+      🔗 https://x.com/elonmusk/status/2024799518181700017
+   2. Fate is an irony maxxer...
+      🔗 https://x.com/elonmusk/status/2025389014606299265
+   3. There is direct incentive for states with large illegal popu...
+      🔗 https://x.com/elonmusk/status/2025337844378878097
+   4. Starship flies again next month...
+      🔗 https://x.com/elonmusk/status/2025352946733490471
+   5. Timing is important. But we need to give xAI algo team credi...
+      🔗 https://x.com/elonmusk/status/2025311089916084438
+   ✅ 已保存到 /tmp/twitter_monitor/elonmusk_20260222_1100.json
+
+📱 抓取 @jdhasoptions (jdhasoptions)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/jdhasoptions_20260222_1100.json
+
+📱 抓取 @xiaomucrypto (xiaomucrypto)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/xiaomucrypto_20260222_1100.json
+
+📱 抓取 @aistocksavvy (AI Stock Savvy)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/aistocksavvy_20260222_1100.json
+
+✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260222_1100.json
+============================================================

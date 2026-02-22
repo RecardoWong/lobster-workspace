@@ -1,63 +1,31 @@
 {
-  "update_time": "2026-02-22T10:30:34.394237",
+  "update_time": "2026-02-22T11:30:30.211994",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
     {
-      "title": "2026年为何亚洲市场接棒全球领涨旗手？",
+      "title": "大摩评价MiniMax“全球顶尖基座模型稀缺资产”，高估值核心逻辑在于“技术决定天花板、全球化决定估值”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765899",
+      "url": "https://wallstreetcn.com/articles/3765947",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "数字黄金、未来支付、投机之选？比特币的“叙事”在“信仰巅峰”逐个崩塌",
+      "title": "下周重磅日程：英伟达财报、特朗普国情咨文、美伊博弈、德总理访华",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765943",
+      "url": "https://wallstreetcn.com/articles/3765944",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "过去30年来未见之局面！美股指数波动之小创1960年来之最，而个股波动率却高达指数7倍",
+      "title": "表面风光之下，OpenAI的“四大困境”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765941",
+      "url": "https://wallstreetcn.com/articles/3765945",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "俄罗斯遭导弹袭击",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-22/doc-inhnsckk7282698.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "带动旅游收入超24亿元，“世界超市”赢麻了！春晚分会场成火爆打卡点！",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-02-22/doc-inhnrxan7377273.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "特朗普的报复来了",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-22/doc-inhnrxat8305737.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "凌晨突发！特朗普重大宣布：关税从10%升至15%！",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-22/doc-inhnrxaq4148874.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     }
   ]
 }
