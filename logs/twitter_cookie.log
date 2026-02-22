@@ -5825,3 +5825,51 @@ $FRPT $DPZ $HIMS $K...
 
 ✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260223_0300.json
 ============================================================
+🐦 Twitter Cookie 监控 - 2026-02-23 04:00
+============================================================
+
+📱 抓取 @elonmusk (Elon Musk)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/elonmusk_20260223_0400.json
+
+📱 抓取 @jdhasoptions (jdhasoptions)...
+   找到 11 条推文
+   1. 感觉有人在押注打仗了
+$xle和vix都有大额看涨
+几个国防股，$lmt，$noc也有看涨期权...
+      🔗 https://x.com/jdhasoptions/status/2024532737491947991
+   3. 大盘好弱
+看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹，比如$S，$ORCL，$NOW。这个c...
+      🔗 https://x.com/jdhasoptions/status/2022415661130195218
+   4. ADBE和CRM都有大额看空put
+这俩还都是$IGV成分股...
+      🔗 https://x.com/jdhasoptions/status/2022019742819922136
+   5. $igv要是反弹到这里就结束也太幽默了...
+      🔗 https://x.com/jdhasoptions/status/2021977734327812191
+   ✅ 已保存到 /tmp/twitter_monitor/jdhasoptions_20260223_0400.json
+
+📱 抓取 @xiaomucrypto (xiaomucrypto)...
+   找到 5 条推文
+   1. 目前能买到包含海力士和三星股票的etf有
+1.a股的中韩半导体etf
+2.美股的FLXK
+3.港股的俩倍做多海力士/三星...
+      🔗 https://x.com/xiaomucrypto/status/2016009765944754560
+   2. 建议crypto这些交易所都直接搞个券商和大宗的牌照上股票和大宗吧，不然没法玩了，一眼看过去都是诈骗，让散户在那里交易纯...
+      🔗 https://x.com/xiaomucrypto/status/2025242594197078426
+   3. 如果身在国内，
+这段话普通人的唯一正解：
+梭哈中韩半导体etf！...
+      🔗 https://x.com/xiaomucrypto/status/2025170881740505404
+   4. 谷歌gemini是目前网友各种刁钻民测问题里面，唯一全部回答正确的模型，其他全部挂逼，包括豆包和gpt都错了。就是没多余...
+      🔗 https://x.com/xiaomucrypto/status/2025123637263810598
+   5. 这篇不仅是对去年的总结也是过去很多年的感悟，如果能眼光卓著，发现最新的AI抽水机干进去捏住，等“AI抽水机”股变化继续换...
+      🔗 https://x.com/xiaomucrypto/status/2025104127257452815
+   ✅ 已保存到 /tmp/twitter_monitor/xiaomucrypto_20260223_0400.json
+
+📱 抓取 @aistocksavvy (AI Stock Savvy)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/aistocksavvy_20260223_0400.json
+
+✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260223_0401.json
+============================================================
