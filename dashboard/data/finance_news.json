@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-23T14:30:19.083903",
+  "update_time": "2026-02-23T15:30:30.645270",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "“上了高速，发现全是聪明人”！还有人带了一锅饭……",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765982",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普被曝考虑对伊朗先“小打”再“大打”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765980",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "融入下一代PC生态体系，英伟达推出笔记本电脑芯片，重返消费级PC市场",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765979",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "消息人士：沙特阿美向美国企业及印度出售首批贾富拉凝析油船货",
+      "title": "分析师：美国关税裁决对韩股影响有限",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnusxe6038913.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnuxfe2695267.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "受芯片热潮带动 韩国央行预计今年经济增长将显著提升",
+      "title": "特朗普接管威胁退潮后 格陵兰把目光重新转回旅游热",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnusxe6038562.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnusxe6047669.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "贝莱德主动型股票老将Belinda Boa将离职",
+      "title": "欧盟表示，在美国最高法院作出裁决后，不会接受美国加征关税，并称“协议就是协议”",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnusxi9896356.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnusxh2824617.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "英诺赛科午后涨超11% 氮化镓在AI服务器电源中的应用渗透率有望快速提升",
+      "title": "分析师：关税不确定性再度升温，比特币承压下跌",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnusxe6026432.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnusxm7006982.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
