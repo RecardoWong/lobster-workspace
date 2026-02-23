@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-23T09:30:08.041241",
+  "update_time": "2026-02-23T10:30:17.110144",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "恒指高开1.46%，恒生科技指数涨1.77%，智谱、MINIMAX明显回调",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765968",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "英伟达“滞涨”数月，本周“全球最重要财报”拉得动吗？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765963",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "当智谱和Minimax超越“传统”科技股：恒生科技新时代，还是仅仅筹码新周期？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765967",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "快讯：恒指高开1.46% 科指涨1.77% 科网股、黄金股普涨 网易涨超5%",
+      "title": "威胜控股盘中涨超5% 公司被纳入恒生综合指数成份股",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnuhiq0081113.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnuhiq0099440.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "高盛上调今年第四季度原油价格预测 称发达国家库存较低",
+      "title": "汽车股早盘普遍上涨 赛力斯及比亚迪股份均涨近5%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnuhir7181818.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnuhik6243122.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "印尼国家石油公司将维持美国能源进口招标程序",
+      "title": "中信证券：维持阿里巴巴“买入”评级 目标价234港元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnuhiq0078366.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-23/doc-inhnuhiq0097992.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中通快递-W于2月20日斥资1546.78万美元回购61.13万股",
+      "title": "高盛：上调今年香港楼价升幅预测至12% 一举升恒基地产及信和置业评级至“买入”",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-23/doc-inhnuhiq0078135.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-23/doc-inhnuhiq0097690.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
