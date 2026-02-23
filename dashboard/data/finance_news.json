@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-02-24T05:30:10.009904",
+  "update_time": "2026-02-24T06:30:17.296756",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "IBM股价创25年来最惨单日跌幅！Anthropic称可改造Cobol系统",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766008",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美股多板块盘中集体重挫，一份假想AI报告引发的抛售潮",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766006",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
     {
       "title": "AI要真正实现生产率提升 必然需要先出现大规模失业",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "从“特殊待遇”到最大输家？英国或成特朗普新关税最大受害者",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766004",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普重建关税壁垒难了：民主党将阻止任何延长关税企图",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766003",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "IBM成AI最新受害者！受Anthropic编程语言威胁，股价暴跌13%",
+      "title": "大摩：瑞郎是最像黄金的避险货币，兑美元有望飙升17%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnvyta6390250.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnweza3377886.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "民主党人敦促美国政府向家庭退还关税款 在中期选举年打出民粹牌",
+      "title": "优步收购停车应用SpotHero，业务版图突破网约车与外卖配送",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnweyw9160832.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnweyy6275855.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "2月24日热门中概股多数下跌 蔚来涨4.54%，携程跌3.01%",
+      "title": "美国股市：标普500指数走低 重燃的人工智能之忧冲击多个板块",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnweza3366751.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnweza3375252.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "2月24日收盘：美股大幅收跌 特朗普关税大棒打压市场",
+      "title": "纽约汇市：美元小幅上涨 避险需求推动日元和瑞郎表现出色",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnweyw9159005.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnweyv2391747.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
