@@ -1,39 +1,31 @@
 {
-  "update_time": "2026-02-23T18:30:21.914091",
+  "update_time": "2026-02-23T19:30:12.716547",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 3,
   "news": [
     {
-      "title": "特朗普新关税的最大输家可能是英国",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvcpk9710822.shtml",
+      "title": "看跌保护需求创四年新高，高盛交易员：专业投资者正在为\"某种突破\"做准备",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765995",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "AI债务狂欢，是如何撕碎超算巨头与投资者之间的“隐形契约”的",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvcpk9710171.shtml",
+      "title": "白宫发布会一年后仍未实质启动，OpenAI的5000亿美元\"星际之门\"计划陷入僵局",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765994",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "奥特曼为AI资源消耗辩护：用水担忧是假的，人类也会消耗能源",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvcpn6803090.shtml",
+      "title": "股价狂飙四倍后，SK海力士承诺继续扩大AI芯片产能",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765992",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "特朗普宣布新关税政策，欧股周一早盘走低",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvcpq3903648.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     }
   ]
 }
