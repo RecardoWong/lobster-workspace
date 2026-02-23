@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-02-24T01:30:07.426241",
+  "update_time": "2026-02-24T02:30:12.354571",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "关税政策不确定性笼罩市场，美股低开，现货黄金站上5200美元",
+      "title": "一笔涵盖全月剂量！礼来推出Zepbound多剂量注射笔 299美元起售",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765966",
+      "url": "https://wallstreetcn.com/articles/3766001",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "读懂金银铜：不止是课，还有很多故事",
+      "title": "美最高法院驳回IEEPA关税，美四季度消费放缓投资加速，AI被计入过多乐观预期---0223宏观脱水",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765600",
+      "url": "https://wallstreetcn.com/articles/3765984",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "面对特朗普警告欧盟用拖字诀，欧洲议会暂停批准欧美贸易协议",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766000",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "报道：ASML揭秘EUV光源突破，2030年芯片产量有望提升50%",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765998",
+      "title": "英国前驻美大使曼德尔森因涉行为不当被捕 加剧斯塔默面临的政治危机",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvuma9390813.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "大豆价格上涨 美国敦促贸易伙伴履行贸易承诺",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvume6501863.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "兰博基尼放弃推出电动跑车的计划",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvuma9389576.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "欧洲股市因关税不确定性再现而下跌 诺和诺德股价重挫",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvukz2606238.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "PayPal市值缩水近半 吸引到收购意向",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvume6495421.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "欧洲债市：避险情绪提振欧债 英国10年期收益率走低",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvukz2606133.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "特朗普举起新关税大棒 最受伤的竟可能是英国",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvuma9383193.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
