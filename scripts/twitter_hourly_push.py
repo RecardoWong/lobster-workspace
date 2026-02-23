@@ -197,6 +197,56 @@ async def fetch_all():
     
     return all_new_tweets
 
+def filter_important_tweets(tweets):
+    """
+    筛选重要推文
+    只返回我判断值得推送的内容
+    """
+    important_keywords = [
+        'AI', 'artificial intelligence', 'artificialintelligence',
+        '芯片', 'chip', 'semiconductor', '半导体',
+        '特斯拉', 'Tesla', 'TSLA',
+        '自动驾驶', 'autopilot', 'FSD', 'self-driving',
+        '英伟达', 'NVIDIA', 'NVDA',
+        '英诺赛科', 'Innoscience',
+        'CoWoS', '封装', '先进封装',
+        '美联储', 'Fed', 'Fed ', '利率', 'rate ', 'inflation', 'CPI',
+        '比特币', 'BTC', 'bitcoin', '加密货币', 'crypto',
+        '财报', 'earnings', '业绩', 'revenue', 'profit',
+        '机器人', 'robot', '机器人', 'robotics',
+        '大模型', 'LLM', 'GPT', 'ChatGPT',
+        '数据中心', 'data center', 'datacenter',
+        '新能源', 'EV', 'electric vehicle',
+        'SpaceX', '星舰', 'Starship',
+        '脑机接口', 'Neuralink',
+        '推特', 'Twitter', 'X ', 'x.com',
+        'OpenAI', 'ChatGPT', 'Claude',
+        'Grok', 'xAI',
+        'vision', '视频生成', 'video generation',
+    ]
+    
+    important_accounts = ['elonmusk', 'BlueJay87476298']  # 这些账号的内容更重要
+    
+    filtered = []
+    for t in tweets:
+        text = t.get('text', '').lower()
+        author = t.get('author', '').lower()
+        
+        # 规则1: 重要账号的内容（降低门槛）
+        if author in ['elonmusk', 'bluejay87476298']:
+            # 即使重要账号，也过滤掉太水的内容
+            if len(t.get('text', '')) > 20:  # 至少20个字符
+                filtered.append(t)
+                continue
+        
+        # 规则2: 包含关键词
+        for keyword in important_keywords:
+            if keyword.lower() in text:
+                filtered.append(t)
+                break
+    
+    return filtered
+
 def format_push_message(tweets):
     """格式化推送消息"""
     if not tweets:
@@ -236,17 +286,25 @@ async def main():
     tweets = await fetch_all()
     
     if tweets:
-        # 1. 保存到Markdown日志
+        # 1. 筛选重要推文（只推送这些）
+        important_tweets = filter_important_tweets(tweets)
+        
+        # 2. 保存所有到Markdown日志（记录用）
         save_to_daily_log(tweets)
         
-        # 2. 保存到JSON
+        # 3. 保存所有到JSON（记录用）
         all_today = save_to_json(tweets)
         
-        # 3. 推送消息
-        message = format_push_message(tweets)
-        if message:
-            print(f"发现 {len(tweets)} 条新推文，正在推送...")
-            send_to_telegram(message)
+        # 4. 只推送重要的
+        if important_tweets:
+            message = format_push_message(important_tweets)
+            if message:
+                print(f"发现 {len(tweets)} 条推文，其中 {len(important_tweets)} 条重要，正在推送...")
+                send_to_telegram(message)
+        else:
+            print(f"发现 {len(tweets)} 条推文，但没有重要内容，跳过推送")
+    else:
+        print("未发现新推文")
         
         print(f"✅ 今日累计: {len(all_today)} 条")
     else:
