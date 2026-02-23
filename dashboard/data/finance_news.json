@@ -1,8 +1,48 @@
 {
-  "update_time": "2026-02-23T06:30:10.197142",
+  "update_time": "2026-02-23T07:30:06.928477",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
+    {
+      "title": "华尔街见闻早餐FM-Radio | 2026年2月23日",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765929",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "智谱发布GLM-5技术细节：工程级智能，适配国产算力",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765961",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "无视海外“AI恐慌”，中国市场狂炒AI赢家",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765955",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "普京：发展“三位一体”核力量是绝对优先事项",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/jjxw/2026-02-23/doc-inhntzzs0175480.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "伊拉克与伊朗两国外长通电话 确认美伊谈判进程仍在继续",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/jjxw/2026-02-23/doc-inhntvtu0305808.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
     {
       "title": "美媒：特朗普考虑先对伊朗实施精准打击，再视情况发动更大规模攻击",
       "source": "新浪财经",
@@ -12,25 +52,9 @@
       "tagColor": "#ef4444"
     },
     {
-      "title": "最高法院阻止关税重击后，特朗普开辟新道路",
+      "title": "伊朗外长与阿曼外交大臣通话 讨论美伊新一轮谈判安排",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-23/doc-inhntvtv7396079.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美参议员：运输安全管理局相关项目暂停，不会改变民主党人关于政府停摆的策略",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-22/doc-inhntmcz7616706.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "一名武装男子闯入特朗普佛罗里达州住所警戒区后被击毙",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-22/doc-inhntmcu6649223.shtml",
+      "url": "https://finance.sina.com.cn/jjxw/2026-02-23/doc-inhntvtv7403750.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
