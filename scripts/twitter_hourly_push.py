@@ -99,7 +99,7 @@ def save_to_daily_log(tweets):
             f.write(f"- 时间: {t['time']} ({t['time_ago']})\n")
             f.write(f"- 原文: {t['text']}\n")
             f.write(f"- 翻译: {t['translate']}\n")
-            f.write(f"- 链接: {t['url']}\n\n")
+            f.write(f"- 🔗 [点击打开推文]({t['url']})\n\n")
         f.write("---\n\n")
     
     print(f"✅ 已记录到 {log_file}")
@@ -167,6 +167,24 @@ async def fetch_user_tweets(username, name):
                     except:
                         pass
                     
+                    # 尝试获取推文ID
+                    tweet_id = ''
+                    try:
+                        # 从推文元素的链接中提取ID
+                        link_elem = await tweet.query_selector('a[href*="/status/"]')
+                        if link_elem:
+                            href = await link_elem.get_attribute('href')
+                            if href and '/status/' in href:
+                                tweet_id = href.split('/status/')[-1].split('?')[0]
+                    except:
+                        pass
+                    
+                    # 构建完整推文链接
+                    if tweet_id:
+                        tweet_url = f'https://x.com/{username}/status/{tweet_id}'
+                    else:
+                        tweet_url = f'https://x.com/{username}'
+                    
                     tweets_data.append({
                         'author': username,
                         'name': name,
@@ -174,7 +192,8 @@ async def fetch_user_tweets(username, name):
                         'translate': translate_text(text),
                         'time': time_str,
                         'time_ago': get_time_ago(time_str),
-                        'url': f'https://x.com/{username}',
+                        'tweet_id': tweet_id,
+                        'url': tweet_url,
                         'captured_at': datetime.now().isoformat()
                     })
                 except:
@@ -260,11 +279,14 @@ def format_push_message(tweets):
     ]
     
     for t in tweets[:5]:
+        # 添加可点击的推文链接
+        tweet_link = t.get('url', f"https://x.com/{t['author']}")
         lines.extend([
             f"👤 {t['name']} @{t['author']}",
             f"⏰ {t['time_ago']}",
             f"💬 {t['text'][:150]}...",
             f"📝 {t['translate'][:100]}..." if len(t['translate']) > 100 else f"📝 {t['translate']}",
+            f"🔗 {tweet_link}",
             ""
         ])
     
@@ -303,10 +325,6 @@ async def main():
                 send_to_telegram(message)
         else:
             print(f"发现 {len(tweets)} 条推文，但没有重要内容，跳过推送")
-    else:
-        print("未发现新推文")
-        
-        print(f"✅ 今日累计: {len(all_today)} 条")
     else:
         print("没有新推文")
 
