@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-23T23:30:22.916571",
+  "update_time": "2026-02-24T00:30:12.424928",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
       "title": "关税政策不确定性笼罩市场，美股低开，现货黄金站上5200美元",
@@ -26,6 +26,38 @@
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
+    },
+    {
+      "title": "美国最高法院同意审理埃克森美孚与森科尔能源公司的上诉",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvume6485119.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "美国特使威特科夫和库什纳计划周四在日内瓦参加美伊会谈",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvqck3715305.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "合景泰富就境外债务重组方案的主要条款达成原则性协议",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-02-24/doc-inhnvqce9496963.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "美股软件和支付类股下跌",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvqch6610361.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
