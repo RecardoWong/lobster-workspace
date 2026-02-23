@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-02-23T10:30:17.110144",
+  "update_time": "2026-02-23T11:30:25.751594",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "威胜控股盘中涨超5% 公司被纳入恒生综合指数成份股",
+      "title": "美银：应对地缘需“交易石油、持有黄金”，美股摆脱低迷需“两大外部冲击”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765974",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "高盛评\"春晚机器人\"：硬件显著进步，推动应用普及，未来关键是底层AI",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765970",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "一周展望：关税和地缘风险叠加 黄金重回5100美元上方",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765975",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "锂业股早盘走强 赣锋锂业涨近8%天齐锂业涨近3%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnuhiq0099440.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnunrk2905421.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "汽车股早盘普遍上涨 赛力斯及比亚迪股份均涨近5%",
+      "title": "建滔积层板盘中涨近7%创新高 预计全年纯利同比增长超过80%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnuhik6243122.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnunrm9983348.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中信证券：维持阿里巴巴“买入”评级 目标价234港元",
+      "title": "华虹半导体早盘涨近5% 招银国际维持“持有”评级",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-23/doc-inhnuhiq0097992.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnunrm9982308.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "高盛：上调今年香港楼价升幅预测至12% 一举升恒基地产及信和置业评级至“买入”",
+      "title": "手机产业链早盘全线上涨 丘钛科技涨逾7%瑞声科技涨逾5%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-23/doc-inhnuhiq0097690.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnunrh6124746.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
