@@ -6440,3 +6440,48 @@ Nolan has ...
 
 ✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260223_2000.json
 ============================================================
+🐦 Twitter Cookie 监控 - 2026-02-23 21:00
+============================================================
+
+📱 抓取 @elonmusk (Elon Musk)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/elonmusk_20260223_2100.json
+
+📱 抓取 @jdhasoptions (jdhasoptions)...
+   找到 11 条推文
+   1. 感觉有人在押注打仗了
+$xle和vix都有大额看涨
+几个国防股，$lmt，$noc也有看涨期权...
+      🔗 https://x.com/jdhasoptions/status/2024532737491947991
+   3. 大盘好弱
+看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹，比如$S，$ORCL，$NOW。这个c...
+      🔗 https://x.com/jdhasoptions/status/2022415661130195218
+   4. ADBE和CRM都有大额看空put
+这俩还都是$IGV成分股...
+      🔗 https://x.com/jdhasoptions/status/2022019742819922136
+   5. $igv要是反弹到这里就结束也太幽默了...
+      🔗 https://x.com/jdhasoptions/status/2021977734327812191
+   ✅ 已保存到 /tmp/twitter_monitor/jdhasoptions_20260223_2100.json
+
+📱 抓取 @xiaomucrypto (xiaomucrypto)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/xiaomucrypto_20260223_2100.json
+
+📱 抓取 @aistocksavvy (AI Stock Savvy)...
+   找到 5 条推文
+   1.  Companies Reporting Earnings Next Week
+
+$FRPT $DPZ $HIMS $K...
+      🔗 https://x.com/aistocksavvy/status/2024866744200769588
+   2. $DE | 𝐃𝐞𝐞𝐫𝐞: Jefferies downgrades to 𝐔𝐧𝐝𝐞𝐫𝐩𝐞𝐫𝐟𝐨𝐫𝐦, raises 𝐏𝐓...
+      🔗 https://x.com/aistocksavvy/status/2025918051082760427
+   3. $INDI | 𝐈𝐧𝐝𝐢𝐞 𝐒𝐞𝐦𝐢𝐜𝐨𝐧𝐝𝐮𝐜𝐭𝐨𝐫: UBS cuts 𝐏𝐓 𝐭𝐨 $𝟒.𝟐𝟓, maintains...
+      🔗 https://x.com/aistocksavvy/status/2025917057930305603
+   4.  𝐉𝐔𝐒𝐓 𝐈𝐍: $AMC AMC launches $1.73 billion notes offering to ...
+      🔗 https://x.com/aistocksavvy/status/2025914883003261335
+   5. $AMC | AMC Entertainment, Q4-2025 Earning Report...
+      🔗 https://x.com/aistocksavvy/status/2025914747934085304
+   ✅ 已保存到 /tmp/twitter_monitor/aistocksavvy_20260223_2101.json
+
+✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260223_2101.json
+============================================================
