@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-02-23T08:30:02.643492",
+  "update_time": "2026-02-23T09:30:08.041241",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "华尔街见闻早餐FM-Radio | 2026年2月23日",
+      "title": "恒指高开1.46%，恒生科技指数涨1.77%，智谱、MINIMAX明显回调",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765929",
+      "url": "https://wallstreetcn.com/articles/3765968",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "智谱发布GLM-5技术细节：工程级智能，适配国产算力",
+      "title": "英伟达“滞涨”数月，本周“全球最重要财报”拉得动吗？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765961",
+      "url": "https://wallstreetcn.com/articles/3765963",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "无视海外“AI恐慌”，中国市场狂炒AI赢家",
+      "title": "当智谱和Minimax超越“传统”科技股：恒生科技新时代，还是仅仅筹码新周期？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765955",
+      "url": "https://wallstreetcn.com/articles/3765967",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "AI热潮带动芯片需求 韩国2月上旬出口大幅增长",
+      "title": "快讯：恒指高开1.46% 科指涨1.77% 科网股、黄金股普涨 网易涨超5%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhntzzt7300089.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "特朗普遭拒",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-23/doc-inhntzzs0198966.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-23/doc-inhnuhiq0081113.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国官员警告：如果特朗普下令打击伊朗 伊朗可能指使代理人袭击美国海外目标",
+      "title": "高盛上调今年第四季度原油价格预测 称发达国家库存较低",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhntzzs0197074.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnuhir7181818.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "俄罗斯发动大规模袭击！普京最新发声",
+      "title": "印尼国家石油公司将维持美国能源进口招标程序",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-23/doc-inhntzzt7300108.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnuhiq0078366.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "中通快递-W于2月20日斥资1546.78万美元回购61.13万股",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-23/doc-inhnuhiq0078135.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
