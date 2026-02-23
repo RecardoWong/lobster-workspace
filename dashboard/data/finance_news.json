@@ -1,10 +1,18 @@
 {
-  "update_time": "2026-02-23T19:30:12.716547",
+  "update_time": "2026-02-23T20:30:10.856431",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
-      "title": "看跌保护需求创四年新高，高盛交易员：专业投资者正在为\"某种突破\"做准备",
+      "title": "3.8万亿美元资产积压难消化，贝恩咨询：私募股权行业困境持续时间已超越2008年",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765996",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美股看跌保护需求创四年新高，高盛交易员：专业投资者正在为\"某种突破\"做准备",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3765995",
       "time": "刚刚",
@@ -20,12 +28,36 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "股价狂飙四倍后，SK海力士承诺继续扩大AI芯片产能",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765992",
+      "title": "美国最高法院将审理埃克森美孚向古巴索赔案",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvivn3801455.shtml",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "美国股指期货走低 贸易不确定性笼罩市场",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvivf2819444.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "车企竞相推进“视线脱离路面”自动驾驶，安全与责任归属争议加剧",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvivf2818849.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "人工智能冲击商业模式，软件企业面临融资成本上升与审查趋严",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvivn3794396.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
