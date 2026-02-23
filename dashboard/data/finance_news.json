@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-02-24T02:30:12.354571",
+  "update_time": "2026-02-24T03:30:24.754024",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "特朗普拟上调关税至15%，贸易敏感股集体跳水，零售与工业板块领跌",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766002",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "一笔涵盖全月剂量！礼来推出Zepbound多剂量注射笔 299美元起售",
       "source": "华尔街见闻",
@@ -20,12 +28,20 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "面对特朗普警告欧盟用拖字诀，欧洲议会暂停批准欧美贸易协议",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766000",
+      "title": "美军称对涉恐组织船只实施打击 打死3人",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnvyta6384196.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "拉加德：欧洲仍能极大受益于人工智能",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvumh3609231.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "英国前驻美大使曼德尔森因涉行为不当被捕 加剧斯塔默面临的政治危机",
@@ -39,22 +55,6 @@
       "title": "大豆价格上涨 美国敦促贸易伙伴履行贸易承诺",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvume6501863.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "兰博基尼放弃推出电动跑车的计划",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvuma9389576.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "欧洲股市因关税不确定性再现而下跌 诺和诺德股价重挫",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvukz2606238.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
