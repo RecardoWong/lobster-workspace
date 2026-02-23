@@ -1,50 +1,34 @@
 {
-  "update_time": "2026-02-24T04:30:03.979417",
+  "update_time": "2026-02-24T05:30:10.009904",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "特朗普拟上调关税至15%，贸易敏感股集体跳水，零售与工业板块领跌",
+      "title": "AI要真正实现生产率提升 必然需要先出现大规模失业",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766002",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "一笔涵盖全月剂量！礼来推出Zepbound多剂量注射笔 299美元起售",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766001",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美最高法院驳回IEEPA关税，美四季度消费放缓投资加速，AI被计入过多乐观预期---0223宏观脱水",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765984",
+      "url": "https://wallstreetcn.com/articles/3766005",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "美国参议院民主党人提出关税退款法案",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnvysy9284033.shtml",
+      "title": "从“特殊待遇”到最大输家？英国或成特朗普新关税最大受害者",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766004",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "CNN：美国众议院议长约翰逊称特朗普政府不应退还关税款项",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnvyte3492394.shtml",
+      "title": "特朗普重建关税壁垒难了：民主党将阻止任何延长关税企图",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766003",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "IBM成AI最新受害者！受Anthropic编程语言威胁，股价暴跌11%",
+      "title": "IBM成AI最新受害者！受Anthropic编程语言威胁，股价暴跌13%",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnvyta6390250.shtml",
       "time": "刚刚",
@@ -52,9 +36,25 @@
       "tagColor": "#ef4444"
     },
     {
-      "title": "原油价格企稳：伊朗核谈与美关税新政带来不确定性",
+      "title": "民主党人敦促美国政府向家庭退还关税款 在中期选举年打出民粹牌",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnvyte3491056.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnweyw9160832.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "2月24日热门中概股多数下跌 蔚来涨4.54%，携程跌3.01%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnweza3366751.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "2月24日收盘：美股大幅收跌 特朗普关税大棒打压市场",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnweyw9159005.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
