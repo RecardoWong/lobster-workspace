@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-23T21:30:09.491320",
+  "update_time": "2026-02-23T22:30:19.473971",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "3.8万亿美元资产积压难消化，贝恩咨询：私募股权行业困境持续时间已超越2008年",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765996",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美股看跌保护需求创四年新高，高盛交易员：专业投资者正在为\"某种突破\"做准备",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765995",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "白宫发布会一年后仍未实质启动，OpenAI的5000亿美元\"星际之门\"计划陷入僵局",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765994",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "芬兰IQM成为欧洲首批上市量子公司之一 估值约18亿美元",
+      "title": "暴风雪袭纽约 纽交所与纳斯达克表示交易照旧",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvivf2827431.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvqce9484365.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "英国央行官员Taylor淡化最高法院裁决 称美国关税影响将持续多年",
+      "title": "特朗普考虑先对伊朗实施精准打击，随后发动更大规模攻击",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvivf2826924.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvqce9483288.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "沃勒：美联储3月利率决策静待2月非农数据",
+      "title": "对伊朗统治者而言，拒绝美国要求是值得冒的风险",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvivf2826801.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvqck3692777.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "摩根士丹利称瑞郎是最像黄金的避险货币 兑美元有望飙升17%",
+      "title": "礼来推出Zepbound减肥药新剂型 一支注射笔可供一月剂量",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvivf2824625.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-23/doc-inhnvivn3823018.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
