@@ -7212,3 +7212,36 @@ $xle和vix都有大额看涨
 
 ✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260225_0001.json
 ============================================================
+🐦 Twitter Cookie 监控 - 2026-02-25 01:00
+============================================================
+
+📱 抓取 @elonmusk (Elon Musk)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/elonmusk_20260225_0100.json
+
+📱 抓取 @jdhasoptions (jdhasoptions)...
+   找到 11 条推文
+   1. 这个做空报告看空的理由比较牵强
+按理来说现在应该btd，但是看图sndk最好今天就得拉回660以上...
+      🔗 https://x.com/jdhasoptions/status/2026324030270411235
+   2. I spent 100 hours over the past week researching, writing an...
+      🔗 https://x.com/jdhasoptions/status/2025668400396349476
+   3. 感觉有人在押注打仗了
+$xle和vix都有大额看涨
+几个国防股，$lmt，$noc也有看涨期权...
+      🔗 https://x.com/jdhasoptions/status/2024532737491947991
+   5. 大盘好弱
+看到的一些7d甚至0dte call主要是搏$igv里面的股票短期反弹，比如$S，$ORCL，$NOW。这个c...
+      🔗 https://x.com/jdhasoptions/status/2022415661130195218
+   ✅ 已保存到 /tmp/twitter_monitor/jdhasoptions_20260225_0100.json
+
+📱 抓取 @xiaomucrypto (xiaomucrypto)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/xiaomucrypto_20260225_0100.json
+
+📱 抓取 @aistocksavvy (AI Stock Savvy)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/aistocksavvy_20260225_0100.json
+
+✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260225_0100.json
+============================================================
