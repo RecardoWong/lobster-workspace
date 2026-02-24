@@ -23,8 +23,10 @@ MONITOR_ACCOUNTS = {
 
 SAVE_DIR = '/tmp/twitter_monitor'
 LOG_DIR = '/root/.openclaw/workspace/memory/twitter_logs'
+PUSHED_DIR = '/root/.openclaw/workspace/memory/twitter_pushed'  # 已推送记录
 os.makedirs(SAVE_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
+os.makedirs(PUSHED_DIR, exist_ok=True)
 
 AUTH_TOKEN = os.getenv('TWITTER_AUTH_TOKEN', '5da5c73c3286e0c825c5a337eb60ffaf93f2620c')
 CT0 = os.getenv('TWITTER_CT0', 'bb867bfa8ae5a410dec9e6537f8aa4f183c43b65c641f9b293a171e8eb8b1b9df359891c89b0e181f4c21bb6e292f422075b77ac3f51a0915fc5e82e2c69c9c5100c14355137082faa36804f10f18ebd')
@@ -77,7 +79,76 @@ def get_time_ago(time_str):
     except:
         return "未知"
 
-def save_to_daily_log(tweets):
+def get_pushed_tweet_ids():
+    """获取已推送的推文ID列表（最近7天）"""
+    pushed_ids = set()
+    
+    # 检查最近7天的记录文件
+    for i in range(7):
+        date = (datetime.now() - timedelta(days=i)).strftime('%Y-%m-%d')
+        pushed_file = f"{PUSHED_DIR}/{date}.json"
+        
+        if os.path.exists(pushed_file):
+            try:
+                with open(pushed_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    pushed_ids.update(data.get('tweet_ids', []))
+            except:
+                pass
+    
+    return pushed_ids
+
+def record_pushed_tweets(tweets):
+    """记录已推送的推文ID"""
+    today = datetime.now().strftime('%Y-%m-%d')
+    pushed_file = f"{PUSHED_DIR}/{today}.json"
+    
+    # 读取现有记录
+    existing_ids = set()
+    if os.path.exists(pushed_file):
+        try:
+            with open(pushed_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                existing_ids = set(data.get('tweet_ids', []))
+        except:
+            pass
+    
+    # 添加新推送的tweet_id
+    for t in tweets:
+        tweet_id = t.get('tweet_id', '')
+        if tweet_id:
+            existing_ids.add(tweet_id)
+    
+    # 保存
+    with open(pushed_file, 'w', encoding='utf-8') as f:
+        json.dump({
+            'date': today,
+            'tweet_ids': list(existing_ids),
+            'count': len(existing_ids)
+        }, f, ensure_ascii=False, indent=2)
+
+def filter_already_pushed(tweets):
+    """过滤掉已经推送过的推文"""
+    pushed_ids = get_pushed_tweet_ids()
+    
+    new_tweets = []
+    skipped = 0
+    
+    for t in tweets:
+        tweet_id = t.get('tweet_id', '')
+        # 如果没有tweet_id，用author+time组合作为唯一标识
+        unique_key = tweet_id if tweet_id else f"{t.get('author')}:{t.get('time')}"
+        
+        if tweet_id and tweet_id in pushed_ids:
+            skipped += 1
+            continue
+        
+        new_tweets.append(t)
+    
+    if skipped > 0:
+        print(f"  跳过 {skipped} 条已推送过的推文")
+    
+    return new_tweets
     """保存到每日Markdown日志"""
     today = datetime.now().strftime('%Y-%m-%d')
     log_file = f"{LOG_DIR}/{today}.md"
@@ -308,23 +379,36 @@ async def main():
     tweets = await fetch_all()
     
     if tweets:
+        # 0. 先过滤掉已经推送过的（关键！防止重复推送）
+        new_tweets = filter_already_pushed(tweets)
+        
+        if not new_tweets:
+            print(f"发现 {len(tweets)} 条推文，但全部已推送过，跳过")
+            return
+        
+        print(f"发现 {len(tweets)} 条推文，其中 {len(new_tweets)} 条是新推文")
+        
         # 1. 筛选重要推文（只推送这些）
-        important_tweets = filter_important_tweets(tweets)
+        important_tweets = filter_important_tweets(new_tweets)
         
         # 2. 保存所有到Markdown日志（记录用）
-        save_to_daily_log(tweets)
+        save_to_daily_log(new_tweets)
         
         # 3. 保存所有到JSON（记录用）
-        all_today = save_to_json(tweets)
+        all_today = save_to_json(new_tweets)
         
         # 4. 只推送重要的
         if important_tweets:
             message = format_push_message(important_tweets)
             if message:
-                print(f"发现 {len(tweets)} 条推文，其中 {len(important_tweets)} 条重要，正在推送...")
+                print(f"推送 {len(important_tweets)} 条重要推文...")
                 send_to_telegram(message)
+                # 5. 记录已推送的推文（关键！防止下次重复）
+                record_pushed_tweets(important_tweets)
         else:
-            print(f"发现 {len(tweets)} 条推文，但没有重要内容，跳过推送")
+            print(f"新推文中没有重要内容，跳过推送")
+            # 即使没有重要内容，也记录已查看，防止下次重复抓取
+            record_pushed_tweets(new_tweets)
     else:
         print("没有新推文")
 

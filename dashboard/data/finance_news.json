@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-02-24T21:30:14.958299",
+  "update_time": "2026-02-24T22:30:12.261861",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "诺和诺德明年大幅下调减肥神药在美售价，降幅最高50%",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766082",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "空欢喜？美最高法院否决紧急关税，但零售商表示：别指望降价",
       "source": "华尔街见闻",
@@ -12,49 +20,41 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "基本金属价格拉升，报道称特朗普政府将首次制定锗、镓、锑和钨的参考价格",
+      "title": "报道：特朗普拟用AI定关键矿产参考价，锗、镓、锑、钨首批纳入",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766081",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "美联储Goolsbee：进一步降息需要通胀取得进展",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766080",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "WBD称派拉蒙提出更高报价，董事会将权衡该要约",
+      "title": "美国联邦住房金融局（FHFA）：去年12月美国独户住宅价格增长放缓",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxtac1824834.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxtae8611896.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "诺和诺德试验\"自摆乌龙\" 引发分析师密集下调评级",
+      "title": "马年A股喜迎“开门红”：周期“老登”领涨，科技、消费遇冷",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxtah5786021.shtml",
+      "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxtak2905595.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Stripe员工及股东要约收购完成，估值达1590亿美元",
+      "title": "华纳兄弟收到派拉蒙修改后的收购报价",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxtak2887427.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxtac1834461.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美联储古尔斯比：当前通胀率\"不够好\"，呼吁暂停降息",
+      "title": "Roku新广告协议与降本举措助其结束三年连亏",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxtac1823032.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxtac1834317.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
