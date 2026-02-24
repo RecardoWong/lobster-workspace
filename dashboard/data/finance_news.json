@@ -1,31 +1,39 @@
 {
-  "update_time": "2026-02-24T14:30:40.625043",
+  "update_time": "2026-02-24T15:59:04.158342",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 4,
   "news": [
     {
-      "title": "特朗普10%“全球关税”今日生效，15%关税实施时间表尚未敲定",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766038",
+      "title": "“大空头”伯里将英伟达比作近百年前的美国无线电公司，后者股价曾从峰值暴跌98%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxaes3148299.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "夹在财政和通胀之间的“虚空造牌”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766036",
+      "title": "IBM遭遇2000年以来最大单日跌幅",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxaem2120108.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "日美外汇协调信号增强？日本称与美方高频沟通，关系“更加紧密”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766039",
+      "title": "OpenAI首席执行官回应AI能源消耗：必须尽快转向核能、风能或太阳能",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxaen8893135.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "美国与印尼达成贸易协议，外交部表态",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxaes3139725.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
