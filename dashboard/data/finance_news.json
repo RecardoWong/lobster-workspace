@@ -1,16 +1,8 @@
 {
-  "update_time": "2026-02-25T04:30:14.025380",
+  "update_time": "2026-02-25T05:30:29.676321",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
-    {
-      "title": "美联储理事警告：货币政策可能无法应对AI引发的失业潮",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766086",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
     {
       "title": "闪迪“闪跌”！空头香橼指供应紧张是“海市蜃楼”、周期即将见顶",
       "source": "华尔街见闻",
@@ -20,44 +12,20 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "劳动力市场温和复苏，美国ADP周均新增就业12750人，连续第四周录得环比改善",
+      "title": "在美股平静的指数表面下 出现了三条“致命裂痕”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766084",
+      "url": "https://wallstreetcn.com/articles/3766087",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "特朗普关税政策反复令市场困惑，10%暂行但仍谋求升至15%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnyixy5472556.shtml",
+      "title": "“官方辟谣”：白宫经济学家声称Citrini的AI风险报告纯属“科幻小说”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766089",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "国情咨文展望：福克斯称特朗普将呼吁出台新形式的减税措施",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnyixy5472457.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "油价回落，因伊朗称准备好采取措施与美国达成协议",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnyixv1506335.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美国法官暂时驳回xAI对OpenAI提起的商业秘密诉讼",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnyixw8283523.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     }
   ]
 }
