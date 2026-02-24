@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-02-24T06:30:17.296756",
+  "update_time": "2026-02-24T07:30:11.188981",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "IBM股价创25年来最惨单日跌幅！Anthropic称可改造Cobol系统",
+      "title": "华尔街见闻早餐FM-Radio | 2026年2月24日",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766008",
+      "url": "https://wallstreetcn.com/articles/3766007",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "美股多板块盘中集体重挫，一份假想AI报告引发的抛售潮",
+      "title": "礼来升级Zepbound巩固优势、一支用整月！诺和诺德新药临床失利股价暴跌",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766006",
+      "url": "https://wallstreetcn.com/articles/3766001",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "国产大模型霸榜OpenRouter，“Token出海”开启全球算力套利时代",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3765993",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "AI要真正实现生产率提升 必然需要先出现大规模失业",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766005",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "大摩：瑞郎是最像黄金的避险货币，兑美元有望飙升17%",
+      "title": "暴风雨导致旅行瘫痪8000多架次美国航班被迫中断",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnweza3377886.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwmhy3257967.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "优步收购停车应用SpotHero，业务版图突破网约车与外卖配送",
+      "title": "特朗普政府考虑对六个行业征收国家安全关税",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnweyy6275855.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwmht2273985.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国股市：标普500指数走低 重燃的人工智能之忧冲击多个板块",
+      "title": "联邦快递起诉特朗普政府，要求全额退还紧急关税",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnweza3375252.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwmht2273277.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "纽约汇市：美元小幅上涨 避险需求推动日元和瑞郎表现出色",
+      "title": "马斯克回应星链大幅降价：与亚马逊的竞争无关",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-24/doc-inhnweyv2391747.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnweyv2402743.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
