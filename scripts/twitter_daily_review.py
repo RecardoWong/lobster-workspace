@@ -173,6 +173,19 @@ def generate_report(date_str, analysis):
     
     return "\n".join(lines)
 
+def save_and_notify(report, date_str):
+    """保存报告并发送通知"""
+    # 保存到文件
+    report_file = f'/root/.openclaw/workspace/memory/twitter_review_{date_str}.md'
+    with open(report_file, 'w', encoding='utf-8') as f:
+        f.write(f"# Twitter 每日复盘 - {date_str}\n\n")
+        f.write(f"**生成时间**: {datetime.now().strftime('%Y-%m-%d %H:%M')} UTC\n\n")
+        f.write("---\n\n")
+        f.write(report)
+    
+    print(f"[{datetime.now().strftime('%H:%M')}] 报告已保存: {report_file}")
+    return report_file
+
 def main():
     # 获取昨天日期
     yesterday = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
@@ -188,6 +201,9 @@ def main():
         # 生成报告
         report = generate_report(yesterday, analysis)
         print(report)
+        
+        # 保存报告
+        save_and_notify(report, yesterday)
     else:
         print(f"⚠️ {yesterday} 没有找到推文记录")
 

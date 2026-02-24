@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-24T11:30:20.172433",
+  "update_time": "2026-02-24T12:30:36.864538",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "资源大时代2.0：当铜金屡创新高，谁是下一个战略级品种？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766028",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "净值虚高、限制赎回！当下的“PE私募信贷危机”是新一轮“次贷”吗？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766027",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "A股开门红！三大股指集体上涨，油气、贵金属掀涨停潮，恒科指跌超2%，科网股下挫",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766024",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普据悉将在国情咨文演讲中公布旨在降低成本的新措施",
+      "title": "Jane Street因涉嫌内幕交易遭Terraform清算管理人起诉",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwrqr2268626.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwvwq8945478.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "麦格理：美国最新关税举措可能拖慢与东盟达成新贸易协议的进程",
+      "title": "渣打集团宣布回购15亿美元股票",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwrqs9045268.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwvwq8943353.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "兆易创新早盘涨逾8% 存储涨价持续机构看好公司业绩持续增长",
+      "title": "印度IT股追随美国科技股走低",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-24/doc-inhnwrqr2267245.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwvwp2164107.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "油服股早盘逆市拉升 山东墨龙涨超13%中石化油服涨超8%",
+      "title": "瑞银：看好中国AI成本优势 偏好阿里、百度、腾讯及快手",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-24/doc-inhnwrqr2266347.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-24/doc-inhnwvwp2162137.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
