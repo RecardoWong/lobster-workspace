@@ -1,18 +1,18 @@
 {
-  "update_time": "2026-02-24T19:30:19.885652",
+  "update_time": "2026-02-24T20:30:13.428967",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
-      "title": "知名对冲基金经理：软件债务危机，仅因AI恐惧就可能爆发",
+      "title": "AI恐慌交易分化，美国软件股盘前普跌，亚洲芯片股创历史新高，金银回落，离岸人民币升破6.88",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766067",
+      "url": "https://wallstreetcn.com/articles/3766041",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "李强：研究推进银发经济和养老服务发展有关工作",
+      "title": "李强：推进银发经济和养老服务发展有关工作，审议通过《关于加强基层消防工作的意见》",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766069",
       "time": "刚刚",
@@ -20,12 +20,44 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "关税、生活成本、移民、地缘.....中选前的重磅国情咨文，市场明早将紧盯特朗普",
+      "title": "AMD拿下Meta长期算力“盟约”：6吉瓦GPU大单+1.6亿股对赌",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766061",
+      "url": "https://wallstreetcn.com/articles/3766076",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "Arini创始人：无需颠覆真正发生 对AI的忧虑便足以引发软件公司违约",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxnuf1941176.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "Spiro从非洲进出口银行等机构获得5000万美元融资",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxnuk5896796.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "AMD与Meta达成第二份超大型芯片供应协议",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxnuh8717321.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "分析：美元受降息押注减弱提振",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxnuf1939925.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
