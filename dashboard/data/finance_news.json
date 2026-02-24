@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-02-24T07:30:11.188981",
+  "update_time": "2026-02-24T08:30:03.349710",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "华尔街见闻早餐FM-Radio | 2026年2月24日",
+      "title": "债市不能忍了？穆迪警告：美国科技巨头利用会计准则“隐藏数百亿美元潜在负债”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766007",
+      "url": "https://wallstreetcn.com/articles/3766011",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "礼来升级Zepbound巩固优势、一支用整月！诺和诺德新药临床失利股价暴跌",
+      "title": "就在今晚！软件股再遭打击？Anthropic将直播展示Claude最新功能",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766001",
+      "url": "https://wallstreetcn.com/articles/3766010",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "国产大模型霸榜OpenRouter，“Token出海”开启全球算力套利时代",
+      "title": "“从未如此精心准备”！德媒：默茨将率“庞大商务代表团”访华，到访北京和杭州",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3765993",
+      "url": "https://wallstreetcn.com/articles/3766013",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "暴风雨导致旅行瘫痪8000多架次美国航班被迫中断",
+      "title": "世纪娱乐国际：合资公司与WPT订立营运协议",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwmhy3257967.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "特朗普政府考虑对六个行业征收国家安全关税",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwmht2273985.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-24/doc-inhnwmhw6169901.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "联邦快递起诉特朗普政府，要求全额退还紧急关税",
+      "title": "美国关税不确定及伊朗局势紧张之际 金价连涨第五日",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwmht2273277.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwmhy3271677.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "马斯克回应星链大幅降价：与亚马逊的竞争无关",
+      "title": "天立国际控股获主席罗实增持270万股",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnweyv2402743.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-24/doc-inhnwmhw6169670.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "数据显示：壳牌和Trafigura的租船价格接近纪录高点",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnwmhu9061052.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
