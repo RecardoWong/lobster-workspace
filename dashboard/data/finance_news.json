@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-02-25T03:30:24.363143",
+  "update_time": "2026-02-25T04:30:14.025380",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "美联储理事警告：货币政策可能无法应对AI引发的失业潮",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766086",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "闪迪“闪跌”！空头香橼指供应紧张是“海市蜃楼”、周期即将见顶",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766085",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "劳动力市场温和复苏，美国ADP周均新增就业12750人，连续第四周录得环比改善",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "美就业趋稳实物资产受捧，美房地产销售低迷利率高企，日德英数据疲软强化降息---0224宏观脱水",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766074",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "黄金突破震荡区间，避险回归定价核心",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766057",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "欧洲债市：德国国债收益率曲线走平",
+      "title": "特朗普关税政策反复令市场困惑，10%暂行但仍谋求升至15%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-25/doc-inhnycse2695988.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnyixy5472556.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "微软与SpaceX星链展开合作，推进全球社区互联网普及计划",
+      "title": "国情咨文展望：福克斯称特朗普将呼吁出台新形式的减税措施",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-25/doc-inhnycsa5592897.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnyixy5472457.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国2年期国债发行中标收益率创2022年以来最低",
+      "title": "油价回落，因伊朗称准备好采取措施与美国达成协议",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-25/doc-inhnycry8400024.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnyixv1506335.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "资金轮动流出美股之际廉价股难觅 法国兴业银行发问便宜股何在",
+      "title": "美国法官暂时驳回xAI对OpenAI提起的商业秘密诉讼",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-25/doc-inhnycse2694012.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnyixw8283523.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
