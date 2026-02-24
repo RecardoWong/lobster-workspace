@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-24T22:30:12.261861",
+  "update_time": "2026-02-24T23:30:25.959398",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "诺和诺德明年大幅下调减肥神药在美售价，降幅最高50%",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766082",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "空欢喜？美最高法院否决紧急关税，但零售商表示：别指望降价",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766077",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "报道：特朗普拟用AI定关键矿产参考价，锗、镓、锑、钨首批纳入",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766081",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "美国联邦住房金融局（FHFA）：去年12月美国独户住宅价格增长放缓",
+      "title": "礼来推出月度Zepbound注射笔",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxtae8611896.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxxiz1715968.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "马年A股喜迎“开门红”：周期“老登”领涨，科技、消费遇冷",
+      "title": "Anthropic指控大规模模型\"蒸馏\"",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-02-24/doc-inhnxtak2905595.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxxiz1715823.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "华纳兄弟收到派拉蒙修改后的收购报价",
+      "title": "美国储能创新纪录 德州将领先",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxtac1834461.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxxkh2789946.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Roku新广告协议与降本举措助其结束三年连亏",
+      "title": "FDA概述罕见病审批路径",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxtac1834317.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxxka8492781.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
