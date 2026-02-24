@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-25T02:30:29.696175",
+  "update_time": "2026-02-25T03:30:24.363143",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
       "title": "劳动力市场温和复苏，美国ADP周均新增就业12750人，连续第四周录得环比改善",
@@ -26,6 +26,38 @@
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
+    },
+    {
+      "title": "欧洲债市：德国国债收益率曲线走平",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-25/doc-inhnycse2695988.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "微软与SpaceX星链展开合作，推进全球社区互联网普及计划",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-25/doc-inhnycsa5592897.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "美国2年期国债发行中标收益率创2022年以来最低",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-25/doc-inhnycry8400024.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "资金轮动流出美股之际廉价股难觅 法国兴业银行发问便宜股何在",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-25/doc-inhnycse2694012.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
