@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-02-24T16:30:36.682642",
+  "update_time": "2026-02-24T17:30:22.915893",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "渣打财报透视：息差见顶与“轻资本财富中介”的重构",
+      "title": "光通信全线大涨！6G突破叠加AI算力狂飙，产业进入加速期",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766055",
+      "url": "https://wallstreetcn.com/articles/3766056",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "马年开门红！沪指放量上涨0.9%，资源股集体爆发，人民币升破6.89，恒科指跌超2%，智谱大涨12%",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766024",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "中方回应美方关税调整：正在进行全面评估，将适时决定调整针对美方原芬太尼关税和对等关税的反制措施",
+      "title": "“AI末日”报告暗示亚洲科技股有望成赢家，作者点名MiniMax与智谱",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766054",
+      "url": "https://wallstreetcn.com/articles/3766059",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "日元跳水！高市早苗对日本央行再次加息表示担忧",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766050",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "IBM股价创2000年以来最大跌幅，因Anthropic推出可替代Cobol的AI工具",
+      "title": "甲骨文股价在星门项目报道后周一下跌4.5%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxhni2005871.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxhni2028898.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "印度科技行业协会表示，印度科技行业在2026财年将增长6.1%",
+      "title": "OpenAI的星门」项目困境，能给Anthropic带来哪些启示",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxhnn5935245.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxhnk8802808.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "分析：达能美国业务表现拖累业绩",
+      "title": "长安期货张晨：地缘局势紧张提振风险偏好，甲醇强势反弹",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxhnn5934067.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-24/doc-inhnxhnq3063902.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "印度行业机构：2026财年印度科技行业将增长6%，规模达3150亿美元",
+      "title": "光大期货0224热点追踪：节后橡胶大涨，二季度能不能冲一把？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxaem2134227.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-24/doc-inhnxhnn5960387.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
