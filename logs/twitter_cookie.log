@@ -7384,3 +7384,40 @@ $FRPT $DPZ $HIMS $K...
 
 ✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260225_0700.json
 ============================================================
+🐦 Twitter Cookie 监控 - 2026-02-25 08:00
+============================================================
+
+📱 抓取 @elonmusk (Elon Musk)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/elonmusk_20260225_0800.json
+
+📱 抓取 @jdhasoptions (jdhasoptions)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/jdhasoptions_20260225_0800.json
+
+📱 抓取 @xiaomucrypto (xiaomucrypto)...
+   找到 0 条推文
+   ✅ 已保存到 /tmp/twitter_monitor/xiaomucrypto_20260225_0800.json
+
+📱 抓取 @aistocksavvy (AI Stock Savvy)...
+   找到 4 条推文
+   1.  Companies Reporting Earnings Next Week
+
+$FRPT $DPZ $HIMS $K...
+      🔗 https://x.com/aistocksavvy/status/2024866744200769588
+   2. $TEM | Tempus AI – Q4 2025 Earnings Call Summary
+
+➤ 𝐂𝐄𝐎 – Er...
+      🔗 https://x.com/aistocksavvy/status/2026442765526036661
+   3. $ZETA | ZETA GLOBAL – Q4 2025 EARNINGS CALL SUMMARY
+
+𝐃𝐚𝐯𝐢𝐝 𝐒...
+      🔗 https://x.com/aistocksavvy/status/2026441986438230477
+   4.  After-market buzz!
+
+$AXON $CAVA $TMDX $JAZZ $NVTS $MELI $CL...
+      🔗 https://x.com/aistocksavvy/status/2026413150229176819
+   ✅ 已保存到 /tmp/twitter_monitor/aistocksavvy_20260225_0800.json
+
+✅ 监控完成！汇总保存到 /tmp/twitter_monitor/summary_20260225_0800.json
+============================================================
