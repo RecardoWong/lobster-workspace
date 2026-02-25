@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-02-26T00:30:21.550554",
+  "update_time": "2026-02-26T01:30:27.654776",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "CoreWeave接近达成85亿美元“AI芯片+Meta合同”担保融资",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766194",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
     {
       "title": "OpenAI与Anthropic毛利目标双双落空，非付费用户与算力成主要负担",
       "source": "华尔街见闻",
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "静待英伟达财报，美股指高开，纳指涨幅扩大至1%，科技股普涨，现货黄金日内涨超1%",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766102",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "关税前景不明 鞋企史蒂夫・马登暂不发布盈利预期",
+      "title": "午盘：美股维持涨势 科技股涨幅领先",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpahqy7625949.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpahqx0867260.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美股房屋建筑商股价下跌 受政策不确定性和疲软的住房前景看法影响",
+      "title": "特福锅具制造商赛博集团将裁员7%，称得益于AI效率提升",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpahre1932083.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpahqy7639684.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "格里尔称：美国对部分国家关税税率将上调至 15% 及以上",
+      "title": "Dine Brands转亏，Applebee’s同店销售额下滑",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpahra4829931.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpahqx0861170.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美能源部向南方公司提供265亿美元贷款，为史上最大规模能源贷款",
+      "title": "西班牙在持续多年的反垄断案中加大对苹果、亚马逊的施压",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpahqx0846029.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpahqx0855525.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
