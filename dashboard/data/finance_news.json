@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-02-25T13:30:23.325938",
+  "update_time": "2026-02-25T14:30:11.117859",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "上海发布楼市“沪七条”：非沪籍外环内购房社保门槛降至1年，公积金贷款最高可贷324万",
+      "title": "日本长债收益率集体飙升！高市早苗提名再通胀主义者加入央行政策委员会",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766127",
+      "url": "https://wallstreetcn.com/articles/3766136",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "人民币：节后开门红",
+      "title": "Anthropic一条推文，引发了全球AI圈同仇敌忾的群嘲",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766122",
+      "url": "https://wallstreetcn.com/articles/3766129",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "财报说话：海外跨国企业如何看中国内需修复？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766128",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "中国居民财富：第三次历史“大迁徙”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766109",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普称要求大型科技公司自建电厂 以解决数据中心耗电问题",
+      "title": "油价上涨，因交易员在谈判前权衡伊朗核协议前景",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnzfcn7972963.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnzfcn8003180.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "集运股午后普遍走高 中远海发涨超6%东方海外国际涨超2%",
+      "title": "特朗普话音刚落金价又飙了！投行预测：若美伊开战，黄金冲到5800！",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-25/doc-inhnzfcn7972345.shtml",
+      "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-02-25/doc-inhnzfcn7999085.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "镍业股午后普涨 力勤资源涨逾8%新疆新鑫矿业涨逾4%",
+      "title": "大摩：濠赌股现金流及股息持续增长 偏好银河娱乐及金沙中国",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-25/doc-inhnzfcm1194087.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-25/doc-inhnzfcn7996743.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "锂矿股午后上扬 天齐锂业涨逾4%赣锋锂业涨逾2%",
+      "title": "大摩：升敏实集团目标价至50港元 看好人形机器人及液冷业务推动收入增长",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-25/doc-inhnzfcn7970319.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-25/doc-inhnzfcn7994073.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
