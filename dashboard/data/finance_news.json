@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-02-25T10:30:20.054497",
+  "update_time": "2026-02-25T11:30:21.717115",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "穆迪首席拉响警报：市场与经济脱钩，一场大规模、全资产抛售将至！",
+      "title": "特朗普国情咨文演讲：大型科技公司需自建电厂",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766126",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "算力之基与织机之困：AI驱动电子布供需重构与稀缺性定价",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766112",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "小鹏新年亮剑，指向物理AI",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766113",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "内房股午前涨幅居前 碧桂园涨逾8%建发国际集团涨逾7%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-25/doc-inhnyupw2444576.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-25/doc-inhnyyvp1285856.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中远海能早盘涨超9% 油轮现货运价飙升至近六年新高",
+      "title": "长风药业午前涨超4% 自研ICF004新药临床试验申请获受理",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-25/doc-inhnyupr1364403.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-25/doc-inhnyyvu2366690.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "华泰期货：市场小幅放量，股指收红",
+      "title": "从产能过剩到结构优化：能繁母猪存栏量下降如何重塑生猪产业链？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-25/doc-inhnyupu5333298.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-25/doc-inhnyyvu2362953.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "华泰期货：友谊管道南线输油中断，欧盟未能通过最新对俄制裁",
+      "title": "【复工专题】节后玉米市场迎开门红 情绪偏乐观",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-25/doc-inhnyupr1362238.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-25/doc-inhnyyvp1280346.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"

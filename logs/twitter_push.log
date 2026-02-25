@@ -1,0 +1,18 @@
+[11:00] 开始抓取Twitter...
+发现 1 条推文，其中 1 条是新推文
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/lobster-workspace/scripts/twitter_hourly_push.py", line 416, in <module>
+    
+  File "/usr/lib64/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/root/.openclaw/workspace/lobster-workspace/scripts/twitter_hourly_push.py", line 395, in main
+    
+    ^
+NameError: name 'save_to_daily_log' is not defined

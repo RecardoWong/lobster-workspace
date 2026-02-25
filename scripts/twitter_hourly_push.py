@@ -149,6 +149,8 @@ def filter_already_pushed(tweets):
         print(f"  跳过 {skipped} 条已推送过的推文")
     
     return new_tweets
+
+def save_to_daily_log(tweets):
     """保存到每日Markdown日志"""
     today = datetime.now().strftime('%Y-%m-%d')
     log_file = f"{LOG_DIR}/{today}.md"
