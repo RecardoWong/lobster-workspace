@@ -20,7 +20,8 @@ MONITOR_ACCOUNTS = {
     'elonmusk': 'Elon Musk',
     'jdhasoptions': 'jdhasoptions',
     'xiaomucrypto': 'xiaomucrypto',
-    'aistocksavvy': 'AI Stock Savvy'
+    'aistocksavvy': 'AI Stock Savvy',
+    'QQ_Timmy': 'QQ_Timmy'
 }
 
 SAVE_DIR = '/tmp/twitter_monitor'

@@ -18,7 +18,8 @@ MONITOR_ACCOUNTS = {
     'jdhasoptions': 'jdhasoptions',
     'xiaomucrypto': 'xiaomucrypto',
     'aistocksavvy': 'AI Stock Savvy',
-    'BlueJay87476298': 'BlueJay'
+    'BlueJay87476298': 'BlueJay',
+    'QQ_Timmy': 'QQ_Timmy'
 }
 
 SAVE_DIR = '/tmp/twitter_monitor'

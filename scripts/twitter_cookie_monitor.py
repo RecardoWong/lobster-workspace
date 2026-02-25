@@ -14,7 +14,7 @@ AUTH_TOKEN = os.getenv('TWITTER_AUTH_TOKEN', '5da5c73c3286e0c825c5a337eb60ffaf93
 CT0 = os.getenv('TWITTER_CT0', 'bb867bfa8ae5a410dec9e6537f8aa4f183c43b65c641f9b293a171e8eb8b1b9df359891c89b0e181f4c21bb6e292f422075b77ac3f51a0915fc5e82e2c69c9c5100c14355137082faa36804f10f18ebd')
 
 # 监控账号
-MONITOR_ACCOUNTS = ['elonmusk', 'jdhasoptions', 'xiaomucrypto', 'aistocksavvy']
+MONITOR_ACCOUNTS = ['elonmusk', 'jdhasoptions', 'xiaomucrypto', 'aistocksavvy', 'QQ_Timmy']
 
 def fetch_with_cookie(username):
     """使用 cookie 抓取推文"""

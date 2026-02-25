@@ -24,7 +24,8 @@ MONITOR_ACCOUNTS = {
     'elonmusk': 'Elon Musk',
     'jdhasoptions': 'jdhasoptions',
     'xiaomucrypto': 'xiaomucrypto', 
-    'aistocksavvy': 'AI Stock Savvy'
+    'aistocksavvy': 'AI Stock Savvy',
+    'QQ_Timmy': 'QQ_Timmy'
 }
 
 def setup_driver():
