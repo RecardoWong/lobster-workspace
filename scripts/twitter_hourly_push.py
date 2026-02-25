@@ -400,18 +400,16 @@ async def main():
         # 3. 保存所有到JSON（记录用）
         all_today = save_to_json(new_tweets)
         
-        # 4. 只推送重要的
-        if important_tweets:
-            message = format_push_message(important_tweets)
+        # 4. 推送所有新推文（不过滤）
+        if new_tweets:
+            message = format_push_message(new_tweets)
             if message:
-                print(f"推送 {len(important_tweets)} 条重要推文...")
+                print(f"推送 {len(new_tweets)} 条推文...")
                 send_to_telegram(message)
-                # 5. 记录已推送的推文（关键！防止下次重复）
-                record_pushed_tweets(important_tweets)
+                # 5. 记录已推送的推文
+                record_pushed_tweets(new_tweets)
         else:
-            print(f"新推文中没有重要内容，跳过推送")
-            # 即使没有重要内容，也记录已查看，防止下次重复抓取
-            record_pushed_tweets(new_tweets)
+            print(f"没有新推文")
     else:
         print("没有新推文")
 
