@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-02-26T03:30:22.013369",
+  "update_time": "2026-02-26T04:30:22.995509",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "Anthropico和微软高管将于3月访问白宫",
+      "title": "特朗普变本加厉？欧盟估计42亿欧元商品面临新关税高于欧美协议上限",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766195",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "CoreWeave接近达成85亿美元“AI芯片+Meta合同”担保融资",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766194",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "OpenAI与Anthropic毛利目标双双落空，非付费用户与算力成主要负担",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766192",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "特朗普拟要求科技巨头签承诺 自行承担数据中心电力成本",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpanww7553144.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpanwy4751616.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "欧盟据悉评估美国新关税或高于协议15%上限 涉及42亿欧元商品",
+      "title": "芝商所黄金、白银和天然气合约在技术故障后恢复交易",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpanxa1836800.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpanwy4751495.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "堪萨斯城联储行长称人工智能或有助于缓解劳动力短缺问题",
+      "title": "泽连斯基与特朗普讨论了将在日内瓦会谈中涉及的议题",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpanwy4734822.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpanww7583691.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "亚马逊、谷歌和甲骨文等公司将建设数据中心电力供应系统",
+      "title": "油价周三持稳 美国原油库存大增压制供应担忧",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpanxa1836641.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpanww7581170.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"

@@ -78,3 +78,38 @@
 /bin/bash: line 1: node: command not found
 /bin/bash: line 1: node: command not found
 /bin/bash: line 1: node: command not found
+⏭️  跳过: binance_price.log (0天 < 7天)
+⏭️  跳过: botcoin.log (0天 < 7天)
+⏭️  跳过: clanker.log (0天 < 7天)
+⏭️  跳过: compress.log (0天 < 7天)
+
+📦 日志压缩
+============================================================
+📄 文件: cron_twitter_update.log
+📊 原行数: 2
+📅 年龄: >7天
+------------------------------------------------------------
+🧠 提取精华...
+✨ 精华条目: 1 条
+📉 压缩比: 1:2
+
+📝 提取的精华:
+   [2026-02-18 02:00:46] Twitter监控任务完成 - 成功更新4个账号共80条推文
+
+💾 正在执行...
+✅ 已追加到: MEMORY.md
+✅ 已归档到: logs/archive/cron_twitter_update.log.2026-02-25.bak
+
+✨ 压缩完成！
+⏭️  跳过: evening.log (0天 < 7天)
+⏭️  跳过: finance_news.log (0天 < 7天)
+⏭️  跳过: git.log (0天 < 7天)
+⏭️  跳过: innoscience_notice.log (0天 < 7天)
+⏭️  跳过: innoscience_price.log (0天 < 7天)
+⏭️  跳过: morning.log (0天 < 7天)
+⏭️  跳过: price_update.log (0天 < 7天)
+⏭️  跳过: twitter_auto.log (0天 < 7天)
+⏭️  跳过: twitter_cookie.log (0天 < 7天)
+⏭️  跳过: twitter.log (6天 < 7天)
+⏭️  跳过: twitter_monitor.log (4天 < 7天)
+⏭️  跳过: twitter_push.log (0天 < 7天)
