@@ -348,32 +348,50 @@ def format_push_message(tweets):
     lines = [
         "🐦 Twitter 更新",
         f"📅 {datetime.now().strftime('%H:%M')}",
-        "=" * 30,
+        "=" * 20,
         ""
     ]
     
-    for t in tweets[:5]:
-        # 添加可点击的推文链接
+    # 只取前3条，避免消息过长
+    for t in tweets[:3]:
         tweet_link = t.get('url', f"https://x.com/{t['author']}")
+        text = t['text'][:100] + "..." if len(t['text']) > 100 else t['text']
         lines.extend([
-            f"👤 {t['name']} @{t['author']}",
-            f"⏰ {t['time_ago']}",
-            f"💬 {t['text'][:150]}...",
-            f"📝 {t['translate'][:100]}..." if len(t['translate']) > 100 else f"📝 {t['translate']}",
+            f"👤 {t['name']}",
+            f"💬 {text}",
             f"🔗 {tweet_link}",
             ""
         ])
     
-    lines.append("=" * 30)
-    return "\n".join(lines)
+    if len(tweets) > 3:
+        lines.append(f"... 还有 {len(tweets) - 3} 条")
+    
+    lines.append("=" * 20)
+    
+    message = "\n".join(lines)
+    # Telegram 消息限制约 4000 字符
+    if len(message) > 3500:
+        message = message[:3500] + "\n\n... (内容已截断)"
+    
+    return message
 
 def send_to_telegram(message):
     """发送到Telegram"""
     try:
-        cmd = ['openclaw', 'message', 'send', '--channel', 'telegram', '--target', '5440939697', '--message', message]
-        subprocess.run(cmd, capture_output=True, timeout=30)
-        return True
-    except:
+        # 设置环境变量
+        env = os.environ.copy()
+        env['PATH'] = '/root/.nvm/versions/node/v22.22.0/bin:' + env.get('PATH', '')
+        
+        cmd = ['/root/.nvm/versions/node/v22.22.0/bin/openclaw', 'message', 'send', '--channel', 'telegram', '--target', '5440939697', '--message', message]
+        result = subprocess.run(cmd, capture_output=True, timeout=30, env=env)
+        if result.returncode == 0:
+            print(f"  ✅ Telegram 推送成功")
+        else:
+            err = result.stderr.decode()[:100] if result.stderr else '未知错误'
+            print(f"  ⚠️ Telegram 推送失败: {err}")
+        return result.returncode == 0
+    except Exception as e:
+        print(f"  ❌ Telegram 推送异常: {e}")
         return False
 
 async def main():
