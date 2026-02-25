@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-25T19:30:15.175055",
+  "update_time": "2026-02-25T20:30:21.913359",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "人民币，会升破6.8吗？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766145",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": " “特朗普交易”终结？投资者加速“去美国化”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766143",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "AI算力需求强劲，海光信息2025年营收同比增57%，预计26年Q1净利同比增23%到42% | 财报见闻",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766162",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "美国最新关税动向后 瑞士称谈判目标保持不变",
+      "title": "美英两国初步重启科技协议相关工作",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnzrtn2223752.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnzvze7802025.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "逾半数受访者预计拉加德今年将卸任 将欧洲央行行长一职交给Knot",
+      "title": "欧洲央行副行长候选人Vujcic称不可因通胀回落而自满",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-25/doc-inhnzrtn2223545.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnzvzc1023627.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "英镑走高 利率分化和市场情绪成为焦点",
+      "title": "丹麦愿意讨论在其领土上部署核武器的可能",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-25/doc-inhnzrtk5113321.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnzvzk2115160.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "商务部：希望美方客观理性看待中美第一阶段经贸协议实施问题",
+      "title": "油价企稳，交易员静待美伊核谈",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-02-25/doc-inhnzrth7901880.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-25/doc-inhnzvzh5010567.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
