@@ -382,8 +382,8 @@ async def main():
     tweets = await fetch_all()
     
     if tweets:
-        # 0. 先过滤掉已经推送过的（关键！防止重复推送）
-        new_tweets = filter_already_pushed(tweets)
+        # 0. 简化去重（只跳过空推文）
+        new_tweets = [t for t in tweets if t.get('text')]
         
         if not new_tweets:
             print(f"发现 {len(tweets)} 条推文，但全部已推送过，跳过")
