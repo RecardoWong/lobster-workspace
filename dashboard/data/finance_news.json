@@ -1,31 +1,63 @@
 {
-  "update_time": "2026-02-26T05:30:30.254733",
+  "update_time": "2026-02-26T06:30:16.075912",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
-      "title": "AI冲击引发恐慌？红杉林君叡：软件公司能够挺过来",
+      "title": "阿里云推出低价AI编程套餐，集成四大顶级开源模型",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766198",
+      "url": "https://wallstreetcn.com/articles/3766202",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "最戏剧性转向之一！Anthropic放弃标志性“安全护栏”承诺",
+      "title": "伊朗外长准备参加伊美第三轮间接谈判，万斯：美对谈判抱有希望，但不排除动武",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766199",
+      "url": "https://wallstreetcn.com/articles/3766204",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "芝商所技术故障致天然气与金属期货交易中断，周三委托单全数取消",
+      "title": "美科技巨头将赴白宫签协议，承诺AI数据中心用电“自己解决”，保障居民电价稳定",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766197",
+      "url": "https://wallstreetcn.com/articles/3766203",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "英伟达财报与业绩指引双双超预期，AI热潮推动数据中心营收大增75%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpatey1746484.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "贵金属全线走强，铂金大涨超5%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpatet0714172.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "携程发布2025年Q4财报：国际OTA预订增60% 全年服务入境游客2000万人次",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpateu7487753.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "外盘头条：特朗普要求科技巨头用电“自己解决” 三星Galaxy S26系列发布 全球最大衍生品交易所突发故障",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpatew4638602.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
