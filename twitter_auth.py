@@ -4,11 +4,18 @@ Twitter OAuth 1.0a 授权脚本
 运行后点击链接，授权，输入 PIN 码即可
 """
 
+import os
 import tweepy
 
-# 你的 Consumer Key 和 Secret
-CONSUMER_KEY = "Ag90tRYlg9qNEDdNWF96FTiml"
-CONSUMER_SECRET = "LUwUKwIL4WCnAaUo7kHxfOwL43NlFACV8GQMJguxEuxmRHijlO"
+# 从环境变量读取 Consumer Key 和 Secret
+CONSUMER_KEY = os.getenv('TWITTER_CONSUMER_KEY')
+CONSUMER_SECRET = os.getenv('TWITTER_CONSUMER_SECRET')
+
+if not CONSUMER_KEY or not CONSUMER_SECRET:
+    print("❌ 请设置环境变量:")
+    print("  export TWITTER_CONSUMER_KEY='...'")
+    print("  export TWITTER_CONSUMER_SECRET='...'")
+    exit(1)
 
 def main():
     print("="*70)

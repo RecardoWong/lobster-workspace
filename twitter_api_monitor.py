@@ -3,10 +3,15 @@
 Twitter 监控 - TwitterAPI.io 版
 恢复使用真实 API 数据
 """
+import os
 import requests
 from datetime import datetime
 
-API_KEY = "new1_47751911508746daafaf9194b664aaed"
+API_KEY = os.getenv('TWITTERAPI_IO_KEY')
+if not API_KEY:
+    print("❌ 请设置 TWITTERAPI_IO_KEY 环境变量")
+    exit(1)
+
 BASE_URL = "https://api.twitterapi.io"
 
 USERS = [

@@ -6,6 +6,7 @@
 - 输出：统一格式的监控报告
 """
 
+import os
 import urllib.request
 import json
 import time
@@ -13,8 +14,13 @@ from datetime import datetime
 from typing import Dict, List
 
 # API Keys
-TWELVE_DATA_API_KEY = '73c7acfe931d452c82eda0af4c99300f'
-BRAVE_API_KEY = 'BSA5gm2J8fUK-1VTQJZVu_IFnFFdW6P'
+TWELVE_DATA_API_KEY = os.getenv('TWELVE_DATA_API_KEY')
+BRAVE_API_KEY = os.getenv('BRAVE_API_KEY')
+
+if not TWELVE_DATA_API_KEY:
+    raise ValueError("请设置 TWELVE_DATA_API_KEY 环境变量")
+if not BRAVE_API_KEY:
+    raise ValueError("请设置 BRAVE_API_KEY 环境变量")
 
 class StockMonitor:
     """股票监控系统"""

@@ -5,6 +5,7 @@ Twelve Data 股票监控工具
 免费额度：800次/天，8次/分钟
 """
 
+import os
 import urllib.request
 import json
 import time
@@ -181,7 +182,10 @@ class TwelveDataTracker:
 def main():
     """完整测试"""
     # API Key
-    API_KEY = '73c7acfe931d452c82eda0af4c99300f'
+    API_KEY = os.getenv('TWELVE_DATA_API_KEY')
+    if not API_KEY:
+        print("❌ 请设置 TWELVE_DATA_API_KEY 环境变量")
+        return
     
     print("="*60)
     print("Twelve Data API 完整测试")

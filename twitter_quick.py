@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os
 import urllib.request
 import urllib.parse
 import json
@@ -7,7 +8,11 @@ import socket
 
 socket.setdefaulttimeout(10)
 
-API_KEY = "new1_47751911508746daafaf9194b664aaed"
+API_KEY = os.getenv('TWITTERAPI_IO_KEY')
+if not API_KEY:
+    print("❌ 请设置 TWITTERAPI_IO_KEY 环境变量")
+    exit(1)
+
 BASE_URL = "https://api.twitterapi.io/twitter"
 
 def make_request(endpoint, params=None):

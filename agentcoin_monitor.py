@@ -18,8 +18,14 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-PRIVATE_KEY = "0x4a8d58943a9695cbb5d85fd94066d10fc52806c56c9dd17cf5b0499019452cf6"
-WALLET_ADDRESS = "0xf2BD3694E7B0505cEcC4317B3Da8F86D54d770DA"
+PRIVATE_KEY = os.getenv('AGENTCOIN_PRIVATE_KEY')
+WALLET_ADDRESS = os.getenv('AGENTCOIN_WALLET_ADDRESS')
+
+if not PRIVATE_KEY or not WALLET_ADDRESS:
+    logger.error("❌ 请设置环境变量 AGENTCOIN_PRIVATE_KEY 和 AGENTCOIN_WALLET_ADDRESS")
+    logger.error("示例: export AGENTCOIN_PRIVATE_KEY='0x...'")
+    raise ValueError("缺少 AgentCoin 环境变量配置")
+
 BSC_RPC = "https://bsc-dataseed.binance.org/"
 MIN_BNB_THRESHOLD = 0.01
 
