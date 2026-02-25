@@ -16,3 +16,5 @@ Traceback (most recent call last):
     
     ^
 NameError: name 'save_to_daily_log' is not defined
+[12:00] 开始抓取Twitter...
+没有新推文

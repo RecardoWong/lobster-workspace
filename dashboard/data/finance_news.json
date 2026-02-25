@@ -1,63 +1,31 @@
 {
-  "update_time": "2026-02-25T11:30:21.717115",
+  "update_time": "2026-02-25T12:30:30.076097",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
     {
-      "title": "特朗普国情咨文演讲：大型科技公司需自建电厂",
+      "title": "中国居民财富：第三次历史“大迁徙”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766126",
+      "url": "https://wallstreetcn.com/articles/3766109",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "算力之基与织机之困：AI驱动电子布供需重构与稀缺性定价",
+      "title": "A股三大股指均涨超1%，航运、有色金属集体爆发，恒指涨0.75%，科网股多数反弹",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766112",
+      "url": "https://wallstreetcn.com/articles/3766116",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "小鹏新年亮剑，指向物理AI",
+      "title": "英伟达这周的财报会很好，但投资者更关心3月GTC大会",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766113",
+      "url": "https://wallstreetcn.com/articles/3766111",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "内房股午前涨幅居前 碧桂园涨逾8%建发国际集团涨逾7%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-25/doc-inhnyyvp1285856.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "长风药业午前涨超4% 自研ICF004新药临床试验申请获受理",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-25/doc-inhnyyvu2366690.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "从产能过剩到结构优化：能繁母猪存栏量下降如何重塑生猪产业链？",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-25/doc-inhnyyvu2362953.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "【复工专题】节后玉米市场迎开门红 情绪偏乐观",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-25/doc-inhnyyvp1280346.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     }
   ]
 }
