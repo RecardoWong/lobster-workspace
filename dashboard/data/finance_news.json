@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-26T22:30:13.922916",
+  "update_time": "2026-02-26T23:30:24.561220",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "百度电话会：AI云2025年收入达300亿元，算力订阅Q4同比增143%，“萝卜快跑”订单狂飙200%",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766280",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "近期人民币独立行情：三大核心逻辑",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766285",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美联储理事米兰：今年需要降息大约一个百分点",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766286",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美国玉米出口销量不及预期",
+      "title": "博通预计到2027年出货100万颗3D堆叠芯片",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpefhe4287742.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpemqa4179159.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "蒂姆·库克暗示苹果将于周一上午举行发布会",
+      "title": "特朗普政府拟废除拜登时代独立承包商劳工规则",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpefha7171488.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpemqe1280164.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "福特因软件问题在美国召回430万辆汽车",
+      "title": "华尔街顶尖分析师最新评级汇：Spotify获上调 第一太阳能遭下调",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpefhe4283511.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpempx0290713.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "OpenAI将把伦敦打造成其美国以外最大的研究中心",
+      "title": "英伟达业绩展望乐观，却遭投资者看空回应",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpefhh1384180.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpemqe1276263.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
