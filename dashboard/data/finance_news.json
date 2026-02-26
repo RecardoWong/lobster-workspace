@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-02-26T06:30:16.075912",
+  "update_time": "2026-02-26T07:30:30.972952",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "阿里云推出低价AI编程套餐，集成四大顶级开源模型",
+      "title": "美联储：政府债券吸引力下降，推动关键利率上升",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766202",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "伊朗外长准备参加伊美第三轮间接谈判，万斯：美对谈判抱有希望，但不排除动武",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766204",
+      "url": "https://wallstreetcn.com/articles/3766206",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "美科技巨头将赴白宫签协议，承诺AI数据中心用电“自己解决”，保障居民电价稳定",
+      "title": "英伟达CEO黄仁勋在电话会上表示，企业对代理的应用飙升，Grace Blackwell搭配NVLink是推理的王者。当前的太空数据中心经济还是“贫瘠的”，但形势将随着时间的推移而变化",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766203",
+      "url": "https://wallstreetcn.com/articles/3766208",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "英伟达财报与业绩指引双双超预期，AI热潮推动数据中心营收大增75%",
+      "title": "AI需求还强！英伟达Q4营收增73%，Q1指引“炸裂”创新高，黄仁勋上调5000亿收入预期 | 财报见闻",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766200",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "德银称Anthropic的企业代理将成为软件股的积极催化剂",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpatey1746484.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpaxnr0615229.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "贵金属全线走强，铂金大涨超5%",
+      "title": "AMD与Nutanix联手进行2.5亿美元AI合作",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpatet0714172.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpaxnr0613974.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "携程发布2025年Q4财报：国际OTA预订增60% 全年服务入境游客2000万人次",
+      "title": "Salesforce 预测年收入低于预期 股价下跌",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpateu7487753.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpaxnw1631440.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "外盘头条：特朗普要求科技巨头用电“自己解决” 三星Galaxy S26系列发布 全球最大衍生品交易所突发故障",
+      "title": "全球资本开支创下新高之际，英伟达再迎季度业绩纪录",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpatew4638602.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpaxns7386687.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
