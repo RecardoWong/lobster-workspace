@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-26T14:30:17.281007",
+  "update_time": "2026-02-26T15:30:23.564745",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "不止业绩爆表！高盛点名英伟达三大催化剂，直言“未来数月跑赢路径已清晰”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766234",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "英伟达“交卷”缓解AI担忧，日韩科技股走强，韩国股指再创新高，现货黄金站上5200",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766225",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "沪指午后一度翻红，算力硬件集体大涨、PCB爆发，人民币升破6.83关口，恒科指跌超2%，科网股普跌",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766223",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "韩国首尔房价涨幅连续第四周放缓",
+      "title": "韩股延续创纪录涨势，收盘突破6300点",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcqkn4388814.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcqkk7324996.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "派拉蒙流媒体收入增长，但电视业务面临逆境",
+      "title": "美财政部高级官员将离职 曾对打击明州欺诈计划表异议",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcqkk7275780.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcqkk7312548.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "逆势并购，通威股份有何战略考量",
+      "title": "商务部：将日有关实体列入出口管制管控名单和关注名单完全正当、合理、合法",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/s/2026-02-26/doc-inhpcqkq1489887.shtml",
+      "url": "https://finance.sina.com.cn/china/2026-02-26/doc-inhpcqkq1525914.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "英伟达第四季度销售额创下680亿美元纪录，打破泡沫担忧",
+      "title": "商务部回应近期将举行的第六轮中美经贸磋商",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcqki0495280.shtml",
+      "url": "https://finance.sina.com.cn/china/2026-02-26/doc-inhpcqkq1527376.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"

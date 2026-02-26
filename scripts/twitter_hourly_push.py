@@ -101,11 +101,11 @@ def get_time_ago(time_str):
         return "未知"
 
 def get_pushed_tweet_ids():
-    """获取已推送的推文ID列表（最近7天）"""
+    """获取已推送的推文ID列表（最近24小时）- 扩展为包含内容指纹"""
     pushed_ids = set()
     
-    # 检查最近7天的记录文件
-    for i in range(7):
+    # 检查最近2天的记录文件（避免重复）
+    for i in range(2):
         date = (datetime.now() - timedelta(days=i)).strftime('%Y-%m-%d')
         pushed_file = f"{PUSHED_DIR}/{date}.json"
         
@@ -113,43 +113,57 @@ def get_pushed_tweet_ids():
             try:
                 with open(pushed_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
+                    # 读取tweet_ids
                     pushed_ids.update(data.get('tweet_ids', []))
+                    # 读取内容指纹（text-based keys）
+                    pushed_ids.update(data.get('content_keys', []))
             except:
                 pass
     
     return pushed_ids
 
 def record_pushed_tweets(tweets):
-    """记录已推送的推文ID"""
+    """记录已推送的推文ID和内容指纹"""
     today = datetime.now().strftime('%Y-%m-%d')
     pushed_file = f"{PUSHED_DIR}/{today}.json"
     
     # 读取现有记录
     existing_ids = set()
+    existing_content_keys = set()
     if os.path.exists(pushed_file):
         try:
             with open(pushed_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 existing_ids = set(data.get('tweet_ids', []))
+                existing_content_keys = set(data.get('content_keys', []))
         except:
             pass
     
-    # 添加新推送的tweet_id
+    # 添加新推送的tweet_id和内容指纹
     for t in tweets:
         tweet_id = t.get('tweet_id', '')
+        text = t.get('text', '')
+        author = t.get('author', '')
+        
         if tweet_id:
             existing_ids.add(tweet_id)
+        
+        # 同时保存内容指纹（用于无tweet_id时的去重）
+        if text and author:
+            content_key = f"{author}:{text[:50]}"
+            existing_content_keys.add(content_key)
     
     # 保存
     with open(pushed_file, 'w', encoding='utf-8') as f:
         json.dump({
             'date': today,
             'tweet_ids': list(existing_ids),
-            'count': len(existing_ids)
+            'content_keys': list(existing_content_keys),
+            'count': len(existing_ids) + len(existing_content_keys)
         }, f, ensure_ascii=False, indent=2)
 
 def filter_already_pushed(tweets):
-    """过滤掉已经推送过的推文"""
+    """过滤掉已经推送过的推文 - 严格去重"""
     pushed_ids = get_pushed_tweet_ids()
     
     new_tweets = []
@@ -157,10 +171,17 @@ def filter_already_pushed(tweets):
     
     for t in tweets:
         tweet_id = t.get('tweet_id', '')
-        # 如果没有tweet_id，用author+time组合作为唯一标识
-        unique_key = tweet_id if tweet_id else f"{t.get('author')}:{t.get('time')}"
+        text = t.get('text', '')
+        author = t.get('author', '')
         
+        # 检查1: 有tweet_id且已推送
         if tweet_id and tweet_id in pushed_ids:
+            skipped += 1
+            continue
+        
+        # 检查2: 用text+author作为唯一标识（防止tweet_id为空时重复）
+        content_key = f"{author}:{text[:50]}"
+        if content_key in pushed_ids:
             skipped += 1
             continue
         
@@ -382,37 +403,70 @@ def filter_important_tweets(tweets):
     return filtered
 
 def format_push_message(tweets):
-    """格式化推送消息"""
+    """格式化推送消息 - 美化版"""
     if not tweets:
         return None
     
     lines = [
-        "🐦 Twitter 更新",
-        f"📅 {datetime.now().strftime('%H:%M')}",
-        "=" * 20,
+        "🐦 *Twitter 更新*",
+        f"📅 `{datetime.now().strftime('%H:%M')}`",
+        "",
+        "─" * 25,
         ""
     ]
     
-    # 只取前3条，避免消息过长
-    for t in tweets[:3]:
-        tweet_link = t.get('url', f"https://x.com/{t['author']}")
-        text = t['text'][:100] + "..." if len(t['text']) > 100 else t['text']
-        lines.extend([
-            f"👤 {t['name']}",
-            f"💬 {text}",
-            f"🔗 {tweet_link}",
-            ""
-        ])
+    # 按作者分组
+    tweets_by_author = {}
+    for t in tweets:
+        author = t.get('author', 'unknown')
+        if author not in tweets_by_author:
+            tweets_by_author[author] = []
+        tweets_by_author[author].append(t)
     
-    if len(tweets) > 3:
-        lines.append(f"... 还有 {len(tweets) - 3} 条")
+    # 格式化每个作者的推文
+    author_count = 0
+    for author, author_tweets in tweets_by_author.items():
+        if author_count >= 3:  # 最多显示3个作者
+            break
+        
+        name = author_tweets[0].get('name', author)
+        lines.append(f"👤 *{name}* `@{author}`")
+        lines.append("")
+        
+        # 每个作者最多显示2条
+        for i, t in enumerate(author_tweets[:2], 1):
+            text = t.get('text', '')
+            # 清理文本，移除多余换行
+            text = ' '.join(text.split())
+            # 截断长文本
+            if len(text) > 120:
+                text = text[:120] + "..."
+            
+            time_ago = t.get('time_ago', '')
+            tweet_link = t.get('url', f"https://x.com/{author}")
+            
+            lines.append(f"*{i}.* {text}")
+            lines.append(f"   [查看推文]({tweet_link}) · {time_ago}")
+            lines.append("")
+        
+        if len(author_tweets) > 2:
+            lines.append(f"   _...还有 {len(author_tweets) - 2} 条_")
+            lines.append("")
+        
+        lines.append("─" * 25)
+        lines.append("")
+        author_count += 1
     
-    lines.append("=" * 20)
+    # 统计信息
+    total_authors = len(tweets_by_author)
+    total_tweets = len(tweets)
+    if total_authors > 3 or total_tweets > sum(len(v) for v in list(tweets_by_author.values())[:3]):
+        lines.append(f"_共 {total_tweets} 条来自 {total_authors} 个账号_")
     
     message = "\n".join(lines)
     # Telegram 消息限制约 4000 字符
-    if len(message) > 3500:
-        message = message[:3500] + "\n\n... (内容已截断)"
+    if len(message) > 3800:
+        message = message[:3800] + "\n\n_...内容已截断_"
     
     return message
 
@@ -441,34 +495,35 @@ async def main():
     tweets = await fetch_all()
     
     if tweets:
-        # 0. 简化去重（只跳过空推文）
-        new_tweets = [t for t in tweets if t.get('text')]
+        # 0. 过滤空推文
+        valid_tweets = [t for t in tweets if t.get('text')]
         
-        if not new_tweets:
-            print(f"发现 {len(tweets)} 条推文，但全部已推送过，跳过")
+        if not valid_tweets:
+            print(f"发现 {len(tweets)} 条推文，但全部为空，跳过")
             return
         
-        print(f"发现 {len(tweets)} 条推文，其中 {len(new_tweets)} 条是新推文")
+        # 1. 去重 - 过滤已推送的推文（关键修复！）
+        new_tweets = filter_already_pushed(valid_tweets)
         
-        # 1. 筛选重要推文（只推送这些）
-        important_tweets = filter_important_tweets(new_tweets)
+        if not new_tweets:
+            print(f"发现 {len(valid_tweets)} 条推文，但全部已推送过，跳过")
+            return
+        
+        print(f"发现 {len(tweets)} 条推文，其中 {len(new_tweets)} 条是真正的新推文")
         
         # 2. 保存所有到Markdown日志（记录用）
-        save_to_daily_log(new_tweets)
+        save_to_daily_log(valid_tweets)
         
         # 3. 保存所有到JSON（记录用）
-        all_today = save_to_json(new_tweets)
+        all_today = save_to_json(valid_tweets)
         
-        # 4. 推送所有新推文（不过滤）
-        if new_tweets:
-            message = format_push_message(new_tweets)
-            if message:
-                print(f"推送 {len(new_tweets)} 条推文...")
-                send_to_telegram(message)
-                # 5. 记录已推送的推文
-                record_pushed_tweets(new_tweets)
-        else:
-            print(f"没有新推文")
+        # 4. 推送新推文（已去重）
+        message = format_push_message(new_tweets)
+        if message:
+            print(f"推送 {len(new_tweets)} 条新推文...")
+            send_to_telegram(message)
+            # 5. 记录已推送的推文
+            record_pushed_tweets(new_tweets)
     else:
         print("没有新推文")
 
