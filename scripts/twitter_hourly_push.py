@@ -19,7 +19,8 @@ MONITOR_ACCOUNTS = {
     'xiaomucrypto': 'xiaomucrypto',
     'aistocksavvy': 'AI Stock Savvy',
     'BlueJay87476298': 'BlueJay',
-    'QQ_Timmy': 'QQ_Timmy'
+    'QQ_Timmy': 'QQ_Timmy',
+    'jukan05': 'jukan05'
 }
 
 SAVE_DIR = '/tmp/twitter_monitor'
@@ -444,17 +445,17 @@ def extract_key_point(text):
         # 包含数字/金额/百分比的优先
         if re.search(r'\d+%|\$\d+|\d+亿|\d+万|\d+倍| billion| million', s, re.IGNORECASE):
             if len(s) > 10:
-                return s[:100] + "…" if len(s) > 100 else s
+                return s[:150] + "…" if len(s) > 150 else s
     
     # 其次找包含股票代码的句子
     for s in sentences:
         s = s.strip()
         if re.search(r'\$[A-Z]{1,5}', s) and len(s) > 15:
-            return s[:100] + "…" if len(s) > 100 else s
+            return s[:150] + "…" if len(s) > 150 else s
     
     # 否则返回最长的一句（通常信息最多）
     longest = max([s.strip() for s in sentences if s.strip()], key=len, default=text)
-    return longest[:120] + "…" if len(longest) > 120 else longest
+    return longest[:180] + "…" if len(longest) > 180 else longest
 
 def format_push_message(tweets):
     """格式化推送消息 - 一眼get重点版"""
@@ -466,8 +467,8 @@ def format_push_message(tweets):
         ""
     ]
     
-    # 最多显示3条，按重要性排序
-    for i, t in enumerate(tweets[:3], 1):
+    # 最多显示5条，按重要性排序
+    for i, t in enumerate(tweets[:5], 1):
         text = t.get('text', '')
         translate = t.get('translate', '') or text
         author = t.get('author', 'unknown')
@@ -495,8 +496,8 @@ def format_push_message(tweets):
         lines.append("")
     
     # 如果有更多
-    if len(tweets) > 3:
-        lines.append(f"_…还有 {len(tweets) - 3} 条_")
+    if len(tweets) > 5:
+        lines.append(f"_…还有 {len(tweets) - 5} 条_")
     
     message = "\n".join(lines)
     if len(message) > 3800:
