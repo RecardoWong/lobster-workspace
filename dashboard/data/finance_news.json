@@ -1,39 +1,31 @@
 {
-  "update_time": "2026-02-27T00:30:47.167512",
+  "update_time": "2026-02-27T01:30:46.895232",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 3,
   "news": [
     {
-      "title": "特朗普刚提出一项新退休储蓄计划：已知与未知信息全解析",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpempy7092693.shtml",
+      "title": "谷歌升级爆款图像工具Nano Banana，周四上线Gemini App和搜索",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766291",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "行业对AI感到焦虑不安，而Anthropic仍在持续加码",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpemqe1298990.shtml",
+      "title": "两个月暴涨50%、跃居全球第九大股市，韩国股市还能疯狂多久？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766289",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "美国众议院民主党人下周将强制就伊朗战争权力决议案进行表决",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpempx0313996.shtml",
+      "title": "美联储理事米兰：重申2026年需降息100个基点，警告过度监管扭曲信贷结构",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766286",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "媒体：伊朗不会允许浓缩铀出境",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpemqa4196771.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     }
   ]
 }
