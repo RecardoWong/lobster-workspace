@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-02-26T15:30:23.564745",
+  "update_time": "2026-02-26T16:30:21.591372",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "韩股延续创纪录涨势，收盘突破6300点",
+      "title": "日本出生率连续第十年下降，人口危机愈演愈烈！",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766244",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "2028“AI末日论”的历史反驳",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766233",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "A股分化，沪指微跌，算力硬件集体爆发，人民币升破6.83关口，恒科指跌超2%，科网股普跌",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766223",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "Rolls‑Royce计划斥资120亿美元回购股票，并提高2028年目标价",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcqkk7324996.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcusf0462304.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美财政部高级官员将离职 曾对打击明州欺诈计划表异议",
+      "title": "澳大利亚工会就AI引发的裁员，寻求与WiseTech紧急会谈",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcqkk7312548.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcusn1453039.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "商务部：将日有关实体列入出口管制管控名单和关注名单完全正当、合理、合法",
+      "title": "加皇资本市场：安联的业绩预期逊色",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-02-26/doc-inhpcqkq1525914.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcusk4348038.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "商务部回应近期将举行的第六轮中美经贸磋商",
+      "title": "新加坡的Grab公司押注人工智能与新服务，目标2028年利润增至三倍",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-02-26/doc-inhpcqkq1527376.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpcush7231039.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
