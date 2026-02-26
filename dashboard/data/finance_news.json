@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-02-26T08:30:17.308060",
+  "update_time": "2026-02-26T09:30:22.722122",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "美政府给新伊核协议设限内容遭披露：不得设置到期条款",
+      "title": "量子解锁1.0：IBM详解量子计算五大焦点问题",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766216",
+      "url": "https://wallstreetcn.com/articles/3766152",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "业绩稳健、电话会解释“AI冲击”，“SaaS巨头”Salesforce股价依旧重挫",
+      "title": "下周齐聚白宫，美国科技巨头将签协议承诺“自建数据中心电力”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766215",
+      "url": "https://wallstreetcn.com/articles/3766219",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "全球最大衍生品交易所“又掉线”！芝交所黄金期货等市场“交易中断1.5小时”",
+      "title": "英伟达电话会：黄仁勋高呼代理AI拐点已至，“推理即收入”，当前的太空数据中心经济还是“贫瘠的”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766211",
+      "url": "https://wallstreetcn.com/articles/3766208",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "剑桥科技遭大摩减持约63.14万股 每股作价约68.06港元",
+      "title": "光大期货0226黄金点评：年后流动性向好，黄金维持高位震荡格局",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-26/doc-inhpaxnw1653629.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "宁德时代获摩根大通增持约15.5万股 每股均价约531.72港元",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-26/doc-inhpaxnw1653422.shtml",
+      "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-02-26/doc-inhpaxnu4583952.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "牧原股份获FIDELITY FUNDS增持42.65万股 每股均价约39.25港元",
+      "title": "快讯：恒指开盘涨0.95% 恒科指涨0.46% 科网股涨多跌少 内房股活跃 锂电池板块部分上涨",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-26/doc-inhpaxnr0639973.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-26/doc-inhpccus4455674.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "澜起科技遭摩根大通减持约27.69万股 每股均价约215.62港元",
+      "title": "韩国央行维持利率不变，上调今年经济增长预期至2%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-26/doc-inhpaxnu4550119.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpaxnr0671492.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "光大期货：2月26日农产品日报",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-26/doc-inhpaxnu4577621.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
