@@ -1,39 +1,31 @@
 {
-  "update_time": "2026-02-27T04:30:25.499196",
+  "update_time": "2026-02-27T05:30:34.245465",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 3,
   "news": [
     {
-      "title": "起诉Meta和YouTube、指控其导致社交媒体成瘾的女性预计将在庭审中作证",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpewcu6928452.shtml",
+      "title": "内存芯片短缺将致2026年全球智能手机市场萎缩13%，廉价手机时代或终结",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766297",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "先锋集团就反垄断诉讼与共和党各州达成2950万美元和解",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpewcu6926322.shtml",
+      "title": "弃中金改聘建投，正雅齿科二度冲刺IPO",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766292",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "委内瑞拉加油站运营商因收益微薄宣布进入紧急状态",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpewcy1096010.shtml",
+      "title": "春节消费结构分化房地产承压，外部约束驱动日本贸易结构优化，财政扩张致银行久期错配风险凸显---0226宏观脱水",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766270",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "油价小幅下跌，市场聚焦伊朗与美国核谈",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpewcu6924543.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     }
   ]
 }
