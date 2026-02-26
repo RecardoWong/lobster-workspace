@@ -1,6 +1,63 @@
 {
-  "update_time": "2026-02-26T20:30:43.844554",
+  "update_time": "2026-02-26T21:30:22.769732",
   "source_count": 3,
-  "total_count": 0,
-  "news": []
+  "total_count": 7,
+  "news": [
+    {
+      "title": "百度Q4电话会：AI业务驱动增长，百度AI云2025年营收300亿元",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766280",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "这一次币圈寒冬，底层基建没有崩",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766275",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "特斯拉加州无人驾驶“画饼”？监管记录显示：路测里程已连续六年为零",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766277",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "报道：美方在伊朗核谈判中提出强硬条件 要求拆除核设施并交出浓缩铀",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpeffz0370672.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "IonQ超越目标，上调2026年展望",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpefhe4262582.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "WBD竞购战推高Netflix股价",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpefhh1364182.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "英伟达CEO反驳软件末日论",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpeffz0369774.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    }
+  ]
 }
