@@ -1,63 +1,31 @@
 {
-  "update_time": "2026-02-26T09:30:22.722122",
+  "update_time": "2026-02-26T10:30:29.316033",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
     {
-      "title": "量子解锁1.0：IBM详解量子计算五大焦点问题",
+      "title": "沃什新政策预期冲击下海外流动性趋紧，市场分歧时刻听坦途宏观创始人程坦闭门分享资产风向标",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766152",
+      "url": "https://wallstreetcn.com/articles/3763862",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "下周齐聚白宫，美国科技巨头将签协议承诺“自建数据中心电力”",
+      "title": "创业板跌超1%，锂矿股上演涨停潮，人民币升破6.84关口，恒科指跌近1%，科网股普跌",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766219",
+      "url": "https://wallstreetcn.com/articles/3766223",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "拆解上万份财报后，大摩发现：遭抛售的“服务+周期”反而AI采用率最高、议价能力最强",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766218",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "英伟达电话会：黄仁勋高呼代理AI拐点已至，“推理即收入”，当前的太空数据中心经济还是“贫瘠的”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766208",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "光大期货0226黄金点评：年后流动性向好，黄金维持高位震荡格局",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-02-26/doc-inhpaxnu4583952.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "快讯：恒指开盘涨0.95% 恒科指涨0.46% 科网股涨多跌少 内房股活跃 锂电池板块部分上涨",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-26/doc-inhpccus4455674.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "韩国央行维持利率不变，上调今年经济增长预期至2%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpaxnr0671492.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "光大期货：2月26日农产品日报",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-26/doc-inhpaxnu4577621.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
     }
   ]
 }

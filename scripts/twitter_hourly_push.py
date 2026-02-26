@@ -32,30 +32,50 @@ os.makedirs(PUSHED_DIR, exist_ok=True)
 AUTH_TOKEN = os.getenv('TWITTER_AUTH_TOKEN', '5da5c73c3286e0c825c5a337eb60ffaf93f2620c')
 CT0 = os.getenv('TWITTER_CT0', 'bb867bfa8ae5a410dec9e6537f8aa4f183c43b65c641f9b293a171e8eb8b1b9df359891c89b0e181f4c21bb6e292f422075b77ac3f51a0915fc5e82e2c69c9c5100c14355137082faa36804f10f18ebd')
 
+# 初始化繁简转换器
+try:
+    import opencc
+    _t2s_converter = opencc.OpenCC('t2s')  # 繁体转简体
+except:
+    _t2s_converter = None
+
+def convert_to_simplified(text):
+    """繁体中文转简体中文"""
+    if not text:
+        return text
+    if _t2s_converter:
+        return _t2s_converter.convert(text)
+    return text
+
 def translate_text(text):
-    """翻译文本：英文→中文，使用MyMemory免费API"""
+    """翻译文本：英文→简体中文，繁体→简体"""
     if not text:
         return ""
     
-    # 如果已经有中文，直接返回
+    # 先检查是否有繁体中文，有则转换为简体
+    text = convert_to_simplified(text)
+    
+    # 如果已经有中文（简体），直接返回
     if any('\u4e00' <= char <= '\u9fff' for char in text[:100]):
         return text
     
-    # 使用MyMemory免费翻译API
+    # 使用MyMemory免费翻译API（英文→简体中文）
     try:
         import urllib.request
         import urllib.parse
         
-        # MyMemory免费API
         encoded_text = urllib.parse.quote(text[:500])
-        url = f"https://api.mymemory.translated.net/get?q={encoded_text}&langpair=en|zh"
+        url = f"https://api.mymemory.translated.net/get?q={encoded_text}&langpair=en|zh-CN"
         
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req, timeout=10) as response:
             result = json.loads(response.read().decode('utf-8'))
             translated = result.get('responseData', {}).get('translatedText', '')
             
-            # 检查翻译质量（如果返回的是原文或错误，返回简化版）
+            # 确保翻译结果是简体中文（再次转换以防万一）
+            translated = convert_to_simplified(translated)
+            
+            # 检查翻译质量
             if translated and translated.lower() != text.lower()[:100]:
                 return translated[:200] + "..." if len(translated) > 200 else translated
     except Exception as e:
@@ -152,7 +172,7 @@ def filter_already_pushed(tweets):
     return new_tweets
 
 def save_to_daily_log(tweets):
-    """保存到每日Markdown日志"""
+    """保存到每日Markdown日志 - 美化版"""
     today = datetime.now().strftime('%Y-%m-%d')
     log_file = f"{LOG_DIR}/{today}.md"
     
@@ -161,20 +181,41 @@ def save_to_daily_log(tweets):
     # 如果文件不存在，创建表头
     if not os.path.exists(log_file):
         with open(log_file, 'w', encoding='utf-8') as f:
-            f.write(f"# Twitter 抓取记录 - {today}\n\n")
-            f.write(f"监控账号: elonmusk, jdhasoptions, xiaomucrypto, aistocksavvy\n\n")
+            f.write(f"# 🐦 Twitter 抓取记录 - {today}\n\n")
+            f.write("📊 监控账号: Elon Musk · jdhasoptions · xiaomucrypto · AI Stock Savvy · BlueJay · QQ_Timmy\n\n")
             f.write("---\n\n")
+    
+    # 按账号分组
+    tweets_by_author = {}
+    for t in tweets:
+        author = t.get('author', 'unknown')
+        if author not in tweets_by_author:
+            tweets_by_author[author] = []
+        tweets_by_author[author].append(t)
     
     # 追加本次抓取记录
     with open(log_file, 'a', encoding='utf-8') as f:
-        f.write(f"## [{now}] 第{len(tweets)}条新推文\n\n")
-        for t in tweets:
-            f.write(f"### {t['name']} (@{t['author']})\n")
-            f.write(f"- 时间: {t['time']} ({t['time_ago']})\n")
-            f.write(f"- 原文: {t['text']}\n")
-            f.write(f"- 翻译: {t['translate']}\n")
-            f.write(f"- 🔗 [点击打开推文]({t['url']})\n\n")
-        f.write("---\n\n")
+        f.write(f"\n## 📅 {now} 更新 · {len(tweets)} 条新推文\n\n")
+        
+        for author, author_tweets in tweets_by_author.items():
+            name = author_tweets[0].get('name', author)
+            f.write(f"### 👤 {name} `@{author}`\n\n")
+            
+            for i, t in enumerate(author_tweets, 1):
+                time_display = t.get('time_ago', t.get('time', '未知'))
+                text = t.get('text', '')
+                translate = t.get('translate', '')
+                url = t.get('url', f'https://x.com/{author}')
+                
+                f.write(f"**{i}.** [{time_display}]({url})\n")
+                f.write(f"> 📝 {text}\n")
+                if translate and translate != text:
+                    f.write(f"> 🈯 {translate}\n")
+                f.write("\n")
+            
+            f.write("\n")
+        
+        f.write("---\n")
     
     print(f"✅ 已记录到 {log_file}")
 
