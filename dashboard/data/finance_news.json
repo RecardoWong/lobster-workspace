@@ -1,31 +1,39 @@
 {
-  "update_time": "2026-02-27T05:30:34.245465",
+  "update_time": "2026-02-27T06:30:41.417286",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 4,
   "news": [
     {
-      "title": "内存芯片短缺将致2026年全球智能手机市场萎缩13%，廉价手机时代或终结",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766297",
+      "title": "金价小幅走高 现货黄金涨0.4%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfamr0058460.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "弃中金改聘建投，正雅齿科二度冲刺IPO",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766292",
+      "title": "2月27日美股成交额前20：英伟达跌逾5%，投资者担心AI支出可持续性",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpewct0177864.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "春节消费结构分化房地产承压，外部约束驱动日本贸易结构优化，财政扩张致银行久期错配风险凸显---0226宏观脱水",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766270",
+      "title": "华纳兄弟：派拉蒙修改后的收购要约是“更优方案”",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpewcy1110771.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "赛富时股价因财报超预期、巨额回购及乐观指引而上涨",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpewcu6953739.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
