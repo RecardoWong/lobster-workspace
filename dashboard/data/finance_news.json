@@ -1,31 +1,39 @@
 {
-  "update_time": "2026-02-26T11:30:22.768961",
+  "update_time": "2026-02-26T12:30:34.513890",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 4,
   "news": [
     {
-      "title": "太空光伏，是否会成为下一个星辰大海？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766229",
+      "title": "韩国监管机构对Coupang处以 21.9 亿韩元罚款",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpckam0567236.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "创纪录资金涌入，却换来15年最差相对表现！美股光环褪去，美元警报响起？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766228",
+      "title": "香港本财年摆脱赤字，港股旺、税收增，业界称政府正精准为市场提速、增量、降本",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-02-26/doc-inhpckan7336799.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "比Citrini更悲观：美国AI效率越进步，分配越失灵",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766151",
+      "title": "Salesforce营收展望不温不火 未能缓解对于人工智能颠覆性影响的担忧",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpckam0557374.shtml",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "港股午评：恒指跌0.39% 科指跌1.65% 科网股普跌 风电股强势领涨 建材水泥股集体弱势 东方电气大涨17%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-02-26/doc-inhpckan7332747.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
