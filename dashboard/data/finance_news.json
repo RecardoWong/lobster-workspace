@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-02-26T07:30:30.972952",
+  "update_time": "2026-02-26T08:30:17.308060",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "美联储：政府债券吸引力下降，推动关键利率上升",
+      "title": "美政府给新伊核协议设限内容遭披露：不得设置到期条款",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766206",
+      "url": "https://wallstreetcn.com/articles/3766216",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "英伟达CEO黄仁勋在电话会上表示，企业对代理的应用飙升，Grace Blackwell搭配NVLink是推理的王者。当前的太空数据中心经济还是“贫瘠的”，但形势将随着时间的推移而变化",
+      "title": "业绩稳健、电话会解释“AI冲击”，“SaaS巨头”Salesforce股价依旧重挫",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766208",
+      "url": "https://wallstreetcn.com/articles/3766215",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "AI需求还强！英伟达Q4营收增73%，Q1指引“炸裂”创新高，黄仁勋上调5000亿收入预期 | 财报见闻",
+      "title": "全球最大衍生品交易所“又掉线”！芝交所黄金期货等市场“交易中断1.5小时”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766200",
+      "url": "https://wallstreetcn.com/articles/3766211",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "德银称Anthropic的企业代理将成为软件股的积极催化剂",
+      "title": "剑桥科技遭大摩减持约63.14万股 每股作价约68.06港元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpaxnr0615229.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "AMD与Nutanix联手进行2.5亿美元AI合作",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpaxnr0613974.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-26/doc-inhpaxnw1653629.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Salesforce 预测年收入低于预期 股价下跌",
+      "title": "宁德时代获摩根大通增持约15.5万股 每股均价约531.72港元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpaxnw1631440.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-26/doc-inhpaxnw1653422.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "全球资本开支创下新高之际，英伟达再迎季度业绩纪录",
+      "title": "牧原股份获FIDELITY FUNDS增持42.65万股 每股均价约39.25港元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-26/doc-inhpaxns7386687.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-26/doc-inhpaxnr0639973.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "澜起科技遭摩根大通减持约27.69万股 每股均价约215.62港元",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-26/doc-inhpaxnu4550119.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
