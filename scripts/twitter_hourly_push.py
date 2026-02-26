@@ -402,71 +402,105 @@ def filter_important_tweets(tweets):
     
     return filtered
 
+def classify_tweet(text):
+    """智能分类推文类型"""
+    text_lower = text.lower()
+    
+    # 分类规则
+    if any(k in text_lower for k in ['fed', 'fomc', 'cpi', 'ppi', '通胀', '利率', '降息', ' Powell']):
+        return "📊 宏观"
+    if any(k in text_lower for k in ['$tsla', 'tesla', '特斯拉', '马斯克']):
+        return "🚗 特斯拉"
+    if any(k in text_lower for k in ['$nvda', 'nvidia', '英伟达', '财报', 'earnings']):
+        return "💰 财报"
+    if any(k in text_lower for k in ['ai', '芯片', '半导体', '$amd', '$intc']):
+        return "🤖 AI/芯片"
+    if any(k in text_lower for k in ['存储', '海力士', '三星', 'hbm', 'memory']):
+        return "💾 存储"
+    if any(k in text_lower for k in ['btc', 'bitcoin', 'eth', 'crypto', '加密货币']):
+        return "₿ 加密"
+    
+    return "📰 资讯"
+
+def extract_tickers(text):
+    """提取股票代码"""
+    import re
+    tickers = re.findall(r'\$[A-Z]{1,5}', text.upper())
+    return list(set(tickers))[:3]  # 最多3个
+
+def extract_key_point(text):
+    """提取核心观点（一句话）- 优化版保留更多内容"""
+    # 清理文本
+    text = text.replace('\n', ' ').strip()
+    
+    # 优先找有数字/百分比的句子（通常是要点）
+    import re
+    sentences = re.split(r'[。！.!?]', text)
+    
+    for s in sentences:
+        s = s.strip()
+        if not s:
+            continue
+        # 包含数字/金额/百分比的优先
+        if re.search(r'\d+%|\$\d+|\d+亿|\d+万|\d+倍| billion| million', s, re.IGNORECASE):
+            if len(s) > 10:
+                return s[:100] + "…" if len(s) > 100 else s
+    
+    # 其次找包含股票代码的句子
+    for s in sentences:
+        s = s.strip()
+        if re.search(r'\$[A-Z]{1,5}', s) and len(s) > 15:
+            return s[:100] + "…" if len(s) > 100 else s
+    
+    # 否则返回最长的一句（通常信息最多）
+    longest = max([s.strip() for s in sentences if s.strip()], key=len, default=text)
+    return longest[:120] + "…" if len(longest) > 120 else longest
+
 def format_push_message(tweets):
-    """格式化推送消息 - 美化版"""
+    """格式化推送消息 - 一眼get重点版"""
     if not tweets:
         return None
     
     lines = [
-        "🐦 *Twitter 更新*",
-        f"📅 `{datetime.now().strftime('%H:%M')}`",
-        "",
-        "─" * 25,
+        f"🐦 Twitter {datetime.now().strftime('%H:%M')}",
         ""
     ]
     
-    # 按作者分组
-    tweets_by_author = {}
-    for t in tweets:
+    # 最多显示3条，按重要性排序
+    for i, t in enumerate(tweets[:3], 1):
+        text = t.get('text', '')
+        translate = t.get('translate', '') or text
         author = t.get('author', 'unknown')
-        if author not in tweets_by_author:
-            tweets_by_author[author] = []
-        tweets_by_author[author].append(t)
-    
-    # 格式化每个作者的推文
-    author_count = 0
-    for author, author_tweets in tweets_by_author.items():
-        if author_count >= 3:  # 最多显示3个作者
-            break
+        name = t.get('name', author)
+        time_ago = t.get('time_ago', '')
+        tweet_link = t.get('url', f"https://x.com/{author}")
         
-        name = author_tweets[0].get('name', author)
-        lines.append(f"👤 *{name}* `@{author}`")
+        # 用中文内容分析（优先翻译）
+        content_for_analysis = translate if translate and translate != text else text
+        
+        # 1. 分类标签
+        tag = classify_tweet(content_for_analysis)
+        
+        # 2. 股票代码
+        tickers = extract_tickers(text)
+        ticker_str = " ".join(tickers) if tickers else ""
+        
+        # 3. 核心观点
+        key_point = extract_key_point(content_for_analysis)
+        
+        # 格式化输出
+        lines.append(f"{tag} {'|' if ticker_str else ''} {ticker_str}")
+        lines.append(f"💡 {key_point}")
+        lines.append(f"↳ {name} · [{time_ago}]({tweet_link})")
         lines.append("")
-        
-        # 每个作者最多显示2条
-        for i, t in enumerate(author_tweets[:2], 1):
-            text = t.get('text', '')
-            # 清理文本，移除多余换行
-            text = ' '.join(text.split())
-            # 截断长文本
-            if len(text) > 120:
-                text = text[:120] + "..."
-            
-            time_ago = t.get('time_ago', '')
-            tweet_link = t.get('url', f"https://x.com/{author}")
-            
-            lines.append(f"*{i}.* {text}")
-            lines.append(f"   [查看推文]({tweet_link}) · {time_ago}")
-            lines.append("")
-        
-        if len(author_tweets) > 2:
-            lines.append(f"   _...还有 {len(author_tweets) - 2} 条_")
-            lines.append("")
-        
-        lines.append("─" * 25)
-        lines.append("")
-        author_count += 1
     
-    # 统计信息
-    total_authors = len(tweets_by_author)
-    total_tweets = len(tweets)
-    if total_authors > 3 or total_tweets > sum(len(v) for v in list(tweets_by_author.values())[:3]):
-        lines.append(f"_共 {total_tweets} 条来自 {total_authors} 个账号_")
+    # 如果有更多
+    if len(tweets) > 3:
+        lines.append(f"_…还有 {len(tweets) - 3} 条_")
     
     message = "\n".join(lines)
-    # Telegram 消息限制约 4000 字符
     if len(message) > 3800:
-        message = message[:3800] + "\n\n_...内容已截断_"
+        message = message[:3800] + "\n…"
     
     return message
 
