@@ -401,13 +401,104 @@ async def fetch_user_tweets(username, name):
             await browser.close()
             return []
 
+async def fetch_user_tweets_optimized(page, username, name):
+    """在已有页面上下文中抓取单个用户的最新推文"""
+    try:
+        await page.goto(f'https://x.com/{username}', timeout=30000)
+        await asyncio.sleep(3)  # 减少等待时间
+        
+        tweets_data = []
+        tweets = await page.query_selector_all('[data-testid="tweet"]')
+        
+        for tweet in tweets[:3]:  # 只取前3条
+            try:
+                text_elem = await tweet.query_selector('[data-testid="tweetText"]')
+                text = await text_elem.inner_text() if text_elem else ''
+                
+                time_elem = await tweet.query_selector('time')
+                time_str = await time_elem.get_attribute('datetime') if time_elem else ''
+                
+                # 只保留6小时内的新推文
+                try:
+                    tweet_time = datetime.fromisoformat(time_str.replace('Z', '+00:00'))
+                    age_hours = (datetime.now(timezone.utc) - tweet_time).total_seconds() / 3600
+                    if age_hours > 6:
+                        continue
+                except:
+                    pass
+                
+                # 尝试获取推文ID
+                tweet_id = ''
+                try:
+                    link_elem = await tweet.query_selector('a[href*="/status/"]')
+                    if link_elem:
+                        href = await link_elem.get_attribute('href')
+                        if href and '/status/' in href:
+                            tweet_id = href.split('/status/')[-1].split('?')[0]
+                except:
+                    pass
+                
+                # 构建完整推文链接
+                if tweet_id:
+                    tweet_url = f'https://x.com/{username}/status/{tweet_id}'
+                else:
+                    tweet_url = f'https://x.com/{username}'
+                
+                tweets_data.append({
+                    'author': username,
+                    'name': name,
+                    'text': text,
+                    'translate': translate_text(text),
+                    'time': time_str,
+                    'time_ago': get_time_ago(time_str),
+                    'tweet_id': tweet_id,
+                    'url': tweet_url,
+                    'captured_at': datetime.now().isoformat()
+                })
+            except:
+                continue
+        
+        return tweets_data
+        
+    except Exception as e:
+        print(f"  [错误] 抓取 @{username} 失败: {e}")
+        return []
+
 async def fetch_all():
-    """抓取所有账号"""
+    """抓取所有账号 - 使用单一浏览器实例优化"""
     all_new_tweets = []
     
-    for username, name in MONITOR_ACCOUNTS.items():
-        tweets = await fetch_user_tweets(username, name)
-        all_new_tweets.extend(tweets)
+    # 设置环境变量
+    os.environ['PLAYWRIGHT_BROWSERS_PATH'] = '0'
+    
+    async with async_playwright() as p:
+        try:
+            browser = await p.chromium.launch(
+                headless=True, 
+                args=['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+            )
+        except Exception as e:
+            print(f"[错误] 启动浏览器失败: {e}")
+            return []
+        
+        context = await browser.new_context(viewport={'width': 1920, 'height': 1080})
+        
+        await context.add_cookies([
+            {'name': 'auth_token', 'value': AUTH_TOKEN, 'domain': '.x.com', 'path': '/'},
+            {'name': 'ct0', 'value': CT0, 'domain': '.x.com', 'path': '/'}
+        ])
+        
+        page = await context.new_page()
+        
+        # 依次抓取所有账号
+        for username, name in MONITOR_ACCOUNTS.items():
+            print(f"  正在抓取 @{username}...")
+            tweets = await fetch_user_tweets_optimized(page, username, name)
+            all_new_tweets.extend(tweets)
+            if tweets:
+                print(f"    ✓ 获取 {len(tweets)} 条推文")
+        
+        await browser.close()
     
     return all_new_tweets
 
