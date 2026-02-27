@@ -56,9 +56,10 @@ class NewsFetcher:
         
         Args:
             api_key: NewsAPI Key (免费申请: https://newsapi.org/)
-                    如果没有，使用 demo key (功能受限)
+                    如果没有，尝试从环境变量读取，否则使用 demo key (功能受限)
         """
-        self.api_key = api_key or "demo"
+        import os
+        self.api_key = api_key or os.getenv('NEWSAPI_KEY', 'demo')
         self._request_count = 0
         self._max_requests = 100  # 免费版限制
     

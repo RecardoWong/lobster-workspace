@@ -27,8 +27,10 @@ class FundManager:
         
         Args:
             news_api_key: NewsAPI Key (可选，免费申请 https://newsapi.org/)
+                        如果不提供，自动从环境变量读取
         """
-        self.news_processor = NewsProcessor(news_api_key=news_api_key)
+        import os
+        self.news_processor = NewsProcessor(news_api_key=news_api_key or os.getenv('NEWSAPI_KEY'))
     
     def send_to_telegram(self, message: str) -> bool:
         """推送消息到Telegram"""
