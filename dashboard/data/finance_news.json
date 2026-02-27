@@ -1,24 +1,8 @@
 {
-  "update_time": "2026-02-27T10:30:35.800802",
+  "update_time": "2026-02-27T11:30:25.372036",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
-    {
-      "title": "创业板跌超1%，算力硬件集体调整，稀土拉升，恒科指反弹，生物医药活跃",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766319",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "不仅全员失业，资本主义也将终结？德银重磅推演AI发展两种终局",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766318",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
     {
       "title": "沃什新政预期冲击下海外流动性趋紧，市场分歧时刻听坦途宏观创始人程坦闭门分享资产风向标",
       "source": "华尔街见闻",
@@ -26,6 +10,54 @@
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
+    },
+    {
+      "title": "创业板跌超1%，算力硬件集体调整，稀土拉升，恒科指涨1%，科网股回升，生物医药活跃",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766319",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "Salesforce：AI 替代论摧枯拉朽，SaaS 龙头已成 “弃子”？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766321",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "花旗：对长江基建集团出售英国配电商UKPN看法正面 作价具吸引力",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-27/doc-inhpfnzs0884151.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "花旗：将长实集团纳入30日上升催化观察 目标价54.55港元",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-27/doc-inhpfnzk9993184.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "日本政府将向芯片制造商Rapidus提供2500亿日元新资金",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfnzs0880291.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "Block将裁员四千人 联合创始人直言绝大多数公司都会走到这一步",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfnzk9984068.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }

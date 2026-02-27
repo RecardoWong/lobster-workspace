@@ -60,25 +60,36 @@ def translate_text(text):
     if any('\u4e00' <= char <= '\u9fff' for char in text[:100]):
         return text
     
-    # 使用MyMemory免费翻译API（英文→简体中文）
+    # 使用Google Translate免费API（英文→简体中文）
     try:
         import urllib.request
         import urllib.parse
         
         encoded_text = urllib.parse.quote(text[:500])
-        url = f"https://api.mymemory.translated.net/get?q={encoded_text}&langpair=en|zh-CN"
+        # Google Translate免费API (client=gtx是Google Translate扩展的客户端标识)
+        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q={encoded_text}"
         
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib.request.Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        })
+        
         with urllib.request.urlopen(req, timeout=10) as response:
             result = json.loads(response.read().decode('utf-8'))
-            translated = result.get('responseData', {}).get('translatedText', '')
-            
-            # 确保翻译结果是简体中文（再次转换以防万一）
-            translated = convert_to_simplified(translated)
-            
-            # 检查翻译质量
-            if translated and translated.lower() != text.lower()[:100]:
-                return translated[:200] + "..." if len(translated) > 200 else translated
+            # Google Translate返回格式: [[["翻译结果","原文",...]],...]
+            if result and len(result) > 0 and len(result[0]) > 0:
+                translated = result[0][0][0]
+                
+                # 确保翻译结果是简体中文（再次转换以防万一）
+                translated = convert_to_simplified(translated)
+                
+                # 检查翻译质量
+                if translated and translated.lower() != text.lower()[:100]:
+                    return translated[:200] + "..." if len(translated) > 200 else translated
+    except urllib.error.HTTPError as e:
+        if e.code == 429:
+            print(f"  Google翻译API限流(429)，稍后重试")
+        else:
+            print(f"  Google翻译API错误: HTTP {e.code}")
     except Exception as e:
         print(f"  翻译API失败: {e}")
     
