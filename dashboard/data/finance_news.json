@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-02-27T23:30:16.188798",
+  "update_time": "2026-02-28T00:30:17.992154",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "英国债市下跌，首相斯塔默惨败，工党在地区补选中屈居第三",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766392",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "意外升温！美国1月核心PPI创一年最快增速，美联储货币政策复杂化加剧",
       "source": "华尔街见闻",
@@ -20,41 +28,33 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "估值7300亿美元！OpenAI完成1100亿美元融资，亚马逊投了500亿",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766389",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "美国2月MNI芝加哥商业景气指数升至57.7 预期值为52.1",
+      "title": "加拿大第四季度GDP萎缩0.6% 受库存下降拖累",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhphqny6523919.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuw6414893.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "奈飞股价飙升8.5%，因流媒体巨头放弃收购华纳兄弟",
+      "title": "NASA突然为登月计划新增一次载人试飞",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhphqpe0625095.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuw6411172.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "韦德布什称赛富时为AI热潮的\"长期赢家\"",
+      "title": "派拉蒙收购华纳兄弟探索，对CNN意味着什么？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhphqpe0624282.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuw6406379.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "指红海出现“未预见的限制” 马士基让部分船舶改道绕行好望角",
+      "title": "英国重新考虑78%的北海石油税 因投资放缓",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhphqpa3522071.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuy3404236.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
