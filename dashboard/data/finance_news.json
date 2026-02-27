@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-02-27T07:30:32.830918",
+  "update_time": "2026-02-27T08:30:21.088398",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "华尔街见闻早餐FM-Radio | 2026年2月27日",
+      "title": "英伟达隔夜重挫，机构抛售，散户狂买？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766299",
+      "url": "https://wallstreetcn.com/articles/3766313",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "英伟达重挫引发板块轮动，软件股上演逼空，避险情绪撑债汇齐涨，金涨银跌，纽铜三连涨",
+      "title": "Block裁员近半，飙升24%！CEO：AI提升效率，未来一年大多公司会做类似调整",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766225",
+      "url": "https://wallstreetcn.com/articles/3766301",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "“沪七条”落地首日银行房贷业务咨询量明显增加",
+      "title": "五角大楼要求“所有权限”，Anthropic拒绝，但马斯克的xAI同意了",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766304",
+      "url": "https://wallstreetcn.com/articles/3766311",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "委内瑞拉代总统呼吁特朗普解除美国制裁",
+      "title": "美能源部长预计到月底委内瑞拉石油销售额将达20亿美元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfams6869029.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "Netflix将投资200亿美元用于内容 此前将华纳让与派拉蒙",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfamr0091203.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfhtq6763197.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "谷歌与Meta达成数十亿美元AI芯片协议 加剧与英伟达竞争",
+      "title": "媒体：特朗普周四听取了有关伊朗军事选项的简报",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfamu3909328.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfhts3797883.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "阿斯麦称新一代芯片制造设备已准备就绪，价格贵一倍",
+      "title": "中天策略:2月26日市场分析",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfamu3907946.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-27/doc-inhpfhtq6761783.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "委内瑞拉暂停马杜罗执政期间签署的19份石油合同",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfhtq6761219.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
