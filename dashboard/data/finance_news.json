@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-28T03:30:05.302690",
+  "update_time": "2026-02-28T04:30:40.060378",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "破产私募信贷巨头MFS还有“大雷”！债权人警告双重质押或致13亿美元缺口",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766393",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "清退超3000家！这场中国保险业“大行动”怎么回事",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766390",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "我驻伊朗大使馆：郑重提醒在伊中国公民密切关注安全形势变化",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766394",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "欧洲股市创2013年以来最长月度连涨 投资者转向美国以外市场",
+      "title": "美国SEC发布外国公司监管新规 要求高管限时披露股票交易",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzas9552523.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzaw3336449.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普称他与普京交谈过 希望结束冲突",
+      "title": "避险买盘推动美债扩大涨势 2年期国债收益率创2022年来新低",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzau6329334.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzau6369751.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "信贷市场“蟑螂”阴影再现 MFS危机牵扯华尔街大行数亿敞口",
+      "title": "美国债市单月表现料创一年来最佳 10年期国债收益率跌破4%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuu9673844.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzay0437512.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普喊话购房者：再等等就能获得非常低的利率",
+      "title": "多国从中东撤侨撤员 特朗普直言对伊朗“不悦”",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuy3434720.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzay0437059.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
