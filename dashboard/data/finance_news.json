@@ -1,31 +1,63 @@
 {
-  "update_time": "2026-02-28T02:30:20.813601",
+  "update_time": "2026-02-28T03:30:05.302690",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
-      "title": "英国债市下跌，首相斯塔默惨败，工党在地区补选中屈居第三",
+      "title": "破产私募信贷巨头MFS还有“大雷”！债权人警告双重质押或致13亿美元缺口",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766392",
+      "url": "https://wallstreetcn.com/articles/3766393",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "意外升温！美国1月核心PPI创一年最快增速，美联储货币政策复杂化加剧",
+      "title": "清退超3000家！这场中国保险业“大行动”怎么回事",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766388",
+      "url": "https://wallstreetcn.com/articles/3766390",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "超预期PPI打压降息预期，AI担忧发酵，美股指集体低开，金银油携手大涨，美债上扬，人民币贬近150点",
+      "title": "我驻伊朗大使馆：郑重提醒在伊中国公民密切关注安全形势变化",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766324",
+      "url": "https://wallstreetcn.com/articles/3766394",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "欧洲股市创2013年以来最长月度连涨 投资者转向美国以外市场",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzas9552523.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "特朗普称他与普京交谈过 希望结束冲突",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzau6329334.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "信贷市场“蟑螂”阴影再现 MFS危机牵扯华尔街大行数亿敞口",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuu9673844.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "特朗普喊话购房者：再等等就能获得非常低的利率",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuy3434720.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
