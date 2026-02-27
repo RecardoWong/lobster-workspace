@@ -27,7 +27,7 @@ const CONFIG = {
   
   // 召回设置
   topK: 5,              // 召回 top-5 相关条目
-  similarityThreshold: 0.5,  // 相似度阈值 (本地嵌入建议0.5，API嵌入建议0.7)
+  similarityThreshold: process.env.VOYAGE_API_KEY ? 0.65 : 0.5,  // 有API时用0.65，本地用0.5
   
   // 路径
   hotMemory: '/root/.openclaw/workspace/MEMORY.md',
@@ -69,10 +69,72 @@ function simpleEmbedding(text) {
   return vector.map(v => v / (norm || 1));
 }
 
+// 调用 Voyage AI API 获取嵌入
+async function getVoyageEmbedding(text) {
+  if (!CONFIG.voyageApiKey) {
+    console.log('⚠️  VOYAGE_API_KEY 未设置，使用本地嵌入');
+    return simpleEmbedding(text);
+  }
+  
+  try {
+    const https = require('https');
+    const postData = JSON.stringify({
+      input: text,
+      model: 'voyage-2'  // Voyage 2 模型，性价比高
+    });
+    
+    const options = {
+      hostname: 'api.voyageai.com',
+      port: 443,
+      path: '/v1/embeddings',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${CONFIG.voyageApiKey}`,
+        'Content-Length': Buffer.byteLength(postData)
+      }
+    };
+    
+    return new Promise((resolve, reject) => {
+      const req = https.request(options, (res) => {
+        let data = '';
+        res.on('data', (chunk) => data += chunk);
+        res.on('end', () => {
+          try {
+            const response = JSON.parse(data);
+            if (response.data && response.data[0] && response.data[0].embedding) {
+              resolve(response.data[0].embedding);
+            } else {
+              console.log('⚠️  Voyage API 返回异常，使用本地嵌入');
+              resolve(simpleEmbedding(text));
+            }
+          } catch (e) {
+            console.log('⚠️  Voyage API 解析失败，使用本地嵌入');
+            resolve(simpleEmbedding(text));
+          }
+        });
+      });
+      
+      req.on('error', (e) => {
+        console.log(`⚠️  Voyage API 请求失败: ${e.message}`);
+        resolve(simpleEmbedding(text));
+      });
+      
+      req.write(postData);
+      req.end();
+    });
+  } catch (e) {
+    console.log('⚠️  Voyage API 异常，使用本地嵌入');
+    return simpleEmbedding(text);
+  }
+}
+
 // 调用嵌入API
 async function getEmbedding(text, provider = CONFIG.provider) {
-  // 简化版本：使用本地哈希嵌入
-  // 实际使用时替换为真实API调用
+  if (provider === 'voyage' && CONFIG.voyageApiKey) {
+    return getVoyageEmbedding(text);
+  }
+  // 降级到本地嵌入
   return simpleEmbedding(text);
 }
 

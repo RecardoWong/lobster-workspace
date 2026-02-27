@@ -1,15 +1,19 @@
 # HEARTBEAT.md - 定时检查任务
 
-## 检查 AI 日志压缩请求
-- 检查 `/tmp/ai_compress_logs_requested` 标记文件
-- 如果存在，执行日志压缩任务
-- 压缩完成后删除标记文件
+## 当前任务
 
-## 日志压缩任务
-1. 扫描 `/root/.openclaw/workspace/lobster-workspace/logs/*.log`
-2. 找出超过7天的日志文件
-3. 逐个分析内容，提取精华
-4. 生成记忆条目（格式: - [Px][日期] 内容）
-5. 追加到 `memory/2026-02-20.md`
-6. 移动原文到 `logs/archive/`
-7. 创建 `.compressed` 标记
+### 1. 检查每日市场早报
+- 确认每日8:30的Twitter复盘+FRED数据任务正常运行
+- 检查 `memory/daily_market_report_YYYY-MM-DD.md` 是否生成
+
+### 2. 检查Twitter监控
+- 确认每小时推送正常
+- 检查 `memory/twitter_logs/` 日志记录
+
+### 3. 检查代码健康度
+- 关注每日代码文档巡查报告
+- 优先处理高优先级问题
+
+---
+
+*注: 原日志压缩功能已迁移到独立任务*

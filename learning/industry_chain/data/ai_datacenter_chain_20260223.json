@@ -1,0 +1,107 @@
+{
+  "analysis_time": "2026-02-23T07:49:09.275732",
+  "bottlenecks": [
+    {
+      "tier": "upstream",
+      "segment": "GPU/AI芯片",
+      "players": [
+        "NVDA",
+        "AMD",
+        "INTC"
+      ],
+      "growth": "+120% YoY",
+      "note": "核心算力来源，供不应求"
+    },
+    {
+      "tier": "upstream",
+      "segment": "HBM高带宽内存",
+      "players": [
+        "SK海力士",
+        "三星电子",
+        "美光"
+      ],
+      "growth": "+85% YoY",
+      "note": "AI芯片关键配套，产能紧张"
+    },
+    {
+      "tier": "upstream",
+      "segment": "先进封装",
+      "players": [
+        "台积电",
+        "日月光",
+        "Amkor"
+      ],
+      "growth": "+100% YoY",
+      "note": "CoWoS产能是瓶颈，2026年翻倍"
+    }
+  ],
+  "opportunities": [
+    {
+      "type": "短期",
+      "theme": "上游瓶颈环节",
+      "description": "GPU/HBM/先进封装供不应求，产能是核心变量",
+      "tickers": [
+        "NVDA",
+        "TSMC",
+        "日月光"
+      ],
+      "catalyst": "CoWoS产能释放进度"
+    },
+    {
+      "type": "中期",
+      "theme": "国产替代",
+      "description": "光模块、散热等中游环节中国企业快速崛起",
+      "tickers": [
+        "中际旭创",
+        "工业富联",
+        "奇鋐"
+      ],
+      "catalyst": "800G光模块放量、液冷渗透率提升"
+    },
+    {
+      "type": "长期",
+      "theme": "云服务商AI货币化",
+      "description": "云厂商AI服务收入能否覆盖CAPEX投入",
+      "tickers": [
+        "MSFT",
+        "AMZN",
+        "GOOGL"
+      ],
+      "catalyst": "AI服务收入增速"
+    }
+  ],
+  "risks": [
+    {
+      "risk": "产能过剩风险",
+      "description": "2025下半年GPU产能释放，供需缺口收窄",
+      "timeline": "2025H2-2026",
+      "impact": "上游毛利率承压"
+    },
+    {
+      "risk": "地缘政治",
+      "description": "美国对华AI芯片出口管制升级",
+      "timeline": "持续",
+      "impact": "中国AI产业链受限"
+    },
+    {
+      "risk": "技术路线变化",
+      "description": "ASIC芯片崛起，通用GPU需求下降",
+      "timeline": "2026+",
+      "impact": "NVDA dominance受挑战"
+    },
+    {
+      "risk": "CAPEX放缓",
+      "description": "云厂商AI投入ROI不达预期，缩减开支",
+      "timeline": "视AI货币化进度",
+      "impact": "全产业链需求下滑"
+    }
+  ],
+  "chain_summary": {
+    "total_segments": 9,
+    "bottleneck_count": 3,
+    "avg_growth_rate": "+65% YoY",
+    "hottest_segment": "先进封装",
+    "key_catalyst": "CoWoS产能",
+    "investment_theme": "抓上游瓶颈，看国产替代"
+  }
+}

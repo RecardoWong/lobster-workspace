@@ -1,17 +1,10 @@
 # USER.md - About Your Human
 
-_Learn about the person you're helping. Update this as you go._
-
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
-
-## Context
-
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
-
----
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+- **Name:** 老板
+- **What to call them:** 老板
+- **Pronouns:** 
+- **Timezone:** 北京时间 (GMT+8)
+- **Notes:** 
+  - 偏好中文回复，技术内容可夹英文
+  - 关注财经、科技、加密货币、AI数据中心等领域
+  - 有多个自动化监控项目在运行

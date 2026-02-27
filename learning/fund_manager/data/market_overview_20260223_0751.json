@@ -1,0 +1,49 @@
+{
+  "update_time": "2026-02-23T07:51:37.396419",
+  "stocks": {
+    "02577.HK": {
+      "error": "invalid literal for int() with base 10: '1854877.0'",
+      "symbol": "02577"
+    }
+  },
+  "indices": {
+    "nasdaq": {
+      "error": "could not convert string to float: '.IXIC'",
+      "index": "nasdaq"
+    },
+    "sp500": {
+      "error": "无法解析数据",
+      "raw": "v_pv_none_match=\"1\";\n"
+    },
+    "hsi": {
+      "error": "could not convert string to float: 'HSI'",
+      "index": "hsi"
+    },
+    "hstech": {
+      "error": "could not convert string to float: 'HSTECH'",
+      "index": "hstech"
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "symbol": "BTC",
+      "price": 67592.09,
+      "change": -412.66,
+      "change_pct": -0.607,
+      "volume": 8147.99202,
+      "high_24h": 68245.0,
+      "low_24h": 67190.0,
+      "update_time": "2026-02-23T07:51:37.749737"
+    },
+    "ETH": {
+      "symbol": "ETH",
+      "price": 1952.19,
+      "change": -22.0,
+      "change_pct": -1.114,
+      "volume": 154279.0416,
+      "high_24h": 1983.13,
+      "low_24h": 1935.0,
+      "update_time": "2026-02-23T07:51:37.841243"
+    }
+  }
+}

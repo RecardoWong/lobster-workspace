@@ -7,6 +7,7 @@
 
 import sys
 import os
+import subprocess
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from skills.us_earnings import USEarningsFetcher
@@ -19,13 +20,41 @@ from typing import Optional, Dict
 class EarningsReader:
     """财报速读主类"""
     
+    # Telegram推送配置
+    TELEGRAM_TARGET = '5440939697'
+    
     def __init__(self):
         self.us_fetcher = USEarningsFetcher(rate_limit_delay=3.0)
         self.hk_fetcher = HKEarningsFetcher(rate_limit_delay=2.0)
         self.cn_fetcher = CNEarningsFetcher(rate_limit_delay=2.0)
         self.scorer = HealthScorer()
     
-    def analyze(self, code: str, market: str = "auto") -> Optional[Dict]:
+    def send_to_telegram(self, message: str) -> bool:
+        """推送消息到Telegram"""
+        try:
+            env = os.environ.copy()
+            env['PATH'] = '/root/.nvm/versions/node/v22.22.0/bin:' + env.get('PATH', '')
+            
+            cmd = [
+                '/root/.nvm/versions/node/v22.22.0/bin/openclaw',
+                'message', 'send',
+                '--channel', 'telegram',
+                '--target', self.TELEGRAM_TARGET,
+                '--message', message
+            ]
+            result = subprocess.run(cmd, capture_output=True, timeout=30, env=env)
+            if result.returncode == 0:
+                print("✅ Telegram 推送成功")
+                return True
+            else:
+                err = result.stderr.decode()[:100] if result.stderr else '未知错误'
+                print(f"⚠️ Telegram 推送失败: {err}")
+                return False
+        except Exception as e:
+            print(f"❌ Telegram 推送异常: {e}")
+            return False
+    
+    def analyze(self, code: str, market: str = "auto", push_to_telegram: bool = False) -> Optional[Dict]:
         """
         分析财报
         
@@ -75,7 +104,43 @@ class EarningsReader:
         score = self.scorer.score(raw_data)
         
         # 格式化输出
-        return self._format_report(stock_name, raw_data, score, market)
+        report = self._format_report(stock_name, raw_data, score, market)
+        
+        # 推送到Telegram
+        if push_to_telegram and report:
+            self._push_earnings_report(report)
+        
+        return report
+    
+    def _push_earnings_report(self, report: Dict):
+        """推送财报报告到Telegram"""
+        lines = []
+        lines.append(f"📊 {report['stock_name']} 财报速读")
+        lines.append("=" * 40)
+        lines.append(f"🎯 综合评级: {report['rating']} ({report['total_score']}分)")
+        
+        lines.append("\n📈 5维评分:")
+        for dim, score in report['dimension_scores'].items():
+            lines.append(f"• {dim}: {score}")
+        
+        lines.append("\n💰 核心指标:")
+        for metric, value in report['key_metrics'].items():
+            lines.append(f"• {metric}: {value}")
+        
+        if report['positives']:
+            lines.append("\n✅ 积极信号:")
+            for p in report['positives'][:3]:
+                lines.append(f"• {p}")
+        
+        if report['warnings']:
+            lines.append("\n⚠️ 风险信号:")
+            for w in report['warnings'][:3]:
+                lines.append(f"• {w}")
+        
+        lines.append(f"\n💡 总结: {report['summary']}")
+        
+        message = "\n".join(lines)
+        self.send_to_telegram(message)
     
     def _detect_market(self, code: str) -> str:
         """自动识别市场"""

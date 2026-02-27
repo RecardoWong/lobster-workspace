@@ -12,10 +12,14 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from skills.news_processor import NewsProcessor
 from typing import Dict, Optional
 from datetime import datetime
+import subprocess
 
 
 class FundManager:
     """基金经理系统"""
+    
+    # Telegram推送配置
+    TELEGRAM_TARGET = '5440939697'
     
     def __init__(self, news_api_key: Optional[str] = None):
         """
@@ -26,7 +30,32 @@ class FundManager:
         """
         self.news_processor = NewsProcessor(news_api_key=news_api_key)
     
-    def daily_market_scan(self) -> Dict:
+    def send_to_telegram(self, message: str) -> bool:
+        """推送消息到Telegram"""
+        try:
+            env = os.environ.copy()
+            env['PATH'] = '/root/.nvm/versions/node/v22.22.0/bin:' + env.get('PATH', '')
+            
+            cmd = [
+                '/root/.nvm/versions/node/v22.22.0/bin/openclaw',
+                'message', 'send',
+                '--channel', 'telegram',
+                '--target', self.TELEGRAM_TARGET,
+                '--message', message
+            ]
+            result = subprocess.run(cmd, capture_output=True, timeout=30, env=env)
+            if result.returncode == 0:
+                print("✅ Telegram 推送成功")
+                return True
+            else:
+                err = result.stderr.decode()[:100] if result.stderr else '未知错误'
+                print(f"⚠️ Telegram 推送失败: {err}")
+                return False
+        except Exception as e:
+            print(f"❌ Telegram 推送异常: {e}")
+            return False
+    
+    def daily_market_scan(self, push_to_telegram: bool = False) -> Dict:
         """
         每日市场扫描
         
@@ -97,7 +126,48 @@ class FundManager:
             }
         
         print("\n✅ 市场扫描完成")
+        
+        # 推送到Telegram
+        if push_to_telegram:
+            self._push_daily_report(report)
+        
         return report
+    
+    def _push_daily_report(self, report: Dict):
+        """推送每日报告到Telegram"""
+        lines = []
+        lines.append(f"📊 每日市场扫描 - {report['date']}")
+        lines.append("=" * 40)
+        
+        # 宏观数据
+        macro = report['sections'].get('macro_data', {})
+        if macro.get('status') == 'success':
+            lines.append("\n🌍 宏观数据:")
+            if macro.get('fed_funds_rate'):
+                lines.append(f"• 联邦基金利率: {macro['fed_funds_rate']['value']}%")
+            if macro.get('treasury_10y'):
+                lines.append(f"• 10年期国债: {macro['treasury_10y']['value']}%")
+            if macro.get('yield_spread') is not None:
+                spread = macro['yield_spread']
+                status = "⚠️倒挂" if macro.get('inverted') else "正常"
+                lines.append(f"• 收益率利差: {spread}% {status}")
+        
+        # 新闻情感
+        news = report['sections'].get('news_sentiment', {})
+        if news.get('status') == 'success':
+            summary = news.get('sentiment_summary', {})
+            lines.append(f"\n🎭 市场情绪: {summary.get('mood', 'N/A')}")
+            lines.append(f"• 正面: {summary.get('positive_ratio', 0)}%")
+            lines.append(f"• 负面: {summary.get('negative_ratio', 0)}%")
+            
+            topics = news.get('hot_topics', [])
+            if topics:
+                lines.append("\n🔥 热门主题:")
+                for t in topics[:3]:
+                    lines.append(f"• {t['topic']}")
+        
+        message = "\n".join(lines)
+        self.send_to_telegram(message)
     
     def print_daily_report(self, report: Dict):
         """打印每日报告"""

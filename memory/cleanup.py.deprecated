@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+"""
+记忆淘汰脚本
+统一规则：P0=永久, P1=90天, P2=30天, 上限200行
+
+用法:
+  python3 memory/cleanup.py MEMORY.md              # 预览模式
+  python3 memory/cleanup.py MEMORY.md --apply      # 实际执行
+  python3 memory/cleanup.py MEMORY.md --archive memory/archive.md --apply
+"""
+
+import sys
+sys.path.insert(0, '/root/.openclaw/workspace/memory')
+
+# 直接导入 cleanup_v2 的主函数
+from cleanup_v2 import main
+
+if __name__ == '__main__':
+    main()

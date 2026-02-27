@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-02-22T21:15:27.962603",
+  "fred": {
+    "rating": "\u4e2d\u6027",
+    "net_liquidity": 5700.667504000001,
+    "liquidity_change": -0.0040994678507331695,
+    "fed_assets": 6613.395,
+    "sofr": 3.67,
+    "yield_spread": 0.6,
+    "risks": [],
+    "action": "\u7ef4\u6301\u914d\u7f6e"
+  }
+}
