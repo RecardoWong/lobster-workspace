@@ -1,0 +1,72 @@
+# Lobster Workspace Git忽略配置
+
+# 环境变量文件 (包含敏感信息)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 日志文件
+*.log
+logs/
+log/
+
+# 数据文件 (大文件/敏感数据)
+*.csv
+*.xlsx
+*.db
+*.sqlite3
+data/raw/
+data/cache/
+
+# 输出/报告
+dashboard/output/
+reports/
+*.png
+*.jpg
+*.pdf
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# 密钥文件
+*.pem
+*.key
+secrets.json
+credentials.json
+twitter_credentials.json
