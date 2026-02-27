@@ -10,10 +10,17 @@ import os
 import subprocess
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from skills.us_earnings import USEarningsFetcher
-from skills.hk_earnings import HKEarningsFetcher
-from skills.cn_earnings import CNEarningsFetcher
-from skills.health_scorer import HealthScorer
+try:
+    from skills.us_earnings import USEarningsFetcher
+    from skills.hk_earnings import HKEarningsFetcher
+    from skills.cn_earnings import CNEarningsFetcher
+    from skills.health_scorer import HealthScorer
+except ImportError:
+    # 直接导入（当作为模块被导入时）
+    from learning.earnings_reader.skills.us_earnings import USEarningsFetcher
+    from learning.earnings_reader.skills.hk_earnings import HKEarningsFetcher
+    from learning.earnings_reader.skills.cn_earnings import CNEarningsFetcher
+    from learning.earnings_reader.skills.health_scorer import HealthScorer
 from typing import Optional, Dict
 
 
@@ -24,7 +31,7 @@ class EarningsReader:
     TELEGRAM_TARGET = '5440939697'
     
     def __init__(self):
-        self.us_fetcher = USEarningsFetcher(rate_limit_delay=3.0)
+        self.us_fetcher = USEarningsFetcher()  # Alpha Vantage 自带限速
         self.hk_fetcher = HKEarningsFetcher(rate_limit_delay=2.0)
         self.cn_fetcher = CNEarningsFetcher(rate_limit_delay=2.0)
         self.scorer = HealthScorer()
