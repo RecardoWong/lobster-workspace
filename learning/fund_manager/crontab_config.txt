@@ -1,0 +1,31 @@
+# 投资Agent CRON配置文件
+# 安装: crontab crontab_config.txt
+
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+PYTHON=/usr/bin/python3
+WORK_DIR=/root/.openclaw/workspace/learning/fund_manager
+
+# ==================== 每日任务 ====================
+
+# 8:00 全球市场摘要 (手机推送)
+0 8 * * 1-5 cd $WORK_DIR && $PYTHON cron/morning_brief.py >> logs/cron_morning.log 2>&1
+
+# 10:00 美股盘前分析
+0 10 * * 1-5 cd $WORK_DIR && $PYTHON cron/premarket_analysis.py >> logs/cron_premarket.log 2>&1
+
+# ==================== 每周任务 ====================
+
+# 周一 9:00 上周市场复盘
+0 9 * * 1 cd $WORK_DIR && $PYTHON cron/weekly_review.py >> logs/cron_weekly.log 2>&1
+
+# ==================== 财报季 (需手动激活) ====================
+# 财报季每天盘后分析
+# 0 7 * * 1-5 cd $WORK_DIR && $PYTHON cron/earnings_review.py >> logs/cron_earnings.log 2>&1
+
+# ==================== 实时监控 (后台进程) ====================
+# 实时监控不在CRON中，使用systemd或supervisor运行
+# 启动命令: python3 cron/realtime_monitor.py &
+
+# 日志清理 (每周日)
+0 0 * * 0 find $WORK_DIR/logs -name "*.log" -mtime +7 -delete

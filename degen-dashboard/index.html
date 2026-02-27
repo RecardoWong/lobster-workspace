@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Degen Dashboard | 未来大佬养成中</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        .header {
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .header .subtitle {
+            color: #888;
+            margin-top: 0.5rem;
+        }
+        .goals {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .goal-tag {
+            background: rgba(0,212,255,0.1);
+            border: 1px solid rgba(0,212,255,0.3);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+        .app-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .app-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0,212,255,0.5);
+            box-shadow: 0 10px 40px rgba(0,212,255,0.1);
+        }
+        .app-card.status-done {
+            border-left: 4px solid #00ff88;
+        }
+        .app-card.status-progress {
+            border-left: 4px solid #ffd700;
+        }
+        .app-card.status-pending {
+            border-left: 4px solid #ff6b6b;
+        }
+        .app-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .app-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        .app-desc {
+            color: #888;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        .app-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.8rem;
+        }
+        .tech-tag {
+            background: rgba(123,44,191,0.3);
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+        }
+        .status-tag {
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+        }
+        .status-tag.pending { background: rgba(255,107,107,0.2); color: #ff6b6b; }
+        .status-tag.progress { background: rgba(255,215,0,0.2); color: #ffd700; }
+        .status-tag.done { background: rgba(0,255,136,0.2); color: #00ff88; }
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            font-size: 0.8rem;
+        }
+        .kanban-link {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf);
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 4px 20px rgba(0,212,255,0.3);
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .building {
+            animation: pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 Degen Dashboard</h1>
+        <div class="subtitle">未来大佬养成中 | AI 夜间自动构建系统</div>
+    </div>
+    
+    <div class="goals">
+        <div class="goal-tag">🎯 Degen 土狗股票玩家</div>
+        <div class="goal-tag">💰 全职炒股炒币土狗</div>
+        <div class="goal-tag">📚 学习股票知识面</div>
+        <div class="goal-tag">🚀 成为未来大佬</div>
+    </div>
+
+    <div class="container">
+        <div class="apps-grid">
+            <!-- Dashboard 主框架 -->
+            <div class="app-card status-progress">
+                <div class="app-icon">🏠</div>
+                <div class="app-title">Dashboard 主框架</div>
+                <div class="app-desc">你现在看到的这个界面！集成所有小应用入口</div>
+                <div class="app-meta">
+                    <span class="tech-tag">React + Next.js</span>
+                    <span class="status-tag progress">构建中</span>
+                </div>
+            </div>
+
+            <!-- 投资组合追踪面板 -->
+            <div class="app-card status-pending">
+                <div class="app-icon">📊</div>
+                <div class="app-title">投资组合追踪面板</div>
+                <div class="app-desc">显示持仓、盈亏、资产分布</div>
+                <div class="app-meta">
+                    <span class="tech-tag">HTML + JS</span>
+                    <span class="status-tag pending">等待构建</span>
+                </div>
+            </div>
+
+            <!-- 土狗币筛选器 -->
+            <div class="app-card status-pending">
+                <div class="app-icon">🔍</div>
+                <div class="app-title">土狗币筛选器</div>
+                <div class="app-desc">自动抓取新币信息，按指标排序</div>
+                <div class="app-meta">
+                    <span class="tech-tag">React + Next.js</span>
+                    <span class="status-tag pending">等待构建</span>
+                </div>
+            </div>
+
+            <!-- 市场情报日报 -->
+            <div class="app-card status-pending">
+                <div class="app-icon">📈</div>
+                <div class="app-title">市场情报日报</div>
+                <div class="app-desc">每天早上推送市场动态、热门币种</div>
+                <div class="app-meta">
+                    <span class="tech-tag">HTML + JS</span>
+                    <span class="status-tag pending">等待构建</span>
+                </div>
+            </div>
+
+            <!-- 交易信号提醒 -->
+            <div class="app-card status-pending">
+                <div class="app-icon">⚠️</div>
+                <div class="app-title">交易信号提醒</div>
+                <div class="app-desc">价格突破、鲸鱼异动等自动提醒</div>
+                <div class="app-meta">
+                    <span class="tech-tag">React + Next.js</span>
+                    <span class="status-tag pending">等待构建</span>
+                </div>
+            </div>
+
+            <!-- 股票知识库 -->
+            <div class="app-card status-pending">
+                <div class="app-icon">📖</div>
+                <div class="app-title">股票知识库</div>
+                <div class="app-desc">整理交易知识，可搜索</div>
+                <div class="app-meta">
+                    <span class="tech-tag">HTML + JS</span>
+                    <span class="status-tag pending">等待构建</span>
+                </div>
+            </div>
+
+            <!-- 交易日记 -->
+            <div class="app-card status-pending">
+                <div class="app-icon">🎲</div>
+                <div class="app-title">交易日记</div>
+                <div class="app-desc">记录每笔交易，复盘分析</div>
+                <div class="app-meta">
+                    <span class="tech-tag">React + Next.js</span>
+                    <span class="status-tag pending">等待构建</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        🤖 由 OpenClaw 夜间自动构建 | 每天晚上自动生成新应用
+    </div>
+
+    <a href="./kanban.html" class="kanban-link">📋 Kanban 看板</a>
+
+    <script>
+        // 动态加载任务状态
+        async function loadTasks() {
+            try {
+                const response = await fetch('./kanban/tasks.json');
+                const data = await response.json();
+                console.log('任务数据已加载:', data);
+            } catch (e) {
+                console.log('等待任务数据...');
+            }
+        }
+        loadTasks();
+    </script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+{
+  "stocks": [
+    {
+      "code": "02577",
+      "name": "英诺赛科",
+      "sector": "半导体",
+      "focus": true
+    },
+    {
+      "code": "00700",
+      "name": "腾讯控股",
+      "sector": "互联网"
+    },
+    {
+      "code": "09988",
+      "name": "阿里巴巴-SW",
+      "sector": "互联网"
+    },
+    {
+      "code": "03690",
+      "name": "美团-W",
+      "sector": "互联网"
+    },
+    {
+      "code": "01024",
+      "name": "快手-W",
+      "sector": "互联网"
+    },
+    {
+      "code": "09888",
+      "name": "百度集团-SW",
+      "sector": "互联网"
+    },
+    {
+      "code": "01810",
+      "name": "小米集团-W",
+      "sector": "消费电子"
+    },
+    {
+      "code": "02331",
+      "name": "李宁",
+      "sector": "消费"
+    },
+    {
+      "code": "02020",
+      "name": "安踏体育",
+      "sector": "消费"
+    },
+    {
+      "code": "02318",
+      "name": "中国平安",
+      "sector": "金融"
+    },
+    {
+      "code": "00388",
+      "name": "香港交易所",
+      "sector": "金融"
+    },
+    {
+      "code": "02382",
+      "name": "舜宇光学",
+      "sector": "科技"
+    },
+    {
+      "code": "01478",
+      "name": "丘钛科技",
+      "sector": "科技"
+    },
+    {
+      "code": "09618",
+      "name": "京东集团-SW",
+      "sector": "互联网"
+    },
+    {
+      "code": "01093",
+      "name": "石药集团",
+      "sector": "医药"
+    }
+  ],
+  "watchlist_overview": [
+    {
+      "code": "02577",
+      "name": "英诺赛科",
+      "sector": "半导体",
+      "price": 616.0,
+      "change_pct": -1.91,
+      "pe_ratio": null,
+      "focus": true
+    },
+    {
+      "code": "00700",
+      "name": "腾讯控股",
+      "sector": "互联网",
+      "price": 5220.0,
+      "change_pct": -2.06,
+      "pe_ratio": null,
+      "focus": false
+    },
+    {
+      "code": "09988",
+      "name": "阿里巴巴-SW",
+      "sector": "互联网",
+      "price": 1471.0,
+      "change_pct": -4.91,
+      "pe_ratio": null,
+      "focus": false
+    },
+    {
+      "code": "03690",
+      "name": "美团-W",
+      "sector": "互联网",
+      "price": 807.5,
+      "change_pct": -1.58,
+      "pe_ratio": null,
+      "focus": false
+    },
+    {
+      "code": "01024",
+      "name": "快手-W",
+      "sector": "互联网",
+      "price": 665.0,
+      "change_pct": -2.78,
+      "pe_ratio": null,
+      "focus": false
+    }
+  ],
+  "calendar": [],
+  "update_time": "2026-02-23T07:58:26.766673"
+}

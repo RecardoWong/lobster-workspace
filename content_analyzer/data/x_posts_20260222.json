@@ -1,0 +1,128 @@
+[
+  {
+    "post_id": "mock_6134",
+    "author": "Michael Burry",
+    "handle": "@michaeljburry",
+    "content": "The S&P 500 is at a critical juncture. Here's what the data is telling us:\n\n1. Market breadth is deteriorating\n2. Insider selling at 20-year highs\n3. Consumer credit delinquencies rising\n\nHistory doesn't repeat, but it rhymes. 2007 vibes.",
+    "created_at": "2026-02-21T16:42:01.628883",
+    "metrics": {
+      "views": 2500000,
+      "likes": 45000,
+      "retweets": 18000,
+      "replies": 4500,
+      "bookmarks": 6750,
+      "engagement_rate": 0.0252
+    },
+    "category": "finance",
+    "hashtags": [],
+    "is_viral": true
+  },
+  {
+    "post_id": "mock_7442",
+    "author": "Naval",
+    "handle": "@naval",
+    "content": "How to get rich (without getting lucky):\n\n1. Seek wealth, not money or status\n2. Play iterated games\n3. Pick business partners with high intelligence, energy, and integrity\n4. Learn to sell. Learn to build.\n5. Arm yourself with specific knowledge\n\nA thread...",
+    "created_at": "2026-02-18T16:42:01.629020",
+    "metrics": {
+      "views": 5000000,
+      "likes": 120000,
+      "retweets": 45000,
+      "replies": 12000,
+      "bookmarks": 18000,
+      "engagement_rate": 0.033
+    },
+    "category": "tech",
+    "hashtags": [],
+    "is_viral": true
+  },
+  {
+    "post_id": "mock_4942",
+    "author": "Chamath",
+    "handle": "@chamath",
+    "content": "3 things I learned from losing $100M:\n\n1. Conviction without flexibility is arrogance\n2. Never confuse a bull market for brains\n3. The best investment is in yourself\n\nFull post: [link]",
+    "created_at": "2026-02-20T16:42:01.629044",
+    "metrics": {
+      "views": 1800000,
+      "likes": 67000,
+      "retweets": 22000,
+      "replies": 6700,
+      "bookmarks": 10050,
+      "engagement_rate": 0.049444444444444444
+    },
+    "category": "finance",
+    "hashtags": [],
+    "is_viral": true
+  },
+  {
+    "post_id": "mock_5210",
+    "author": "Willy Woo",
+    "handle": "@woonomic",
+    "content": "Bitcoin on-chain analysis thread 🧵\n\n5 indicators showing we're at a major bottom:\n\n1. MVRV Z-Score at -0.8\n2. NUPL negative for 45 days\n3. Long-term holders accumulating\n4. Miner capitulation complete\n5. Exchange outflows at ATH\n\nEach indicator explained below 👇",
+    "created_at": "2026-02-21T16:42:01.629061",
+    "metrics": {
+      "views": 890000,
+      "likes": 28000,
+      "retweets": 12000,
+      "replies": 2800,
+      "bookmarks": 4200,
+      "engagement_rate": 0.0449438202247191
+    },
+    "category": "crypto",
+    "hashtags": [],
+    "is_viral": true
+  },
+  {
+    "post_id": "mock_590",
+    "author": "Balaji",
+    "handle": "@balajis",
+    "content": "The Network State is the sequel to The Sovereign Individual.\n\nWhile the book predicted the shift from centralized to decentralized,\nit didn't predict that countries themselves would become decentralized.\n\nHere's what that means for the next decade...",
+    "created_at": "2026-02-18T16:42:01.629082",
+    "metrics": {
+      "views": 1200000,
+      "likes": 34000,
+      "retweets": 8900,
+      "replies": 3400,
+      "bookmarks": 5100,
+      "engagement_rate": 0.03575
+    },
+    "category": "tech",
+    "hashtags": [],
+    "is_viral": true
+  },
+  {
+    "post_id": "mock_5984",
+    "author": "Elon Musk",
+    "handle": "@elonmusk",
+    "content": "Starlink eliminates dead zones and keeps you connected on the go.\n\nIt's not just about speed. It's about reliability anywhere on Earth.\n\nThis changes everything for remote work, emergency response, and global connectivity.",
+    "created_at": "2026-02-21T16:42:01.629095",
+    "metrics": {
+      "views": 8500000,
+      "likes": 280000,
+      "retweets": 45000,
+      "replies": 28000,
+      "bookmarks": 42000,
+      "engagement_rate": 0.03823529411764706
+    },
+    "category": "tech",
+    "hashtags": [],
+    "is_viral": true
+  },
+  {
+    "post_id": "mock_6146",
+    "author": "Howard Marks",
+    "handle": "@howardmarksbook",
+    "content": "The most important thing is understanding market cycles.\n\nRight now:\n- Valuations are extended\n- Risk appetite is high\n- FOMO is pervasive\n\nThis doesn't mean sell everything. It means be cautious.\n\nHistory shows the best returns come from buying when others are fearful.",
+    "created_at": "2026-02-19T16:42:01.629108",
+    "metrics": {
+      "views": 450000,
+      "likes": 18000,
+      "retweets": 5200,
+      "replies": 1800,
+      "bookmarks": 2700,
+      "engagement_rate": 0.051555555555555556
+    },
+    "category": "finance",
+    "hashtags": [],
+    "is_viral": true
+  }
+]

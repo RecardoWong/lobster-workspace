@@ -1,0 +1,22 @@
+[2026-02-01 08:00:00] Starting Twitter monitor...
+[2026-02-01 08:00:01] Fetching data from Twitter API
+[2026-02-01 08:00:05] Got 10 tweets from @elonmusk
+[2026-02-01 08:00:06] Got 5 tweets from @jdhasoptions
+[2026-02-01 08:00:07] Got 3 tweets from @xiaomucrypto
+[2026-02-01 08:00:08] Translation API called
+[2026-02-01 08:00:10] Translation completed for 15 tweets
+[2026-02-01 08:00:15] ✅ JSON saved successfully
+[2026-02-01 08:00:16] ✅ HTML updated
+[2026-02-01 08:00:20] ERROR: Network timeout when deploying
+[2026-02-01 08:00:25] Retrying deployment...
+[2026-02-01 08:00:30] ✅ Deploy successful!
+[2026-02-01 09:00:00] Starting Twitter monitor...
+[2026-02-01 09:00:05] Got 8 tweets from @elonmusk
+[2026-02-01 09:00:10] ✅ All tasks completed
+... (模拟重复日志100行)
+[2026-02-02 08:00:00] Starting Twitter monitor...
+[2026-02-02 08:00:10] CRITICAL: Translation API quota exceeded
+[2026-02-02 08:00:15] Switching to fallback translation service
+[2026-02-02 08:00:20] ✅ Fallback service working
+[2026-02-02 09:00:00] Starting Twitter monitor...
+[2026-02-02 09:00:05] ✅ New feature deployed: Auto-refresh

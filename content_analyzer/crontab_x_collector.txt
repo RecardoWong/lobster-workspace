@@ -1,0 +1,21 @@
+# X平台数据采集CRON配置
+# 安装: crontab crontab_x_collector.txt
+
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+PYTHON=/usr/bin/python3
+WORK_DIR=/root/.openclaw/workspace/content_analyzer
+
+# ==================== 数据采集任务 ====================
+
+# 每天 6:00 采集X平台数据 (美股收盘后，X平台活跃)
+0 6 * * * cd $WORK_DIR && $PYTHON x_collector.py >> logs/x_collect.log 2>&1
+
+# 每周一 7:00 分析数据并更新爆款公式库
+0 7 * * 1 cd $WORK_DIR && $PYTHON formula_updater.py >> logs/formula_update.log 2>&1
+
+# 每月1日 8:00 生成月度爆款趋势报告
+0 8 1 * * cd $WORK_DIR && $PYTHON monthly_trend_report.py >> logs/monthly_report.log 2>&1
+
+# 日志清理 (每周日)
+0 0 * * 0 find $WORK_DIR/logs -name "*.log" -mtime +30 -delete

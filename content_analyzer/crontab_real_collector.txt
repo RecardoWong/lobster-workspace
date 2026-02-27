@@ -1,0 +1,43 @@
+# X平台真实采集CRON配置
+# 使用真实Cookie采集
+
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+PYTHON=/usr/bin/python3
+WORK_DIR=/root/.openclaw/workspace/content_analyzer
+
+# ==================== 每日采集任务 ====================
+
+# 每天 6:00 采集时间线 (美股收盘后，X活跃)
+0 6 * * * cd $WORK_DIR && $PYTHON x_real_collector.py >> logs/real_collect.log 2>&1
+
+# 每天 18:00 二次采集 (覆盖全天)
+0 18 * * * cd $WORK_DIR && $PYTHON x_real_collector.py >> logs/real_collect.log 2>&1
+
+# ==================== 分析任务 ====================
+
+# 每周一 7:00 分析采集数据，更新公式库
+0 7 * * 1 cd $WORK_DIR && $PYTHON formula_updater.py >> logs/formula_update.log 2>&1
+
+# ==================== 监控任务 ====================
+
+# 每周三检查Cookie是否过期
+0 9 * * 3 cd $WORK_DIR && $PYTHON -c "
+import json
+from datetime import datetime
+with open('.twitter_cookies.json') as f:
+    cookies = json.load(f)
+    for c in cookies:
+        if c.get('name') == 'auth_token':
+            exp = c.get('expires', 0)
+            if exp > 0:
+                days_left = (exp - datetime.now().timestamp()) / 86400
+                if days_left < 7:
+                    print(f'⚠️  Cookie将在{days_left:.0f}天后过期，请更新！')
+                else:
+                    print(f'✅ Cookie有效，还剩{days_left:.0f}天')
+            break
+" >> logs/cookie_check.log 2>&1
+
+# 日志清理 (每周日)
+0 0 * * 0 find $WORK_DIR/logs -name "*.log" -mtime +30 -delete

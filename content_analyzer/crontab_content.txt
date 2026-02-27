@@ -1,0 +1,26 @@
+# 内容生产Agent CRON配置
+# 安装: crontab crontab_content.txt
+
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+PYTHON=/usr/bin/python3
+WORK_DIR=/root/.openclaw/workspace/content_analyzer
+
+# ==================== 每周任务 ====================
+
+# 周一 8:00 推送本周选题建议
+0 8 * * 1 cd $WORK_DIR && $PYTHON topic_generator.py >> logs/topic_gen.log 2>&1
+
+# 每日 9:00 监控热点 (辅助选题)
+0 9 * * * cd $WORK_DIR && $PYTHON cron/daily_hot_monitor.py >> logs/daily_hot.log 2>&1
+
+# ==================== 发布前检查 ====================
+# 周三 14:00 检查本周选题完成进度
+0 14 * * 3 cd $WORK_DIR && $PYTHON cron/check_progress.py >> logs/progress.log 2>&1
+
+# ==================== 发布后复盘 ====================
+# 周日 20:00 生成本周数据复盘
+0 20 * * 0 cd $WORK_DIR && $PYTHON cron/weekly_content_review.py >> logs/content_review.log 2>&1
+
+# 日志清理 (每周日)
+0 0 * * 0 find $WORK_DIR/logs -name "*.log" -mtime +7 -delete

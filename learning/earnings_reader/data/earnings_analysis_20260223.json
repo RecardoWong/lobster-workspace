@@ -1,0 +1,47 @@
+{
+  "company": "英诺赛科",
+  "ticker": "02577.HK",
+  "report_period": "2024年第三季度",
+  "analysis_time": "2026-02-23T07:49:20.254507",
+  "scores": {
+    "growth": 65,
+    "profitability": 33,
+    "efficiency": 70,
+    "safety": 80,
+    "valuation": 60
+  },
+  "key_metrics": {
+    "revenue": {
+      "value": 12.3,
+      "unit": "亿元",
+      "yoy": 45.2,
+      "qoq": 8.5
+    },
+    "profit": {
+      "value": -2.1,
+      "unit": "亿元",
+      "yoy": 15.0,
+      "qoq": 0
+    },
+    "margins": {
+      "gross": 28.5,
+      "net": -17.1,
+      "gross_change": 3.2,
+      "net_change": 0
+    },
+    "cash": {
+      "operating": -2.1,
+      "free": -3.8,
+      "cash_equiv": 15.2
+    }
+  },
+  "alerts": [
+    {
+      "level": "⚠️",
+      "type": "现金流失血",
+      "description": "经营现金流持续为负，需关注造血能力"
+    }
+  ],
+  "summary": "稳健增长",
+  "overall_grade": "B"
+}

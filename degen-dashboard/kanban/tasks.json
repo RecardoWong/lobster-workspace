@@ -1,0 +1,97 @@
+{
+  "columns": {
+    "todo": {
+      "name": "📋 To Do",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "🎯 搭建 Dashboard 主框架",
+          "description": "创建主界面，集成所有小应用入口",
+          "priority": "high",
+          "tech": "React + Next.js",
+          "status": "done"
+        },
+        {
+          "id": 2,
+          "title": "📊 投资组合追踪面板",
+          "description": "显示持仓、盈亏、资产分布",
+          "priority": "high",
+          "tech": "HTML + JS",
+          "status": "pending"
+        },
+        {
+          "id": 3,
+          "title": "🔍 土狗币筛选器",
+          "description": "自动抓取新币信息，按指标排序",
+          "priority": "high",
+          "tech": "React + Next.js",
+          "status": "pending"
+        },
+        {
+          "id": 4,
+          "title": "📈 市场情报日报",
+          "description": "每天早上推送市场动态、热门币种",
+          "priority": "medium",
+          "tech": "HTML + JS",
+          "status": "pending"
+        },
+        {
+          "id": 5,
+          "title": "⚠️ 交易信号提醒",
+          "description": "价格突破、鲸鱼异动等自动提醒",
+          "priority": "medium",
+          "tech": "React + Next.js",
+          "status": "pending"
+        },
+        {
+          "id": 6,
+          "title": "📖 股票知识库",
+          "description": "整理交易知识，可搜索",
+          "priority": "low",
+          "tech": "HTML + JS",
+          "status": "pending"
+        },
+        {
+          "id": 7,
+          "title": "🎲 交易日记",
+          "description": "记录每笔交易，复盘分析",
+          "priority": "low",
+          "tech": "React + Next.js",
+          "status": "pending"
+        }
+      ]
+    },
+    "in_progress": {
+      "name": "🔄 In Progress",
+      "tasks": []
+    },
+    "done": {
+      "name": "✅ Done",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "🎯 搭建 Dashboard 主框架",
+          "description": "创建主界面，集成所有小应用入口",
+          "priority": "high",
+          "tech": "React + Next.js",
+          "status": "done"
+        },
+        {
+          "id": 2,
+          "title": "📊 投资组合追踪面板",
+          "description": "显示持仓、盈亏、资产分布",
+          "priority": "high",
+          "tech": "HTML + JS",
+          "status": "done"
+        }
+      ]
+    }
+  },
+  "last_updated": "2026-02-17T07:56:00Z",
+  "goals": {
+    "career": "Degen 土狗股票玩家",
+    "business": "全职炒股炒币土狗",
+    "learning": "学习股票知识面",
+    "vision": "成为未来大佬"
+  }
+}

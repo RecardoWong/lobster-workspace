@@ -1,0 +1,44 @@
+{
+  "company": "NVIDIA",
+  "symbol": "NVDA",
+  "report_period": "FY2024 Q4",
+  "analysis_time": "2026-02-23T08:58:43.551387",
+  "scores": {
+    "growth": 100,
+    "profitability": 100,
+    "efficiency": 70,
+    "safety": 90,
+    "valuation": 40
+  },
+  "key_metrics": {
+    "revenue": {
+      "value": 221,
+      "unit": "亿美元",
+      "yoy": 265
+    },
+    "profit": {
+      "value": 123,
+      "unit": "亿美元",
+      "yoy": 769
+    },
+    "margins": {
+      "gross": 76.0,
+      "net": 55.6,
+      "gross_change": 0
+    },
+    "per_share": {
+      "eps": 4.93,
+      "eps_beat": 12.0,
+      "revenue_beat": 8.5
+    }
+  },
+  "alerts": [
+    {
+      "level": "✅",
+      "type": "业绩健康",
+      "description": "未发现明显异常信号"
+    }
+  ],
+  "summary": "高增长，利润爆发",
+  "overall_grade": "A+"
+}

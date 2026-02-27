@@ -1,0 +1,78 @@
+{
+  "stocks": [
+    {
+      "code": "02577",
+      "name": "英诺赛科",
+      "sector": "半导体"
+    },
+    {
+      "code": "00700",
+      "name": "腾讯控股",
+      "sector": "互联网"
+    },
+    {
+      "code": "09988",
+      "name": "阿里巴巴-SW",
+      "sector": "互联网"
+    },
+    {
+      "code": "03690",
+      "name": "美团-W",
+      "sector": "互联网"
+    },
+    {
+      "code": "01024",
+      "name": "快手-W",
+      "sector": "互联网"
+    },
+    {
+      "code": "09888",
+      "name": "百度集团-SW",
+      "sector": "互联网"
+    },
+    {
+      "code": "01810",
+      "name": "小米集团-W",
+      "sector": "消费电子"
+    },
+    {
+      "code": "02331",
+      "name": "李宁",
+      "sector": "消费"
+    },
+    {
+      "code": "02020",
+      "name": "安踏体育",
+      "sector": "消费"
+    },
+    {
+      "code": "02318",
+      "name": "中国平安",
+      "sector": "金融"
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2025-03-15",
+      "stock_code": "02577",
+      "stock_name": "英诺赛科",
+      "report_type": "年报",
+      "expected": true
+    },
+    {
+      "date": "2025-03-20",
+      "stock_code": "00700",
+      "stock_name": "腾讯控股",
+      "report_type": "年报",
+      "expected": true
+    },
+    {
+      "date": "2025-03-25",
+      "stock_code": "09988",
+      "stock_name": "阿里巴巴-SW",
+      "report_type": "年报",
+      "expected": true
+    }
+  ],
+  "update_time": "2026-02-23T07:56:36.277103"
+}
