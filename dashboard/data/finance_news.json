@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-27T15:30:26.542748",
+  "update_time": "2026-02-27T16:30:25.889691",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "橡树资本马克斯：AI正在替代劳动力而非辅助，投资者不可全仓也不可空仓",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766329",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "美伊下周继续谈判，美媒称战争风险“迫近”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766336",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "汽车巨头变身AI大厂？63亿美元砸向AI，建设数据中心及机器人工厂",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766332",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "乐施会报告批评马斯克和特斯拉加剧美国财富不平等",
+      "title": "财通证券：维持携程集团-S“买入”评级 业绩超预期且国际化驱动延续",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfxrk3664094.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-27/doc-inhpfxrk3707513.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "外国投资者净卖出创纪录的6.8万亿韩元韩国Kospi指数股票",
+      "title": "招银国际：鸿腾精密业务前景强劲 目标价升至7.33港元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfxre9875355.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-27/doc-inhpfxrk3706888.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "收评|国内期货主力合约涨跌互现 沪锡涨超8%",
+      "title": "国信证券：维持新东方-S“优于大市”评级 全年收入增速指引上调",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-27/doc-inhpfxrk3648447.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-27/doc-inhpfxrn0808149.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "万达再售资产， 20亿元转让上海颛桥万达广场",
+      "title": "奈飞退出华纳兄弟竞购 派拉蒙天空之舞胜出",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-02-27/doc-inhpfxrk3650404.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfxrn0807482.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
