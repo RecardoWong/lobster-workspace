@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-02-28T01:30:19.616413",
+  "update_time": "2026-02-28T02:30:20.813601",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
     {
       "title": "英国债市下跌，首相斯塔默惨败，工党在地区补选中屈居第三",
@@ -26,38 +26,6 @@
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "代理权争夺战升级 露露乐蒙创始人威尔逊向董事会施压",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuy3422643.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "所有权变更，让CNN突然陷入前途未卜的境地",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuw6431847.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "午盘：美股维持下跌趋势 英伟达连续第二日走低",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuu9652896.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "墨西哥国家石油公司（Pemex）公布第四季度净亏损 862 万美元",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphuuw6427739.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
     }
   ]
 }
