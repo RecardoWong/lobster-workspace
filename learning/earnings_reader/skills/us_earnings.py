@@ -77,23 +77,29 @@ class USEarningsFetcher:
         if not self.api_key:
             raise ValueError("需要提供Alpha Vantage API Key，或设置ALPHA_VANTAGE_KEY环境变量")
         self._last_request_time = 0
-        self._min_interval = 1.2  # 每秒最多1次，留点余量
+        self._min_interval = 5.0  # 每5秒1次，确保不超过每天25次限制
+        self._daily_count = 0
+        self._max_daily = 25  # 免费版每天25次
     
     def _rate_limit(self):
-        """速率限制 - Alpha Vantage免费版限制每秒1次"""
+        """Alpha Vantage免费版限制：每天25次，建议每5秒1次"""
         import time
+        
+        # 检查每日限制
+        if self._daily_count >= self._max_daily:
+            print(f"[警告] 已达到Alpha Vantage每日限制({self._max_daily}次)")
+            return False
+        
+        # 速率限制
         elapsed = time.time() - self._last_request_time
         if elapsed < self._min_interval:
-            time.sleep(self._min_interval - elapsed)
+            wait_time = self._min_interval - elapsed
+            print(f"  等待 {wait_time:.1f} 秒 (Alpha Vantage速率限制)...")
+            time.sleep(wait_time)
+        
         self._last_request_time = time.time()
-    
-    def _rate_limit(self):
-        """Alpha Vantage免费版限制：每秒1次请求"""
-        import time
-        elapsed = time.time() - self._last_request_time
-        if elapsed < 1.2:  # 留点余量，用1.2秒
-            time.sleep(1.2 - elapsed)
-        self._last_request_time = time.time()
+        self._daily_count += 1
+        return True
     
     def fetch(self, ticker: str) -> Optional[USEarningsData]:
         """
@@ -106,7 +112,8 @@ class USEarningsFetcher:
             USEarningsData对象，失败返回None
         """
         # 速率限制
-        self._rate_limit()
+        if not self._rate_limit():
+            return None
         
         try:
             # 获取公司概况
