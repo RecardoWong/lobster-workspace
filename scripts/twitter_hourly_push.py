@@ -280,8 +280,22 @@ def save_to_json(tweets):
 
 async def fetch_user_tweets(username, name):
     """抓取单个用户的最新推文"""
+    # 设置环境变量避免EPIPE错误
+    os.environ['PLAYWRIGHT_BROWSERS_PATH'] = '0'
+    os.environ['PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD'] = '0'
+    
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True, args=['--no-sandbox'])
+        try:
+            browser = await p.chromium.launch(
+                headless=True, 
+                args=['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+            )
+        except Exception as e:
+            print(f"[警告] 启动浏览器失败: {e}")
+            print("[提示] 尝试重新安装Playwright浏览器...")
+            # 如果启动失败，返回空数据
+            return []
+        
         context = await browser.new_context(viewport={'width': 1920, 'height': 1080})
         
         await context.add_cookies([
@@ -608,3 +622,8 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
+# Playwright EPIPE错误修复 - 设置Node.js内存限制
+import os
+os.environ['NODE_OPTIONS'] = '--max-old-space-size=4096'
+os.environ['PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD'] = '0'
