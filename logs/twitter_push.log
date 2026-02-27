@@ -229,3 +229,6 @@ NameError: name 'save_to_daily_log' is not defined
   ✅ Telegram 推送成功
 [09:00] 开始抓取Twitter...
 没有新推文
+[10:00] 开始抓取Twitter...
+  跳过 2 条已推送过的推文
+发现 2 条推文，但全部已推送过，跳过
