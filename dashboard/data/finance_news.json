@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-02-27T12:30:16.183148",
+  "update_time": "2026-02-27T13:30:09.831996",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "中共中央政治局召开会议，讨论“十五五”规划纲要草案和政府工作报告",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766330",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "韩股狂飙， “大赢家”竟是欧洲奢侈品",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766325",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "软件股估值暴跌后，AI“大并购”时代来了？",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "派拉蒙加价，奈飞“不跟”，华纳兄弟收购案“尘埃落定”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766327",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "创业板跌超1%，算力硬件集体调整，有色金属、电力拉升，恒科指涨1%，科网股普遍上涨",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766319",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "花旗：银河娱乐上季业绩符预期 评级“买入”",
+      "title": "中共中央政治局召开会议 讨论“十五五”规划纲要草案和政府工作报告 中共中央总书记习近平主持会议",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-27/doc-inhpfnzq3831576.shtml",
+      "url": "https://finance.sina.com.cn/china/2026-02-27/doc-inhpftik6717057.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "兴业证券：上调汇丰控股至“买入”评级 2025年业绩强劲",
+      "title": "金辉集团：Jinhui Shipping年度净利1254.4万美元 同比减少47.74%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-27/doc-inhpfnzq3830951.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-27/doc-inhpftin3720050.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "开源证券：首予优然牧业“增持”评级 肉奶价格共振在即",
+      "title": "中国光大水务将于5月22日派发末期股息每股0.0422港元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-02-27/doc-inhpfnzq3830612.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-27/doc-inhpftiq0821273.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "高盛旗下一只私募信贷基金下调资产净值",
+      "title": "中国光大水务发布年度业绩 股东应占盈利8.42亿港元同比减少17%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfnzs0929368.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-27/doc-inhpftiq0820695.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
