@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-02-27T20:30:16.310194",
+  "update_time": "2026-02-27T21:30:16.965677",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "雷军：新一代小米SU7内置机械结构，可电动也可以机械打开",
+      "title": "地缘风险升温，美股指期货集体下挫，金银油携手大涨，美债上扬，人民币贬近150点",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766324",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "风暴眼转向债市？全球投资级债券利差走阔近4个基点，软件业违约风险引发担忧",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766387",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "坏账压顶，Apollo私募信贷基金被迫下调估值",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766381",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "特朗普称关税有朝一日可能\"大幅取代\"所得税。政策专家怎么说?",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/tech/it/2026-02-27/doc-inhphkfa6577693.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhphkfe3603412.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "新一代SU7气囊升级至9个 雷军呼吁二排也要系安全带",
+      "title": "美国大型科技公司将为AI数据中心自行供电",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/tech/it/2026-02-27/doc-inhphkfh0677651.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhphkfa6603179.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "小米汽车：将重建安全顾问委员会及公众安全沟通机制",
+      "title": "棒！约翰将关闭300家门店并裁员7%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/tech/it/2026-02-27/doc-inhphkfh0677459.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhphkfa6602925.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "英国料将把国债发行规模削减20% 为债券投资者带来利好",
+      "title": "雷军：小米汽车的理念是10倍投入 造一辆安全的好车",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-27/doc-inhphkfa6574705.shtml",
+      "url": "https://finance.sina.com.cn/tech/it/2026-02-27/doc-inhphkey9825732.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
