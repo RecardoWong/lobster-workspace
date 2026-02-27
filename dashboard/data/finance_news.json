@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-02-28T04:30:40.060378",
+  "update_time": "2026-02-28T05:30:17.978066",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "美国SEC发布外国公司监管新规 要求高管限时披露股票交易",
+      "title": "SpaceX考虑最快3月秘密递交IPO申请，目标今年6月上市",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766397",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "多国撤人，航母抵以，美国要边打边谈？特朗普称美伊将继续谈判、警告“有时不得不打”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766396",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "“蟑螂出没”，私人信贷问题叠加AI担忧冲击，银行股指暴跌6%",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766395",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "美国企业2月披露回购计划达2330亿美元 创历年同期新高",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzaw3336449.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifks6259843.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "避险买盘推动美债扩大涨势 2年期国债收益率创2022年来新低",
+      "title": "特朗普下令联邦政府机构停用Anthropic 强硬回应AI军用分歧",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzau6369751.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifkq9482493.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国债市单月表现料创一年来最佳 10年期国债收益率跌破4%",
+      "title": "Trump Media考虑分拆社交平台Truth Social",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzay0437512.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifkw0317967.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "多国从中东撤侨撤员 特朗普直言对伊朗“不悦”",
+      "title": "特朗普称他认为很可能“友好接管古巴”",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhphzay0437059.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifku3216034.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
