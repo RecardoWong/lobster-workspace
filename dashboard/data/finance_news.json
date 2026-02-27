@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-27T19:30:43.958807",
+  "update_time": "2026-02-27T20:30:16.310194",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "寒武纪首次实现年度盈利！2025年净利20.6亿，营收激增4.5倍｜财报见闻",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766363",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "沃什新政预期冲击下海外流动性趋紧，市场分歧时刻听坦途宏观创始人程坦闭门分享资产风向标",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3763862",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美股2月迈向下跌，道指期货跌超0.6%，韩股收跌，银油上扬，人民币贬近150点",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766324",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "分析：德国劳动力市场疲软态势料将持续",
+      "title": "雷军：新一代小米SU7内置机械结构，可电动也可以机械打开",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhphcxa9894548.shtml",
+      "url": "https://finance.sina.com.cn/tech/it/2026-02-27/doc-inhphkfa6577693.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "尾盘突然大涨！001331，易主重要进展",
+      "title": "新一代SU7气囊升级至9个 雷军呼吁二排也要系安全带",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/s/2026-02-27/doc-inhphcxa9896710.shtml",
+      "url": "https://finance.sina.com.cn/tech/it/2026-02-27/doc-inhphkfh0677651.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "泡泡玛特“造星”提速：一周一个新IP，再发全新IP“Key A”",
+      "title": "小米汽车：将重建安全顾问委员会及公众安全沟通机制",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/tech/it/2026-02-27/doc-inhphcxh3666045.shtml",
+      "url": "https://finance.sina.com.cn/tech/it/2026-02-27/doc-inhphkfh0677459.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "证监会召开资本市场“十五五”规划外资机构座谈会",
+      "title": "英国料将把国债发行规模削减20% 为债券投资者带来利好",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-02-27/doc-inhphcxk0768703.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-27/doc-inhphkfa6574705.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
