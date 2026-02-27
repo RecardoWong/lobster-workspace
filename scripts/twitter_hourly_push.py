@@ -300,8 +300,41 @@ async def fetch_user_tweets(username, name):
             
             for tweet in tweets[:3]:  # 只取前3条
                 try:
+                    # 1. 先获取初始文本
                     text_elem = await tweet.query_selector('[data-testid="tweetText"]')
                     text = await text_elem.inner_text() if text_elem else ''
+                    
+                    # 2. 检查是否有"显示更多"按钮，有则点击
+                    try:
+                        # Twitter/X 的"显示更多"按钮通常是展开被截断的推文
+                        # 尝试查找并点击
+                        show_more_selectors = [
+                            'button:has-text("显示更多")',
+                            'button:has-text("Show more")',
+                            '[role="button"]:has-text("显示更多")',
+                            'button[aria-expanded="false"]',
+                            'a[href="#"]:has-text("...")'
+                        ]
+                        
+                        for selector in show_more_selectors:
+                            try:
+                                show_more_btn = await tweet.query_selector(selector)
+                                if show_more_btn:
+                                    # 检查按钮是否可见
+                                    is_visible = await show_more_btn.is_visible()
+                                    if is_visible:
+                                        print(f"  发现'显示更多'按钮，正在点击...")
+                                        await show_more_btn.click()
+                                        await asyncio.sleep(1)  # 等待内容展开
+                                        # 重新获取完整文本
+                                        text_elem = await tweet.query_selector('[data-testid="tweetText"]')
+                                        text = await text_elem.inner_text() if text_elem else text
+                                        print(f"  已获取完整内容 ({len(text)}字符)")
+                                        break
+                            except:
+                                continue
+                    except Exception as e:
+                        print(f"  展开完整推文失败: {e}")
                     
                     time_elem = await tweet.query_selector('time')
                     time_str = await time_elem.get_attribute('datetime') if time_elem else ''
@@ -441,7 +474,7 @@ def extract_tickers(text):
     return list(set(tickers))[:3]  # 最多3个
 
 def extract_key_point(text):
-    """提取核心观点（一句话）- 优化版保留更多内容"""
+    """提取核心观点（一句话）- 保留更多内容"""
     # 清理文本
     text = text.replace('\n', ' ').strip()
     
@@ -456,17 +489,17 @@ def extract_key_point(text):
         # 包含数字/金额/百分比的优先
         if re.search(r'\d+%|\$\d+|\d+亿|\d+万|\d+倍| billion| million', s, re.IGNORECASE):
             if len(s) > 10:
-                return s[:150] + "…" if len(s) > 150 else s
+                return s[:280] + "…" if len(s) > 280 else s
     
     # 其次找包含股票代码的句子
     for s in sentences:
         s = s.strip()
         if re.search(r'\$[A-Z]{1,5}', s) and len(s) > 15:
-            return s[:150] + "…" if len(s) > 150 else s
+            return s[:280] + "…" if len(s) > 280 else s
     
     # 否则返回最长的一句（通常信息最多）
     longest = max([s.strip() for s in sentences if s.strip()], key=len, default=text)
-    return longest[:180] + "…" if len(longest) > 180 else longest
+    return longest[:350] + "…" if len(longest) > 350 else longest
 
 def format_push_message(tweets):
     """格式化推送消息 - 一眼get重点版"""
@@ -503,7 +536,7 @@ def format_push_message(tweets):
         # 格式化输出
         lines.append(f"{tag} {'|' if ticker_str else ''} {ticker_str}")
         lines.append(f"💡 {key_point}")
-        lines.append(f"↳ {name} · [{time_ago}]({tweet_link})")
+        lines.append(f"↳ {name} · [{time_ago}]({tweet_link}) · [查看完整推文]({tweet_link})")
         lines.append("")
     
     # 如果有更多
