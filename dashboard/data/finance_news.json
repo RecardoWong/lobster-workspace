@@ -1,31 +1,63 @@
 {
-  "update_time": "2026-02-27T18:30:39.773924",
+  "update_time": "2026-02-27T19:30:43.958807",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
-      "title": "澜起科技：2025年净利润同比增长58.35%",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766365",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "次贷危机重演？英国私募信贷巨头MFS破产，巴克莱等多家大行卷入风波",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766351",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "寒武纪扭亏为赢，2025年净利润20.6亿元，上年同期亏损4.5亿元",
+      "title": "寒武纪首次实现年度盈利！2025年净利20.6亿，营收激增4.5倍｜财报见闻",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766363",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
+    },
+    {
+      "title": "沃什新政预期冲击下海外流动性趋紧，市场分歧时刻听坦途宏观创始人程坦闭门分享资产风向标",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3763862",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美股2月迈向下跌，道指期货跌超0.6%，韩股收跌，银油上扬，人民币贬近150点",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766324",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "分析：德国劳动力市场疲软态势料将持续",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhphcxa9894548.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "尾盘突然大涨！001331，易主重要进展",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-02-27/doc-inhphcxa9896710.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "泡泡玛特“造星”提速：一周一个新IP，再发全新IP“Key A”",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/tech/it/2026-02-27/doc-inhphcxh3666045.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "证监会召开资本市场“十五五”规划外资机构座谈会",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/jjxw/2026-02-27/doc-inhphcxk0768703.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
