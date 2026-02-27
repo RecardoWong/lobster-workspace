@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-02-28T05:30:17.978066",
+  "update_time": "2026-02-28T06:30:13.594475",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "Anthropic拒绝五角大楼要求，特朗普下令联邦机构停用Anthropic产品",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766399",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "SpaceX考虑最快3月秘密递交IPO申请，目标今年6月上市",
       "source": "华尔街见闻",
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "“蟑螂出没”，私人信贷问题叠加AI担忧冲击，银行股指暴跌6%",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766395",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "美国企业2月披露回购计划达2330亿美元 创历年同期新高",
+      "title": "现货黄金升破每盎司5,200美元 迈向月度上涨",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifks6259843.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifku3226898.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普下令联邦政府机构停用Anthropic 强硬回应AI军用分歧",
+      "title": "2月28日美股成交额前20：戴尔营收预测强劲，股价飙升21.9%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifkq9482493.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifku3226131.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Trump Media考虑分拆社交平台Truth Social",
+      "title": "戴尔股价周五飙升21.9%，发生了什么？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifkw0317967.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifku3225038.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普称他认为很可能“友好接管古巴”",
+      "title": "CoreWeave周五重挫18.5%，发生了什么？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifku3216034.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifku3223901.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
