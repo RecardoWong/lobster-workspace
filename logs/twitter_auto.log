@@ -4418,3 +4418,26 @@
 ✅ 总计: 15 条推文
 ============================================================
 
+
+============================================================
+🐦 Twitter 自动更新 - 01:00
+============================================================
+🐦 读取 Twitter 数据...
+  ✅ Elon Musk: 3 条 (elonmusk_20260228_1900.json)
+  ✅ jdhasoptions: 3 条 (jdhasoptions_20260225_1916.json)
+  ✅ xiaomucrypto: 3 条 (xiaomucrypto_20260225_1916.json)
+  Ollama翻译失败: timed out
+  ✅ AI Stock Savvy: 3 条 (aistocksavvy_20260225_1916.json)
+  ✅ QQ_Timmy: 3 条 (QQ_Timmy_20260228_2201.json)
+✅ JSON 已保存
+✅ HTML 已更新 (2026-03-01 01:01)
+🚀 部署到服务器...
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ 2>/dev/null &&
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no data/twitter_translated.json ubuntu@43.160.229.161:/home/ubuntu/ 2>/dev/null &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo cp /home/ubuntu/twitter_translated.json /var/www/html/data/ && sudo chown www-data:www-data /var/www/html/index.html /var/www/html/data/twitter_translated.json' 2>/dev/null
+    ' timed out after 60 seconds
+✅ 总计: 15 条推文
+============================================================
+
