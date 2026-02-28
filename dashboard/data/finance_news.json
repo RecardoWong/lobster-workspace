@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-03-01T03:30:26.619382",
+  "update_time": "2026-03-01T04:30:15.678650",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
       "title": "张忆东：有恒科的先熬着，现在不是积极买入时，港股先买硬资产，后买消费",
@@ -26,6 +26,38 @@
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
+    },
+    {
+      "title": "美国建议船只尽可能避开霍尔木兹海峡",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmeac2748684.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "特朗普对伊朗动手 石油市场将面临何种影响",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmeah6732552.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "EIA报告：美国12月石油产量降至2025年6月以来最低水平",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpkxuc6022905.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "巴克莱预测美伊紧张局势或致布伦特油价升至每桶80美元",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpkxuh9701630.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
