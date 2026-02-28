@@ -105,6 +105,7 @@ class ClankerMonitor:
                         'pair_url': pair.get('url', '')
                     }
         except Exception as e:
+            print(f"⚠️ 获取代币详情失败: {e}")
             pass
         
         return {
@@ -397,7 +398,8 @@ class ClankerMonitor:
                     created_dt = datetime.fromisoformat(created.replace('Z', '+00:00'))
                     minutes_ago = int((datetime.now(created_dt.tzinfo) - created_dt).total_seconds() / 60)
                     lines.append(f"⏰ 创建时间: {minutes_ago}分钟前")
-                except:
+                except Exception as e:
+                    print(f"⚠️ 时间解析失败: {e}")
                     pass
             
             if dex.get('pair_url'):

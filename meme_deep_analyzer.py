@@ -30,7 +30,8 @@ class ContractDatabase:
                     data = json.load(f)
                     self.known_contracts = set(data.get('contracts', []))
                     self.contract_history = data.get('history', {})
-            except:
+            except Exception as e:
+                print(f"⚠️ 数据库加载失败: {e}")
                 pass
     
     def save(self):

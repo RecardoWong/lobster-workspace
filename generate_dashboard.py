@@ -62,6 +62,7 @@ class DashboardGenerator:
                         'content': f.read()[:1000]
                     }
         except Exception as e:
+            print(f"⚠️ 读取扫描数据失败: {e}")
             pass
         return {'time': '-', 'content': '暂无数据'}
     
