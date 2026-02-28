@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-02-28T09:30:21.262850",
+  "update_time": "2026-02-28T10:30:26.678817",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
+    {
+      "title": "AI冲击之下“铁索连环”，美国杠杆贷款遭重创，高达1500亿美元CLO证券面临冲击",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766406",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
     {
       "title": "私募危机愈演愈烈，连高盛都要“自证清白”了",
       "source": "华尔街见闻",
@@ -18,46 +26,6 @@
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "阿曼外交大臣：伊朗已同意不拥有“可制造核弹的核材料”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766403",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "新规后首批！4只互认基金获批，摩根资管等4家拿下入场券",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-02-28/doc-inhpimsq6209055.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美联邦调查局突袭搜查后 洛杉矶学区负责人被停职",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-02-28/doc-inhpimsn9429427.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "红星美凯龙获仁桥(北京)资管增持327.26万股 每股均价约1.40港元",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-28/doc-inhpimsu0237001.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "中广核电力获贝莱德增持98.5万股 每股均价约3.23港元",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-28/doc-inhpimsn9423422.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
     }
   ]
 }
