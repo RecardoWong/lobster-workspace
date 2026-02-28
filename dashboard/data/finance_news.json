@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-02-28T12:30:20.259764",
+  "update_time": "2026-02-28T13:30:22.311858",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "002512，爆雷！千问AI眼镜即将发布，13只高增长潜力股揭晓（附名单）",
+      "title": "“AI音乐”明星初创公司SUNO付费用户3个月翻倍，达到2百万，年度ARR收入达3亿美元",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766419",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "报道：英伟达在下月GTC大会推出“新推理芯片”，融入Groq LPU设计",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766417",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "“J.A.R.V.I.S.”时刻倒计时：科技巨头竞相入局智能硬件，“对话式AI”才是人工智能的终局？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766357",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "碳酸锂节后首周行情复盘：冲高回落与非洲政策变数",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-02-28/doc-inhpiwhk6059800.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-28/doc-inhpiwhk6087787.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "视频|海澜之家因中标后无正当理由拒不签订合同 暂停其参加全军物资工程服务采购活动资格",
+      "title": "美国政府多部门马斯克旗下Grok聊天机器人发出安全警告",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/s/2026-02-28/doc-inhpiwhn2977681.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpiwhq0093668.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "飞鱼科技发盈喜 预期2025年纯利约8000万元至1.2亿元",
+      "title": "老铺黄金年内首次调价 调价幅度达20%—30%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-28/doc-inhpiwhq0077173.shtml",
+      "url": "https://finance.sina.com.cn/roll/2026-02-28/doc-inhpiwhn2988916.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "云白国际向上海信托发行19.38亿股换股股份",
+      "title": "一日多宗！监管部门严打信披违法违规行为",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-02-28/doc-inhpiwhh9275997.shtml",
+      "url": "https://finance.sina.com.cn/jjxw/2026-02-28/doc-inhpiwhq0093511.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
