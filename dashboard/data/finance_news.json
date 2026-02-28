@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-02-28T19:30:29.779426",
+  "update_time": "2026-02-28T20:30:56.801765",
   "source_count": 3,
   "total_count": 4,
   "news": [
+    {
+      "title": "年内暴涨179%，谁在“操盘”田中精机？",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-02-28/doc-inhpkpei6215206.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
     {
       "title": "91岁创始人携儿媳减持2.6亿！桃李面包回应：年纪大了，需要规划",
       "source": "新浪财经",
@@ -23,14 +31,6 @@
       "title": "商业航天牛股业绩暴雷！扣非净利大降159%，市值蒸发超200亿，显著低于机构预期",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/s/2026-02-28/doc-inhpkpeq6956067.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "高盛-下调铜价预期跌幅-铜价下行预期趋于缓和",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-28/doc-inhpkhwq9982893.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
