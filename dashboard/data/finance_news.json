@@ -1,31 +1,63 @@
 {
-  "update_time": "2026-02-28T10:30:26.678817",
+  "update_time": "2026-02-28T11:30:10.200999",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
-      "title": "AI冲击之下“铁索连环”，美国杠杆贷款遭重创，高达1500亿美元CLO证券面临冲击",
+      "title": "美国启动调查，企图取消中国最惠国待遇？专家：美方或希望借此获得谈判筹码",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766406",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "私募危机愈演愈烈，连高盛都要“自证清白”了",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766405",
+      "url": "https://wallstreetcn.com/articles/3766418",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "AI冲击“未来现金流”，华尔街量化策略的“传统因子”失效了",
+      "title": "多国撤人，航母抵以，美国要边打边谈？特朗普称美伊将继续谈判、警告“有时不得不打”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766404",
+      "url": "https://wallstreetcn.com/articles/3766396",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "爱泼斯坦案最新进展：克林顿向国会作证",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766413",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "高瞻远“猪”：节后亏损再度加剧 生猪养殖何时走出困境？",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-28/doc-inhpiwhn2956912.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "春节后乙二醇下游逐步复工 供需结构改善仍待需求验证",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-28/doc-inhpiwhn2956570.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "【热点解读】5月1日零关税后 53个非洲国家如何影响未来天然橡胶市场？（上）",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-28/doc-inhpiwhn2956295.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "英伟达计划推出全新芯片 OpenAI是大客户",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpiryq3080398.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
