@@ -1,31 +1,15 @@
 {
-  "update_time": "2026-02-28T18:30:47.992342",
+  "update_time": "2026-02-28T19:30:29.779426",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "伊朗战火重启，布油会再次冲击80美元吗？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766434",
+      "title": "91岁创始人携儿媳减持2.6亿！桃李面包回应：年纪大了，需要规划",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-02-28/doc-inhpkpeq6983274.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美以空袭伊朗，美方称“规模比去年六月大得多”，目标是推翻伊朗政权",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766427",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "投资大佬德鲁肯米勒：投资大佬德鲁肯米勒：我的优势不是智商，而是果断扣动扳机，卖飞英伟达“肠子都悔青了”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766425",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "2月市场投票大复盘：超8成投资者看错纳指，半数押错市值龙头，唯有它成“全民赢家”",
@@ -47,14 +31,6 @@
       "title": "高盛-下调铜价预期跌幅-铜价下行预期趋于缓和",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-28/doc-inhpkhwq9982893.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "再惠冲刺港新双重上市：0.7%市占率难撑龙头地位 销售费用率超毛利率 盈利转正步履维艰",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/observe/2026-02-28/doc-inhpkhws7083999.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
