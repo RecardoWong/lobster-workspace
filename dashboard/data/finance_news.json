@@ -1,31 +1,15 @@
 {
-  "update_time": "2026-02-28T16:30:08.014421",
+  "update_time": "2026-02-28T17:30:17.319195",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "美以空袭伊朗，以色列称准备“第一阶段为期四天联合打击”，美方称“规模比去年六月大得多”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766427",
+      "title": "以媒：伊朗陆军总司令身亡",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/china/2026-02-28/doc-inhpkhwi9941130.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "从政治局会议到地方两会：如何解读政策信号与经济走势？【熊园大师课1.6】",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766348",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "日系电视，迎来中国主场时代",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766421",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "*ST沐邦多重危机傍身，投资者索赔刻不容缓",
@@ -47,14 +31,6 @@
       "title": "捷荣技术涉信披违规，数万股东或有机会维权",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-02-28/doc-inhpkhwh2820374.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "达华智能多项造假被处罚，将被ST索赔征集中",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-02-28/doc-inhpkhwe5907746.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
