@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-02-28T13:30:22.311858",
+  "update_time": "2026-02-28T14:30:12.634367",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "“AI音乐”明星初创公司SUNO付费用户3个月翻倍，达到2百万，年度ARR收入达3亿美元",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766419",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "报道：英伟达在下月GTC大会推出“新推理芯片”，融入Groq LPU设计",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766417",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "“J.A.R.V.I.S.”时刻倒计时：科技巨头竞相入局智能硬件，“对话式AI”才是人工智能的终局？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766357",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "碳酸锂节后首周行情复盘：冲高回落与非洲政策变数",
+      "title": "以色列已对伊朗发起打击",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-02-28/doc-inhpiwhk6087787.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-28/doc-inhpkaqe9203827.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国政府多部门马斯克旗下Grok聊天机器人发出安全警告",
+      "title": "伊朗首都德黑兰发生爆炸",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpiwhq0093668.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-28/doc-inhpkaqh5980385.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "老铺黄金年内首次调价 调价幅度达20%—30%",
+      "title": "伊朗局势演变会如何影响美股、黄金和原油？一文读懂",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-02-28/doc-inhpiwhn2988916.shtml",
+      "url": "https://finance.sina.com.cn/jjxw/2026-02-28/doc-inhpkaqm9996118.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "一日多宗！监管部门严打信披违法违规行为",
+      "title": "关税退款恐陷拉锯战 特朗普政府寻求推迟法院审理程序",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-02-28/doc-inhpiwhq0093511.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-02-28/doc-inhpkaqm9992584.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
