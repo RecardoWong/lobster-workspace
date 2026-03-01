@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-03-01T14:30:15.420899",
+  "update_time": "2026-03-01T15:30:03.612350",
   "source_count": 3,
-  "total_count": 6,
+  "total_count": 7,
   "news": [
+    {
+      "title": "沙特阿拉伯股指跌幅收窄至2%，比特币回落至6.7万美元下方",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766457",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "哈梅内伊身亡，投资者关心“然后”呢？周末唯一开盘的市场已完成从“大跌”到“大涨”",
       "source": "华尔街见闻",
@@ -20,33 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "应对特朗普关税，美国进口商已有“成熟减税方案”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766451",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普警告伊朗！伊朗官员：很快成立临时领导委员会，选举最高领袖",
+      "title": "阿联酋迪拜及卡塔尔多哈上空连续第二天传出巨大爆炸声",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpnfpp5577317.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpnmvp2249111.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "伊朗官员：很快成立临时领导委员会 选举最高领袖",
+      "title": "纽森抨击特朗普针对伊朗的打击行动：“这是披着强硬外衣的软弱”",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnfpr2347582.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpnmvs6171172.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中东局势升级，油价金价何去何从？",
+      "title": "刚刚开盘，直线大跳水！石油、黄金、美联储降息，大变局！霍尔木兹海峡，传来大消息",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-03-01/doc-inhpnfps9172549.shtml",
+      "url": "https://finance.sina.com.cn/wm/2026-03-01/doc-inhpnmvq9068564.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "伊朗遭遇袭击开始24小时后 各方军事态势",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpnmvs6169200.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
