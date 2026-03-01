@@ -1,31 +1,15 @@
 {
-  "update_time": "2026-03-02T00:30:14.611471",
+  "update_time": "2026-03-02T01:30:21.256850",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "下周重磅日程：中国两会、美国非农、伊朗局势进展、MiniMax京东B站财报",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766412",
+      "title": "阿布扎比和迪拜股市3月2日至3日停开",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpphyz5102775.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美中期选举围绕控制通胀，欧元区经济弱复苏通胀放缓---W09海外宏观脱水",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766460",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "“云老大”掉队了？亚马逊的“AI战略”：“低成本”是核心，不卷尖端模型，聚焦自产芯片、定制模型",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766471",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "美国：伊朗一艘护卫舰在阿曼湾遭击沉",
@@ -47,14 +31,6 @@
       "title": "硝烟波及阿联酋 对冲基金和银行巨头罕见制定“战时预案”",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhppatc5192026.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "7天5板、3天2板！股价持续大涨，上市钨企纷纷提示风险！",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/s/2026-03-01/doc-inhppath8798631.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
