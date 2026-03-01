@@ -106,7 +106,6 @@ class ClankerMonitor:
                     }
         except Exception as e:
             print(f"⚠️ 获取代币详情失败: {e}")
-            pass
         
         return {
             'price': 0,
@@ -400,7 +399,6 @@ class ClankerMonitor:
                     lines.append(f"⏰ 创建时间: {minutes_ago}分钟前")
                 except Exception as e:
                     print(f"⚠️ 时间解析失败: {e}")
-                    pass
             
             if dex.get('pair_url'):
                 lines.append(f"\n🔗 DexScreener: {dex['pair_url']}")
