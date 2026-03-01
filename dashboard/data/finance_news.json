@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-03-01T19:30:26.265384",
+  "update_time": "2026-03-01T20:30:22.279844",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "代表：OPEC+原则上同意4月份增产20.6万桶/天",
+      "title": "下周重磅日程：中国两会、美国非农、伊朗局势进展、MiniMax京东B站财报",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766412",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美中期选举围绕控制通胀，欧元区经济弱复苏通胀放缓---W09海外宏观脱水",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766460",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "“云老大”掉队了？亚马逊的“AI战略”：“低成本”是核心，不卷尖端模型，聚焦自产芯片、定制模型",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766471",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "2月车市遇季节性调整：多家车企销量环比下滑，3月有望迎来回暖行情",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpnwmn5989883.shtml",
+      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnwmi2074565.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "净利预亏叠加立案，双良节能股价迎考！",
+      "title": "中东“黑天鹅”突袭，各大券商连夜开策略会解读局势，全球大类资产定价逻辑已生变？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/s/2026-03-01/doc-inhpnscq6117591.shtml",
+      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnwmn6000268.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "7连板牛股，停牌核查“预警”！",
+      "title": "美以袭击伊朗，金价已突破5200美元，后市怎么走？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/s/2026-03-01/doc-inhpnscq6117385.shtml",
+      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnwmn5996603.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "全线拉升！刚刚，超10万人爆仓！伊朗总统，最新发声！伊朗股市按下“暂停键”",
+      "title": "朝鲜说美以对伊朗军事行动不可容忍",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/zqgd/2026-03-01/doc-inhpnsci5415261.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-01/doc-inhpnwmk8901645.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
