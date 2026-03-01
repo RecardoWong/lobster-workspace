@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-01T06:30:27.549491",
+  "update_time": "2026-03-01T07:30:34.895637",
   "source_count": 3,
   "total_count": 7,
   "news": [
@@ -28,6 +28,22 @@
       "tagColor": "#10b981"
     },
     {
+      "title": "中东最大航空公司，罕见全线停航",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmqrv5803498.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "美以称哈梅内伊已“不在世” 伊朗关闭霍尔木兹海峡 袭击致近千人伤亡",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-01/doc-inhpmqsa6516234.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
       "title": "特朗普：对伊朗的不间断打击将持续一周甚至更长时间",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/jjxw/2026-03-01/doc-inhpmqry9406724.shtml",
@@ -39,22 +55,6 @@
       "title": "美国建议船只尽可能避开霍尔木兹海峡",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmeac2748684.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "特朗普对伊朗动手 石油市场将面临何种影响",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmeah6732552.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "EIA报告：美国12月石油产量降至2025年6月以来最低水平",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpkxuc6022905.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
