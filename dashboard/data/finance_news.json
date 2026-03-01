@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-03-01T16:30:11.513861",
+  "update_time": "2026-03-01T17:30:03.006105",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "特朗普威胁称：如果伊朗继续报复，将动用强力手段。",
+      "title": "也谈谈“HALO交易”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766464",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "比特币充当地缘政治\"晴雨表\"，周一市场开盘或迎风险偏好回归？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766462",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "Claude被特朗普封杀24小时登顶App Store，CEO含泪首发声！",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766459",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "中东地缘冲突再升级，油价波动进一步加大",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpnmvm5488667.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-01/doc-inhpnscn8983361.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "沙特股市重挫近5%后急速反弹，加密货币集体拉升，超10万人爆仓",
+      "title": "地缘冲突“黑天鹅”再袭！A股股民如何应对？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/wm/2026-03-01/doc-inhpnmvp2267045.shtml",
+      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnscn8976935.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "伊朗受袭牵动“全球神经”，原油供应和经济衰退“双危机”一触即发！",
+      "title": "霍尔木兹海峡停摆！全球30%海运石油命脉被掐断，油价直逼80美元关口",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-01/doc-inhpnmvm5487146.shtml",
+      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnmvp2284081.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美伊战争对黄金的影响",
+      "title": "分析师警告称，伊朗可能通过在美国境内发动恐怖袭击进行报复",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-01/doc-inhpnmvq9082959.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpnmvs6197989.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
