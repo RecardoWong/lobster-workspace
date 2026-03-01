@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-03-02T04:30:35.397146",
+  "update_time": "2026-03-02T05:30:10.033874",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "特朗普称对伊朗军事行动或持续约4周，伊朗公布反击“成果”，英法德或采取防御",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766474",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "下周重磅日程：中国两会、美国非农、伊朗局势进展、MiniMax京东B站财报",
       "source": "华尔街见闻",
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "“云老大”掉队了？亚马逊的“AI战略”：“低成本”是核心，不卷尖端模型，聚焦自产芯片、定制模型",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766471",
+      "title": "Punchbowl：特朗普政府将于周二向国会作伊朗问题的简报会",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpptqv4883970.shtml",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "特朗普对《每日邮报》称与伊朗的战争可能持续四周",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpptqy8486177.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "担心伊朗袭击导致崩盘 阿联酋罕见关停两大金融市场",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpptqy8486068.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "阿联酋关闭驻伊朗使馆并全员撤出使团",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpppie5716734.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "伊朗危机或将导致全球天然气市场陷入2022年以来最严重动荡",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhppphz1785563.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "伊朗冲突升级 风险货币询价在悉尼盘前走低",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpppie5701058.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "阿布扎比和迪拜股市3月2日至3日停开",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpphyz5102775.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
