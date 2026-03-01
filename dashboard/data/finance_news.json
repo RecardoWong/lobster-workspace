@@ -1,8 +1,32 @@
 {
-  "update_time": "2026-03-01T23:30:20.830446",
+  "update_time": "2026-03-02T00:30:14.611471",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
+    {
+      "title": "下周重磅日程：中国两会、美国非农、伊朗局势进展、MiniMax京东B站财报",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766412",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美中期选举围绕控制通胀，欧元区经济弱复苏通胀放缓---W09海外宏观脱水",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766460",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "“云老大”掉队了？亚马逊的“AI战略”：“低成本”是核心，不卷尖端模型，聚焦自产芯片、定制模型",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766471",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
     {
       "title": "美国：伊朗一艘护卫舰在阿曼湾遭击沉",
       "source": "新浪财经",
