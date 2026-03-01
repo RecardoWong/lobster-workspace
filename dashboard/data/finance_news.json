@@ -1,18 +1,26 @@
 {
-  "update_time": "2026-03-01T17:30:03.006105",
+  "update_time": "2026-03-01T18:30:05.296938",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "也谈谈“HALO交易”",
+      "title": "美银Hartnett：“私募信贷危机”就是“领先指标”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766464",
+      "url": "https://wallstreetcn.com/articles/3766465",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "比特币充当地缘政治\"晴雨表\"，周一市场开盘或迎风险偏好回归？",
+      "title": "AI越强，人们反而越累，\"焦虑\"成为公司和员工的常态",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766468",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "比特币充当地缘政治\"晴雨表\"，周一市场会高开吗？",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766462",
       "time": "刚刚",
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "Claude被特朗普封杀24小时登顶App Store，CEO含泪首发声！",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766459",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "中东地缘冲突再升级，油价波动进一步加大",
+      "title": "伊朗危机之际 华尔街将转向“避险优先”策略",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-01/doc-inhpnscn8983361.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpnsci5405755.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "地缘冲突“黑天鹅”再袭！A股股民如何应对？",
+      "title": "Seedance2.0从“地表最强”变“排队最长”，记者实测：基础会员要排10小时",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnscn8976935.shtml",
+      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnsci5399653.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "霍尔木兹海峡停摆！全球30%海运石油命脉被掐断，油价直逼80美元关口",
+      "title": "大模型上可以订机票了，这一次航司为何主动拥抱AI",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnmvp2284081.shtml",
+      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnscn8993047.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "分析师警告称，伊朗可能通过在美国境内发动恐怖袭击进行报复",
+      "title": "哈梅内伊遇害后，谁将领导伊朗？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpnmvs6197989.shtml",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-01/doc-inhpnscq6102035.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"

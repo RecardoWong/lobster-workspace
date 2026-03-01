@@ -1,32 +1,32 @@
 {
-  "update_time": "2026-03-01T17:01:22.511952",
+  "update_time": "2026-03-01T18:01:24.929452",
   "tweets": {
     "elonmusk": [
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "Highest usage of 𝕏 ever",
-        "translate": "最高使用频率的 𝕏",
+        "translate": "最高使用量为 1%。",
         "time": "2026-03-01T05:37:39.000Z",
-        "time_ago": "3小时前",
+        "time_ago": "4小时前",
         "url": "https://x.com/elonmusk/status/2027981570594775101"
       },
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "And it’s accelerating rapidly",
-        "translate": "“和加速得很快一样”",
+        "translate": "“它正以极快的速度加速”",
         "time": "2026-03-01T06:43:47.000Z",
-        "time_ago": "2小时前",
+        "time_ago": "3小时前",
         "url": "https://x.com/elonmusk/status/2027998216466129266"
       },
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "China is moving rapidly to a solar/electric future with very little need for oil or gas",
-        "translate": "中国正迅速转向太阳能和电力未来，不需要大量的石油或天然气。",
+        "translate": "中国正迅速走向太阳能和电力的未来，不需要石油或天然气。",
         "time": "2026-03-01T06:32:56.000Z",
-        "time_ago": "2小时前",
+        "time_ago": "3小时前",
         "url": "https://x.com/elonmusk/status/2027995486494273545"
       }
     ],
@@ -53,7 +53,7 @@
         "author": "jdhasoptions",
         "name": "jdhasoptions",
         "text": "I spent 100 hours over the past week researching, writing and editing the piece we just put out.\n\nIt’s a scenario, not a prediction like most of our w...",
-        "translate": "我过去一周花了100小时研究、写作和编辑我们刚刚发布的稿件。这是一个场景，不是预测，但经过严格的构建，它需要那种毫无节制的理性懒惰，才能不把它抛在脑后。",
+        "translate": "我过去一周花了100个小时研究、写作和编辑我们刚刚发布的文章。\n\n这是一个情景，而不是预测。但它是经过严格构建的，并且如果需要，就需要那种典型的机械主义式的思维模式。",
         "time": "2026-02-22T20:25:56.000Z",
         "time_ago": "6天前",
         "url": "https://x.com/jdhasoptions/status/2025668400396349476"
@@ -102,7 +102,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "Trump: Pass The Stop Insider Trading Act Without Delay - $QQQ $SPY",
-        "translate": "特朗普：《禁止操纵市场法案》（Stop The Stop Act）无需延迟，$QQQ $SPY",
+        "translate": "特朗普：取消“股神”（Pass The Stop）法案，无需延迟 -- QQQ 、 SPY 都没有问题。",
         "time": "2026-02-25T03:02:08.000Z",
         "time_ago": "4天前",
         "url": "https://x.com/aistocksavvy/status/2026492885542060069"
@@ -111,7 +111,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "$QQQ $SPY | Trump:\n\n➤ There Is No Inflation And Growth Is Tremendous\n\n➤ Major Tech Companies Have An Obligation To Provide Their Own Power For AI Data...",
-        "translate": "$QQQ $SPY | Trump:\n\n$QQQ 有通胀和经济增长巨大。\n\n$SPY 大型科技公司负有向其提供自己的人工智能数据中心的义务。\n\n$SPY 想要停止对大型保险公司的所有付款。\n\n$QQQ 为此将带来数十亿美元的关税，以及强。",
+        "translate": "QQQ $SPY | Trump:\n\n1. 不存在通胀和快速增长。\n2. 大型科技公司有义务为AI数据中心提供自己的电力。\n3. 想要停止所有对大保险公司的付款。\n4. 条约将带来数万亿的关税，并确保“”。",
         "time": "2026-02-25T02:57:53.000Z",
         "time_ago": "4天前",
         "url": "https://x.com/aistocksavvy/status/2026491814178332795"
@@ -133,7 +133,7 @@
         "text": "設計複雜度極為高。根據博通工程師在去年五月 CadenceLIVE 大會上的簡報，上晶粒（upper die）、下晶粒（lower die）以及堆疊後的總成，必須各自都能獨立正常運作。兩個晶粒之間透過混合鍵合（hybrid",
         "translate": "設計複雜度極為高。根據博通工程師在去年五月 CadenceLIVE 大會上的簡報，上晶粒（upper die）、下晶粒（lower die）以及堆疊後的總成，必須各自都能獨立正常運作。兩個晶粒之間透過混合鍵合（hybrid",
         "time": "2026-03-01T06:25:20.000Z",
-        "time_ago": "2小时前",
+        "time_ago": "3小时前",
         "url": "https://x.com/QQ_Timmy/status/2027993570867904820"
       },
       {
@@ -142,7 +142,7 @@
         "text": "$MU 在印度開設價值 27.5 億美元的半導體工廠\n\n主要要點：\n- 美光（Micron）在古吉拉特邦（Gujarat）正式啟用半導體組裝與測試廠房。\n- 該廠房獲得約27.5 億美元的總投資（美光與政府夥伴共同出資）。\n- 第一階段包含超過 50 萬平方英尺 的潔淨室空間。\n- 廠房將 DRAM...",
         "translate": "$MU 在印度開設價值 27.5 億美元的半導體工廠\n\n主要要點：\n- 美光（Micron）在古吉拉特邦（Gujarat）正式啟用半導體組裝與測試廠房。\n- 該廠房獲得約27.5 億美元的總投資（美光與政府夥伴共同出資）。\n- 第一階段包含超過 50 萬平方英尺 的潔淨室空間。\n- 廠房將 DRAM 與 NAND",
         "time": "2026-03-01T06:21:18.000Z",
-        "time_ago": "2小时前",
+        "time_ago": "3小时前",
         "url": "https://x.com/QQ_Timmy/status/2027992558501335321"
       }
     ]
