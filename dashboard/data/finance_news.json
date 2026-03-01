@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-03-01T22:30:33.962466",
+  "update_time": "2026-03-01T23:30:20.830446",
   "source_count": 3,
   "total_count": 4,
   "news": [
+    {
+      "title": "美国：伊朗一艘护卫舰在阿曼湾遭击沉",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhppatf1974330.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "伊朗外长：没有封锁霍尔木兹海峡的计划 邻国应该对美国以色列施压",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhppath8805525.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
     {
       "title": "硝烟波及阿联酋 对冲基金和银行巨头罕见制定“战时预案”",
       "source": "新浪财经",
@@ -15,22 +31,6 @@
       "title": "7天5板、3天2板！股价持续大涨，上市钨企纷纷提示风险！",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/s/2026-03-01/doc-inhppath8798631.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "伊朗总统：临时领导委员会已开始工作",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhppatc5185401.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "迪拜环球港务集团暂停杰贝阿里港运营 航运巨头MSC停止中东航线预订",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhppatk5896733.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
