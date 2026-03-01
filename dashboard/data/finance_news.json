@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-03-01T09:30:08.163037",
+  "update_time": "2026-03-01T10:30:19.359334",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "市场焦点“霍尔木兹海峡”：理论上开放，但“船只掉头”，保费飙升",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766449",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "伊朗最高领袖哈梅内伊遇袭身亡，美官员：美以在哈梅内伊与其高级助手举行会议时发动袭击",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766450",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "特朗普不怕油价？报道称美国不考虑释放战略原油储备，而OPEC+考虑增产",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "美以企图斩首伊朗领导层，但靠空袭难以颠覆政权",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766447",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美以空袭致伊近千人伤亡 特朗普称哈梅内伊“已死” 伊朗否认",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766446",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普刚下令禁用Anthropic 美军数小时后就在中东打击行动中使用该公司AI工具",
+      "title": "美国中央司令部发布美军打击伊朗的新视频",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmuxw9333789.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmuxy6450542.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普：已确定伊朗新领导人人选",
+      "title": "美媒：最高领袖身亡后，谁可能执掌伊朗？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmuxy6433836.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmuxv2504753.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "泰国黄金交易限制措施生效 当局力图遏制泰铢升值",
+      "title": "颠覆时刻！AI下半场杀疯了！科技巨头接连暴跌，是何原因？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpmuxw9319605.shtml",
+      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-03-01/doc-inhpmuxw9345589.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "消息人士：石油和天然气巨头及贸易商暂停经霍尔木兹海峡的运输",
+      "title": "伊媒：伊朗最高领袖哈梅内伊遇袭身亡",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpmuxw9316547.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmuxy6439263.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
