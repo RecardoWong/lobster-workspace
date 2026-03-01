@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-01T18:30:05.296938",
+  "update_time": "2026-03-01T19:30:26.265384",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "美银Hartnett：“私募信贷危机”就是“领先指标”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766465",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "AI越强，人们反而越累，\"焦虑\"成为公司和员工的常态",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766468",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "比特币充当地缘政治\"晴雨表\"，周一市场会高开吗？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766462",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "伊朗危机之际 华尔街将转向“避险优先”策略",
+      "title": "代表：OPEC+原则上同意4月份增产20.6万桶/天",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpnsci5405755.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhpnwmn5989883.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Seedance2.0从“地表最强”变“排队最长”，记者实测：基础会员要排10小时",
+      "title": "净利预亏叠加立案，双良节能股价迎考！",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnsci5399653.shtml",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-01/doc-inhpnscq6117591.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "大模型上可以订机票了，这一次航司为何主动拥抱AI",
+      "title": "7连板牛股，停牌核查“预警”！",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-03-01/doc-inhpnscn8993047.shtml",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-01/doc-inhpnscq6117385.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "哈梅内伊遇害后，谁将领导伊朗？",
+      "title": "全线拉升！刚刚，超10万人爆仓！伊朗总统，最新发声！伊朗股市按下“暂停键”",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-03-01/doc-inhpnscq6102035.shtml",
+      "url": "https://finance.sina.com.cn/stock/zqgd/2026-03-01/doc-inhpnsci5415261.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
