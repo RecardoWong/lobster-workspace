@@ -1,32 +1,32 @@
 {
-  "update_time": "2026-03-01T21:01:25.777071",
+  "update_time": "2026-03-01T22:01:21.679286",
   "tweets": {
     "elonmusk": [
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "Highest usage of 𝕏 ever",
-        "translate": "最高使用率。",
+        "translate": "最高使用频率。",
         "time": "2026-03-01T05:37:39.000Z",
-        "time_ago": "7小时前",
+        "time_ago": "8小时前",
         "url": "https://x.com/elonmusk/status/2027981570594775101"
       },
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "And it’s accelerating rapidly",
-        "translate": "“和它的速度加快一样。”",
+        "translate": "和迅速加速一样",
         "time": "2026-03-01T06:43:47.000Z",
-        "time_ago": "6小时前",
+        "time_ago": "7小时前",
         "url": "https://x.com/elonmusk/status/2027998216466129266"
       },
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "China is moving rapidly to a solar/electric future with very little need for oil or gas",
-        "translate": "中国正迅速转向太阳能和电力的未来，不需要石油或天然气。",
+        "translate": "中国正迅速转向太阳能和电能未来，几乎没有对石油或天然气的需求。",
         "time": "2026-03-01T06:32:56.000Z",
-        "time_ago": "6小时前",
+        "time_ago": "7小时前",
         "url": "https://x.com/elonmusk/status/2027995486494273545"
       }
     ],
@@ -53,7 +53,7 @@
         "author": "jdhasoptions",
         "name": "jdhasoptions",
         "text": "I spent 100 hours over the past week researching, writing and editing the piece we just put out.\n\nIt’s a scenario, not a prediction like most of our w...",
-        "translate": "I spent 100 hours over the past week researching, writing and editing the piece we just put out.\n\nIt...",
+        "translate": "我花了过去一周时间研究、写作和编辑我们刚刚发表的稿件。\n\n这更像是我们的日常工作，而不是预测。但它已经被严格构造，需要像那种智力懒惰那样坚决拒绝。",
         "time": "2026-02-22T20:25:56.000Z",
         "time_ago": "6天前",
         "url": "https://x.com/jdhasoptions/status/2025668400396349476"
@@ -93,7 +93,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": " Companies Reporting Earnings Next Week\n\n$FRPT $DPZ $HIMS $KEYS $FANG $CIFR $DOCN $AMT $HD $CAVA $ZETA $TMDX $MELI $TEM $FSLR $RXRX $CRCL $TTD $CRM $N...",
-        "translate": "公司下周披露财务报告\n$FRPT $DPZ $HIMS $KEYS $FANG $CIFR $DOCN $AMT $HD $CAVA $ZETA $TMDX $MELI $TEM $FSLR $RXRX $CRCL $TTD $CRM $NVDA $SRPT $ZM $JOBY $SNOW $SNPS $RDW $AI $IONQ $RCAT $NU $WBD $QBTS $BIDU $BKSY $SMR $ESTC $MP $ZS $DELL $DUOL $ADSK $SOUN $WULF",
+        "translate": " Companies Reporting Earnings Next Week\n\n$FRPT $DPZ $HIMS $KEYS $FANG $CIFR $DOCN $AMT $HD $CAVA $ZE...",
         "time": "2026-02-20T15:20:26.000Z",
         "time_ago": "8天前",
         "url": "https://x.com/aistocksavvy/status/2024866744200769588"
@@ -102,7 +102,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "Trump: Pass The Stop Insider Trading Act Without Delay - $QQQ $SPY",
-        "translate": "特朗普：取消“美国股息期货法”无需延迟 - $QQQ $SPY",
+        "translate": "特朗普：取消“卖空内幕交易法”（Stop-and-Search Act）——$QQQ $SPY",
         "time": "2026-02-25T03:02:08.000Z",
         "time_ago": "4天前",
         "url": "https://x.com/aistocksavvy/status/2026492885542060069"
@@ -111,7 +111,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "$QQQ $SPY | Trump:\n\n➤ There Is No Inflation And Growth Is Tremendous\n\n➤ Major Tech Companies Have An Obligation To Provide Their Own Power For AI Data...",
-        "translate": "$QQQ $SPY | 赵奖:\n\n① 无通胀和增速巨大\n\n② 大型科技公司有义务为AI数据中心提供自己的电力\n\n③ 想要停止所有大保险公司的支付\n\n④ 债权债务总额数千万美元，得到了强有力的支持",
+        "translate": "QQQ | SPY: 大规模金融科技公司有义务为AI数据中心提供自身电力\n\n1. 无通胀和快速增长，太棒了！\n\n2. 这些大科技公司有义务为自己提供自身的电源供应\n\n3. 想要停止支付给大型保险公司的一切费用\n\n4. 贸易保护措施带来的数十亿美元巨额外币\n\n5. 大家好！",
         "time": "2026-02-25T02:57:53.000Z",
         "time_ago": "4天前",
         "url": "https://x.com/aistocksavvy/status/2026491814178332795"
@@ -133,7 +133,7 @@
         "text": "設計複雜度極為高。根據博通工程師在去年五月 CadenceLIVE 大會上的簡報，上晶粒（upper die）、下晶粒（lower die）以及堆疊後的總成，必須各自都能獨立正常運作。兩個晶粒之間透過混合鍵合（hybrid",
         "translate": "設計複雜度極為高。根據博通工程師在去年五月 CadenceLIVE 大會上的簡報，上晶粒（upper die）、下晶粒（lower die）以及堆疊後的總成，必須各自都能獨立正常運作。兩個晶粒之間透過混合鍵合（hybrid",
         "time": "2026-03-01T06:25:20.000Z",
-        "time_ago": "6小时前",
+        "time_ago": "7小时前",
         "url": "https://x.com/QQ_Timmy/status/2027993570867904820"
       },
       {
@@ -142,7 +142,7 @@
         "text": "$MU 在印度開設價值 27.5 億美元的半導體工廠\n\n主要要點：\n- 美光（Micron）在古吉拉特邦（Gujarat）正式啟用半導體組裝與測試廠房。\n- 該廠房獲得約27.5 億美元的總投資（美光與政府夥伴共同出資）。\n- 第一階段包含超過 50 萬平方英尺 的潔淨室空間。\n- 廠房將 DRAM...",
         "translate": "$MU 在印度開設價值 27.5 億美元的半導體工廠\n\n主要要點：\n- 美光（Micron）在古吉拉特邦（Gujarat）正式啟用半導體組裝與測試廠房。\n- 該廠房獲得約27.5 億美元的總投資（美光與政府夥伴共同出資）。\n- 第一階段包含超過 50 萬平方英尺 的潔淨室空間。\n- 廠房將 DRAM 與 NAND",
         "time": "2026-03-01T06:21:18.000Z",
-        "time_ago": "6小时前",
+        "time_ago": "7小时前",
         "url": "https://x.com/QQ_Timmy/status/2027992558501335321"
       }
     ]

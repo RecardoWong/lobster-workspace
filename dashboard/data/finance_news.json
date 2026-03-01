@@ -1,6 +1,39 @@
 {
-  "update_time": "2026-03-01T21:30:33.685634",
+  "update_time": "2026-03-01T22:30:33.962466",
   "source_count": 3,
-  "total_count": 0,
-  "news": []
+  "total_count": 4,
+  "news": [
+    {
+      "title": "硝烟波及阿联酋 对冲基金和银行巨头罕见制定“战时预案”",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhppatc5192026.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "7天5板、3天2板！股价持续大涨，上市钨企纷纷提示风险！",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-01/doc-inhppath8798631.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "伊朗总统：临时领导委员会已开始工作",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhppatc5185401.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "迪拜环球港务集团暂停杰贝阿里港运营 航运巨头MSC停止中东航线预订",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhppatk5896733.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    }
+  ]
 }
