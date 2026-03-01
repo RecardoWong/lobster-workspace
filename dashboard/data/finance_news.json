@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-03-01T10:30:19.359334",
+  "update_time": "2026-03-01T11:30:22.064151",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "应对特朗普关税，美国进口商已有“成熟减税方案”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766451",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "伊朗媒体说伊朗总统等将领导国家，特朗普：外交解决方案仍“易于”达成，已有可执掌伊朗政权的“合适人选”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766454",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "市场焦点“霍尔木兹海峡”：理论上开放，但“船只掉头”，保费飙升",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "伊朗最高领袖哈梅内伊遇袭身亡，美官员：美以在哈梅内伊与其高级助手举行会议时发动袭击",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766450",
+      "title": "伊朗无人机密集袭击阿联酋：迪拜机场受损、4 名工作人员受伤",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmzfr5637733.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普不怕油价？报道称美国不考虑释放战略原油储备，而OPEC+考虑增产",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766448",
+      "title": "报道：美国多个地区盟友通过军事渠道收到了打击行动即将开始的预警",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmzfr5630716.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "卫星图像：哈梅内伊官邸内多栋建筑遭严重损毁",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmzfr5617685.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "美国中央司令部发布美军打击伊朗的新视频",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmuxy6450542.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美媒：最高领袖身亡后，谁可能执掌伊朗？",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmuxv2504753.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "颠覆时刻！AI下半场杀疯了！科技巨头接连暴跌，是何原因？",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-03-01/doc-inhpmuxw9345589.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "伊媒：伊朗最高领袖哈梅内伊遇袭身亡",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-01/doc-inhpmuxy6439263.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
