@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-02T03:30:06.922165",
+  "update_time": "2026-03-02T04:30:35.397146",
   "source_count": 3,
   "total_count": 7,
   "news": [
@@ -28,6 +28,22 @@
       "tagColor": "#8b5cf6"
     },
     {
+      "title": "阿联酋关闭驻伊朗使馆并全员撤出使团",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpppie5716734.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "伊朗危机或将导致全球天然气市场陷入2022年以来最严重动荡",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhppphz1785563.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
       "title": "伊朗冲突升级 风险货币询价在悉尼盘前走低",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpppie5701058.shtml",
@@ -39,22 +55,6 @@
       "title": "阿布扎比和迪拜股市3月2日至3日停开",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpphyz5102775.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美国：伊朗一艘护卫舰在阿曼湾遭击沉",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhppatf1974330.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "伊朗外长：没有封锁霍尔木兹海峡的计划 邻国应该对美国以色列施压",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-01/doc-inhppath8805525.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
