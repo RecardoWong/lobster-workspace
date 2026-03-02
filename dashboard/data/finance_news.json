@@ -1,18 +1,26 @@
 {
-  "update_time": "2026-03-02T22:30:18.985705",
+  "update_time": "2026-03-02T23:30:17.108828",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "从美伊冲突看AI军工发展：星链主导下的“斩首”行动与太空战场革命",
+      "title": "伊朗冲突叠加成本飙升，美国制造业价格指数创近三年新高",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766473",
+      "url": "https://wallstreetcn.com/articles/3766556",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "苹果发布新款iPad Air，配置M4处理器",
+      "title": "伊朗危机冲击，美股指低开，纳指跌超1.5%，布油涨8%，黄金突破5400",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766477",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "苹果发布iPhone 17e与新款iPad Air，定价不变主打中端市场",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766555",
       "time": "刚刚",
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "生死72小时！接下来左右市场动向的决定性因素",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766476",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "伊朗发动袭击期间，阿联酋航空、阿提哈德航空恢复部分航班",
+      "title": "美国强于预期的2月ISM数据发布后 国债扩大跌幅",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhprfsc4469497.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhprmye7997067.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普上周五下午为伊朗军事行动下达“行动指令”",
+      "title": "美国制造业活动扩张 投入成本创2022年以来最大涨幅",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhprfsc4469385.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhprmye7996795.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "德国电信与星链合作，扩大移动网络覆盖范围",
+      "title": "美国三架战斗机遭科威特防空系统误击后坠毁 六名机组安全逃生",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhprfsh8101754.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhprmyh5096464.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "贝莱德、殷拓集团牵头的财团将以107亿美元收购AES公司",
+      "title": "Starlink将与德国电信合作在欧洲推出卫星移动服务",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhprfsc4466893.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhprmxz4361387.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
