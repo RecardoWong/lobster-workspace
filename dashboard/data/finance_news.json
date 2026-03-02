@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-03-03T04:30:36.991303",
+  "update_time": "2026-03-03T05:30:18.106790",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "伊朗称霍尔木兹海峡已关闭，将打击所有试图通过的船只",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766560",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "1750亿美元退税战打响！美国联邦上诉法院驳回特朗普政府延期请求",
       "source": "华尔街见闻",
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "高盛中国AI深度报告：为什么说中国AI是独立行情？资金主线在往哪切？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766554",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "热点聚焦——中东局势升级，美国旅游相关股重挫",
+      "title": "3月3日热门中概股多数下跌 中国新城农村涨5.99%，小鹏汽车跌3.22%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprwpy7818394.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprwqa4935106.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "当局调查德克萨斯州枪击案与伊朗及恐怖主义的关联，但称下结论还为时过早",
+      "title": "3月3日收盘：美股涨跌不一标普反弹收高，市场继续关注伊朗局势",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprwpx1000039.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprwpy7827910.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "PayPay暂停IPO路演 评估伊朗战争对市场的影响",
+      "title": "伊朗冲突蔓延至黎巴嫩，科威特误击美军战机",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprwpv4221954.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprwpy7825022.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "摩根大通CEO警告：通胀对美国经济而言可能是“派对上的臭鼬”",
+      "title": "ONE首席执行官称，全球约10%的集装箱船被困霍尔木兹海峡",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprwpx0998306.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprwpx1006536.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
