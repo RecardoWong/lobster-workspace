@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-02T15:30:18.259587",
+  "update_time": "2026-03-02T16:30:23.186243",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "油价急拉！报道：沙特关键炼油厂遭无人机袭击关闭",
+      "title": "沪指低开高走涨近0.5%，“三桶油”历史首次收盘集体涨停，能源化工商品掀涨停潮，恒科指大跌近3%",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766514",
+      "url": "https://wallstreetcn.com/articles/3766489",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "伊朗危机冲击全球市场：欧美股市齐跌，巴基斯坦股市触及熔断，布油涨8%，黄金逼近5400关口",
+      "title": "霍尔木兹海峡实质性停航？至少40艘超大型油轮滞留波斯湾",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766477",
+      "url": "https://wallstreetcn.com/articles/3766517",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "伊朗内部如何被以色列渗透成“筛子”",
+      "title": "AI动荡、地缘升级.....恐慌无处不在，但最危险的是私募信贷？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766506",
+      "url": "https://wallstreetcn.com/articles/3766510",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "巴克莱银行在房贷机构MFS倒闭数月前，冻结了与其相关的交易",
+      "title": "国际糖业组织下调2025/2026年度全球糖市供应过剩预估",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqqus5386547.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "沙特阿拉伯Ras Tanura炼油厂遭无人机袭击后关闭",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqqus5383681.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-02/doc-inhpqvai4586831.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "亚辉龙误导性陈述被罚，投资者索赔要求明确",
+      "title": "光大期货0302热点追踪：数据拆解美伊局势背后的“甲醇真相”",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-03-02/doc-inhpqquq8285777.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-02/doc-inhpqvai4585337.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "向日葵索赔持续征集中，已有案件递交立案",
+      "title": "光大期货0302热点追踪：伊朗局势升温，原油开盘即涨停",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-03-02/doc-inhpqqup1452381.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-02/doc-inhpqvai4583168.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "港股收评：恒指跌2.14% 科指跌2.89%失守5000点 科网股普跌 油气、黄金股大涨 山东墨龙涨超115%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-02/doc-inhpqvan8191469.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
