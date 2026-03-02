@@ -1,26 +1,18 @@
 {
-  "update_time": "2026-03-02T14:30:33.709765",
+  "update_time": "2026-03-02T15:30:18.259587",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "沪指午后拉升涨0.4%，油气股爆发、中国石油创11年新高，CPO大涨，恒科指大跌超2%",
+      "title": "油价急拉！报道：沙特关键炼油厂遭无人机袭击关闭",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766489",
+      "url": "https://wallstreetcn.com/articles/3766514",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "最多只能撑25天？摩根大通警告：霍尔木兹海峡若封锁，存储限制或导致中东原油全面停产",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766502",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "伊朗危机冲击全球市场：美股三大股指期货均跌0.7%，巴基斯坦触发熔断，油价跳涨13%但涨幅显著收窄，黄金回落至5330美元",
+      "title": "伊朗危机冲击全球市场：欧美股市齐跌，巴基斯坦股市触及熔断，布油涨8%，黄金逼近5400关口",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766477",
       "time": "刚刚",
@@ -28,33 +20,41 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "世界黄金协会深度报告：黄金的战略性投资价值（2026年版）",
+      "title": "伊朗内部如何被以色列渗透成“筛子”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766506",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "巴克莱银行在房贷机构MFS倒闭数月前，冻结了与其相关的交易",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-03-02/doc-inhpqqum4629491.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqqus5386547.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "去年第四季度韩国四分之一家庭出现财务赤字，比例创六年最高",
+      "title": "沙特阿拉伯Ras Tanura炼油厂遭无人机袭击后关闭",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqqus5342569.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqqus5383681.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "快讯：丙烯主力合约触及涨停，涨幅6.01%",
+      "title": "亚辉龙误导性陈述被罚，投资者索赔要求明确",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-02/doc-inhpqqus5338773.shtml",
+      "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-03-02/doc-inhpqquq8285777.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "长安期货胡心阁：基本面压力仍在但原油与生柴情绪提振 油脂偏多思路对待",
+      "title": "向日葵索赔持续征集中，已有案件递交立案",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-02/doc-inhpqqum4624155.shtml",
+      "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-03-02/doc-inhpqqup1452381.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
