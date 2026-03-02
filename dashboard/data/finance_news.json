@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-03T00:30:14.283992",
+  "update_time": "2026-03-03T01:30:16.845059",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "美国2月制造业PMI连续两个月扩张，价格指数飙升至近四年新高，伊朗冲突或将再添通胀压力",
+      "title": "美国要“打入”伊朗？特朗普不排除“必要时”派遣地面部队，北约称不参与军事行动",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766556",
+      "url": "https://wallstreetcn.com/articles/3766558",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "伊朗危机冲击，美股指低开，纳指跌超1.5%，布油涨8%，黄金突破5400",
+      "title": "高盛中国AI深度报告：为什么说中国AI是独立行情？资金主线在往哪切？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766477",
+      "url": "https://wallstreetcn.com/articles/3766554",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "苹果发布iPhone 17e与新款iPad Air，定价不变主打中端市场",
+      "title": "从AI产业链视角理解恒生科技的疲弱走势【付鹏说19】",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766555",
+      "url": "https://wallstreetcn.com/articles/3766557",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "伊朗袭击事件暴露预测市场时代的阴暗灰色地带",
+      "title": "欧洲股市创去年11月以来最大跌幅 中东冲突引发避险潮",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprmyc1165888.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "伊朗冲突引发中东供应担忧，铝价大幅上涨",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprmyc1160222.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-03/doc-inhprsfz1060869.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Anthropic的Claude登顶苹果免费应用榜，却出现“错误率升高”",
+      "title": "特朗普再谈伊朗战争时间表：需要打多久就打多久",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhprmye8005523.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-03/doc-inhprsfx4282591.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "英伟达将向两家光子技术公司投资40亿美元",
+      "title": "航运巨头马士基出于安全考虑暂停部分中东地区的订舱",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhprmyc1150914.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-03/doc-inhprsha7901940.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "午盘：道指与标普指数跌幅收窄 纳指转涨",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprshe5003453.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
