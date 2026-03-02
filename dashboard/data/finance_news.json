@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-03-02T06:30:24.759509",
+  "update_time": "2026-03-02T07:30:11.633596",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "美股期货低开，纳指期货跌超1%，原油大幅走高",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766477",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "华尔街见闻早餐FM-Radio | 2026年3月2日",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766414",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "特朗普称对伊朗军事行动或持续约4周，伊朗公布反击“成果”，英法德或采取防御",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "下周重磅日程：中国两会、美国非农、伊朗局势进展、MiniMax京东B站财报",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766412",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美中期选举围绕控制通胀，欧元区经济弱复苏通胀放缓---W09海外宏观脱水",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766460",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "枪手藏有古兰经 FBI调查德州大规模枪击案是否与伊朗冲突有关",
+      "title": "花旗：伊朗局势下 土耳其、阿根廷面临资本突然外流风险",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpptqv4894865.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhppxwy5484032.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中东大打出手 华尔街转而采取“先避险再说”的策略",
+      "title": "美以袭击伊朗后油价飙升，道指期货跌超500点",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpptqv4894285.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhppxwv1562173.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普称对伊朗的打击将持续到所有目标完成为止",
+      "title": "斯塔默称将允许美国使用英国基地打击伊朗导弹设施",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpptqy8494692.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhppxww8381313.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美元询价飙升 交易员严阵以待迎接战争冲击波",
+      "title": "金价攀升 中东战争引发投资者避险",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpptqx1668894.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhppxwy5482919.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
