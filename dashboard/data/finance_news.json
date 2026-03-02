@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-03-02T09:30:26.102757",
+  "update_time": "2026-03-02T10:30:04.654094",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "华泰期货：伊朗局势骤紧，后续如何推演",
+      "title": "Agent的苦涩觉醒：智能正从语言走向经验",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766487",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "“春晚机器人”密集融资",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766490",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "前71分钟精准入场！六个神秘账户押注对伊空袭狂赚120万，特朗普阵营陷“内幕交易疑云”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766485",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "3名美军丧生，特朗普誓言“复仇”：对伊军事行动可能持续4周！",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-03-02/doc-inhpqeet1478522.shtml",
+      "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-03-02/doc-inhpqeet1530807.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "华泰期货：供需矛盾仍存，玻碱低位震荡",
+      "title": "国信证券：维持东方甄选“优于大市”评级 自营产品驱动业绩扭亏为盈",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-02/doc-inhpqeer4698398.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-02/doc-inhpqeeu8346066.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "快讯：恒指低开1.22% 科指跌1.78% 科网股、AI应用股普跌 黄金股活跃 石油股大涨 Minimax跌超7%",
+      "title": "大华继显：升珩湾科技目标价至9.48港元 维持“买入”评级",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-02/doc-inhpqeew5396874.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-02/doc-inhpqeeu8345482.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中通快递-W于2月27日耗资约24.5万美元回购9962股",
+      "title": "捷荣技术涉信披违法违规被证监会立案，股民或可索赔损失！",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-02/doc-inhpqeeu8288800.shtml",
+      "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-03-02/doc-inhpqeer4751746.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
