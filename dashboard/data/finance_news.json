@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-03-03T01:30:16.845059",
+  "update_time": "2026-03-03T02:30:04.081049",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "美国联邦上诉法院驳回特朗普政府延期请求，关税退款诉讼程序重启",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766559",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "美国要“打入”伊朗？特朗普不排除“必要时”派遣地面部队，北约称不参与军事行动",
       "source": "华尔街见闻",
@@ -20,41 +28,33 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "从AI产业链视角理解恒生科技的疲弱走势【付鹏说19】",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766557",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "欧洲股市创去年11月以来最大跌幅 中东冲突引发避险潮",
+      "title": "阿联酋和卡塔尔据悉私下游说盟友 劝特朗普缩短对伊军事行动",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-03/doc-inhprsfz1060869.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-03/doc-inhprshe5010281.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普再谈伊朗战争时间表：需要打多久就打多久",
+      "title": "金价涨幅收窄 能源价格飙升或抑制央行降息空间",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-03/doc-inhprsfx4282591.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-03/doc-inhprsfx4287194.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "航运巨头马士基出于安全考虑暂停部分中东地区的订舱",
+      "title": "特朗普指责英首相在对伊行动中犹犹豫豫 未爽快支持美国动用英军基地",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-03/doc-inhprsha7901940.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-03/doc-inhprsfx4286023.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "午盘：道指与标普指数跌幅收窄 纳指转涨",
+      "title": "欧洲债市：德债、英债走弱 伊朗战火点燃的通胀之忧打压降息押注",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhprshe5003453.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-03/doc-inhprsha7904823.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
