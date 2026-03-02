@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-02T08:30:10.995551",
+  "update_time": "2026-03-02T09:30:26.102757",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "高盛评估“伊朗冲击”：油价上涨18美元/桶，相当于霍尔木兹海峡封闭6周",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766481",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普称不达目标不停战 伊朗称何时停战由伊方决定",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766483",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "钨价1年多涨逾4倍 产业链迎转型关键期",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766478",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "中海石油化学委托中海石油炼化对富岛化工日常生产经营进行管理",
+      "title": "华泰期货：伊朗局势骤紧，后续如何推演",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-02/doc-inhppxww8394680.shtml",
+      "url": "https://finance.sina.com.cn/money/forex/forexroll/2026-03-02/doc-inhpqeet1478522.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "RAFFLESINTERIOR：后续聆讯将于2026年3月4日举行",
+      "title": "华泰期货：供需矛盾仍存，玻碱低位震荡",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-02/doc-inhppxww8394520.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-02/doc-inhpqeer4698398.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "马斯克否认星链被用于美国自杀式无人机",
+      "title": "快讯：恒指低开1.22% 科指跌1.78% 科网股、AI应用股普跌 黄金股活跃 石油股大涨 Minimax跌超7%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhppxwv1576004.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-02/doc-inhpqeew5396874.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "神秘账户精准押注对伊空袭，特朗普阵营陷“内幕交易”指控",
+      "title": "中通快递-W于2月27日耗资约24.5万美元回购9962股",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/forex/whqqscgd/2026-03-02/doc-inhppxwt4795742.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-02/doc-inhpqeeu8288800.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
