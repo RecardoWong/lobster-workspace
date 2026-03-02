@@ -1,63 +1,31 @@
 {
-  "update_time": "2026-03-02T19:30:28.459309",
+  "update_time": "2026-03-02T20:30:25.474517",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
     {
-      "title": "当模型开始长出平台：MiniMax的转身时刻",
+      "title": "美伊冲突压制全球风险偏好，霍尔木兹海峡封锁制约石油，外资流入港股关键在基本面---0203宏观脱水",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766537",
+      "url": "https://wallstreetcn.com/articles/3766540",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "GPT-5.4据传下周上线！200万上下文窗口+持久化状态，告别频繁遗忘",
+      "title": "摩根大通：中石油为亚太能源首选股，即便60美元油价仍具吸引力",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766535",
+      "url": "https://wallstreetcn.com/articles/3766541",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "海外市场爆发，MiniMax 2025年收入同比增长158.9%，经调整净亏损为2.5亿美元，毛利率大副改善｜财报见闻",
+      "title": "《求是》：进一步增强宏观政策取向一致性",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766531",
+      "url": "https://wallstreetcn.com/articles/3766539",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
-    },
-    {
-      "title": "黎巴嫩：拒绝任何从黎巴嫩领土发起的军事行动",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpqzki1306604.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "中东多国正被卷入美国与伊朗的战争 速览最新局势",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpqzkf4528890.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "阿斯麦规划用于人工智能的、超越EUV的下一代芯片制造设备蓝图",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqzkk8153747.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美军回应3架战机坠毁：疑似遭误击",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpqzkk8153662.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
     }
   ]
 }
