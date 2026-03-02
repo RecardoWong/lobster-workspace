@@ -1,10 +1,26 @@
 {
-  "update_time": "2026-03-02T18:30:24.902688",
+  "update_time": "2026-03-02T19:30:28.459309",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "海外市场爆发，MiniMax 2025年收入同比增长158.9%，亏损扩大3倍至18.7亿美元",
+      "title": "当模型开始长出平台：MiniMax的转身时刻",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766537",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "GPT-5.4据传下周上线！200万上下文窗口+持久化状态，告别频繁遗忘",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766535",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "海外市场爆发，MiniMax 2025年收入同比增长158.9%，经调整净亏损为2.5亿美元，毛利率大副改善｜财报见闻",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766531",
       "time": "刚刚",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "OPEC+超预期增产：基本面压制原油地缘溢价上限",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766520",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "法国表示“准备参与”海湾国家的防御行动",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766530",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "智能手机时代的赢家，自认为找到了下一个爆款科技硬件",
+      "title": "黎巴嫩：拒绝任何从黎巴嫩领土发起的军事行动",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqzkf4507221.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpqzki1306604.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "MiniMax2025年业绩报：营收7903.8万美元，同比增长158.9%",
+      "title": "中东多国正被卷入美国与伊朗的战争 速览最新局势",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/tech/it/2026-03-02/doc-inhpqzkn5229601.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpqzkf4528890.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "别慌：人工智能并未引发就业末日，至少目前还没有",
+      "title": "阿斯麦规划用于人工智能的、超越EUV的下一代芯片制造设备蓝图",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqzki1282460.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqzkk8153747.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "“大模型第二股”发布首份财报，亏损增超3倍至18亿美元！428名员工，人均年收入近20万美元",
+      "title": "美军回应3架战机坠毁：疑似遭误击",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/s/2026-03-02/doc-inhpqzkf4503226.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-02/doc-inhpqzkk8153662.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"

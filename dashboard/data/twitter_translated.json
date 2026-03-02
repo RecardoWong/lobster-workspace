@@ -1,12 +1,12 @@
 {
-  "update_time": "2026-03-02T18:01:28.345142",
+  "update_time": "2026-03-02T19:01:35.037178",
   "tweets": {
     "elonmusk": [
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "Highest usage of 𝕏 ever",
-        "translate": "最高使用频率的 𝕏",
+        "translate": "最高使用量为 50%",
         "time": "2026-03-01T05:37:39.000Z",
         "time_ago": "1天前",
         "url": "https://x.com/elonmusk/status/2027981570594775101"
@@ -15,7 +15,7 @@
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "And it’s accelerating rapidly",
-        "translate": "和快速加速同步。",
+        "translate": "“和它一起加速”",
         "time": "2026-03-01T06:43:47.000Z",
         "time_ago": "1天前",
         "url": "https://x.com/elonmusk/status/2027998216466129266"
@@ -24,7 +24,7 @@
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "China is moving rapidly to a solar/electric future with very little need for oil or gas",
-        "translate": "中国正迅速向太阳能和电能未来转型，几乎没有需求石油或天然气。",
+        "translate": "中国正在迅速转向太阳能和电能未来，不需要太多的石油或天然气。",
         "time": "2026-03-01T06:32:56.000Z",
         "time_ago": "1天前",
         "url": "https://x.com/elonmusk/status/2027995486494273545"
@@ -53,7 +53,7 @@
         "author": "jdhasoptions",
         "name": "jdhasoptions",
         "text": "I spent 100 hours over the past week researching, writing and editing the piece we just put out.\n\nIt’s a scenario, not a prediction like most of our w...",
-        "translate": "我花了过去一周的时间研究、写作和编辑我们刚刚发布的内容。\n\n这并不是一个预测，而是一个情景。但它是经过严格构造的，如果需要让其被忽视，那需要有那种缺乏批判性思维的能力。",
+        "translate": "I spent 100 hours over the past week researching, writing and editing the piece we just put out.\n\nIt...",
         "time": "2026-02-22T20:25:56.000Z",
         "time_ago": "7天前",
         "url": "https://x.com/jdhasoptions/status/2025668400396349476"
@@ -102,7 +102,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "Trump: Pass The Stop Insider Trading Act Without Delay - $QQQ $SPY",
-        "translate": "特朗普：禁止操纵市场内幕交易法案无需延迟 — ￥QQQ ￥SPY",
+        "translate": "特朗普：无延迟通过《禁止单边操纵市场法案》- QQQ SPY\nThis is a direct and literal translation of the provided text into Chinese. It conveys that President Donald Trump is advocating for certain changes, likely in financial regulations related to market manipulation or insider trading, which he believes are necessary without delay.",
         "time": "2026-02-25T03:02:08.000Z",
         "time_ago": "5天前",
         "url": "https://x.com/aistocksavvy/status/2026492885542060069"
@@ -111,7 +111,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "$QQQ $SPY | Trump:\n\n➤ There Is No Inflation And Growth Is Tremendous\n\n➤ Major Tech Companies Have An Obligation To Provide Their Own Power For AI Data...",
-        "translate": "$QQQ $SPY | 布什：没有通胀，经济增长巨大\n\n$SQ $AI 数据中心 五大科技公司有义务自己提供自己的数据中心服务\n\n$SQ $保险巨头想停止所有付款给大保险公司\n\n$SQ $保护政策带来的数十亿美元关税和保障了安全",
+        "translate": "$QQQ $SPY | Trump:\n\n>> 无通胀和增长惊人\n\n>> 大型科技公司有义务为人工智能数据中心提供自己的电力\n\n>> 想要停止所有对大型保险公司的付款\n\n>> 预计将带来数十亿美元的关税，并确保“”",
         "time": "2026-02-25T02:57:53.000Z",
         "time_ago": "5天前",
         "url": "https://x.com/aistocksavvy/status/2026491814178332795"
@@ -133,7 +133,7 @@
         "text": "美國已提出一項規則，擬限制聯邦政府機構採購使用中國晶圓代工廠中芯國際（ SMIC ），或中國記憶體晶片製造商長鑫儲存（ CXMT ）及長江存儲（ YMTC ）所生產半導體的產品與服務。媒體報導指出，這項擬議規則目前開放公眾評論，截止日期為2026年4月20日。",
         "translate": "美國已提出一項規則，擬限制聯邦政府機構採購使用中國晶圓代工廠中芯國際（ SMIC ），或中國記憶體晶片製造商長鑫儲存（ CXMT ）及長江存儲（ YMTC ）所生產半導體的產品與服務。媒體報導指出，這項擬議規則目前開放公眾評論，截止日期為2026年4月20日。",
         "time": "2026-03-02T07:08:15.000Z",
-        "time_ago": "2小时前",
+        "time_ago": "3小时前",
         "url": "https://x.com/QQ_Timmy/status/2028366758470713389"
       },
       {
@@ -142,7 +142,7 @@
         "text": "國巨 YAGEO\n2026年3月1日\n過去三年，我們的聚合物鉭質電容器產品線（KO-CAP）在幾個關鍵市場領域的需求持續激增。與此同時，為了快速擴大產能以因應這股上升需求，我們在勞工、材料及設備等方面的成本也持續上升。",
         "translate": "國巨 YAGEO\n2026年3月1日\n過去三年，我們的聚合物鉭質電容器產品線（KO-CAP）在幾個關鍵市場領域的需求持續激增。與此同時，為了快速擴大產能以因應這股上升需求，我們在勞工、材料及設備等方面的成本也持續上升。",
         "time": "2026-03-02T05:46:00.000Z",
-        "time_ago": "4小时前",
+        "time_ago": "5小时前",
         "url": "https://x.com/QQ_Timmy/status/2028346060041568333"
       }
     ]
