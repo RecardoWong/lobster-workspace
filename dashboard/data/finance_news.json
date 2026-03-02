@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-03-02T12:30:45.343592",
+  "update_time": "2026-03-02T13:30:24.011624",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
     {
-      "title": "沪指午盘微涨，油气股爆发，航运、贵金属大涨，恒科指大跌超2%，科网股全线下跌",
+      "title": "A股三大股指午后转涨，油气股爆发，CPO大涨，恒科指大跌超2%，科网股全线下跌",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766489",
       "time": "刚刚",
@@ -12,52 +12,20 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "生死72小时！接下来左右市场动向的决定性因素",
+      "title": "“委内瑞拉模式”结局是选项之一？特朗普：同意与伊朗新领导层对话，伊朗：不谈",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766476",
+      "url": "https://wallstreetcn.com/articles/3766494",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "除战争外，3月配置还面临哪些扰动？",
+      "title": "加密货币光环褪去，散户纷纷转向股票市场",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766498",
+      "url": "https://wallstreetcn.com/articles/3766497",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
-    },
-    {
-      "title": "野村：泰国、印度、韩国和菲律宾最易受油价上涨影响",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqknu5408161.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "巴基斯坦股市下挫9.6% 触发停牌",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqknu5407470.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "伊朗国安事务负责人拉里贾尼：我们不会与美国谈判",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqknp4693707.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "土耳其市场监管机构禁止卖空 卖空禁令将持续到3月6日收盘",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-02/doc-inhpqknu5403591.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
     }
   ]
 }
