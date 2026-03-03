@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-03-04T05:30:05.697552",
+  "update_time": "2026-03-04T06:30:24.334732",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "美联储票委：战争阴影笼罩经济前景，美联储可按兵不动",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766659",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "苹果MacBook全线更新， Pro用上M5 Max、AI算力提升4倍，Air首搭M5芯片、512GB起步",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766647",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
     {
       "title": "中东局势冲击“今年最牛股市”：韩股创18个月最大日跌幅，在美上市韩国ETF一度暴跌近15%，三星、SK海力士跌约10%",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "无人机袭击塞浦路斯英军基地，欧洲神经紧张",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766657",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "伊朗战争扰乱霍尔木兹海峡，欧洲基准柴油期货两日内暴涨34%",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766655",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "苹果全线上调MacBook售价，M5芯片与全新显示器标志AI优先战略",
+      "title": "华府动态：特朗普要斩断与西班牙贸易 承诺护送油轮通过霍尔木兹海峡",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-04/doc-inhpufuw7082112.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-04/doc-inhpufuv0403983.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "3月4日热门中概股普遍下跌 台积电跌4.27%，阿里巴巴跌4.88%",
+      "title": "大宗商品综述：油价继续上涨 铝价走高 黄金盘中大幅下跌",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpufuy4182291.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-04/doc-inhpufut3626129.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "3月4日收盘：美股周二收跌，特朗普承诺保障海湾航运安全后股市跌幅大幅收窄",
+      "title": "是以色列迫使美国出手？卢比奥为对伊行动提出的最新理由引发反弹",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpufuy4175603.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-04/doc-inhpufuv0402502.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "为防能源危机特朗普双管齐下 美国要给航经波斯湾的船只护航和上保险",
+      "title": "德国总理默茨敦促尽快落实美欧贸易协议 称无法接受更差条件",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-04/doc-inhpufuy4174548.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-04/doc-inhpufut3624381.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
