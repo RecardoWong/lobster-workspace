@@ -1,39 +1,31 @@
 {
-  "update_time": "2026-03-03T22:30:29.004814",
+  "update_time": "2026-03-03T23:30:44.426965",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 3,
   "news": [
     {
-      "title": "基础稳优势多韧性强潜能大，两会首场发布会引燃经济话题",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-03-03/doc-inhptqxe7370490.shtml",
+      "title": "百亿基金经理夏俊杰：中国股票是最便宜主流资产，AI泡沫土壤或不在",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766640",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "迪拜警方：发布与官方通报相悖的社媒内容或面临逮捕",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptqxe7369682.shtml",
+      "title": "标普下调软银评级至负面，称向OpenAI投资300亿美元或有损信用质量",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766645",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "百思买预计增长乏力，消费者需求放缓",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptqxh4470409.shtml",
+      "title": "特朗普放话“不惜一切” ，美三大股指均跌超2%，黄金跌超5%，白银暴跌11%，布油涨近8%，美元指数涨1%",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766590",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "扎克伯格完成1.7亿美元迈阿密豪宅交易，创当地历史最高纪录",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptqwz3835662.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     }
   ]
 }
