@@ -1,18 +1,10 @@
 {
-  "update_time": "2026-03-03T18:30:24.452096",
+  "update_time": "2026-03-03T19:30:31.929380",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "伊朗危机引发滞胀担忧，欧洲央行加息预期升温，英央行降息几成泡影",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766627",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普放话“不惜一切” ，全球市场遭遇“黑色星期二”，除了原油，一切都在跌！",
+      "title": "特朗普放话“不惜一切” ，美股指期货跌幅扩大，白银大跌10%，布油涨9%突破85美元",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766590",
       "time": "刚刚",
@@ -20,41 +12,49 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "AI需求强烈，美国也要搞“特高压输电”？",
+      "title": "报道：三星美国泰勒厂量产推迟至2027年，或波及特斯拉AI芯片供应",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766611",
+      "url": "https://wallstreetcn.com/articles/3766624",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "煤炭发电“回潮”并未刺激新增投资",
+      "title": "美国突袭伊朗一天前，12个Polymarket账户精准押注，“特朗普内幕交易”重现？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766628",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "Altman承认OpenAI与美国防部协议“投机取巧且草率” 拟增条款界定原则",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteif3998928.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptkrc3894666.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "分析：欧元信用违约保护成本上升，因市场避险情绪升温",
+      "title": "伊朗风险加剧之际 欧元区通胀意外加速",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteii0773916.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptkrh7422502.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "高通首席执行官：6G料将赋能AI时代",
+      "title": "包揽合康新能16.5亿定增，美的集团“豪赌”新能源赛道",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteii0773236.shtml",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-03/doc-inhptkrk4527439.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "业绩指引不及预期，舍弗勒股价暴跌",
+      "title": "中天期货:原油再度涨停 棉花震荡调整",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteif3995705.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-03/doc-inhptkrk4520725.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
