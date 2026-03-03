@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-03-04T00:30:29.244200",
+  "update_time": "2026-03-04T01:30:27.656984",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "华为杨超斌：产业界需携手在5G-A上围绕U6GHz等频段持续创新，满足AI业务激增需求",
+      "title": "谷歌推出Gemini 3.1 Flash-LITE模型",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766651",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "霍尔木兹受阻、储罐饱和，伊拉克日减产或达300万桶",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766649",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "百亿基金经理夏俊杰：中国股票是最便宜主流资产，AI泡沫土壤或不在",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766640",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "美联储威廉姆斯：目前伊朗战争对金融市场的影响相对温和",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-03-04/doc-inhptvfe4377585.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvez0550445.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国信用市场担忧情绪升至10月以来最高",
+      "title": "特朗普：油价有点高 伊朗战争结束后就会跌",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvex3751239.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvez0550385.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "伊拉克大型油田开始停产 霍尔木兹危机若无好转恐减产300万桶/日",
+      "title": "特朗普：今天对伊朗新领导层的打击相当严重",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvfe4376766.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvfa7290225.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "堪萨斯城联储行长重申通胀过高 称劳动力市场基本平衡",
+      "title": "特朗普称美国将“切断”与西班牙的所有贸易",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvez0526749.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvfa7290154.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
