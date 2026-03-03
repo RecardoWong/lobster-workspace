@@ -1,12 +1,12 @@
 {
-  "update_time": "2026-03-03T08:01:21.472580",
+  "update_time": "2026-03-03T09:01:27.038972",
   "tweets": {
     "elonmusk": [
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "Highest usage of 𝕏 ever",
-        "translate": "最高使用量为 𝕏 个单位",
+        "translate": "最高使用频率的 𝕏",
         "time": "2026-03-01T05:37:39.000Z",
         "time_ago": "1天前",
         "url": "https://x.com/elonmusk/status/2027981570594775101"
@@ -15,18 +15,18 @@
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "You imagine, Grok Imagine does the magic ",
-        "translate": "你想象，《戈克幻想》实现了“魔力”。",
+        "translate": "你想象，Grok Imagine 意味着“魔术”或“神奇”的含义。",
         "time": "2026-03-02T08:20:59.000Z",
-        "time_ago": "15小时前",
+        "time_ago": "16小时前",
         "url": "https://x.com/elonmusk/status/2028385062920532000"
       },
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "Imagine keeps improving",
-        "translate": "想象着那些技术会越来越好。",
+        "translate": "想象着我们的技术正在进步。",
         "time": "2026-03-02T08:32:14.000Z",
-        "time_ago": "15小时前",
+        "time_ago": "16小时前",
         "url": "https://x.com/elonmusk/status/2028387896840052910"
       }
     ],
@@ -53,7 +53,7 @@
         "author": "jdhasoptions",
         "name": "jdhasoptions",
         "text": "I spent 100 hours over the past week researching, writing and editing the piece we just put out.\n\nIt’s a scenario, not a prediction like most of our w...",
-        "translate": "我过去一周花了100个小时研究、写作和编辑我们刚刚发布的文章。\n\n这不是我们的工作中的预测，而是一个严格构建的场景。但需要说明的是，它并不完全基于现实情况。",
+        "translate": "我过去一周花了100小时研究、写作和编辑我们刚刚发布的稿件。\n\n这不是一个预测，而是像大多数我们的工作一样，但经过严格构造，如果它被忽视需要的则是那种过时的智力懒惰。",
         "time": "2026-02-22T20:25:56.000Z",
         "time_ago": "8天前",
         "url": "https://x.com/jdhasoptions/status/2025668400396349476"
@@ -102,7 +102,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "Trump: Pass The Stop Insider Trading Act Without Delay - $QQQ $SPY",
-        "translate": "特朗普：暂停股票交易法不设时限 - $QQQ $SPY",
+        "translate": "特朗普：请不要推迟通过《内幕交易法》 - $QQQ $SPY",
         "time": "2026-02-25T03:02:08.000Z",
         "time_ago": "5天前",
         "url": "https://x.com/aistocksavvy/status/2026492885542060069"
@@ -111,7 +111,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "$QQQ $SPY | Trump:\n\n➤ There Is No Inflation And Growth Is Tremendous\n\n➤ Major Tech Companies Have An Obligation To Provide Their Own Power For AI Data...",
-        "translate": "QQQ | Trump:\n\n1. 随着通货膨胀和增长巨大，科技公司有义务为AI数据中心提供自己产生的电力。\n\n2. 想要停止向大保险公司的所有支付，并将数十亿美元的关税引入法案。",
+        "translate": "$QQQ $SPY | 奥巴马：\n\n— 不存在通货膨胀，经济增长巨大。\n\n— 大型科技公司有提供自身AI数据中心的能力义务。\n\n—— 想要停止大保险公司的所有支付。\n\n—— 贸易关税带来的数十亿美元之多并被保障强",
         "time": "2026-02-25T02:57:53.000Z",
         "time_ago": "5天前",
         "url": "https://x.com/aistocksavvy/status/2026491814178332795"
@@ -133,7 +133,7 @@
         "text": "聖克拉拉，加州，以及薩克森堡，賓夕法尼亞州 —— NVIDIA 與 Coherent Corp.（紐約證交所代碼：COHR）今日宣布簽署多年期策略協議，旨在推進先進光學技術的前沿發展，包括製造產能與研發，以支援下一代 AI 基礎設施。\n\n這項非獨家協議包括 NVIDIA",
         "translate": "聖克拉拉，加州，以及薩克森堡，賓夕法尼亞州 —— NVIDIA 與 Coherent Corp.（紐約證交所代碼：COHR）今日宣布簽署多年期策略協議，旨在推進先進光學技術的前沿發展，包括製造產能與研發，以支援下一代 AI 基礎設施。\n\n這項非獨家協議包括 NVIDIA",
         "time": "2026-03-02T13:33:53.000Z",
-        "time_ago": "10小时前",
+        "time_ago": "11小时前",
         "url": "https://x.com/QQ_Timmy/status/2028463807232962668"
       },
       {
@@ -142,7 +142,7 @@
         "text": "加州聖克拉拉與聖荷西 — NVIDIA 今日宣布與 Lumentum Holdings Inc.（納斯達克：LITE）簽訂多年期策略協議，加速先進光學技術的創新，包括研發工作，以支援下一代 AI 基礎設施與系統設計。\n\n此非獨家協議包括 NVIDIA 的數十億美元採購承諾，以及未來對先進雷射元件的產...",
         "translate": "加州聖克拉拉與聖荷西 — NVIDIA 今日宣布與 Lumentum Holdings Inc.（納斯達克：LITE）簽訂多年期策略協議，加速先進光學技術的創新，包括研發工作，以支援下一代 AI 基礎設施與系統設計。\n\n此非獨家協議包括 NVIDIA 的數十億美元採購承諾，以及未來對先進雷射元件的產能存取權。此外，NVIDIA 將投資",
         "time": "2026-03-02T13:16:29.000Z",
-        "time_ago": "10小时前",
+        "time_ago": "11小时前",
         "url": "https://x.com/QQ_Timmy/status/2028459427322368194"
       }
     ]

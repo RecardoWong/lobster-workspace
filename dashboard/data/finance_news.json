@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-03T08:30:10.822622",
+  "update_time": "2026-03-03T09:30:33.596859",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "如何对冲伊朗战争风险？市场投票：黄金，而非债券",
+      "title": "付鹏：从企业生命周期再看AI产业链——从硬件到应用的产业传导路径【付鹏说20】",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766571",
+      "url": "https://wallstreetcn.com/articles/3766581",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "首次AI春节大战，谁赢了？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766578",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "美股“异常平静”，面对伊朗风险，市场是在等待，还是自满？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766580",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "40亿美元投资Lumentum和Coherent，英伟达“相信光”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766574",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "周二开始“分阶段”推出措施，美国称有预案“缓解油价上涨”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766570",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "日本经济产业大臣：目前没有释放石油储备的具体计划",
+      "title": "中信建投期货：3月3日工业品早报",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpsicw4740221.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-03/doc-inhpsicu7678649.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "华尔街大多头：美股2月份的下跌并非熊市，市场将在3月迎来反弹",
+      "title": "首佳科技发盈喜 预期2025年度除税后溢利同比上升不少于50%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpsict0848765.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-03/doc-inhpsicw4780258.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "日本国债下跌 追随美国国债跌势 市场关注伊朗冲突的影响",
+      "title": "中信建投期货：3月3日农产品早报",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpsict0846911.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-03/doc-inhpsicu7678123.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中东冲突升级之际 韩元走低",
+      "title": "快讯：现货黄金日内涨幅达1.00%，现报5375.43美元/盎司",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpsict0845205.shtml",
+      "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-03-03/doc-inhpsicr4117238.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
