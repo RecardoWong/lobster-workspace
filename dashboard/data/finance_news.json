@@ -1,39 +1,6 @@
 {
-  "update_time": "2026-03-03T20:30:35.071368",
+  "update_time": "2026-03-03T21:30:32.697588",
   "source_count": 3,
-  "total_count": 4,
-  "news": [
-    {
-      "title": "美国国债连续第二日下挫 交易员对美联储降息的预期明显降温",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptkrc3918865.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "分析：欧元区通胀小幅上扬，加剧中东局势引发的担忧",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptkrk4548032.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "分析：日元因能源价格飙升下跌，面临干预风险",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptkrc3914103.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "黄金下跌 美元走强抵消中东风险溢价",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptkrf0690382.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    }
-  ]
+  "total_count": 0,
+  "news": []
 }
