@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-04T01:30:27.656984",
+  "update_time": "2026-03-04T02:30:11.122491",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "谷歌推出Gemini 3.1 Flash-LITE模型",
+      "title": "OpenAI发布GPT-5.3 Instant模型",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766651",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "霍尔木兹受阻、储罐饱和，伊拉克日减产或达300万桶",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766649",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "百亿基金经理夏俊杰：中国股票是最便宜主流资产，AI泡沫土壤或不在",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766640",
+      "url": "https://wallstreetcn.com/articles/3766654",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "美联储威廉姆斯：目前伊朗战争对金融市场的影响相对温和",
+      "title": "沃什未上任已挑战重重，同僚质疑与油价飙升恐令其难圆特朗普的降息梦",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766653",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "伊以持续互袭，伊朗称击中美军“萨德”系统目标，伊核设施遭破坏，王毅同以外长通话",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766652",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "IMF第一副总裁卡茨：美元仍然是全球金融体系的核心货币",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvez0550445.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptzny7175877.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普：油价有点高 伊朗战争结束后就会跌",
+      "title": "欧洲股市重挫 通胀与利率前景阴云笼罩",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvez0550385.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptznv3661397.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普：今天对伊朗新领导层的打击相当严重",
+      "title": "美联储官员卡什卡里称伊朗局势增添不确定性 评估通胀影响为时过早",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvfa7290225.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptznv3659819.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普称美国将“切断”与西班牙的所有贸易",
+      "title": "美联储施密德：通胀过热，绝不能掉以轻心",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptvfa7290154.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptznv3656846.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
