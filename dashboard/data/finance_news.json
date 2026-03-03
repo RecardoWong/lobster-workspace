@@ -1,6 +1,39 @@
 {
-  "update_time": "2026-03-03T21:30:32.697588",
+  "update_time": "2026-03-03T22:30:29.004814",
   "source_count": 3,
-  "total_count": 0,
-  "news": []
+  "total_count": 4,
+  "news": [
+    {
+      "title": "基础稳优势多韧性强潜能大，两会首场发布会引燃经济话题",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/china/2026-03-03/doc-inhptqxe7370490.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "迪拜警方：发布与官方通报相悖的社媒内容或面临逮捕",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptqxe7369682.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "百思买预计增长乏力，消费者需求放缓",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptqxh4470409.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "扎克伯格完成1.7亿美元迈阿密豪宅交易，创当地历史最高纪录",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptqwz3835662.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    }
+  ]
 }
