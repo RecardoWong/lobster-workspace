@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-03-03T16:30:34.237190",
+  "update_time": "2026-03-03T17:30:22.739097",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "比特币下跌，受中东冲突持续前景打压",
+      "title": "特朗普“不惜一切”誓言加剧恐慌，全球股债遭抛售，油涨金银跌，汇市美元独秀！",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766590",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美元重振雄风——但仅因别无选择？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766621",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "投资范式拐点！“新债王”冈拉克：远离美元资产、私募信贷，黄金牛市延伸至整个大宗商品市场",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766610",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "德意志银行：如果能源价格维持在当前水平，英国央行降息步伐将放缓",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpsxzm0844502.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptein4599204.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "消息人士密集放风：中东黑天鹅突袭，日本央行3月或暂缓加息",
+      "title": "报告：中东冲突若持续，或导致债券收益率下降",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-03-03/doc-inhpsxzi4065046.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteif3967346.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "欧洲国债延续跌势 交易员削减对英国央行的降息押注",
+      "title": "伊朗战火蔓延，油价易涨难跌，避险情绪升级！",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpsxzq4693918.shtml",
+      "url": "https://finance.sina.com.cn/money/future/2026-03-03/doc-inhpteik7496629.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "小摩：MINIMAX代币需求增长快 助收入增长 评级“增持”",
+      "title": "OpenAI更新与五角大楼协议，加强监控保护条款",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-03/doc-inhpsxzq4689079.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteif3966732.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
