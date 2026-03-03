@@ -1,10 +1,18 @@
 {
-  "update_time": "2026-03-03T17:30:22.739097",
+  "update_time": "2026-03-03T18:30:24.452096",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "特朗普“不惜一切”誓言加剧恐慌，全球股债遭抛售，油涨金银跌，汇市美元独秀！",
+      "title": "伊朗危机引发滞胀担忧，欧洲央行加息预期升温，英央行降息几成泡影",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766627",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "特朗普放话“不惜一切” ，全球市场遭遇“黑色星期二”，除了原油，一切都在跌！",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766590",
       "time": "刚刚",
@@ -12,49 +20,41 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "美元重振雄风——但仅因别无选择？",
+      "title": "AI需求强烈，美国也要搞“特高压输电”？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766621",
+      "url": "https://wallstreetcn.com/articles/3766611",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "投资范式拐点！“新债王”冈拉克：远离美元资产、私募信贷，黄金牛市延伸至整个大宗商品市场",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766610",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "德意志银行：如果能源价格维持在当前水平，英国央行降息步伐将放缓",
+      "title": "煤炭发电“回潮”并未刺激新增投资",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhptein4599204.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteif3998928.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "报告：中东冲突若持续，或导致债券收益率下降",
+      "title": "分析：欧元信用违约保护成本上升，因市场避险情绪升温",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteif3967346.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteii0773916.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "伊朗战火蔓延，油价易涨难跌，避险情绪升级！",
+      "title": "高通首席执行官：6G料将赋能AI时代",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/2026-03-03/doc-inhpteik7496629.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteii0773236.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "OpenAI更新与五角大楼协议，加强监控保护条款",
+      "title": "业绩指引不及预期，舍弗勒股价暴跌",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteif3966732.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpteif3995705.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
