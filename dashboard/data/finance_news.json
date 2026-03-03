@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-04T03:30:17.789416",
+  "update_time": "2026-03-04T04:30:18.862168",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "OpenAI发布更快更准更有判断力模型GPT-5.3 Instant，称GPT 5.4将比想象更快到来",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766654",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "沃什未上任已挑战重重，同僚质疑与油价飙升恐令其难圆特朗普的降息梦",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766653",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "伊以持续互袭，伊朗称击中美军“萨德”系统目标，伊核设施遭破坏，王毅同以外长通话",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766652",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "CBS：美国在伊朗战争中使用Anthropic的AI模型",
+      "title": "美国FDA警告30家远程医疗公司，称其复合减肥药广告具有误导性",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptznv3677053.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpufuw7067137.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "英国财相强调不为利益牺牲原则 称对伊决策不与美英贸易谈判挂钩",
+      "title": "OpenAI发布GPT-5.3 Instant 升级ChatGPT最常用模型",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptznv3675357.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-04/doc-inhpufut3573444.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "伊朗战火延烧中东全境 美国或考虑从内部瓦解德黑兰",
+      "title": "特朗普国家安全团队向国会游说，争取支持对伊朗战争",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptznv3669005.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpufuv0350281.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "西班牙不让美国使用空军基地炸伊朗 特朗普下令斩断两国贸易往来",
+      "title": "特朗普政府考虑放宽对北大西洋露脊鲸的保护",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhptznx0445832.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpufut3572437.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
