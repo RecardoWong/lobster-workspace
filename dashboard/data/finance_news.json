@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-03T15:30:30.779533",
+  "update_time": "2026-03-03T16:30:34.237190",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "ChatGPT卸载量飙升295%！OpenAI承认与美军签约“太草率”，急改合同严禁模型用于国内监视",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766601",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "冲突升级！美伊双方都“不惜代价”，特朗普吹嘘“无限”弹药，并称将回应很快回应大使馆遇袭",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766606",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "付鹏：从英伟达、台积电、海力士再看AI产业链估值分化背后逻辑——从硬件到应用的产业传导路径【付鹏说20】",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766581",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "小摩：澳门2月博彩收入胜预期 建议保持选择性 首选银河娱乐",
+      "title": "比特币下跌，受中东冲突持续前景打压",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/tob/2026-03-03/doc-inhpsxzm0795602.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpsxzm0844502.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "花旗：料老铺黄金加价对销售影响有限 目标价1,119港元",
+      "title": "消息人士密集放风：中东黑天鹅突袭，日本央行3月或暂缓加息",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-03/doc-inhpsxzi4016969.shtml",
+      "url": "https://finance.sina.com.cn/stock/marketresearch/2026-03-03/doc-inhpsxzi4065046.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "小摩：太空太阳能热潮席卷中国新能源板块 予协鑫科技“增持”评级",
+      "title": "欧洲国债延续跌势 交易员削减对英国央行的降息押注",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-03/doc-inhpsxzn7550339.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpsxzq4693918.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "分析：油价是中东冲突影响金融市场的主要渠道",
+      "title": "小摩：MINIMAX代币需求增长快 助收入增长 评级“增持”",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-03/doc-inhpsxzn7544470.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-03/doc-inhpsxzq4689079.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
