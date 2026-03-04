@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-03-04T23:30:28.933765",
+  "update_time": "2026-03-05T00:30:18.097755",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "五角大楼将Anthropic列入黑名单后，国防科技企业纷纷弃用Claude",
+      "title": "A股“HALO”盛行：并非想得那样",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766742",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美联储理事米兰放鸽：中东局势尚未改变降息判断，劳动力市场仍需政策支撑",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766734",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "高盛：无惧战火与AI恐慌，美股回调即是“上车”机会",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766743",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "航运商与石油交易商寻求特朗普护航计划细节",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvyem3713406.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpvyee3726116.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美股早盘小幅上涨后回落 交易员梳理纷繁的战争相关报道",
+      "title": "美国服务业以2022年来最快步伐扩张 需求回升推动",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvyei7007856.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-05/doc-inhpvyei7031422.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中东欧市场：波兰央行下调基准利率后，兹罗提保持涨势",
+      "title": "遭特朗普批评后，斯塔默誓言保持\"冷静头脑\"",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvyee3702700.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpvyem3729494.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "苹果十余年来发布首款平价笔记本电脑",
+      "title": "美元走强难阻逢低买盘入场，金价反弹回升",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvyem3709324.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpvyee3721602.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
