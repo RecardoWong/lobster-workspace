@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-03-05T02:30:11.831475",
+  "update_time": "2026-03-05T03:30:22.107122",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "美防长称美伊冲突或持续八周或更长，伊朗否认寻求谈判报道，王毅通话中东外长",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766745",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美联储褐皮书：整体经济活动在十二个联储中的七个以轻微至温和的速度增长",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766747",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "特朗普正式提名凯文·沃什担任美联储主席，以接替鲍威尔",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "A股“HALO”盛行：并非想得那样",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766742",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美联储理事米兰放鸽：中东局势尚未改变降息判断，劳动力市场仍需政策支撑",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766734",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "鉴于关税不确定性 欧盟继续冻结对与美国贸易协议的批准程序",
+      "title": "美联航空管局：纽约拉瓜迪亚机场因“安全原因”暂停航班降落",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-05/doc-inhpwene0181345.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpwkuf3519213.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "欧洲股市反弹 投资者对伊朗战争迅速解决抱有希望",
+      "title": "西班牙媒体称该国外交大臣否认与美国军事合作",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-05/doc-inhpwenf6957376.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpwkuf3519044.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "城堡证券的Rubner不再看空美股 预计3月将出现反弹",
+      "title": "Anthropic部分投资者敦促缓和与五角大楼的紧张关系",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-05/doc-inhpwena3632250.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpwkuc6842467.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "欧洲债市：意大利国债领涨 风险情绪改善",
+      "title": "普京：俄罗斯依然是所有伙伴可靠的能源供应国",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-05/doc-inhpwena3621933.shtml",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-05/doc-inhpwkuf3516284.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
