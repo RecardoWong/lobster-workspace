@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-03-04T13:30:32.426303",
+  "update_time": "2026-03-04T14:30:24.252115",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "泰国基准股指下跌8% 触发市场暂停交易",
+      "title": "韩国金融监督委员会主席：如有需要，韩国将积极启动100万亿韩元的市场计划",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766700",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "担忧油价冲击，海外资金撤离亚洲AI热潮，韩股暴跌",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766694",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "2月PMI：“温差”信号",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766697",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "德国工会力求在特斯拉柏林工厂取得突破",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvayq3916358.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvayn6842034.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "摩根大通：若霍尔木兹海峡持续关闭，伊拉克和科威特原油供应可能在数日内中断",
+      "title": "德国最大工会寻求在特斯拉柏林工厂获得更大影响力",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvaym0135170.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvaym0157109.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "马云，最新发声！",
+      "title": "光大期货0304热点追踪：美承诺为油轮护航，原油波幅加大",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-03-04/doc-inhpvayn6812683.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-04/doc-inhpvaym0157023.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "LG电子连续13年蝉联全球OLED电视市占率第一",
+      "title": "韩国与菲律宾签署1600万美元消费品出口协议",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvaym0131276.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvaym0152045.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
