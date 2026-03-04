@@ -1,26 +1,18 @@
 {
-  "update_time": "2026-03-04T16:30:04.226350",
+  "update_time": "2026-03-04T17:30:20.161513",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "继全球最大LNG厂后，中东又有一系列工厂关闭或停产",
+      "title": "硅谷遭中东惊魂？英伟达撤离、亚马逊遇袭、微软谷歌百亿投资蒙阴影",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766711",
+      "url": "https://wallstreetcn.com/articles/3766712",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "伊朗、美国、以色列通报最新战果",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766709",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "沪指跌1%失守4100点，中石油成A股市值冠军，电网设备逆势大涨，恒指跌超2%，科网股普跌",
+      "title": "沪指跌1%失守4100点，中石油成A股流通市值冠军，电网设备逆势大涨，恒指跌超2%，科网股普跌",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766678",
       "time": "刚刚",
@@ -28,33 +20,41 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "加皇资本：阿迪达斯的业绩展望或令人失望",
+      "title": "美股本轮财报季最大关键词——AI焦虑",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766703",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "《政府工作报告》解读，锁定明日上午11时30分→",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvihk6808685.shtml",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-04/doc-inhpviht3955250.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "分析：若中东危机扩大，铜价或将跌破12,000美元",
+      "title": "五角大楼决策后，Anthropic与Palantir合作陷入危机",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvihq0439031.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvihq0468374.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "意大利与德国10年期国债收益率之差走阔 达11月以来最大",
+      "title": "OpenAI正在开发内部版替代方案，对标微软旗下GitHub",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvihk6803114.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvihn3943257.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "在重大地缘冲突面前，金油股都遵循同一个历史规律",
+      "title": "德国工会力争在特斯拉柏林工厂取得突破",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-03-04/doc-inhpvihn3903690.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvihq0463347.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
