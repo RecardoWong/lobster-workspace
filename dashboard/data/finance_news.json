@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-04T17:30:20.161513",
+  "update_time": "2026-03-04T18:30:06.714013",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "硅谷遭中东惊魂？英伟达撤离、亚马逊遇袭、微软谷歌百亿投资蒙阴影",
+      "title": "市场评估特朗普“护航”计划，美股期指转涨，德股涨超1%，韩股历史性暴跌12%，油价再涨3%，白银涨5%",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766712",
+      "url": "https://wallstreetcn.com/articles/3766668",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "沪指跌1%失守4100点，中石油成A股流通市值冠军，电网设备逆势大涨，恒指跌超2%，科网股普跌",
+      "title": "美国克利夫兰联储主席：暂停降息",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766678",
+      "url": "https://wallstreetcn.com/articles/3766720",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "美股本轮财报季最大关键词——AI焦虑",
+      "title": "中远海运：中东冲突升级，即日起暂停相关航线新订舱业务",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766703",
+      "url": "https://wallstreetcn.com/articles/3766715",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "《政府工作报告》解读，锁定明日上午11时30分→",
+      "title": "京东外卖发布元宵数据：汤圆类订单增长超10倍，“预约送”单量增长5.3倍",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-03-04/doc-inhpviht3955250.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "五角大楼决策后，Anthropic与Palantir合作陷入危机",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvihq0468374.shtml",
+      "url": "https://finance.sina.com.cn/tech/it/2026-03-04/doc-inhpvpqn0370638.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "OpenAI正在开发内部版替代方案，对标微软旗下GitHub",
+      "title": "美国要求驻拉合尔和卡拉奇的非紧急工作人员撤离巴基斯坦",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvihn3943257.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-04/doc-inhpvpqp7147705.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "德国工会力争在特斯拉柏林工厂取得突破",
+      "title": "法国财长：G7财长下周将就中东问题召开会议",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvihq0463347.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-04/doc-inhpvpqp7147525.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "贸易混乱冲击销量 特拉顿集团利润下滑",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvpqp7145385.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
