@@ -1,10 +1,10 @@
 {
-  "update_time": "2026-03-04T20:30:05.305087",
+  "update_time": "2026-03-04T21:30:30.916283",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "风险资产全面反弹，报道称伊朗传谈判信号，美股期指转涨，美油转跌，断供影响伦铝创四年新高",
+      "title": "美伊冲突影响减缓、劳动力超预期回暖，风险资产全线反弹，美股期指转涨，美油转跌，断供影响伦铝创四年新高",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766668",
       "time": "刚刚",
@@ -12,49 +12,49 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "美国财长贝森特：原油供应十分充足，未来几天就保险问题与船东取得联系",
+      "title": "小非农超预期回稳！美国2月ADP就业人数增加 6.3万，为三个月来最高水平",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766731",
+      "url": "https://wallstreetcn.com/articles/3766733",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "时隔一个月再度飙升，报道：三星电子Q1 DRAM价格涨幅从70%上调至100%",
+      "title": "三年前OpenAI预测不会被AI影响的职业，正以4倍速被残酷碾压",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766729",
+      "url": "https://wallstreetcn.com/articles/3766727",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "巴克莱对英国贷款机构MFS的敞口约为5亿英镑",
+      "title": "\"QuitGPT\"抗议活动聚焦OpenAI关系",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvtwp3776003.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "恐慌席卷韩国股市：创纪录单日暴跌",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvtwk0287624.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvtwk0315664.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "贝森特称15%的全球关税税率可能本周开始实施",
+      "title": "因霍尔木兹风险油价跳涨，欧洲企稳",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvtwm7064788.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvtwh3793960.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "伊朗袭击事件后休市两日，阿联酋股市重新开盘即遭抛售",
+      "title": "韩国创纪录的抛售打击芯片领军企业",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvtwp3772408.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvtwp3800790.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "华尔街因中东动荡而剧烈震荡",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvtwp3800663.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
