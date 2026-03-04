@@ -1,12 +1,12 @@
 {
-  "update_time": "2026-03-04T08:01:23.931338",
+  "update_time": "2026-03-04T09:01:32.172708",
   "tweets": {
     "elonmusk": [
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "Expanding to the stars avoids risk of a mouse utopian behavioral sink",
-        "translate": "拓展到太空中避免乌托邦行为的陷阱",
+        "translate": "拓展到宇宙中可以避免老鼠的乌托邦行为。",
         "time": "2026-03-02T16:01:37.000Z",
         "time_ago": "1天前",
         "url": "https://x.com/elonmusk/status/2028500984977330453"
@@ -15,18 +15,18 @@
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "American Dynamism ",
-        "translate": "美国动力 ",
+        "translate": "美国动能",
         "time": "2026-03-03T16:44:44.000Z",
-        "time_ago": "7小时前",
+        "time_ago": "8小时前",
         "url": "https://x.com/elonmusk/status/2028874223528087706"
       },
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "Major fraud",
-        "translate": "大范围诈骗",
+        "translate": "“大范围欺诈”",
         "time": "2026-03-03T16:17:57.000Z",
-        "time_ago": "7小时前",
+        "time_ago": "8小时前",
         "url": "https://x.com/elonmusk/status/2028867485685190889"
       }
     ],
@@ -53,7 +53,7 @@
         "author": "jdhasoptions",
         "name": "jdhasoptions",
         "text": "I spent 100 hours over the past week researching, writing and editing the piece we just put out.\n\nIt’s a scenario, not a prediction like most of our w...",
-        "translate": "我在这周的过去一周里花费了100个小时在研究、写作和编辑我们刚刚发表的作品。这并不是一个预测，而是我们的工作流程中的一部分。然而，它经过了严格的设计，需要这种智力懒惰。这种智能懒惰倾向常常导致一些不太合适的假设或推断，比如“大多数我们的工作中都是这样”。",
+        "translate": "我过去一周花了100个小时研究、写作和编辑我们刚刚发布的文章。这是一个情况，不是预测，但我们进行了严格的设计，如果它被忽视需要那种不切实际的懒惰。",
         "time": "2026-02-22T20:25:56.000Z",
         "time_ago": "9天前",
         "url": "https://x.com/jdhasoptions/status/2025668400396349476"
@@ -93,7 +93,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": " Companies Reporting Earnings Next Week\n\n$FRPT $DPZ $HIMS $KEYS $FANG $CIFR $DOCN $AMT $HD $CAVA $ZETA $TMDX $MELI $TEM $FSLR $RXRX $CRCL $TTD $CRM $N...",
-        "translate": "公司的下周报告\n\nFRPT DPZ HIMS KEYS CIFR DOCN AMT HD CAVA ZETA TMDX MELI TEM FSLR RXRX CRCL TTD CRM NVDA SRPT ZM JOBY SNOW SNPS RDW AI IONQ RCAT NU WBD QBTS BIDU BKSY SMR ESTC MP ZS DELL DUOL ADSK SOUN WULF",
+        "translate": " Companies Reporting Earnings Next Week\n\n$FRPT $DPZ $HIMS $KEYS $FANG $CIFR $DOCN $AMT $HD $CAVA $ZE...",
         "time": "2026-02-20T15:20:26.000Z",
         "time_ago": "11天前",
         "url": "https://x.com/aistocksavvy/status/2024866744200769588"
@@ -102,7 +102,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "Trump: Pass The Stop Insider Trading Act Without Delay - $QQQ $SPY",
-        "translate": "美国总统：取消股票投机法，无需延迟 — $QQQ $SPY",
+        "translate": "特朗普：无延迟实施《止盈内幕交易法》 —— $QQQ $SPY",
         "time": "2026-02-25T03:02:08.000Z",
         "time_ago": "6天前",
         "url": "https://x.com/aistocksavvy/status/2026492885542060069"
@@ -111,7 +111,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "$QQQ $SPY | Trump:\n\n➤ There Is No Inflation And Growth Is Tremendous\n\n➤ Major Tech Companies Have An Obligation To Provide Their Own Power For AI Data...",
-        "translate": "$QQQ $SPY | 奥巴马：\n\n- 无通胀和增长巨大；\n- 大型科技公司有义务提供自己的人工智能数据中心；\n- 想要停止向大保险公司支付所有费用；\n- 将将增加数万亿的关税；",
+        "translate": "$QQQ $SPY | 夏普： \n\n丨 不存在通货膨胀 和 增长是巨大的\n\n丨 大型科技公司有责任为AI数据中心提供自己的电力\n\n丨 想要停止所有大保险公司的支付\n\n丨 这项关税将带来数十亿美元的费用，并被确认为“强势”",
         "time": "2026-02-25T02:57:53.000Z",
         "time_ago": "6天前",
         "url": "https://x.com/aistocksavvy/status/2026491814178332795"
@@ -130,20 +130,20 @@
       {
         "author": "QQ_Timmy",
         "name": "QQ_Timmy",
-        "text": "美光科技（ $MU ）推出全球首款 256GB LPDRAM SOCAMM2 模組，專為 AI 資料中心設計。\n\n- 美光開始出貨業界首款 256GB LPDRAM SOCAMM2 模組。\n- 採用業界首款 32Gb 單片（monolithic）LPDDR5X 晶粒 驅動。\n- 相較標準 RDIMM...",
-        "translate": "美光科技（ $MU ）推出全球首款 256GB LPDRAM SOCAMM2 模組，專為 AI 資料中心設計。\n\n- 美光開始出貨業界首款 256GB LPDRAM SOCAMM2 模組。\n- 採用業界首款 32Gb 單片（monolithic）LPDDR5X 晶粒 驅動。\n- 相較標準 RDIMM，功耗僅 1/3，佔用空間（footprint）僅 1/3。\n- 每顆 8通道伺服器 CPU",
-        "time": "2026-03-03T14:22:53.000Z",
-        "time_ago": "9小时前",
-        "url": "https://x.com/QQ_Timmy/status/2028838527375647022"
+        "text": "隨著對雲端服務的需求不斷增長，蘋果正在討論由Google託管新版 Siri 的可能性。\n\n蘋果公司正在與 Google 討論將新一代 Siri 託管在 Google 的資料中心內的可能性，Google 則正在研究如何設置伺服器來運行 Siri，同時遵守蘋果嚴格的隱私標準。\n\n蘋果已經依賴 Googl...",
+        "translate": "隨著對雲端服務的需求不斷增長，蘋果正在討論由Google託管新版 Siri 的可能性。\n\n蘋果公司正在與 Google 討論將新一代 Siri 託管在 Google 的資料中心內的可能性，Google 則正在研究如何設置伺服器來運行 Siri，同時遵守蘋果嚴格的隱私標準。\n\n蘋果已經依賴 Google Cloud 提供諸如線上儲存以及訓練自家",
+        "time": "2026-03-04T00:24:04.000Z",
+        "time_ago": "刚刚",
+        "url": "https://x.com/QQ_Timmy/status/2028989821671395451"
       },
       {
         "author": "QQ_Timmy",
         "name": "QQ_Timmy",
-        "text": "https://\ninvestors.micron.com/news-releases/\nnews-release-details/micron-sets-new-benchmark-worlds-first-high-capacity-256gb\n…",
-        "translate": "https://www.investor.micron.com/news-releases/\"\n\"news-release-details/119301-micron-sets-new-benchmark-worlds-first-high-capacity-256gb\"\n…",
-        "time": "2026-03-03T14:23:09.000Z",
-        "time_ago": "9小时前",
-        "url": "https://x.com/QQ_Timmy/status/2028838592127312278"
+        "text": "Good Morning! 3/4 Foreign Media Summary\n\n- 3036 WT: US firm raises price target\nDespite US major brokerages viewing 4Q25 revenue as in line with expec...",
+        "translate": "早上好！3/4 外媒摘要\n\n- WO3036 WT: 美国公司提高预期目标\n尽管美国主要经纪商预计 25Q2 红利与预期一致，但与毛利率压力相比，他们预计今年将以强劲增长的方式实现收入增长，并受益于数据中心和通信技术的 AI 化。\n\n- Q4FY: Q1FY25 贝宝计划\n- Q4FY: Q1FY25 火车计划\n\n- 3/4 外媒摘要\n\n- WO3036 WT: 美国公司提高预期目标\n尽管美国主要经纪商预计 25Q2 红利与预期一致，但与毛利率压力相比，他们预计今年将以强劲增长的方式实现收入增长，并受益于数据中心和通信技术的 AI 化。",
+        "time": "2026-03-04T00:18:08.000Z",
+        "time_ago": "刚刚",
+        "url": "https://x.com/QQ_Timmy/status/2028988325080842733"
       }
     ]
   }
