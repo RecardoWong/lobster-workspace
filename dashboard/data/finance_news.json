@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-04T11:30:14.344108",
+  "update_time": "2026-03-04T12:30:10.967661",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "高盛CEO所罗门：市场对伊朗反应温和令人意外，可能还需要几周时间才能真正消化",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766680",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "供需严重失调，Nand闪存一季度预计涨价90%",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766687",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "得罪美国国防部之后，Anthropic和Palantir的合作也要黄了",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766686",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "网传西安至广州东K731次列车硬座下躺人信息不实",
+      "title": "花旗：韩国央行将优先稳定市场 而非加息",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-03-04/doc-inhpuwsm3435300.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpuwsq6914776.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "大摩：中国生科板块催化剂集中下半年 重新覆盖信达生物予“增持”评级",
+      "title": "韩国总统府政策室长周三将与财政部、央行等部门官员召开会议",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-04/doc-inhpuwsq6883271.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpuwss4016089.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "大摩：料新城发展多项融资可降低总借贷 目标价升至3.17港元",
+      "title": "十四届全国人大四次会议3月5日上午开幕 会期8天",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-04/doc-inhpuwsp0211624.shtml",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-04/doc-inhpuwsm3455810.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "东北证券：首予潍柴动力“增持”评级 电力能源业务前景广阔",
+      "title": "港股午评：恒指跌2.78% 科指跌1.96%失守4800点 科网股、黄金股普跌 油气股回调 百勤油服跌超25%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-04/doc-inhpuwsm3433393.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-04/doc-inhpuwsq6909902.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
