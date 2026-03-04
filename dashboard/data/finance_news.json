@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-04T22:30:03.945451",
+  "update_time": "2026-03-04T23:30:28.933765",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "3D打印的“拉布布自由”，正在迎来一场版权清算",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766738",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "战争叠加天量赤字，美债避险神话正在悄然动摇",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766732",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美私募信贷风险与AI恐慌共振，春节扰动国内2月PMI，地缘与金融风险令复苏交易暂歇---0304宏观脱水",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766730",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "伊朗官媒：新任最高领袖遴选时间尚不确定",
+      "title": "五角大楼将Anthropic列入黑名单后，国防科技企业纷纷弃用Claude",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-04/doc-inhpvyem3692363.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvyem3713406.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "迪士尼推出其探险号邮轮 在东南亚站稳新脚跟",
+      "title": "美股早盘小幅上涨后回落 交易员梳理纷繁的战争相关报道",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvyee3684851.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvyei7007856.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "瑞银上调2026年第一季度及全年布伦特原油均价预测",
+      "title": "中东欧市场：波兰央行下调基准利率后，兹罗提保持涨势",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvyee3684194.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvyee3702700.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普对伊朗开战，让下一任美联储主席的工作难上加难",
+      "title": "苹果十余年来发布首款平价笔记本电脑",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvtwh3813311.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-04/doc-inhpvyem3709324.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
