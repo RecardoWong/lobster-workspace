@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-05T10:30:21.905085",
+  "update_time": "2026-03-05T11:30:26.726260",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "央行政策关键变化：如何抓住市场背后的资金流动？【熊园大师课3.1】",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766777",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "AH股齐反弹：沪指重返4100点，半导体大涨，恒指涨超1%，科网股普遍走高",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766772",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "直击两会 | 李强作政府工作报告：2026年经济增长目标4.5%—5%，赤字率4%左右",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766774",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "电力设备股早盘涨幅居前 上海电气涨超15%东方电气涨超13%",
+      "title": "赤子城科技早盘涨逾9% 公司预计全年利润同比增长超87.5%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-05/doc-inhpwzrx3305359.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-05/doc-inhpwzrx3346422.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "加拿大总理卡尼称不会完全排除对伊朗军事行动介入的可能性",
+      "title": "华创证券：维持珍酒李渡“强烈推荐”评级 公司旗舰型大单品招商有望再突破",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpwzrs3296128.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-05/doc-inhpwzrx3345707.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "高盛资产管理高管称私募信贷领域仍具韧性 违约率仅1%至2%",
+      "title": "中国生物制药早盘涨逾7%罗伐昔替尼授权赛诺菲 潜在收款超15亿美元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpwzrv6663246.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-05/doc-inhpwzrs3338205.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "大摩：创科实业去年下半年业绩大致符预期 评级“增持”",
+      "title": "小摩：创科实业去年业绩符预期 维持“增持”评级 目标价154港元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-05/doc-inhpwzrt9882169.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-05/doc-inhpwzrs3337132.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
