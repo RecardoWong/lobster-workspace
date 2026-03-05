@@ -1,31 +1,63 @@
 {
-  "update_time": "2026-03-05T08:30:29.575139",
+  "update_time": "2026-03-05T09:30:12.586076",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
-      "title": "币圈终于等到了韩股暴跌",
+      "title": "直击两会 | 李强作政府工作报告：2025年经济社会发展主要目标任务顺利完成",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766763",
+      "url": "https://wallstreetcn.com/articles/3766770",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "这就是美国的“地面部队”？库尔德武装开始在伊朗境内开展地面活动",
+      "title": "恒指高开1.3%，恒生科技指数涨1.6%",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766761",
+      "url": "https://wallstreetcn.com/articles/3766772",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "美联储通讯社：鲍威尔之后，美联储还能有独立性吗？",
+      "title": "风险偏好重燃，日韩股市大幅反弹， 韩国综指飙升12%触发熔断， 三星电子大涨13%，SK海力士涨15%",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766760",
+      "url": "https://wallstreetcn.com/articles/3766762",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
+    },
+    {
+      "title": "中信资源于3月5日上午起停牌 以待发布内幕消息及须予披露的交易",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-05/doc-inhpwviu3368155.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "中国光大绿色环保发盈喜 预期2025年度净盈利不超过5500万港元同比扭亏为盈",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-05/doc-inhpwviu3365983.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "中聚投资股价及成交量异常波动 不知悉任何原因",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-05/doc-inhpwviv9953561.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "快讯：恒指高开1.32% 恒科指涨1.61% 科网股、汽车股普涨 AI应用股回暖 蔚来涨超5%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-05/doc-inhpwviz3373589.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
