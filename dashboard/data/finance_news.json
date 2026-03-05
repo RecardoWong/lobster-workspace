@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-03-05T22:30:22.717292",
+  "update_time": "2026-03-05T23:30:17.278199",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "美伊冲突宏观再定价：是否重演1970年代滞胀危机？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766714",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "中东局势打击风险偏好，美股指下跌，纳指跌0.5%，美油涨5%，金银齐跌",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766762",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "京东Q4电话会：外卖投入将低于去年，言犀大模型调用量激增百倍",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "劳合社：保险公司仍在为霍尔木兹通航报价，正与DFC沟通贸易险方案",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766828",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "现货黄金短线下挫70美元，报道：波兰拟售黄金储备为国防融资",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766831",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "关于创投行业，政府工作报告释放明确信号！",
+      "title": "伊朗“沙赫德”无人机如何塑造德黑兰的报复行动",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-03-05/doc-inhpycci6459042.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpyimc9577878.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Rivian押注R2 SUV冲刺销量纪录 目标半年售出2万辆",
+      "title": "仰望2026款旗舰矩阵联袂上市，重塑高端出行体验  续航、操控、舒适全面进阶，仰望2026款旗舰车型重磅上市",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpyccm3088850.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-05/doc-inhpyimf6354702.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "地缘局势下投资者加码国防与航天科技，Sierra Space估值达80亿美元",
+      "title": "非洲贫民窟极端高温影响居民健康与生活",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpycce3079015.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpycce3106231.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "马斯克称法律压力促使他完成了440亿美元的Twitter交易",
+      "title": "印度钻石和珠宝进口受到伊朗局势冲击",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpyccf9676055.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpyccf9705268.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
