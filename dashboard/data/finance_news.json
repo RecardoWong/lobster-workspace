@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-03-06T02:30:12.391302",
+  "update_time": "2026-03-06T03:30:13.559796",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
       "title": "OpenAI发布GPT-5.4及GPT-5.4 Pro模型，支持高达100万token的上下文窗口",
@@ -26,6 +26,38 @@
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
+    },
+    {
+      "title": "沙特阿拉伯加紧调整石油运输路线，海湾地区储油设施迅速饱和",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpyptc6316699.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "曾经的实体影音店巨头Blockbuster Video如今几乎已经销声匿迹，被互联网挤出了市场。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpyptc6315071.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "埃隆·马斯克在诉讼中为自己的推文辩护，该诉讼称这些推文导致推特在被收购前股价下跌",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpypsz9537208.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "投资者抛售导致股市暴跌，道琼斯指数重挫1000点",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpypsz9536058.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
