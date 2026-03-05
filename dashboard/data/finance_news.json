@@ -1,39 +1,31 @@
 {
-  "update_time": "2026-03-05T11:30:26.726260",
+  "update_time": "2026-03-05T12:30:21.089529",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 3,
   "news": [
     {
-      "title": "赤子城科技早盘涨逾9% 公司预计全年利润同比增长超87.5%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-05/doc-inhpwzrx3346422.shtml",
+      "title": " Citadel交易员“空翻多”：十大理由，市场将迎来\"战术性反弹\"",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766779",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "华创证券：维持珍酒李渡“强烈推荐”评级 公司旗舰型大单品招商有望再突破",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-05/doc-inhpwzrx3345707.shtml",
+      "title": "沪指重返4100点，创业板涨超2%，MicroLED集体爆发，恒科指冲高回落转跌，电力设备继续大涨",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766772",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "中国生物制药早盘涨逾7%罗伐昔替尼授权赛诺菲 潜在收款超15亿美元",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-05/doc-inhpwzrs3338205.shtml",
+      "title": "博通电话会：2027年AI芯片营收将破1000亿美元，AI不会颠覆基础设施软件",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766758",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "小摩：创科实业去年业绩符预期 维持“增持”评级 目标价154港元",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-05/doc-inhpwzrs3337132.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     }
   ]
 }
