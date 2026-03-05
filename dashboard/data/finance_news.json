@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-06T04:30:18.168876",
+  "update_time": "2026-03-06T05:30:13.462781",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "OpenAI发布最强专业模型GPT-5.4，自动操作电脑，插件支持AI玩转Excel和金融分析",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766836",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "金融精英“辞职修行”？一条“财富隐线”浮出水面",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766833",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "两会新概念领涨未来能源，货币政策适度宽松关注物价，通胀担忧压制贵金属---0305宏观脱水",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766822",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "西特哥石油2025年利润增长48%至4.52亿美元，利润率提高",
+      "title": "3月6日热门中概股多数下跌 携程涨2.16%，B站跌7.09%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpytzc2801765.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpytyz6222726.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "消息人士：伊朗战争影响供应之际，印度炼油商购买俄罗斯石油以替代伊朗石油",
+      "title": "3月6日收盘：美股收跌道指下跌780点 WTI原油突破80美元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpytzc2801249.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpytyw2802325.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普解职国土安全部长诺姆 为第二任期首次更换内阁成员",
+      "title": "美国服务业扩张步伐为2022年来最快 受需求增长推动",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpytzc2801242.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpytyx9441155.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "沙特销往亚洲的原油价格大涨",
+      "title": "沙特上调4月对亚洲原油售价 涨幅创2022年8月以来最大",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-06/doc-inhpytyx9427481.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpytyz6218084.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
