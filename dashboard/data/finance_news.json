@@ -1,7 +1,7 @@
 {
-  "update_time": "2026-03-05T18:30:13.087781",
+  "update_time": "2026-03-05T19:30:16.031805",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
       "title": "京东Q4净营收同比增长1.5%至3523亿元，新业务投入致单季净亏损27亿元｜财报见闻",
@@ -12,20 +12,52 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "哔哩哔哩Q4营收同比增长8%，经调整净利润同比增长94% | 财报见闻",
+      "title": "GPT-5.4核心内幕炸裂剧透！或拥有永久记忆，极限推理狂飙",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766816",
+      "url": "https://wallstreetcn.com/articles/3766817",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "中金：政府工作报告的金融信号",
+      "title": "英伟达GTC重磅前瞻：三大确定性技术路线变革，LPU架构首秀登场？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766813",
+      "url": "https://wallstreetcn.com/articles/3766401",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
+    },
+    {
+      "title": "CPO概念“引爆”聚飞光电，中兴通讯前副总裁隐身其后",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-05/doc-inhpxwvm6498414.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "2个月净利暴增10倍，佰维存储“分羹”存储超级周期红利",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-05/doc-inhpxwvm6497942.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "京东：四季度少赚了100多亿！",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-05/doc-inhpxwvm6497302.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "分析：因中东冲突导致能源价格上涨，欧元依然脆弱",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpxwvi9708059.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
