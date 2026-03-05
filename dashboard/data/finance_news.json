@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-03-05T21:30:19.057271",
+  "update_time": "2026-03-05T22:30:22.717292",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "数字银行Revolut申请美国银行牌照",
+      "title": "京东Q4电话会：外卖投入将低于去年，言犀大模型调用量激增百倍",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766829",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "劳合社：保险公司仍在为霍尔木兹通航报价，正与DFC沟通贸易险方案",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766828",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "现货黄金短线下挫70美元，报道：波兰拟售黄金储备为国防融资",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766831",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "关于创投行业，政府工作报告释放明确信号！",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpycci6431597.shtml",
+      "url": "https://finance.sina.com.cn/china/2026-03-05/doc-inhpycci6459042.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美参议员提出禁止政府官员涉足预测市场，此前马杜罗与伊朗相关押注引关注",
+      "title": "Rivian押注R2 SUV冲刺销量纪录 目标半年售出2万辆",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpycci6428619.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpyccm3088850.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "西班牙驳斥白宫关于同意在伊朗战争中与美国合作的说法",
+      "title": "地缘局势下投资者加码国防与航天科技，Sierra Space估值达80亿美元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpyccf9650589.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpycce3079015.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "6天大涨逾60%！300303，紧急提示！",
+      "title": "马斯克称法律压力促使他完成了440亿美元的Twitter交易",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/s/2026-03-05/doc-inhpyccf9651899.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpyccf9676055.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
