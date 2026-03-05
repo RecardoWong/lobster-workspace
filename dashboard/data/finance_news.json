@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-05T20:30:10.887276",
+  "update_time": "2026-03-05T21:30:19.057271",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "囤油潮起、价格飙升，亚洲燃料供应陷入紧张",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766821",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "中东冲突威胁，韩国警告：芯片供应链面临“中断”风险！",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766819",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "比亚迪王传福：第二代刀片电池9分钟“充饱”，到年底建成20000座闪充站",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766820",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "高盛：能源价格冲击的预期持续时间对部分欧洲货币至关重要",
+      "title": "数字银行Revolut申请美国银行牌照",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpxwvi9757006.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpycci6431597.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "阿塞拜疆威胁在伊朗无人机击中其飞地后予以回击 伊朗否认与此事有关",
+      "title": "美参议员提出禁止政府官员涉足预测市场，此前马杜罗与伊朗相关押注引关注",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpxwvp3149026.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpycci6428619.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "礼来推出雇主对接平台 扩大减肥药可及性",
+      "title": "西班牙驳斥白宫关于同意在伊朗战争中与美国合作的说法",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpxwvm6520027.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpyccf9650589.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "伊朗局势持续动荡波及加密市场 比特币涨势停滞",
+      "title": "6天大涨逾60%！300303，紧急提示！",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-05/doc-inhpxwvm6518395.shtml",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-05/doc-inhpyccf9651899.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
