@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-06T22:30:14.969238",
+  "update_time": "2026-03-06T23:30:17.774046",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "美国1月零售销售环比-0.2%，去年10月来首现负增长",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766919",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普：与伊朗不会达成任何协议，除非无条件投降",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766927",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "WTI原油涨幅扩大至8%，报道：因存储空间耗尽，科威特削减部分石油产量",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766924",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "布伦特原油问鼎90美元 中东战火致霍尔木兹海峡航运瘫痪",
+      "title": "大幅修正：应质疑就业数据，而非直接无视",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqankc8995587.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqanka2365737.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "五角大楼暗示为F-35项目追加120亿美元维持费，战备率仍不达标",
+      "title": "收益率飙升 短期英国国债势创2023年以来最差单周表现",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqanki2351165.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqanki2372458.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中东战事致霍尔木兹海峡航运瘫痪，布伦特原油触及90美元",
+      "title": "白宫国家经济委员会主任哈塞特：预计近期内不会动用战略石油储备",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqanki2351018.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqanki2371860.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "软银寻求高达400亿美元贷款以资助对OpenAI的投资",
+      "title": "美股早盘跌势明显 “无法粉饰”的非农报告引发滞胀忧虑",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqanki2350476.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqankc9014284.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
