@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-07T02:30:04.207239",
+  "update_time": "2026-03-07T03:30:20.550888",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "能源金属之后，农产品正悄然接棒新一轮大宗商品行情",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766918",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "美国经济疲软与对伊朗军事行动：一场危险的博弈",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766930",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "WTI原油涨幅扩大至8%，报道：因存储空间耗尽，科威特削减部分石油产量",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766924",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "堪萨斯城联储行长：美国就业市场面临结构性变化",
+      "title": "美国银行政策研究所首席经济学家：银行准备金或可削减2万亿美元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqasrz8949813.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqawxz5620875.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "欧洲股市创4月以来最大单周跌幅 能源股表现优于大盘",
+      "title": "美联储官员哈马克：利率面临双向风险",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqassc5726014.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqawxz5616351.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普政府放宽委内瑞拉对美售金 缓解其美元短缺压力",
+      "title": "Anthropic推出效仿亚马逊模式的人工智能软件商城",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqassf2287914.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqawxx8832485.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "导弹无人机叠加电子干扰 霍尔木兹海峡谍影重重",
+      "title": "美联储官员哈马克表示，利率可能会在一段时间内维持不变",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqasry2280761.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqawxw2161364.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
