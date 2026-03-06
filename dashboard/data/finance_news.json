@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-06T17:30:22.636110",
+  "update_time": "2026-03-06T18:30:18.083226",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "卡塔尔警告：战争或致海湾能源出口全面中断，油价恐飙至150美元",
+      "title": "中东局势冲击显现，美国零售汽油价格创一年半最高水平！",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766900",
+      "url": "https://wallstreetcn.com/articles/3766904",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "人大经济主题记者会：完善稳市机制建设，AI产业规模将增至10万亿元以上，千亿级财政安排促内需",
+      "title": "本周全球市场回顾：伊朗冲突，是“委内瑞拉剧本”，还是“乌克兰剧本”？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766890",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "潘功胜：将引导和调控好利率水平，无意通过汇率贬值获取贸易竞争优势，将抑制“内卷式”竞争",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766892",
+      "url": "https://wallstreetcn.com/articles/3766903",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "美银证券：比亚迪股份推第二代刀片电池 重申“买入”评级",
+      "title": "卡塔尔警告海湾国家停产，美股期指跳水，油价急升，美油涨4%，美债承压，金银走高",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766902",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美满电子科技预计AI芯片将多年增长，股价大涨",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-06/doc-inhpzvnm9251919.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpzzuh2486510.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "小摩：预计比亚迪次季销量按季反弹 评级“增持”",
+      "title": "美国企业无法获得特朗普时期非法关税的退款",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-06/doc-inhpzvnr2594084.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpzzum5925281.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "富瑞：降西部水泥目标价至3.1港元 基本面不变吁趁低吸纳",
+      "title": "视频｜郑栅洁：去年发布会后 有些直接涨停了 今年还希望新兴产业发布后为吴主席的股市提供支撑",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-06/doc-inhpzvnm9251139.shtml",
+      "url": "https://finance.sina.com.cn/china/2026-03-06/doc-inhpzzuh2482732.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "OpenAI的购物功能翻车",
+      "title": "Anthropic称五角大楼“供应链风险”标签对业务影响小于预期",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpzvnk2585089.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpzzui9146032.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
