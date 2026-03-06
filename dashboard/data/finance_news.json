@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-03-06T09:30:24.414266",
+  "update_time": "2026-03-06T10:30:11.951533",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "霍尔木兹再关3天，中东就要有330万桶原油被迫停产，伊拉克首当其冲！",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766865",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "纽交所母公司入股加密交易所OKX，估值达250亿美元",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766866",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "“十五五”序章开启，升格国家战略的氢能能否成为绿色能源自主可控的最后一块拼图？",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "特朗普：不接受哈梅内伊儿子担任伊朗新领导人，“我必须亲自参与任命”，伊朗外长：这完全是伊朗人民的事，任何人都无权干涉",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766863",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "人民币“跨境融资”正在飙升！",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766861",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "光大期货：3月6日农产品日报",
+      "title": "创新药概念早盘走强 三生制药涨超9%和黄医药涨超8%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-06/doc-inhpzeqt9307579.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-06/doc-inhpzeqs2708615.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "光大期货：3月6日软商品日报",
+      "title": "美国非农就业报告将出炉 美债交易员评估油价冲击下的美联储政策路径",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-06/doc-inhpzeqt9306980.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpzeqv6138502.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "光大期货：3月6日有色金属日报",
+      "title": "复宏汉霖早盘涨超6% 自研KAT6A/B小分子抑制剂HLX97获国家药监局IND许可",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-06/doc-inhpzeqs2645500.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-06/doc-inhpzeqv6135181.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "光大期货：糖价内强外弱，郑棉冲高回落",
+      "title": "美格智能港股IPO：超40%折价仍难消顾虑 25Q3单季度归母净利润腰斩 下游议价权削弱 研发投入占比下滑",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-06/doc-inhpzeqv6081188.shtml",
+      "url": "https://finance.sina.com.cn/stock/observe/2026-03-06/doc-inhpzeqs2702269.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"

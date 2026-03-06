@@ -1,12 +1,12 @@
 {
-  "update_time": "2026-03-06T09:01:40.257186",
+  "update_time": "2026-03-06T10:01:49.093988",
   "tweets": {
     "elonmusk": [
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "Expanding to the stars avoids risk of a mouse utopian behavioral sink",
-        "translate": "拓展到太空中避免老鼠的神秘行为陷阱",
+        "translate": "拓展到太空可以避免一只老鼠的乌托邦行为陷阱",
         "time": "2026-03-02T16:01:37.000Z",
         "time_ago": "3天前",
         "url": "https://x.com/elonmusk/status/2028500984977330453"
@@ -14,20 +14,20 @@
       {
         "author": "elonmusk",
         "name": "Elon Musk",
-        "text": "Grok iPhone app now over 1M ratings with 4.9 stars!\n\nDownload at \nhttps://\napps.apple.com/us/app/grok/id\n6670324846\n…",
-        "translate": "苹果应用商店现在有超过1百万星评，4.9分！ https://apps.apple.com/us/app/grok/id/6670324846…",
-        "time": "2026-03-05T18:37:32.000Z",
-        "time_ago": "6小时前",
-        "url": "https://x.com/elonmusk/status/2029627385784713310"
+        "text": "BREAKING: 𝕏 just launched Creator Subscriptions 2.0!\n New easy tools to help creators earn more and grow faster.\n\n• Exclusive Threads – Lock parts of ...",
+        "translate": "BREAKING: 𝕏 just launched Creator Subscriptions 2.0!\n New easy tools to help creators earn more and ...",
+        "time": "2026-03-05T22:07:24.000Z",
+        "time_ago": "3小时前",
+        "url": "https://x.com/elonmusk/status/2029680202616545349"
       },
       {
         "author": "elonmusk",
         "name": "Elon Musk",
-        "text": "Grok iOS app just hit a massive milestone\n\n1M ratings with an insane 4.9-star average \n\nGrok is now officially the highest-rated major AI app out ther...",
-        "translate": "“苹果iOS应用刚刚达到里程碑，获得100万次阅读，惊人的平均评分4.9星”\n\nGrok目前已经成为世界上最高的AI应用程序之一。绝对碾压ChatGPT、Gemini和Claude，以最高评分的任何大型AI（人工智能）应用。",
-        "time": "2026-03-05T18:16:34.000Z",
-        "time_ago": "6小时前",
-        "url": "https://x.com/elonmusk/status/2029622111023571436"
+        "text": "Grok crossed 1 million reviews on the U.S. App Store! Download and try it now.",
+        "translate": "包你用100万评价在苹果应用商店里。现在下载试试看吧！",
+        "time": "2026-03-05T18:42:56.000Z",
+        "time_ago": "7小时前",
+        "url": "https://x.com/elonmusk/status/2029628745494188051"
       }
     ],
     "jdhasoptions": [
@@ -53,7 +53,7 @@
         "author": "jdhasoptions",
         "name": "jdhasoptions",
         "text": "I spent 100 hours over the past week researching, writing and editing the piece we just put out.\n\nIt’s a scenario, not a prediction like most of our w...",
-        "translate": "我花了过去一周的时间，研究、写作和编辑我们刚刚发表的稿件。这是一个场景，而不是预测。但它非常严格地构建起来，并且直接反对那种不切实际的智力惰性——这种懒惰倾向于导致“大多数我们的工作”。",
+        "translate": "我过去一周的研究、写作和编辑这则文章，花费了100小时。这是一个场景，并不是一种预测，就像大部分我们的工作一样。但是它被严密地构建出来了，如果需要完全排除这种思维定式，就需要那种对知识的盲从心理，往往会导致\"智力懒惰\"现象。",
         "time": "2026-02-22T20:25:56.000Z",
         "time_ago": "11天前",
         "url": "https://x.com/jdhasoptions/status/2025668400396349476"
@@ -93,7 +93,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": " Companies Reporting Earnings Next Week\n\n$FRPT $DPZ $HIMS $KEYS $FANG $CIFR $DOCN $AMT $HD $CAVA $ZETA $TMDX $MELI $TEM $FSLR $RXRX $CRCL $TTD $CRM $N...",
-        "translate": "本周报告收益的公司：\n\n$FRPT $DPZ $HIMS $KEYS $FANG $CIFR $DOCN $AMT $HD $CAVA $ZETA $TMDX $MELI $TEM $FSLR $RXRX $CRCL $TTD $CRM $NVDA $SRPT $ZM $JOBY $SNOW $SNPS $RDW $AI $IONQ $RCAT $NU $WBD $QBTS $BIDU $BKSY $SMR $ESTC $MP $ZS $DELL $DUOL $ADSK $SOUN $WULF",
+        "translate": " Companies Reporting Earnings Next Week\n\n$FRPT $DPZ $HIMS $KEYS $FANG $CIFR $DOCN $AMT $HD $CAVA $ZE...",
         "time": "2026-02-20T15:20:26.000Z",
         "time_ago": "13天前",
         "url": "https://x.com/aistocksavvy/status/2024866744200769588"
@@ -102,7 +102,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "Trump: Pass The Stop Insider Trading Act Without Delay - $QQQ $SPY",
-        "translate": "特朗普：未经延迟通过《禁止内幕交易法》——$QQQ $SPY",
+        "translate": "特朗普：无延迟通过《股票交易法》 - $QQQ $SPY",
         "time": "2026-02-25T03:02:08.000Z",
         "time_ago": "8天前",
         "url": "https://x.com/aistocksavvy/status/2026492885542060069"
@@ -111,7 +111,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "$QQQ $SPY | Trump:\n\n➤ There Is No Inflation And Growth Is Tremendous\n\n➤ Major Tech Companies Have An Obligation To Provide Their Own Power For AI Data...",
-        "translate": "$QQQ $SPY | Trump:\n\n1. 无通胀和快速增长惊人\n\n2. 大型科技公司有义务提供自己的人工智能数据中心以AI数据存储\n\n3. 想要停止所有支付给大型保险公司的款项\n\n4. 加入的关税将数千万美元,并确保强",
+        "translate": "$$QQQ $SPY | 奥巴马：\n\n ➜ 不存在通货膨胀和经济增长惊人\n\n ➜ 大型科技公司有义务自己提供AI数据中心的电力\n\n ➜ 想要停止所有大保险公司的支付\n\n ➜ 巴黎富定时势带来数百亿美元关税，并获得强",
         "time": "2026-02-25T02:57:53.000Z",
         "time_ago": "8天前",
         "url": "https://x.com/aistocksavvy/status/2026491814178332795"
@@ -133,7 +133,7 @@
         "text": "JPM 三星韓國會議 – 主要重點摘要\n\neSSD 供應短缺預計將持續到 2027 年\n三星管理層對記憶體市場展望偏正面，預期供需緊俏狀況將延續至 2027 年（DRAM / NAND 位元需求成長大幅超越供給成長）。管理層同時指出，由於供應商的資本支出更集中於 DRAM 而非 NAND，因此 eS...",
         "translate": "JPM 三星韓國會議 – 主要重點摘要\n\neSSD 供應短缺預計將持續到 2027 年\n三星管理層對記憶體市場展望偏正面，預期供需緊俏狀況將延續至 2027 年（DRAM / NAND 位元需求成長大幅超越供給成長）。管理層同時指出，由於供應商的資本支出更集中於 DRAM 而非 NAND，因此 eSSD NAND",
         "time": "2026-03-05T13:10:06.000Z",
-        "time_ago": "11小时前",
+        "time_ago": "12小时前",
         "url": "https://x.com/QQ_Timmy/status/2029544985683783720"
       },
       {
@@ -142,7 +142,7 @@
         "text": "$AVGO 提供 AI 客戶最新進展更新：\n「我們所有五位客戶的自訂 AI 加速器爬坡進度都非常順利。我們已完全鎖定這些組件在 2026 年至 2028 年的產能。」\n1. 「對於 Google，我們在 2026 年持續維持成長軌道，對第七代 Ironwood TPU 有強勁需求……而且我們預期下一...",
         "translate": "$AVGO 提供 AI 客戶最新進展更新：\n「我們所有五位客戶的自訂 AI 加速器爬坡進度都非常順利。我們已完全鎖定這些組件在 2026 年至 2028 年的產能。」\n1. 「對於 Google，我們在 2026 年持續維持成長軌道，對第七代 Ironwood TPU 有強勁需求……而且我們預期下一代 TPU 的需求將更為強勁。」\n2. 「對於",
         "time": "2026-03-05T10:58:26.000Z",
-        "time_ago": "14小时前",
+        "time_ago": "15小时前",
         "url": "https://x.com/QQ_Timmy/status/2029511852183765309"
       }
     ]
