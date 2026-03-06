@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-06T10:30:11.951533",
+  "update_time": "2026-03-06T11:30:16.536896",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "霍尔木兹再关3天，中东就要有330万桶原油被迫停产，伊拉克首当其冲！",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766865",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "纽交所母公司入股加密交易所OKX，估值达250亿美元",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766866",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "“十五五”序章开启，升格国家战略的氢能能否成为绿色能源自主可控的最后一块拼图？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766804",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "创新药概念早盘走强 三生制药涨超9%和黄医药涨超8%",
+      "title": "大族数控盘中涨超4% 今日起正式进入港股通名单",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-06/doc-inhpzeqs2708615.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-06/doc-inhpzkwr9278038.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国非农就业报告将出炉 美债交易员评估油价冲击下的美联储政策路径",
+      "title": "美图公司盘中涨近8% 机构指AI可放大头部编辑平台的规模和结构优势",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpzeqv6138502.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-06/doc-inhpzkwt6054214.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "复宏汉霖早盘涨超6% 自研KAT6A/B小分子抑制剂HLX97获国家药监局IND许可",
+      "title": "菲律宾央行行长：若油价升至100美元将收紧货币政策",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-03-06/doc-inhpzeqv6135181.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpzkwq2619680.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美格智能港股IPO：超40%折价仍难消顾虑 25Q3单季度归母净利润腰斩 下游议价权削弱 研发投入占比下滑",
+      "title": "携程将下线“AI生意助手”功能，成行业首个下线该类工具平台",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/observe/2026-03-06/doc-inhpzeqs2702269.shtml",
+      "url": "https://finance.sina.com.cn/china/2026-03-06/doc-inhpzkwv2626313.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
