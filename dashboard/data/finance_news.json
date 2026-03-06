@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-06T15:30:12.022876",
+  "update_time": "2026-03-06T16:30:32.072311",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "闻泰科技直线拉升！安世中国回应“中国区所有员工办公账号遭禁用”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766887",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "反转！报道：特朗普政府搁置财政部“操盘”原油期货的计划",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766889",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "华创策略：顺周期的上涨或刚开始",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766886",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "海湾国家数十亿美元投资体育板块 美伊冲突致多项赛事被迫取消",
+      "title": "巴拿马拟接管港口，长江和记加大法律维权力度",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpzvnr2499768.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpzvnk2548955.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "郑栅洁：将设立国家级并购基金",
+      "title": "广电运通业绩增长乏力背后：毛利率持续承压，转型成本高企",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-03-06/doc-inhpzvnk2493677.shtml",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-06/doc-inhpzvnr2555036.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "马年春节线下实体消费增速反超线上",
+      "title": "内斗“休战”信号？可靠股份取消临时股东会，但经营承压未解",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-03-06/doc-inhpzvnr2498584.shtml",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-06/doc-inhpzvnr2554771.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "韩国将从阿联酋紧急进口600万桶原油 以帮助稳定油价",
+      "title": "上期所引入再生铅期货交割 助力铅产业绿色转型",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpzvnp5943695.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-06/doc-inhpzvnk2542535.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
