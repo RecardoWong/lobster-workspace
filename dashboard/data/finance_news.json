@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-03-06T23:30:17.774046",
+  "update_time": "2026-03-07T00:30:04.608067",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "大幅修正：应质疑就业数据，而非直接无视",
+      "title": "能源金属之后，农产品正悄然接棒新一轮大宗商品行情",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766918",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美国经济疲软与对伊朗军事行动：一场危险的博弈",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766930",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "WTI原油涨幅扩大至8%，报道：因存储空间耗尽，科威特削减部分石油产量",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766924",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美国海关机构表示，无法执行关税退税相关指令",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqanka2365737.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqasrz8908753.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "收益率飙升 短期英国国债势创2023年以来最差单周表现",
+      "title": "特朗普关税：美国海关与边境保护局告知法官无法遵守退款命令",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqanki2372458.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqankc9038122.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "白宫国家经济委员会主任哈塞特：预计近期内不会动用战略石油储备",
+      "title": "美国证券交易委员会对Canaccord Genuity处以2000万美元罚款",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqanki2371860.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqanki2389879.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美股早盘跌势明显 “无法粉饰”的非农报告引发滞胀忧虑",
+      "title": "伊朗地下“导弹城”已成其最大软肋之一",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhqankc9014284.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqanki2388482.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
