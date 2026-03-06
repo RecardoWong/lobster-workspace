@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-06T07:30:08.412935",
+  "update_time": "2026-03-06T08:30:12.883935",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "华尔街见闻早餐FM-Radio | 2026年3月6日",
+      "title": "美国考虑将AI芯片出口审批制度“全球化”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766841",
+      "url": "https://wallstreetcn.com/articles/3766855",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "1000万美元！孙宇晨与SEC达成和解",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766859",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "非农前夜，油价飙升引发通胀担忧，芯片股领跌美股，美债四连跌，美元走强",
+      "title": "史无前例！美国要亲自下场“操盘”原油期货，美财长贝森特要“重操旧业”？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766762",
+      "url": "https://wallstreetcn.com/articles/3766858",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "美国会众议院否决一项限制美总统发动军事行动权限的议案",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766848",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "韩国2月通胀率持稳于2%，连续两月达到央行目标",
+      "title": "特斯拉2月份欧洲销量同比增长10%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpyyhv9360436.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpyyhv9394882.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "烧碱：基本面压力仍存，期价上涨难以持续",
+      "title": "REF HOLDINGS发布年度业绩 股东应占溢利297.5万港元同比减少47.52%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-06/doc-inhpyyhz2711190.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-06/doc-inhpyyhv9394865.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美油创近六年最大涨幅，特朗普说不担心，高官称研究所有压价选择，财政部或首次下场",
+      "title": "牧原股份2月销售商品猪约460万头 同比下降0.77%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-06/doc-inhpyyhx6134346.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-06/doc-inhpyyhv9393605.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普政府考虑新的AI芯片出口规则，包括要求外国公司在美投资",
+      "title": "麦迪森控股拟增加法定股本及“10合1”并股 再按“2供3”基准进行供股",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-06/doc-inhpyyhu2701908.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-06/doc-inhpyyhv9392854.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
