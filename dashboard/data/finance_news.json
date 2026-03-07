@@ -1,36 +1,36 @@
 {
-  "update_time": "2026-03-07T08:30:28.612708",
+  "update_time": "2026-03-07T09:30:18.065170",
   "source_count": 3,
   "total_count": 4,
   "news": [
     {
+      "title": "伊朗战争导致迪拜黄金滞销 据悉被迫打折出售",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcipt8725823.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "谷歌为CEO提供了一份6.92亿美元的新薪酬方案",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqcipx2012885.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "韩国协助公民从中东热点地区撤离",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcipx2002805.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
       "title": "日本考虑为第二个美国投资项目斥资15万亿日元",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcips1982308.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美国因与Anthropic产生分歧 制定严格新人工智能指南",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqcipx1985616.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "报道：特朗普私下表达对向伊朗派遣地面部队的兴趣",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcipt8674201.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "恐慌指数VIX飙升至4月关税动荡以来最高水平",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqcips1963650.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
