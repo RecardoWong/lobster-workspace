@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-07T06:30:03.898938",
+  "update_time": "2026-03-07T07:30:21.853877",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "美能源部长称将尽快开始护航，特朗普：不会与伊朗达成任何协议、除非无条件投降",
+      "title": "OpenAI与甲骨文放弃德州数据中心扩建计划，芯片制造商股价普跌",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766927",
+      "url": "https://wallstreetcn.com/articles/3766935",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "非农爆冷叠加中东战火，美国股汇齐跌，标普创六个月来最差单周，美油飙升16%，“恐慌指数”VIX大涨",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766902",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "美油盘中飙涨17%、创纪录最大周涨幅，天然气暴涨9%",
+      "title": "特朗普保海湾航运第一步：美国推出200亿美元海运再保险工具",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766932",
+      "url": "https://wallstreetcn.com/articles/3766934",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "2月非农添就业疑云，“新美联储通讯社”：美联储最害怕的局面逼近",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766933",
+      "title": "营收1339亿创新高！中兴通讯2025年报发布，算力业务“狂飙”150%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-03-07/doc-inhqccfx5557503.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "3月7日隔夜要闻：美股收跌 油价飙升 传波音获大额飞机订单 美国称将为中东油轮提供保险 委恢复稀释原油出口",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqccfz2075126.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "大宗商品综述：WTI创纪录最大周涨幅 黄金收窄单周跌幅 铝价大涨",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqccfx5551365.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "美国股市：标普500指数创10月以来最大周跌幅 能源冲击叠加就业疲弱",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqccfv8772902.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "白宫反驳弹药告罄担忧 特朗普称防务巨头将把部分武器产量提高三倍",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqccfu2069808.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "大宗商品指数飙升至历史新高 战争引发石油、金属等普涨",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqccfz2076576.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "纽约汇市：美元指数录得2024年11月来最佳单周表现 加元走强",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqccfx5546504.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
