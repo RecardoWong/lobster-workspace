@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-07T07:30:21.853877",
+  "update_time": "2026-03-07T08:30:28.612708",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "OpenAI与甲骨文放弃德州数据中心扩建计划，芯片制造商股价普跌",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766935",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "非农爆冷叠加中东战火，美国股汇齐跌，标普创六个月来最差单周，美油飙升16%，“恐慌指数”VIX大涨",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766902",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普保海湾航运第一步：美国推出200亿美元海运再保险工具",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766934",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "营收1339亿创新高！中兴通讯2025年报发布，算力业务“狂飙”150%",
+      "title": "日本考虑为第二个美国投资项目斥资15万亿日元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/chanjing/gsnews/2026-03-07/doc-inhqccfx5557503.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcips1982308.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "3月7日隔夜要闻：美股收跌 油价飙升 传波音获大额飞机订单 美国称将为中东油轮提供保险 委恢复稀释原油出口",
+      "title": "美国因与Anthropic产生分歧 制定严格新人工智能指南",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqccfz2075126.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqcipx1985616.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "大宗商品综述：WTI创纪录最大周涨幅 黄金收窄单周跌幅 铝价大涨",
+      "title": "报道：特朗普私下表达对向伊朗派遣地面部队的兴趣",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqccfx5551365.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcipt8674201.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国股市：标普500指数创10月以来最大周跌幅 能源冲击叠加就业疲弱",
+      "title": "恐慌指数VIX飙升至4月关税动荡以来最高水平",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqccfv8772902.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqcips1963650.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
