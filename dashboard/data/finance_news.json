@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-03-07T14:30:23.883975",
+  "update_time": "2026-03-07T15:30:25.655588",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
+    {
+      "title": "全球市场回调何时结束？“2020年代市场”会重演“1970年代”滞胀剧本吗？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766949",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "高盛“撕报告”：如果霍尔木兹海峡未来几天没“如期恢复”，油价“巨大上行风险”迅速扩大",
       "source": "华尔街见闻",
@@ -20,12 +28,36 @@
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "事关教育、医疗、就业……这场记者会信息量很大！",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766947",
+      "title": "SK On在美国电池工厂裁员近1000人",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqcymr1752012.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "特朗普要伊朗无条件投降并拟由美国挑选该国领袖 国防巨头同意增产",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcymr1737663.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "美媒披露伊朗中东战争高风险迎战战略：升级为地区性冲突",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcucn1842520.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "越南优先国内原油销售以保障能源供应",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcucp8558671.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
