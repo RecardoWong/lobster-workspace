@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-03-07T15:30:25.655588",
+  "update_time": "2026-03-07T16:30:13.924027",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "今年1月，“风光无限”的“AI编程明星”Cursor发现：市场可能没了",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766951",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
     {
       "title": "全球市场回调何时结束？“2020年代市场”会重演“1970年代”滞胀剧本吗？",
       "source": "华尔街见闻",
@@ -20,12 +28,20 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "付鹏：迎接AI时代的生产关系变革【付鹏说21】",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766812",
+      "title": "日经回调 8%！褪去泡沫，看见日本股市的效率革命",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/asia/2026-03-07/doc-inhqcymr1762164.shtml",
       "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "委员通道丨赵梅：让全世界更多人感受中国汉字的美",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/jjxw/2026-03-07/doc-inhqcymm8487052.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "SK On在美国电池工厂裁员近1000人",
@@ -36,25 +52,9 @@
       "tagColor": "#ef4444"
     },
     {
-      "title": "特朗普要伊朗无条件投降并拟由美国挑选该国领袖 国防巨头同意增产",
+      "title": "国际原油价格飙升！下周调价窗口，多家机构预计国内油价将上调",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcymr1737663.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美媒披露伊朗中东战争高风险迎战战略：升级为地区性冲突",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcucn1842520.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "越南优先国内原油销售以保障能源供应",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcucp8558671.shtml",
+      "url": "https://finance.sina.com.cn/wm/2026-03-07/doc-inhqcymk1741537.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
