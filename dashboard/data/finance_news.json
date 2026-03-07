@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-07T22:30:14.730077",
+  "update_time": "2026-03-07T23:30:17.848858",
   "source_count": 3,
   "total_count": 7,
   "news": [
@@ -28,6 +28,14 @@
       "tagColor": "#10b981"
     },
     {
+      "title": "特朗普发出主权威胁一年后，加拿大人保持强硬姿态对抗美国",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqerii1524027.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
       "title": "罗氏董事长：仍预计诊断产品将受到美国关税的冲击",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqeric8253475.shtml",
@@ -47,14 +55,6 @@
       "title": "科威特石油公司“预防性削减”原油生产和提炼",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/jjxw/2026-03-07/doc-inhqerif5032263.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "霍尔木兹海峡关闭阻碍从中东进口原材料，日本可能面临乙烯生产中断",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-03-07/doc-inhqcymr1773698.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
