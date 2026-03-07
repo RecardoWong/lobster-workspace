@@ -1,32 +1,8 @@
 {
-  "update_time": "2026-03-08T00:30:37.407123",
+  "update_time": "2026-03-08T01:30:25.370445",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
-    {
-      "title": "美银与存储一线厂商交流：中东目前影响甚微，2月销售异常强劲",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766960",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "关于GDP增长目标、新兴与未来产业、延长义务教育年限...发改委解读“十五五”规划《纲要（草案）》",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766959",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "高盛的判断：Claude Cowork成首个“代理工作流可信案例”，OpenClaw展示未来人机交互方向",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766958",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
     {
       "title": "特朗普发出主权威胁一年后，加拿大人保持强硬姿态对抗美国",
       "source": "新浪财经",
