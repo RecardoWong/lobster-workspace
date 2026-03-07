@@ -1,39 +1,31 @@
 {
-  "update_time": "2026-03-08T01:30:25.370445",
+  "update_time": "2026-03-08T02:30:28.536141",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 3,
   "news": [
     {
-      "title": "特朗普发出主权威胁一年后，加拿大人保持强硬姿态对抗美国",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqerii1524027.shtml",
+      "title": "美银与存储一线厂商交流：中东目前影响甚微，2月销售异常强劲",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766960",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "罗氏董事长：仍预计诊断产品将受到美国关税的冲击",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqeric8253475.shtml",
+      "title": "关于GDP增长目标、新兴与未来产业、延长义务教育年限...发改委解读“十五五”规划《纲要（草案）》",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766959",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "我国多家航司陆续恢复部分至中东地区航班",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-03-07/doc-inhqeria1509304.shtml",
+      "title": "高盛的判断：Claude Cowork成首个“代理工作流可信案例”，OpenClaw展示未来人机交互方向",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766958",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "科威特石油公司“预防性削减”原油生产和提炼",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-03-07/doc-inhqerif5032263.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     }
   ]
 }
