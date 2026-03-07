@@ -1,39 +1,31 @@
 {
-  "update_time": "2026-03-07T20:30:18.050988",
+  "update_time": "2026-03-07T21:30:33.588236",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 3,
   "news": [
     {
-      "title": "霍尔木兹海峡关闭阻碍从中东进口原材料，日本可能面临乙烯生产中断",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-03-07/doc-inhqcymr1773698.shtml",
+      "title": "美银与存储一线厂商交流：中东目前影响甚微，2月销售异常强劲",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766960",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "日经回调 8%！褪去泡沫，看见日本股市的效率革命",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/asia/2026-03-07/doc-inhqcymr1762164.shtml",
+      "title": "关于GDP增长目标、新兴与未来产业、延长义务教育年限...发改委解读“十五五”规划《纲要（草案）》",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766959",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "委员通道丨赵梅：让全世界更多人感受中国汉字的美",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-03-07/doc-inhqcymm8487052.shtml",
+      "title": "高盛的判断：Claude Cowork成首个“代理工作流可信案例”，OpenClaw展示未来人机交互方向",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766958",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "SK On在美国电池工厂裁员近1000人",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-07/doc-inhqcymr1752012.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     }
   ]
 }
