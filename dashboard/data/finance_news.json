@@ -1,39 +1,31 @@
 {
-  "update_time": "2026-03-07T12:30:30.560963",
+  "update_time": "2026-03-07T13:30:25.993406",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 3,
   "news": [
     {
-      "title": "美国绕过国会审查批准向以色列出售超1.5亿美元军火",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcucn1811616.shtml",
+      "title": "“最初的平静正在消散”！能源市场迎接“焦虑的周末”，交易员准备面对“100美元油价”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766946",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "气候变暖引发鱼类迁徙 全球海鲜供应链面临调整",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-07/doc-inhqcucn1808559.shtml",
+      "title": "投行报告“又惹祸”，贝森特怒喷摩根大通，后者称美国船舶保险“不足以应对伊朗风险”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766941",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     },
     {
-      "title": "民生主题记者会丨陆治原：减项、降费、优服务 经整治经营性公墓墓位均价下降20%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/jjxw/2026-03-07/doc-inhqcucn1807404.shtml",
+      "title": "蒙牛仍在等待行业反转：盈利能力微降、资产出清继续",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766944",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "青春经济崛起，这些全国政协委员呼吁为“一人公司”提供全链条创业支持",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/roll/2026-03-07/doc-inhqcpvq1925072.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     }
   ]
 }
