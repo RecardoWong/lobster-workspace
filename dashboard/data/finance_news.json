@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-08T11:30:20.359867",
+  "update_time": "2026-03-08T12:30:32.465009",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "王毅：中美改变不了彼此，但可以改变相处方式，今年是中美关系的“大年”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766968",
+      "title": "视频|百万年薪副总裁辞职！舍得酒业再失一员大将！一年之内，董事长走了，副总裁也走了",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/2026-03-08/doc-inhqfxat0950792.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "中东战火冲击大类资产，油价飙升，听中国国际问题研究所杨希雨闭门分享中东局势风向标",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766956",
+      "title": "21个问题，信息量很大！一文读懂外交主题记者会：王毅谈伊朗局势、中美关系、中欧关系、中日关系......",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/china/2026-03-08/doc-inhqfxan0931049.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
-      "title": "真要压油价，美国“几乎只有一个办法”：霍尔木兹海峡",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766964",
+      "title": "王毅：解决台湾问题 实现祖国完全统一不可阻挡",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/china/2026-03-08/doc-inhqfxar4530373.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "王毅谈中印关系：排除干扰，相向而行",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/china/2026-03-08/doc-inhqfxap7750988.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "王毅谈南海问题：兴风作浪不得人心，无事生非已没有市场",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-03-08/doc-inhqfxat0934881.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "医渡科技于3月6日斥资462.29万港元回购78.6万股",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-08/doc-inhqfxan0927271.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "天任集团：要约人就要约项下合共80.4万股要约股份接获六份有效接纳",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-08/doc-inhqfxap7748172.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
