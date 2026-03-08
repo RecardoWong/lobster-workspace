@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-03-08T15:30:30.972100",
+  "update_time": "2026-03-08T16:30:07.171178",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "伊朗宣布已选出新的最高领袖，但未透露姓名",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766971",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "能源安全新时代：重估中国“三桶油”？",
       "source": "华尔街见闻",
@@ -12,7 +20,7 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "美国撤回一个地面部队？特朗普：已排除库尔德武装参战可能",
+      "title": "特朗普：已排除库尔德武装参战可能，部署地面部队需要“非常好的理由”",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3766970",
       "time": "刚刚",
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "伊朗就新的最高领袖人选作出最终决定，但“没有透露具体姓名”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766971",
+      "title": "以色列能源部长：以色列可能将伊朗炼油厂和发电站作为打击目标",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhisi7610060.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "报道：美国考虑派遣特种部队夺取伊朗核储备",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhism4374397.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "韩国正考虑近30年来首次实施油价管控体系",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhish0758367.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "韩国总统周一将就中东局势对经济影响召开紧急会议",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhish0752057.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "伊朗称已就新任最高领袖人选达成多数共识",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhisp0756409.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "“龙虾”爆火，多家A股公司回应业务关联",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-03-08/doc-inhqhckr0868871.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "逆市加仓，4万亿科技龙头，获连续8周净买入",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/2026-03-08/doc-inhqfxan0959122.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
