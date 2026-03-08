@@ -1,63 +1,31 @@
 {
-  "update_time": "2026-03-08T19:30:21.786876",
+  "update_time": "2026-03-08T20:30:37.109347",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
     {
-      "title": "做空ETF、恐慌指数都在飙！高盛戳穿美股“假平静”，市场实则极度脆弱",
+      "title": "“代理AI”崛起，CPU翻身？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766978",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "深圳龙岗拟首发“AI龙虾十条”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766977",
+      "url": "https://wallstreetcn.com/articles/3766983",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
     },
     {
-      "title": "广发策略：美伊局势和两会后的市场最新判断",
+      "title": "星际航行，听起来有点浪漫",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766976",
+      "url": "https://wallstreetcn.com/articles/3766984",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "因霍尔木兹海峡供应受阻 沙特阿美股价一度涨4.9%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhpyf7531716.shtml",
+      "title": "美以考虑派特种部队进入伊朗，夺取浓缩铀与哈尔克岛油港",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766980",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "韩官员：美国大概率不会对韩加关税",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhpym0698075.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "报道：伊朗下一任最高领袖已被选出",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhpyf7506435.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "美国取消要求商业船只避免在霍尔木兹海峡和波斯湾航行的预警",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhpym0669368.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     }
   ]
 }
