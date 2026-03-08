@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-03-08T10:30:13.186176",
+  "update_time": "2026-03-08T11:30:20.359867",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "王毅：中美改变不了彼此，但可以改变相处方式，今年是中美关系的“大年”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766968",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "中东战火冲击大类资产，油价飙升，听中国国际问题研究所杨希雨闭门分享中东局势风向标",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766956",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "真要压油价，美国“几乎只有一个办法”：霍尔木兹海峡",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "成功闯关霍尔木兹，这家船队在美伊战争中赚翻了！ ——一文起底希腊船王Prokopiou",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766961",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "中国货船“铁娘子”号，成功通过霍尔木兹海峡！",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766966",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "宝龙地产2月合约销售额约为4.31亿元 同比减少29.11%",
+      "title": "王毅谈中印关系：排除干扰，相向而行",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-08/doc-inhqfsur7857647.shtml",
+      "url": "https://finance.sina.com.cn/china/2026-03-08/doc-inhqfxap7750988.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "王毅：世界不能退回丛林法则",
+      "title": "王毅谈南海问题：兴风作浪不得人心，无事生非已没有市场",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-03-08/doc-inhqfsur7857636.shtml",
+      "url": "https://finance.sina.com.cn/china/2026-03-08/doc-inhqfxat0934881.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中芯国际根据2024年股份奖励计划发行3.26万股",
+      "title": "医渡科技于3月6日斥资462.29万港元回购78.6万股",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-08/doc-inhqfsur7857321.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-08/doc-inhqfxan0927271.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "鑫达投资控股发盈喜 预期2025年度股东应占溢利约700万至1200万元同比扭亏为盈",
+      "title": "天任集团：要约人就要约项下合共80.4万股要约股份接获六份有效接纳",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-08/doc-inhqfsut4634095.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-08/doc-inhqfxap7748172.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
