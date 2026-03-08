@@ -1,31 +1,15 @@
 {
-  "update_time": "2026-03-08T13:30:19.940447",
+  "update_time": "2026-03-08T14:30:22.965539",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "中国“铁娘子”号后，又一货轮通过霍尔木兹！至少10艘商船跟风伪装“中国籍”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766967",
+      "title": "“龙虾”爆火，多家A股公司回应业务关联",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/relnews/cn/2026-03-08/doc-inhqhckr0868871.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "王毅：今年是中美关系的“大年”，呼吁中东“停火止战”，与谁交朋友要由拉美国家自己决定",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766968",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "下周重磅日程：中美CPI；伊朗局势进展；甲骨文、寒武纪、宁德时代财报",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766954",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "逆市加仓，4万亿科技龙头，获连续8周净买入",
@@ -47,14 +31,6 @@
       "title": "21个问题，信息量很大！一文读懂外交主题记者会：王毅谈伊朗局势、中美关系、中欧关系、中日关系......",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/china/2026-03-08/doc-inhqfxan0931049.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "王毅：解决台湾问题 实现祖国完全统一不可阻挡",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-03-08/doc-inhqfxar4530373.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
