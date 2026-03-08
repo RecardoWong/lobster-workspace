@@ -1,8 +1,48 @@
 {
-  "update_time": "2026-03-08T14:30:22.965539",
+  "update_time": "2026-03-08T15:30:30.972100",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
+    {
+      "title": "能源安全新时代：重估中国“三桶油”？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766972",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美国撤回一个地面部队？特朗普：已排除库尔德武装参战可能",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766970",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "伊朗就新的最高领袖人选作出最终决定，但“没有透露具体姓名”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766971",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "韩国总统周一将就中东局势对经济影响召开紧急会议",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhish0752057.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "伊朗称已就新任最高领袖人选达成多数共识",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhisp0756409.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
     {
       "title": "“龙虾”爆火，多家A股公司回应业务关联",
       "source": "新浪财经",
@@ -15,22 +55,6 @@
       "title": "逆市加仓，4万亿科技龙头，获连续8周净买入",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/2026-03-08/doc-inhqfxan0959122.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "视频|百万年薪副总裁辞职！舍得酒业再失一员大将！一年之内，董事长走了，副总裁也走了",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/2026-03-08/doc-inhqfxat0950792.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "21个问题，信息量很大！一文读懂外交主题记者会：王毅谈伊朗局势、中美关系、中欧关系、中日关系......",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/china/2026-03-08/doc-inhqfxan0931049.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
