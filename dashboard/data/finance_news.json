@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-08T16:30:07.171178",
+  "update_time": "2026-03-08T17:30:15.663830",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "伊朗宣布已选出新的最高领袖，但未透露姓名",
+      "title": "“地缘政治无专家”，四月如何决断？聚焦AI产业链、锂电、铜铝及建材",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766971",
+      "url": "https://wallstreetcn.com/articles/3766976",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "公务员“养龙虾”冲上热搜，有人称靠上门安装赚26万元！马化腾说没想到“龙虾”这么火",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766973",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "能源安全新时代：重估中国“三桶油”？",
+      "title": "中东冲突推高油价，韩国30年来首次考虑实施油价上限",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766972",
+      "url": "https://wallstreetcn.com/articles/3766975",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "特朗普：已排除库尔德武装参战可能，部署地面部队需要“非常好的理由”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766970",
+      "title": "美国取消要求商业船只避免在霍尔木兹海峡和波斯湾航行的预警",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhpym0669368.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "索尼面临英国PlayStation用户提起的27亿美元集体诉讼",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhisp0789630.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "三星员工将投票决定是否进行18天的罢工",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhisp0786320.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "以色列能源部长：以色列可能将伊朗炼油厂和发电站作为打击目标",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhisi7610060.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "报道：美国考虑派遣特种部队夺取伊朗核储备",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhism4374397.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "韩国正考虑近30年来首次实施油价管控体系",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhish0758367.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "韩国总统周一将就中东局势对经济影响召开紧急会议",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhish0752057.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
