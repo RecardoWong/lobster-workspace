@@ -1,31 +1,15 @@
 {
-  "update_time": "2026-03-09T05:30:37.114167",
+  "update_time": "2026-03-09T06:30:30.462305",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "地缘政治冲突框架下的五类资产交易逻辑",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766985",
+      "title": "伊朗宣布穆杰塔巴新任最高领袖 谁是穆杰塔巴？",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqirmt7039449.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "“代理AI”崛起，CPU翻身？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766983",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "星际航行，听起来有点浪漫",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766984",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
     },
     {
       "title": "华尔街一周前瞻：中东局势发展将左右美股走势，通胀数据再添变数",
@@ -47,14 +31,6 @@
       "title": "002490，一周大涨50%！公司紧急公告：国际油价波动短期内对公司业绩暂无实质性利好",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/wm/2026-03-08/doc-inhqhuhi0600093.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "知情人士：冲突爆发后伊拉克石油产量暴跌约60%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhuha0583384.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
