@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-03-08T20:30:37.109347",
+  "update_time": "2026-03-08T21:30:20.418948",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
+    {
+      "title": "地缘政治冲突框架下的五类资产交易逻辑",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766985",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "“代理AI”崛起，CPU翻身？",
       "source": "华尔街见闻",
@@ -20,12 +28,36 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "美以考虑派特种部队进入伊朗，夺取浓缩铀与哈尔克岛油港",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766980",
+      "title": "知情人士：冲突爆发后伊拉克石油产量暴跌约60%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-08/doc-inhqhuha0583384.shtml",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "高鑫零售CEO李卫平被免职：已失联 曾是盒马高管 华裕能接任职务",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-08/doc-inhqhuhc7423320.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "拉普拉斯，股东拟减持！",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-08/doc-inhqhuhc7422798.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "业绩承压下重组终止，华培动力股价迎考！",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-08/doc-inhqhuha0579867.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
