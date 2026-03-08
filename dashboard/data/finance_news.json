@@ -1,8 +1,32 @@
 {
-  "update_time": "2026-03-08T08:30:22.539907",
+  "update_time": "2026-03-08T09:30:07.960416",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
+    {
+      "title": "中东原油“停产潮”：阿联酋、科威特宣布减产",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766962",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "伊朗：今天或选出最高领袖！特朗普再度妄称：希望参与伊朗下一任领导人选择",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766963",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美银与存储一线厂商交流：中东目前影响甚微，2月销售异常强劲",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766960",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "中东动荡！“黑天鹅”起飞，全球股市重挫！A股优势在哪？",
       "source": "新浪财经",
