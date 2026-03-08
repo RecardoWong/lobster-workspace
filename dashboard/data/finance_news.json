@@ -1,8 +1,32 @@
 {
-  "update_time": "2026-03-08T23:30:10.073994",
+  "update_time": "2026-03-09T00:30:23.328115",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
+    {
+      "title": "地缘政治冲突框架下的五类资产交易逻辑",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766985",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "“代理AI”崛起，CPU翻身？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766983",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "星际航行，听起来有点浪漫",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766984",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "华尔街一周前瞻：中东局势发展将左右美股走势，通胀数据再添变数",
       "source": "新浪财经",
