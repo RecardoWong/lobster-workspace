@@ -1,36 +1,60 @@
 {
-  "update_time": "2026-03-10T03:30:27.410530",
+  "update_time": "2026-03-10T04:30:10.923623",
   "source_count": 3,
-  "total_count": 4,
+  "total_count": 7,
   "news": [
     {
-      "title": "消息人士称，印度不会加入国际能源署主导的释放石油储备倡议",
+      "title": "特朗普称对伊朗战事“已基本结束”，美油较日高大幅回落",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767083",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "打造业内期货“大鳄”？国泰海通的期货“阳谋”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767076",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "资金涌入重资产低淘汰率资产，2月国内CPI、PPI回升内需企稳，油价推高通胀令美联储两难---0309宏观脱水",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767065",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美国债市：国债上涨 在尾盘得到特朗普言论提振",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqca6670498.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmuky6547628.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国敦促公民离开土耳其东南部，下令非紧急人员撤离阿达纳领事馆",
+      "title": "3月10日热门中概股多数上涨 小鹏汽车涨6.47%，网易跌0.11%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqce3672822.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmuma3558872.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "泽连斯基称11国向乌克兰寻求无人机援助以对抗伊朗",
+      "title": "苹果推迟智能家居显示设备发布 以待AI助理就绪",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqch0449523.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmume0334649.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Live Nation与美国司法部就Ticketmaster案达成和解",
+      "title": "受特朗普伊朗战争言论影响 美国油价在结算后交易中下跌",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqca6668969.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmuky6546425.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"

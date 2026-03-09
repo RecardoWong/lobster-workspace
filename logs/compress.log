@@ -419,3 +419,28 @@
 📉 压缩比: 1:Infinity
 ⚠️  未找到有价值的信息，跳过
 ⏭️  跳过: twitter_push.log (0天 < 7天)
+⏭️  跳过: binance_price.log (0天 < 7天)
+⏭️  跳过: botcoin.log (0天 < 7天)
+⏭️  跳过: clanker.log (0天 < 7天)
+⏭️  跳过: compress.log (0天 < 7天)
+⏭️  跳过: evening.log (0天 < 7天)
+⏭️  跳过: finance_news.log (0天 < 7天)
+⏭️  跳过: git.log (0天 < 7天)
+⏭️  跳过: innoscience_notice.log (0天 < 7天)
+⏭️  跳过: innoscience_price.log (0天 < 7天)
+⏭️  跳过: morning.log (0天 < 7天)
+⏭️  跳过: price_update.log (0天 < 7天)
+⏭️  跳过: twitter_auto.log (0天 < 7天)
+⏭️  跳过: twitter_cookie.log (0天 < 7天)
+
+📦 日志压缩
+============================================================
+📄 文件: twitter.log
+📊 原行数: 417
+📅 年龄: >7天
+------------------------------------------------------------
+🧠 提取精华...
+✨ 精华条目: 0 条
+📉 压缩比: 1:Infinity
+⚠️  未找到有价值的信息，跳过
+⏭️  跳过: twitter_push.log (0天 < 7天)
