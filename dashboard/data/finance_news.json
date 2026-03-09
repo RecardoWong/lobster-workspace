@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-10T02:30:17.025272",
+  "update_time": "2026-03-10T03:30:27.410530",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "G7紧急开会，美三大股指低开反弹，纳指转涨，美油回落至100美元下方",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766990",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "G7会后称暂不释放油储，但“随时准备”采取必要措施支持全球能源供应",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767079",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "盘中拉涨超6%！光通信公司Applied Optoelectronics宣布：收到超大规模客户首笔1.6T收发器订单",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767074",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "特朗普声称对油价上涨有应对预案 重申对伊朗新领袖不满",
+      "title": "消息人士称，印度不会加入国际能源署主导的释放石油储备倡议",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqca6655890.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqca6670498.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "普京称油价飙升是暂时的 敦促俄罗斯的油气公司抓住机遇削减债务",
+      "title": "美国敦促公民离开土耳其东南部，下令非紧急人员撤离阿达纳领事馆",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqce3641920.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqce3672822.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "七国集团承诺必要时释放战略油储 但“尚未走到那一步”",
+      "title": "泽连斯基称11国向乌克兰寻求无人机援助以对抗伊朗",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqca6649456.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqch0449523.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "若美以对伊朗战争持续 美债恐成为美国资产中表现最糟的一类",
+      "title": "Live Nation与美国司法部就Ticketmaster案达成和解",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqce3639981.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmqca6668969.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
