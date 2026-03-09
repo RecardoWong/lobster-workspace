@@ -1,6 +1,63 @@
 {
-  "update_time": "2026-03-09T07:30:30.313164",
+  "update_time": "2026-03-09T08:30:14.684806",
   "source_count": 3,
-  "total_count": 0,
-  "news": []
+  "total_count": 7,
+  "news": [
+    {
+      "title": "全球第三大战略原油储备！日本即将“放油”？",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766995",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "霍尔木兹海峡实况：连续7天“近乎停滞”，过去24小时只有伊朗船只通过",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766994",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "估值跌回“至暗时刻”：腾讯面临AI与时长的双重压力",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766922",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "中泽丰附属拟5280万港元出售香港物业",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-09/doc-inhqivtq0038388.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "股指期货大跌6%后 韩国短暂暂停Kospi程序化交易卖单",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqivtt3746136.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "高盛数据显示 美股大跌之际对冲基金加码做空",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqivtr6966734.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "两个交易日暴涨277%！资金借中东局势猛炒山东墨龙？公司紧急降温：原油大涨无实质利好，警惕非理性炒作",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/s/2026-03-09/doc-inhqivtr6966914.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    }
+  ]
 }
