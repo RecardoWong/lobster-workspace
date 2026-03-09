@@ -1,6 +1,63 @@
 {
-  "update_time": "2026-03-09T23:30:27.366387",
+  "update_time": "2026-03-10T00:30:37.311248",
   "source_count": 3,
-  "total_count": 0,
-  "news": []
+  "total_count": 7,
+  "news": [
+    {
+      "title": "盘中拉涨超6%！光通信公司Applied Optoelectronics宣布：收到超大规模客户首笔1.6T收发器订单",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767074",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "握手言和！诺和诺德撤回诉讼，Wegovy正式登陆Hims & Hers平台",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767075",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "G7会后称暂不释放石油储备，但“随时准备”采取行动",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767079",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "七国集团：若有必要，准备释放石油储备以保障供应",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmivm6764873.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "特朗普释放扩大战事信号 滞胀交易席卷全球市场",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmive6755060.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "与伊朗的长期战争可能对汽油价格产生什么影响",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmivk0510774.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "被指构成供应链风险 Anthropic起诉美国国防部",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmivh3731922.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    }
+  ]
 }
