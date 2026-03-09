@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-10T04:30:10.923623",
+  "update_time": "2026-03-10T05:30:18.851896",
   "source_count": 3,
   "total_count": 7,
   "news": [
@@ -28,33 +28,33 @@
       "tagColor": "#10b981"
     },
     {
+      "title": "原油：市场剧烈波动 WTI盘后跌破90美元",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmuky6556686.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "3月10日美股成交额前20：HIMS与诺和诺德达成合作，股价大涨逾40%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmumf6558599.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "HIMS宣布与制药商诺和诺德达成合作，股价暴涨40%",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmumf6558138.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
       "title": "美国债市：国债上涨 在尾盘得到特朗普言论提振",
       "source": "新浪财经",
       "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmuky6547628.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "3月10日热门中概股多数上涨 小鹏汽车涨6.47%，网易跌0.11%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmuma3558872.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "苹果推迟智能家居显示设备发布 以待AI助理就绪",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmume0334649.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "受特朗普伊朗战争言论影响 美国油价在结算后交易中下跌",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmuky6546425.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
