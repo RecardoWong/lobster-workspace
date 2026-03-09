@@ -1,12 +1,20 @@
 {
-  "update_time": "2026-03-10T05:30:18.851896",
+  "update_time": "2026-03-10T06:30:13.092146",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "特朗普称对伊朗战事“已基本结束”，美油较日高大幅回落",
+      "title": "特朗普称对伊战事“已基本结束”，对伊军事行动是一次短期行动，美油大幅回落",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3767083",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "大逆转！特朗普一句“战争结束”，美国股债深V反转，原油较日高暴跌30%",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766990",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "资金涌入重资产低淘汰率资产，2月国内CPI、PPI回升内需企稳，油价推高通胀令美联储两难---0309宏观脱水",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767065",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "原油：市场剧烈波动 WTI盘后跌破90美元",
+      "title": "股指期货持平，投资者权衡特朗普释放的伊朗战争或很快结束信号",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmuky6556686.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmytc6445873.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "3月10日美股成交额前20：HIMS与诺和诺德达成合作，股价大涨逾40%",
+      "title": "大宗商品综述：特朗普讲话推动原油盘后大跌 黄金收窄跌幅",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmumf6558599.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmysw6437075.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "HIMS宣布与制药商诺和诺德达成合作，股价暴涨40%",
+      "title": "纽约汇市：彭博美元指数下跌 特朗普预计伊朗战争将很快结束",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmumf6558138.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmysw6436704.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国债市：国债上涨 在尾盘得到特朗普言论提振",
+      "title": "普京和特朗普今年首次通话 讨论伊朗问题",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmuky6547628.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-10/doc-inhqmyta0239982.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
