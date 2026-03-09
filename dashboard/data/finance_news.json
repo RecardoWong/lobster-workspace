@@ -1,63 +1,6 @@
 {
-  "update_time": "2026-03-09T22:30:28.119111",
+  "update_time": "2026-03-09T23:30:27.366387",
   "source_count": 3,
-  "total_count": 7,
-  "news": [
-    {
-      "title": "全球股债遭遇双杀！美股三大股指开盘走低，芯片股普跌，美油回落至100美元下方",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766990",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "AI圈贩卖焦虑已经过于离谱了",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767072",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "英伟达为“光”豪掷千金：锁定Lumentum和Coherent稀缺磷化铟器件产能",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766785",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "Zoox开始在达拉斯和凤凰城为其自动驾驶出租车绘制地图",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqmcpk3826757.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "匈牙利总理致信冯德莱恩呼吁取消对俄能源的制裁",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqmcph6847768.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "Live Nation与美国司法部就反垄断案达成和解",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqmcpp6854442.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "纳斯达克与Kraken合作，拓展代币化基础设施",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqmcph6846655.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    }
-  ]
+  "total_count": 0,
+  "news": []
 }
