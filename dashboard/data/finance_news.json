@@ -1,10 +1,18 @@
 {
-  "update_time": "2026-03-09T09:30:29.029294",
+  "update_time": "2026-03-09T10:30:35.964727",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "恒指低开2.65%，恒生科技指数跌3.79%",
+      "title": "终于，海湾石油危机还是来了！",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766998",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "沪指低开0.6%，油气股爆发，“三桶油”大涨，恒生科技指数跌近4%，科网股普跌",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3767001",
       "time": "刚刚",
@@ -12,49 +20,41 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "“龙虾”刺激之下：开年2个月，MiniMax年化经常性收入（ARR）增长50%，M2模型Token用量增长6倍",
+      "title": "中东战火冲击大类资产，油价飙升，听中国国际问题研究所杨希雨闭门分享中东局势风向标",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766999",
+      "url": "https://wallstreetcn.com/articles/3766956",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "伊朗之战：历史上第一场“AI战争”",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767000",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "华泰期货：宏观情绪转暖，玻碱震荡运行",
+      "title": "消息人士：沙特警告伊朗称 若袭击沙特 可能遭到报复",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-09/doc-inhqizzp6881407.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqizzr3731295.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "华泰期货：霍尔木兹海峡通航量仍低，伊朗甲醇冬检仍未复工",
+      "title": "快讯：WTI原油日内暴涨30%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-09/doc-inhqizzs9942358.shtml",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-09/doc-inhqizzp6946466.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "华泰期货：中东地缘局势紧张，沥青成本端显著抬升",
+      "title": "越南将取消燃料关税 以缓解伊朗战争导致供应中断的影响",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-09/doc-inhqizzr3656435.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqizzr3721614.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "华泰期货：美国“速胜论”告吹，重视伊朗局势尾部风险",
+      "title": "机构：中东冲突令锂期货承压",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-09/doc-inhqizzs9940227.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqizzr3720069.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
