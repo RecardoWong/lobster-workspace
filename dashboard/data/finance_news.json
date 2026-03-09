@@ -1,60 +1,36 @@
 {
-  "update_time": "2026-03-09T17:30:07.510582",
+  "update_time": "2026-03-09T18:30:22.058148",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 4,
   "news": [
     {
-      "title": "“希望安抚紧张市场”，特斯拉亿万富豪加仓英伟达",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767032",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "OpenClaw 上，正在长出一整个「AI 硬件」生态",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767036",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "巨头集体下场，阿里、字节之后，腾讯也推出了自家“小龙虾”！",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767033",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "新一代商场青年已登场",
+      "title": "油价飙升至115美元以上 欧洲至亚洲债市全线暴跌",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqksxn6966778.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqkxfk6869794.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "油价飙升突破100美元 伊朗战争导致更多中东主要产油国削减产量",
+      "title": "分析：石油和天然气价格料在整个3月份于当前价格水平附近交易",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-09/doc-inhqksxq3953873.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqkxfr6876716.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "日本投资者2月大举抛售海外债券 规模创16个月来之最",
+      "title": "特朗普释放扩大战事信号 滞胀交易席卷市场",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-09/doc-inhqksxs0729623.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqksxn6997897.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "伊朗战争危及海湾地区3000亿美元人工智能投资",
+      "title": "*ST新元虚增业绩，适格股民可索赔损失！",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqksxq3944638.shtml",
+      "url": "https://finance.sina.com.cn/stock/gmwq/rightscase/2026-03-09/doc-inhqksxn6995580.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
