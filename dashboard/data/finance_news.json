@@ -1,63 +1,31 @@
 {
-  "update_time": "2026-03-09T15:30:13.357191",
+  "update_time": "2026-03-09T16:30:20.591783",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
     {
-      "title": "OpenClaw引爆“龙虾”热： Agent狂潮渐起，AI Infra率先受益",
+      "title": "三星和SK海力士被选为英伟达Rubin HBM4供应商，预计三月开始出货",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767024",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "黄仁勋喊话DRAM厂尽管扩产：有多少就买多少",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767023",
+      "url": "https://wallstreetcn.com/articles/3767016",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "伊朗的“石油生命线”——哈尔克岛，要被美以盯上了？",
+      "title": "AH股低开高走，“龙虾”概念股爆发，油气股涨幅收窄，恒科指逼近翻红，大模型股MINIMAX暴涨超23%",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767020",
+      "url": "https://wallstreetcn.com/articles/3767001",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "受油价飙升及伊朗局势担忧影响，日本股市创下4月以来最大跌幅",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqknrn9913482.shtml",
+      "title": "G7拟协调释放石油储备！WTI原油抹去一半涨幅，全球股债双杀、芯片股普遍下跌，金银跌幅收窄",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766990",
       "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "东海期货宏观数据观察：2月CPI大超预期，通胀继续修复回升",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-09/doc-inhqknrn9899468.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "韩国与瑞士同意续签双边货币互换协议",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-09/doc-inhqknrq6999509.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "长安期货刘娜：供应端变动，橡胶系有所分化",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-09/doc-inhqknrq6999081.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
+      "tag": "全球",
+      "tagColor": "#10b981"
     }
   ]
 }
