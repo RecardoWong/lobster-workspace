@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-03-10T12:30:15.162100",
+  "update_time": "2026-03-10T13:30:22.945730",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "AI印钞机还是碎钞机？以Token计价的“小龙虾”，你可能养不起！",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767111",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
     {
       "title": "AH股全线反弹！创业板涨逾2%，算力硬件大爆发，恒科指涨超1%，腾讯拉升近6%",
       "source": "华尔街见闻",
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "伊朗驻华大使回应：将通过“三步走”推动当前局势的缓和与政治解决",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767108",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "亚洲人才争夺战加剧 资深银行家纷纷跳槽到竞争对手",
+      "title": "杨立昆的AI初创公司完成逾10亿美元融资 推进“世界模型”商业化",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnmhu3454390.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnrqs3347387.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "机构：日本投资者料将把关注点转回市场基本面",
+      "title": "韩国税务当局对非法分销石油产品展开调查",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnmhs6402119.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnrqq6293840.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "韩国考虑对外国炼油商存储的超600万桶原油行使优先购买前",
+      "title": "鹰普精密发布年度业绩 股东应占溢利7.26亿港元同比增长12.71%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnmhw0230049.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-10/doc-inhqnrqq6291718.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "凯投宏观：伊朗冲突继续给石油市场蒙上不确定性阴影",
+      "title": "理文造纸发布年度业绩 普通股股东应占盈利19.41亿港元同比增长47.87%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnmhu3451981.shtml",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-03-10/doc-inhqnrqs3339963.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
