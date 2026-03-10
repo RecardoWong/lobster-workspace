@@ -1,63 +1,6 @@
 {
-  "update_time": "2026-03-10T14:30:25.845027",
+  "update_time": "2026-03-10T15:30:35.401643",
   "source_count": 3,
-  "total_count": 7,
-  "news": [
-    {
-      "title": "从“养虾”焦虑到InStreet开张，字节扣子盯上了Agent社交",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767119",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "AH股全线反弹！创业板涨逾3%，算力硬件大爆发，恒科指涨超2%，腾讯拉升7%",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767098",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "摩根大通交易台：战术性看跌美股，直到伊朗问题解决路径明确",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767110",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "德国初创企业计划建设一座30兆瓦的人工智能数据中心，以提升国家主权掌控能力",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnrqu0155553.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "油轮定期租船数据库：油轮预订潮迭起 费率飙升创下纪录",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnrqu0154095.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "太明证券：给予粵港湾控股“买入”评级 目标价10港元",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-10/doc-inhqnrqv6336476.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "里昂：首予壁仞科技跑赢大市评级 目标价46.3港元",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-10/doc-inhqnrqq6328910.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    }
-  ]
+  "total_count": 0,
+  "news": []
 }
