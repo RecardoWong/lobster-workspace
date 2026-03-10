@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-03-10T23:30:18.316743",
+  "update_time": "2026-03-11T00:30:26.490873",
   "source_count": 3,
   "total_count": 7,
   "news": [
@@ -12,6 +12,14 @@
       "tagColor": "#8b5cf6"
     },
     {
+      "title": "英伟达为“光”豪掷千金：锁定Lumentum和Coherent稀缺磷化铟器件产能",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3766785",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
       "title": "十年烧钱之后，蔚来开始赚钱了",
       "source": "华尔街见闻",
       "url": "https://wallstreetcn.com/articles/3767171",
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "特朗普释放停战对话信号，美股开盘涨跌互现，美元持续下跌，现货黄金日内涨幅达1%，油价跳水",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767097",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "2月房屋销售有所改善，但抵押贷款利率上升或威胁这一进展",
+      "title": "伊拉克进一步削减产量 巴格达方面推动重启基尔库克石油生产",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnue6110726.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-11/doc-inhqptaf9813871.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Meta收购AI智能体社交平台Moltbook",
+      "title": "英伟达将向OpenAI竞争对手Thinking Machines Labs提供1吉瓦算力AI芯片",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnum6115753.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-11/doc-inhqptae3031298.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "报道：若伊朗战争持续90天 土耳其经济将损失数百亿美元",
+      "title": "美国银行警告称油价飙升未必导致美联储转鹰 仍有可能大幅降息",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnue6108449.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-11/doc-inhqptae3027988.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "Meta收购人工智能代理社交网络Moltbook",
+      "title": "午盘：美股震荡走高 交易员密切关注伊朗战事",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnue6105676.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-11/doc-inhqptaf9804840.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
