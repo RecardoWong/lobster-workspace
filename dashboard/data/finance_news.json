@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-10T07:30:28.498778",
+  "update_time": "2026-03-10T08:30:30.119480",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "华尔街见闻早餐FM-Radio | 2026年3月10日",
+      "title": "特朗普\"战争快结束了\"：战术话术背后的经济困局",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767085",
+      "url": "https://wallstreetcn.com/articles/3767086",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "TACO！特朗普称“战争很快结束”，美国股债深V反转，原油一度较日高跳水30%",
+      "title": "又是“次贷危机”的剧本？高盛向对冲基金推销“做空企业贷款策略”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3766990",
+      "url": "https://wallstreetcn.com/articles/3767090",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "特朗普：对伊军事行动是一次短期行动，或很快将结束，但不是在本周",
+      "title": "“OpenAI影子股”崩了！软银股价自去年11月高点“腰斩”",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767083",
+      "url": "https://wallstreetcn.com/articles/3767091",
       "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
     },
     {
-      "title": "消息人士：高盛向对冲基金推销做空企业贷款产品",
+      "title": "美国法院重新启动关于特朗普对低价值进口征税的诉讼战",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmysw6458546.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "韩国第四季度GDP环比萎缩0.2%",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmysy3491776.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqneyw3396115.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "油价大跌 特朗普暗示伊朗战争将“很快”结束",
+      "title": "德国商业团体拒绝苹果修订后的应用追踪规则，并敦促对其处以反垄断罚款",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmyta0267523.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqneyw3394007.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "澳大利亚将派侦察机赴中东 向阿联酋提供导弹以助抵御伊朗",
+      "title": "日经指数上涨2.9% 电子股领涨",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqmytc6461771.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqneyy0170260.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "韩国短暂暂停KOSPI指数程序化交易 因股指期货飙升6%触发sidecar机制",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqneyw3390589.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
