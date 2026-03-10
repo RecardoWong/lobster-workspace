@@ -1,8 +1,16 @@
 {
-  "update_time": "2026-03-10T22:30:30.693807",
+  "update_time": "2026-03-10T23:30:18.316743",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "剑指阿里字节！报道：腾讯秘密布局微信AI智能体，年内或向全用户开放",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767169",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
     {
       "title": "十年烧钱之后，蔚来开始赚钱了",
       "source": "华尔街见闻",
@@ -20,41 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "高盛交易员：回避本轮反弹，更大的市场隐患尚未消散",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767168",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "德意志银行上调美国和欧洲科技行业评级，转为增持软件行业",
+      "title": "2月房屋销售有所改善，但抵押贷款利率上升或威胁这一进展",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnui9894576.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnue6110726.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "BioNTech联合创始人计划离职、业绩展望不及预期，早盘跌20.8%",
+      "title": "Meta收购AI智能体社交平台Moltbook",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnum6101182.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnum6115753.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国2月二手房签约量指数增长1.7%",
+      "title": "报道：若伊朗战争持续90天 土耳其经济将损失数百亿美元",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnue6093967.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnue6108449.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "金价在5200美元关口测试阻力",
+      "title": "Meta收购人工智能代理社交网络Moltbook",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnuh3115412.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpnue6105676.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
