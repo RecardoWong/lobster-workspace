@@ -1,63 +1,31 @@
 {
-  "update_time": "2026-03-10T08:30:30.119480",
+  "update_time": "2026-03-10T09:30:22.816909",
   "source_count": 3,
-  "total_count": 7,
+  "total_count": 3,
   "news": [
     {
-      "title": "特朗普\"战争快结束了\"：战术话术背后的经济困局",
+      "title": "付鹏：美股杀估值情景对比，对当前有何启示【付鹏说22】",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767086",
+      "url": "https://wallstreetcn.com/articles/3767088",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "又是“次贷危机”的剧本？高盛向对冲基金推销“做空企业贷款策略”",
+      "title": "恒指高开1.3%，恒生科技指数涨2%",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767090",
+      "url": "https://wallstreetcn.com/articles/3767098",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "“OpenAI影子股”崩了！软银股价自去年11月高点“腰斩”",
+      "title": "AI预测权威：我还是低估了AI的速度，今年年底实现“AI研发自动化”真的有可能",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767091",
+      "url": "https://wallstreetcn.com/articles/3767093",
       "time": "刚刚",
       "tag": "数据中心",
       "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "美国法院重新启动关于特朗普对低价值进口征税的诉讼战",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqneyw3396115.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "德国商业团体拒绝苹果修订后的应用追踪规则，并敦促对其处以反垄断罚款",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqneyw3394007.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "日经指数上涨2.9% 电子股领涨",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqneyy0170260.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
-    },
-    {
-      "title": "韩国短暂暂停KOSPI指数程序化交易 因股指期货飙升6%触发sidecar机制",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqneyw3390589.shtml",
-      "time": "刚刚",
-      "tag": "财经",
-      "tagColor": "#ef4444"
     }
   ]
 }
