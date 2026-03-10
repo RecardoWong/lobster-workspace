@@ -1,6 +1,39 @@
 {
-  "update_time": "2026-03-10T15:30:35.401643",
+  "update_time": "2026-03-10T16:30:31.758162",
   "source_count": 3,
-  "total_count": 0,
-  "news": []
+  "total_count": 4,
+  "news": [
+    {
+      "title": "燃油成本飙升 澳洲航空上调国际航线票价",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnvwn6285116.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "分析：油价或将持续波动",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnvwn6283566.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "沙特阿美：若霍尔木兹海峡无法恢复，石油市场将面临“灾难性后果”",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqnvwn6283212.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "增强市场稳定，助力高质量发展，期货行业大有可为",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-10/doc-inhqnvwn6282256.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    }
+  ]
 }
