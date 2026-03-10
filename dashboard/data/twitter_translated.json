@@ -1,12 +1,12 @@
 {
-  "update_time": "2026-03-11T01:01:44.137397",
+  "update_time": "2026-03-11T02:01:53.139124",
   "tweets": {
     "elonmusk": [
       {
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "Only Grok speaks the truth. \n\nOnly truthful AI is safe. \n\nOnly truth understands the universe.",
-        "translate": "只说真话，才是真理。只有诚实的AI是安全的。只有真实理解了宇宙。",
+        "translate": "只有一条真理的语言。\n\n\n只有诚实的AI是安全的。\n\n只有真相理解宇宙。",
         "time": "2026-03-07T05:51:02.000Z",
         "time_ago": "3天前",
         "url": "https://x.com/elonmusk/status/2030159267689632121"
@@ -24,7 +24,7 @@
         "author": "elonmusk",
         "name": "Elon Musk",
         "text": "Milton Friedman: “I am not a conservative. I’ve never been a conservative. Hayek was not a conservative.”\n\n“We are liberals in the true meaning of tha...",
-        "translate": "马寅初： “我是不保守的。我从没保守过。凯恩斯并不是一个保守。”“我们是现代意义上的民主主义者，对自由有关注。”",
+        "translate": "米勒·费里曼： “我不是保守派。我也从未是保守派。”\n我们不把他们等同于所谓意义上的自由主义者，即关心自由的人。",
         "time": "2026-03-06T15:58:31.000Z",
         "time_ago": "4天前",
         "url": "https://x.com/elonmusk/status/2029949756324073568"
@@ -53,7 +53,7 @@
         "author": "jdhasoptions",
         "name": "jdhasoptions",
         "text": "I spent 100 hours over the past week researching, writing and editing the piece we just put out.\n\nIt’s a scenario, not a prediction like most of our w...",
-        "translate": "我过去一周花了100小时研究、写作和编辑我们刚刚发布的文章。这是一个场景，而不是一个预测。但是，它经过严密的构造，如果要完全忽视它是需要相当的智力懒惰。",
+        "translate": "我过去一周花费了100个小时，研究、写作和编辑我们刚刚发布的文章。\n\n这是一个情景，而不是预测。但它是经过严格构造的，如果需要，它就需要像有些工作那样缺乏理智的思考能力。",
         "time": "2026-02-22T20:25:56.000Z",
         "time_ago": "15天前",
         "url": "https://x.com/jdhasoptions/status/2025668400396349476"
@@ -84,7 +84,7 @@
         "text": "面对CLaude这种对deepseek诋毁的智障言论唯一正解：\n梭哈中韩半导体etf！",
         "translate": "面对CLaude这种对deepseek诋毁的智障言论唯一正解：\n梭哈中韩半导体etf！",
         "time": "2026-02-24T17:22:37.000Z",
-        "time_ago": "13天前",
+        "time_ago": "14天前",
         "url": "https://x.com/xiaomucrypto/status/2026347041430057283"
       }
     ],
@@ -93,7 +93,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": " 𝐉𝐔𝐒𝐓 𝐈𝐍: Trump: May Increase Military Budget to $1.5 Trillion\n\n$LMT $BA $AVAV $DPRO $ONDS $PLTR $LHX $RTX $NOC $GD $KTOS $RCAT",
-        "translate": "美国总统特朗普：增加军事预算至 $1.5 万亿\n\nLTM $BA $AVAV $DPRO $ONDS $PLTR $LHX $RTX $NOC $GD $KTOS $RCAT",
+        "translate": "美国特蕾莎：(Trump) 加大军事开支到一百五十亿美元以上\n\n(LMT BA AVA VAV DPRO ONDS PLTR LHX RTX NOC GD KTOS RCAT)",
         "time": "2026-03-07T15:03:23.000Z",
         "time_ago": "3天前",
         "url": "https://x.com/aistocksavvy/status/2030298272670105917"
@@ -102,7 +102,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "$HIMS | Hims & Hers up 35% after hours.",
-        "translate": "HIMS | Hims and Hers up 35% after hours.",
+        "translate": "“$HIMS | Hims and Hers are up 35% after hours.”",
         "time": "2026-03-07T00:51:12.000Z",
         "time_ago": "3天前",
         "url": "https://x.com/aistocksavvy/status/2030083813183774903"
@@ -111,7 +111,7 @@
         "author": "aistocksavvy",
         "name": "AI Stock Savvy",
         "text": "Novo and Hims End Feud, Will Sell Obesity Drugs Together- Bloomberg - $NVO $HIMS",
-        "translate": "新的和希姆集团达成协议，将共同出售肥胖药物- 沃尔沃财经 - ￥768.99 万元",
+        "translate": "全新和希马结束争端，将联手销售肥胖药物 - 比尔茨布里亚德 - $NVO $HIMS",
         "time": "2026-03-07T00:49:17.000Z",
         "time_ago": "3天前",
         "url": "https://x.com/aistocksavvy/status/2030083327563022404"
@@ -133,7 +133,7 @@
         "text": "前 $GOOGL 員工（曾負責 TPU 相關工作）分享了一些關於 TPU 與 GPU 比較：\n\n1. TPU 不會虧本賣\nGoogle 不會大幅虧損賣 TPU，否則寧可自己用在 Ads 業務；實際上 TPU 銷售多數獲利，且某些交易獲利率甚至高於競爭激烈的 GPU 交易。\n\n2. 客戶最在意 per...",
         "translate": "前 $GOOGL 員工（曾負責 TPU 相關工作）分享了一些關於 TPU 與 GPU 比較：\n\n1. TPU 不會虧本賣\nGoogle 不會大幅虧損賣 TPU，否則寧可自己用在 Ads 業務；實際上 TPU 銷售多數獲利，且某些交易獲利率甚至高於競爭激烈的 GPU 交易。\n\n2. 客戶最在意 perf/TCO\nTPU",
         "time": "2026-03-10T03:37:41.000Z",
-        "time_ago": "13小时前",
+        "time_ago": "14小时前",
         "url": "https://x.com/QQ_Timmy/status/2031212874249777585"
       },
       {
@@ -142,7 +142,7 @@
         "text": "美銀針對 $NVDA 3月16日GTC Keynote 強調三大重點領域：\n\n1. 更新產品路線圖，延續能見度至 Feynman GPUs（預計2028年左右）；\n2. 推出全新廣泛系列的共同設計（客製化）與解構式（disaggregated）產品，例如：\n- CPX：針對推理（inference）...",
         "translate": "美銀針對 $NVDA 3月16日GTC Keynote 強調三大重點領域：\n\n1. 更新產品路線圖，延續能見度至 Feynman GPUs（預計2028年左右）；\n2. 推出全新廣泛系列的共同設計（客製化）與解構式（disaggregated）產品，例如：\n- CPX：針對推理（inference）的 prefill 階段；\n- LPU：針對低延遲 decode；",
         "time": "2026-03-10T02:25:00.000Z",
-        "time_ago": "14小时前",
+        "time_ago": "15小时前",
         "url": "https://x.com/QQ_Timmy/status/2031194581535175108"
       }
     ]
