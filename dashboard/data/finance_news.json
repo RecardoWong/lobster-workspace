@@ -1,31 +1,63 @@
 {
-  "update_time": "2026-03-10T20:30:46.880268",
+  "update_time": "2026-03-10T21:30:17.607321",
   "source_count": 3,
-  "total_count": 3,
+  "total_count": 7,
   "news": [
     {
-      "title": "沙特阿美CEO：若霍尔木兹海峡恢复通航，产能“几日内”可全面恢复",
+      "title": "历史总是惊人相似：光纤大周期能否延续，产能扩张是最大隐忧",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767159",
+      "url": "https://wallstreetcn.com/articles/3767163",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "中国央行主管媒体：适度宽松的货币政策怎么干？",
+      "title": "特朗普：有可能有条件同伊朗谈判！美防长称发起“最高强度”打击！伊议长：绝不寻求停火",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767157",
+      "url": "https://wallstreetcn.com/articles/3767165",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "至暗时刻降临！高盛：内存供应短缺挤压，PC今年出货量恐下降12%，苹果逆势增长",
+      "title": "存储暴涨倒逼国产手机调价：荣耀折叠屏新机Magic V6“保底涨顶” ",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767155",
+      "url": "https://wallstreetcn.com/articles/3767164",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
+    },
+    {
+      "title": "Anthropic因被列为供应链风险起诉五角大楼",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqphnk3218247.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "最高法：依法规范股东出资行为，股东认缴出资不能“一认了事”",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/china/2026-03-10/doc-inhqphnp6198797.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "金价向5180美元攀升，特朗普称对伊战争可能很快结束",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqphnh6190640.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "法律人工智能初创公司Legora融资5.5亿美元，加速美国扩张",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqphnk3216868.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
     }
   ]
 }
