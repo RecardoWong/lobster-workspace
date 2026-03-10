@@ -1,6 +1,63 @@
 {
-  "update_time": "2026-03-10T18:30:23.146588",
+  "update_time": "2026-03-10T19:30:17.073780",
   "source_count": 3,
-  "total_count": 0,
-  "news": []
+  "total_count": 7,
+  "news": [
+    {
+      "title": "特朗普释放停战对话信号，美股期指盘前回吐涨幅，美元持续下跌，现货黄金日内涨幅达1%，油价跳水",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767097",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "出口飙升的“春节效应”",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767152",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "首次季度盈利！蔚来Q4实现经营利润12.5亿元，交付量大增71.7%，一季度营收指引同比增长103.4%至109.2% | 财报见闻",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767150",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "美国科技七巨头周二势将延续涨势 特斯拉盘前领涨",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqphnm9944883.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "中天期货:橡胶继续走高 棕榈震荡回落",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-03-10/doc-inhqphnp6141291.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "美国据悉告知盟友若进一步放松石油相关制裁 将主要局限于对印度供应",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqphnp6141149.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    },
+    {
+      "title": "特朗普称与伊朗方面对话是可能的",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-10/doc-inhqpaen3296768.shtml",
+      "time": "刚刚",
+      "tag": "财经",
+      "tagColor": "#ef4444"
+    }
+  ]
 }
