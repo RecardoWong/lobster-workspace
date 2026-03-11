@@ -1,8 +1,24 @@
 {
-  "update_time": "2026-03-11T06:30:08.387526",
+  "update_time": "2026-03-11T07:30:16.389426",
   "source_count": 3,
   "total_count": 7,
   "news": [
+    {
+      "title": "华尔街见闻早餐FM-Radio | 2026年3月11日",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767186",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
+    {
+      "title": "“护航”乌龙消息搅动市场，原油“过山车”，美股冲高回落，新兴市场外汇大涨",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767097",
+      "time": "刚刚",
+      "tag": "全球",
+      "tagColor": "#10b981"
+    },
     {
       "title": "伊朗称不会相信美国的任何承诺、“军事行动进入全新阶段”，美放风护航，特朗普警告伊勿布雷",
       "source": "华尔街见闻",
@@ -12,49 +28,33 @@
       "tagColor": "#10b981"
     },
     {
-      "title": "“护航”乌龙消息搅动市场，原油“过山车”行情，美股冲高回落，新兴市场外汇指数大涨",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767097",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "AI订单强劲，甲骨文上季营收盈利均超预期增超20%、上调下财年指引，盘后跳涨 | 财报见闻",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767177",
-      "time": "刚刚",
-      "tag": "数据中心",
-      "tagColor": "#8b5cf6"
-    },
-    {
-      "title": "现货黄金涨超1% 报5194.85美元/盎司",
+      "title": "随着金价反弹 澳大利亚黄金股上涨",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-11/doc-inhqqcry2912308.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-11/doc-inhqqixx9578937.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美国涉伊表态反复无常自相矛盾 投资者无所适从市场上蹿下跳",
+      "title": "马克龙将主持G7领导人电话会议 讨论伊朗危机与能源价格问题",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/world/2026-03-11/doc-inhqqcry2911965.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-11/doc-inhqqixw2800944.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "美军称在霍尔木兹海峡附近摧毁16艘伊朗布雷艇",
+      "title": "甲骨文预测AI繁荣至少持续至2027年，股价盘后大涨逾8%",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-11/doc-inhqqcrw5837531.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-11/doc-inhqqixz5732204.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "纽约汇市：美元缩小跌幅 白宫否认美军在霍尔木兹海峡护航油轮",
+      "title": "消息称ChatGPT等三款AI工具获准在美国参议院使用",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-11/doc-inhqqcrw5835522.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-11/doc-inhqqixw2796961.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
