@@ -1,60 +1,60 @@
 {
-  "update_time": "2026-03-16T17:30:15.827207",
+  "update_time": "2026-03-16T18:30:17.622941",
   "source_count": 3,
   "total_count": 7,
   "news": [
     {
-      "title": "“金三银四”临近，有色板块为何表现不佳？",
+      "title": "氢能“1+N+X”新局：从交通到工业，万亿赛道如何落地？",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767612",
+      "url": "https://wallstreetcn.com/articles/3767628",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "特朗普承诺“护航”，美股期货走高，WTI原油涨2.2%，现货黄金跌破5000美元",
+      "title": "Nebius美股盘前大涨16%！报道：Meta将在未来五年内与其进行AI合作，支出最高达270亿美元",
       "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767567",
+      "url": "https://wallstreetcn.com/articles/3767627",
+      "time": "刚刚",
+      "tag": "数据中心",
+      "tagColor": "#8b5cf6"
+    },
+    {
+      "title": "霍尔木兹海峡通航船只数量首次降为零！伊朗：440公斤丰度为60%的浓缩铀被埋，暂不打算取出",
+      "source": "华尔街见闻",
+      "url": "https://wallstreetcn.com/articles/3767625",
       "time": "刚刚",
       "tag": "全球",
       "tagColor": "#10b981"
     },
     {
-      "title": "1-2月经济：投资为何意外转正？",
-      "source": "华尔街见闻",
-      "url": "https://wallstreetcn.com/articles/3767613",
-      "time": "刚刚",
-      "tag": "全球",
-      "tagColor": "#10b981"
-    },
-    {
-      "title": "中金：升太古地产目标价至28.5港元 去年经常性基本溢利符预期",
+      "title": "世界黄金协会深度分析：黄金供应会枯竭吗？",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-16/doc-inhrequq2703253.shtml",
+      "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-03-16/doc-inhrequs9891996.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "中金：宁德时代盈利水平优异 上调今年盈测至959.8亿元人民币",
+      "title": "伊拉克计划改造输油管道 推动基尔库克原油直接出口土耳其",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-16/doc-inhrequs9840009.shtml",
+      "url": "https://finance.sina.com.cn/world/2026-03-16/doc-inhrequs9890170.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "小摩：龙虾热潮反映AI变现层次拓展 预计MiniMax智谱最先受惠",
+      "title": "核心市场改善，MTN集团盈利上升",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/stock/hkstock/hkgg/2026-03-16/doc-inhrequq2702476.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-16/doc-inhrequn5956410.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
     },
     {
-      "title": "尿素：局势主导价格",
+      "title": "欧洲天然气价格上涨，因持续担忧供应中断",
       "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/money/future/2026-03-16/doc-inhrequn5928216.shtml",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-03-16/doc-inhrequs9880547.shtml",
       "time": "刚刚",
       "tag": "财经",
       "tagColor": "#ef4444"
