@@ -56961,3 +56961,135 @@
     ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
     ' timed out after 60 seconds
 ==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,800.00 (+2.81%)
+✅ Dashboard 已更新 (03/16 19:00)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,724.28 (+2.79%)
+✅ Dashboard 已更新 (03/16 19:05)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,659.80 (+2.73%)
+✅ Dashboard 已更新 (03/16 19:10)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,606.91 (+2.65%)
+✅ Dashboard 已更新 (03/16 19:15)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,721.60 (+2.75%)
+✅ Dashboard 已更新 (03/16 19:20)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,614.99 (+2.59%)
+✅ Dashboard 已更新 (03/16 19:25)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,545.70 (+2.58%)
+✅ Dashboard 已更新 (03/16 19:30)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,579.35 (+2.59%)
+✅ Dashboard 已更新 (03/16 19:35)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,612.05 (+2.70%)
+✅ Dashboard 已更新 (03/16 19:40)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,626.26 (+2.63%)
+✅ Dashboard 已更新 (03/16 19:45)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,587.99 (+2.49%)
+✅ Dashboard 已更新 (03/16 19:50)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
+==================================================
+🪙 币安价格更新
+==================================================
+✅ BTC: $73,595.62 (+2.42%)
+✅ Dashboard 已更新 (03/16 19:55)
+❌ 部署失败: Command '
+    cd /root/.openclaw/workspace/lobster-workspace/dashboard && 
+    scp -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no index.html ubuntu@43.160.229.161:/home/ubuntu/ &&
+    ssh -i /root/.ssh/lobster_deploy -o StrictHostKeyChecking=no ubuntu@43.160.229.161 'sudo cp /home/ubuntu/index.html /var/www/html/ && sudo chown www-data:www-data /var/www/html/index.html'
+    ' timed out after 60 seconds
+==================================================
